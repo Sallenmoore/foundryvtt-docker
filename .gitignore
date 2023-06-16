@@ -20,3 +20,6 @@ __pycache__
 .python-version
 *.egg-info
 venv
+
+## Environmental Variables
+.env
