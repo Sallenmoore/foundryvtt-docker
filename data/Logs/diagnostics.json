@@ -1,0 +1,51 @@
+{
+  "timestamp": 1687052199854,
+  "os": {
+    "platform": "linux",
+    "version": "Alpine Linux v3.18",
+    "node": "16.20.0"
+  },
+  "foundry": {
+    "generation": 11,
+    "build": 302,
+    "channel": "stable",
+    "hosting": null
+  },
+  "modules": {
+    "acelib": {
+      "version": "1.8.3"
+    },
+    "automated-conditions-5e": {
+      "version": "11.0.1"
+    },
+    "beyond20": {
+      "version": "1.5.2"
+    },
+    "forien-copy-environment": {
+      "version": "v2.1.7"
+    },
+    "npcgen": {
+      "version": "1.1.0"
+    },
+    "vtta-tokenizer": {
+      "version": "4.1.4"
+    },
+    "dice-so-nice": {
+      "version": "4.6.8"
+    },
+    "dice-calculator": {
+      "version": "1.5.3"
+    }
+  },
+  "systems": {
+    "dnd5e": {
+      "version": "2.2.1",
+      "playtime": 13787
+    }
+  },
+  "worlds": {},
+  "playtime": {
+    "total": 13787,
+    "max": 13787
+  }
+}

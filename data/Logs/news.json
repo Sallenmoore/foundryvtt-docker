@@ -1,0 +1,40 @@
+{
+  "news": [
+    {
+      "title": "Year In Review: Three-Year Anniversary",
+      "caption": "Our annual \"Year in Review\" article shares an overview of how the product, team, and community have evolved since this time last year. Give it a read for some interesting statistics, previews of upcoming work, and a recap of things you might have missed from the past few months.",
+      "url": "https://foundryvtt.com/article/year-in-review-2023/",
+      "image": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_70/asset/year-in-review-banner-2023-2023-05-24.webp"
+    },
+    {
+      "title": "V12 Patreon Feature Vote",
+      "caption": "Check out our V12 Patreon Feature Vote where Foundry patrons can help decide Foundry's fate and what features we start working on next!",
+      "url": "https://foundryvtt.com/article/v12-patreon-vote/",
+      "image": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_70/screen/v12-feature-vote-banner-2023-06-16.webp"
+    },
+    {
+      "title": "Version 11 Stable Release",
+      "caption": "Version 11 Stable 1 has now been released! Check out our release notes for everything you need to know.",
+      "url": "https://foundryvtt.com/releases/11.299",
+      "image": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_70/screen/v11-stable-patch-1-2023-06-02.webp"
+    },
+    {
+      "title": "Introduction to Module Sub-Types",
+      "caption": "Foundry Virtual Tabletop  V11 adds support for Modules to extend the list of sub-types available to certain Documents in much the same way that Systems can. Learn how to take advantage of this great new feature.",
+      "url": "https://foundryvtt.com/article/module-sub-types/",
+      "image": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_70/screen/module-subtypes-2023-04-26.webp"
+    },
+    {
+      "title": "V11 Development Update Q&A",
+      "caption": "Catch up with Atropos as he walks through the changes in V11 Developer 2 and answers audience questions!",
+      "url": "https://www.youtube.com/watch?v=WOfOHNWbpSo",
+      "image": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_70/screen/v11-developer-2-stream-banner-2023-04-26.webp"
+    }
+  ],
+  "featuredContent": {
+    "title": "Pathfinder: Harrow Deck",
+    "caption": "A beautiful 54-card deck for performing divination and fortune telling, compatible with any game system.",
+    "image": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_6987/screen/harrow-showcase-3-2023-05-04.png",
+    "url": "https://foundryvtt.com/packages/pf2e-decks-harrow"
+  }
+}

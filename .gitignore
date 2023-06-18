@@ -8,6 +8,7 @@ Dockerfile-x
 ## FoundryVTT ##
 cookiejar.json
 license.json
+foundryvtt.zip
 
 ## Javascript / Typescript ##
 dist

@@ -3,14 +3,14 @@ version: "3.8"
 
 services:
   foundry:
-    image: felddy/foundryvtt:release
-    hostname: foundryvtt
-    container_name: foundryvtt
-    restart: "no"
+    image: foundry:latest
+    build:
+      context: . 
+    hostname: foundry
+    container_name: foundry
+    restart: unless-stopped
     volumes:
-      - type: bind
-        source: ./data
-        target: /data
-    env_file: .env
+      - ./data:/data/foundryvtt
+      #- ./app:/opt/foundryvtt/resources/app
     ports:
       - "30000:30000"

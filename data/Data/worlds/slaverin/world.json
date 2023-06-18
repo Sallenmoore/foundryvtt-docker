@@ -1,0 +1,16 @@
+{
+  "title": "Slaverin",
+  "id": "slaverin",
+  "system": "dnd5e",
+  "background": "campaignposter.png",
+  "joinTheme": "default",
+  "description": "<p>When intrepid explorers from distant lands arrived in Coia and were amazed by not only its beauty, but also its magical nature, they settled and proclaimed the year to be 0 DR.</p><p>The new settlers were nearly wiped out with the onset of the War of Shadow in 62 DR, when a great evil arose in Coia, fueled by a thirst for control . The bitter conflict raged for fifteen years, enveloping Coia in darkness and uncertainty. As the War of Shadow reached its climax in 77 DR, the settlers defeated the great evil at great cost.</p><p>In the aftermath of the conflict, in 79 DR, a group of settlers began construction of the Stone Portals. The magical gateways protected Coia against evils known and unknown. A side effect was that the portals allowed travel between different regions of Coia and even reached out to distant continents, facilitating trade, travel, and the exchange of knowledge. The Stone Portals became instrumental to Coia's future. An organization known as the Order of Sea and Stone was established in 103 DR, committed to safeguarding Coia's secrets and protecting the Stone Portals at all costs.</p><p>Unfortunately, the Stone Portals also became avenues for a burgeoning slave trade.The newfound wealth that the morally deficient were able to acquire led to a warlord system, with certain families and organizations overseeing specific regions of the continent, with occasional skirmishes between them. The House of Silk, a council of slave merchants residing in the port town of Rueside, came to oversee most of Chichingia, in the southeast region of Coia. Due to its wide but protected bay, proximity to the large Rue River, and quick adoption of the slave trade, Rueside blossomed into a city of wide marble-laden homes that overlooked rich city markets and ramshackle roofs of shanty towns.</p><p>As the enslaved population grew, the despair reached its peak in 213 DR with the eruption of the First Rebellion. Despite the enslaved's valiant struggle, the rebellion was brutally put down with many people executed in public as an example. A second rebellion in 267 DR had more success, freeing the cities of Willowbrook and Sluta; however, across the river Sluta's twin city Slachus chose to allow the slave trade to continue. Sluta agreed to returning escaped slaves to avoid any conflict. The retribution against the enslaved in the other cities in Chingingia was swift and bloody. The enslavers intended to leave those deep scars in the memories of the enslaved that survived.</p><p>The year is 310 DR. It is a period of stability, though small pockets of rebels appear throughout the Chichingia region. Rueside has become the largest and wealthiest city in Coia, making the House of Silk incredibly powerful. The Order of Sea and Stone, which has continued to charge itself with the protection of Coia, has made its home in Rueside, further bolstering the House of Silk's control over the region.</p>",
+  "coreVersion": "11.302",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "systemVersion": "2.2.1",
+  "lastPlayed": "Sun Jun 18 2023 01:34:21 GMT+0000 (Coordinated Universal Time)",
+  "playtime": 13787
+}

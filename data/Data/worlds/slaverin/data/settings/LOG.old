@@ -1,0 +1,24 @@
+2023/06/17-19:46:22.122721 7f4cc70adb38 Recovering log #57
+2023/06/17-19:46:22.128163 7f4cc70adb38 Level-0 table #59: started
+2023/06/17-19:46:22.139289 7f4cc70adb38 Level-0 table #59: 8508 bytes OK
+2023/06/17-19:46:22.172928 7f4cc70adb38 Delete type=3 #56
+2023/06/17-19:46:22.173067 7f4cc70adb38 Delete type=0 #57
+2023/06/17-21:21:29.604842 7f4a4467ab38 Level-0 table #62: started
+2023/06/17-21:21:29.612337 7f4a4467ab38 Level-0 table #62: 1445 bytes OK
+2023/06/17-21:21:29.621338 7f4a4467ab38 Delete type=0 #60
+2023/06/17-21:21:29.679726 7f4a4467ab38 Manual compaction at level-0 from '!settings!0RQT8wnP3d1ojRJG' @ 72057594037927935 : 1 .. '!settings!yGElEXYOYIjreQPN' @ 0 : 0; will stop at '!settings!om8rDILEsp6CVO1R' @ 130 : 1
+2023/06/17-21:21:29.679778 7f4a4467ab38 Compacting 2@0 + 0@1 files
+2023/06/17-21:21:29.753816 7f4a4467ab38 Generated table #63@0: 36 keys, 7938 bytes
+2023/06/17-21:21:29.753881 7f4a4467ab38 Compacted 2@0 + 0@1 files => 7938 bytes
+2023/06/17-21:21:29.760311 7f4a4467ab38 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/17-21:21:29.760507 7f4a4467ab38 Delete type=2 #59
+2023/06/17-21:21:29.760866 7f4a4467ab38 Delete type=2 #62
+2023/06/17-21:21:29.809671 7f4a4467ab38 Manual compaction at level-0 from '!settings!om8rDILEsp6CVO1R' @ 130 : 1 .. '!settings!yGElEXYOYIjreQPN' @ 0 : 0; will stop at (end)
+2023/06/17-21:21:29.826729 7f4a4467ab38 Manual compaction at level-1 from '!settings!0RQT8wnP3d1ojRJG' @ 72057594037927935 : 1 .. '!settings!yGElEXYOYIjreQPN' @ 0 : 0; will stop at '!settings!yGElEXYOYIjreQPN' @ 99 : 1
+2023/06/17-21:21:29.826796 7f4a4467ab38 Compacting 1@1 + 1@2 files
+2023/06/17-21:21:29.859981 7f4a4467ab38 Generated table #64@1: 48 keys, 9074 bytes
+2023/06/17-21:21:29.860048 7f4a4467ab38 Compacted 1@1 + 1@2 files => 9074 bytes
+2023/06/17-21:21:29.867666 7f4a4467ab38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/06/17-21:21:29.867856 7f4a4467ab38 Delete type=2 #63
+2023/06/17-21:21:29.868077 7f4a4467ab38 Delete type=2 #55
+2023/06/17-21:21:29.868547 7f4a4467ab38 Manual compaction at level-1 from '!settings!yGElEXYOYIjreQPN' @ 99 : 1 .. '!settings!yGElEXYOYIjreQPN' @ 0 : 0; will stop at (end)
