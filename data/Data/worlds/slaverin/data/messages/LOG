@@ -1,8 +1,7 @@
-2023/06/17-21:22:05.728133 7f4cc58a4b38 Recovering log #51
-2023/06/17-21:22:05.745217 7f4cc58a4b38 Delete type=3 #49
-2023/06/17-21:22:05.745325 7f4cc58a4b38 Delete type=0 #51
-2023/06/18-01:34:21.218139 7f4a4467ab38 Level-0 table #56: started
-2023/06/18-01:34:21.218256 7f4a4467ab38 Level-0 table #56: 0 bytes OK
-2023/06/18-01:34:21.224965 7f4a4467ab38 Delete type=0 #54
-2023/06/18-01:34:21.240403 7f4a4467ab38 Manual compaction at level-0 from '!messages!NIboS1Ym1juYwRwB' @ 72057594037927935 : 1 .. '!messages!lvEYIyDIaxpy6EPE' @ 0 : 0; will stop at (end)
-2023/06/18-01:34:21.269679 7f4a4467ab38 Manual compaction at level-1 from '!messages!NIboS1Ym1juYwRwB' @ 72057594037927935 : 1 .. '!messages!lvEYIyDIaxpy6EPE' @ 0 : 0; will stop at (end)
+2023/06/18-05:43:20.295080 7f4cc70adb38 Recovering log #68
+2023/06/18-05:43:20.320436 7f4cc70adb38 Delete type=0 #68
+2023/06/18-05:43:20.320531 7f4cc70adb38 Delete type=3 #66
+2023/06/18-06:08:24.210341 7f4a4467ab38 Level-0 table #73: started
+2023/06/18-06:08:24.216675 7f4a4467ab38 Level-0 table #73: 1228 bytes OK
+2023/06/18-06:08:24.234641 7f4a4467ab38 Delete type=0 #71
+2023/06/18-06:08:24.259749 7f4a4467ab38 Manual compaction at level-0 from '!messages!ePeDnERXSNbsp33v' @ 72057594037927935 : 1 .. '!messages!qNvJKDkkoFkjdISU' @ 0 : 0; will stop at (end)

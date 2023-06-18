@@ -1,15 +1,8 @@
-2023/06/17-21:22:05.970536 7f4cc60a7b38 Recovering log #56
-2023/06/17-21:22:05.990170 7f4cc60a7b38 Delete type=0 #56
-2023/06/17-21:22:05.990285 7f4cc60a7b38 Delete type=3 #53
-2023/06/18-01:34:21.348965 7f4a4467ab38 Level-0 table #63: started
-2023/06/18-01:34:21.364811 7f4a4467ab38 Level-0 table #63: 133373 bytes OK
-2023/06/18-01:34:21.372993 7f4a4467ab38 Delete type=0 #61
-2023/06/18-01:34:21.385255 7f4a4467ab38 Manual compaction at level-0 from '!scenes!CXF63C6akqi0HsSo' @ 72057594037927935 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at (end)
-2023/06/18-01:34:21.406325 7f4a4467ab38 Manual compaction at level-1 from '!scenes!CXF63C6akqi0HsSo' @ 72057594037927935 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at '!scenes.walls!CXF63C6akqi0HsSo.zggwaskXQjfdBSau' @ 879 : 1
-2023/06/18-01:34:21.406364 7f4a4467ab38 Compacting 1@1 + 1@2 files
-2023/06/18-01:34:21.415424 7f4a4467ab38 Generated table #64@1: 235 keys, 31056 bytes
-2023/06/18-01:34:21.415468 7f4a4467ab38 Compacted 1@1 + 1@2 files => 31056 bytes
-2023/06/18-01:34:21.423725 7f4a4467ab38 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/06/18-01:34:21.423877 7f4a4467ab38 Delete type=2 #63
-2023/06/18-01:34:21.424125 7f4a4467ab38 Delete type=2 #59
-2023/06/18-01:34:21.437208 7f4a4467ab38 Manual compaction at level-1 from '!scenes.walls!CXF63C6akqi0HsSo.zggwaskXQjfdBSau' @ 879 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at (end)
+2023/06/18-05:43:20.539253 7f4cc68aab38 Recovering log #77
+2023/06/18-05:43:20.561227 7f4cc68aab38 Delete type=0 #77
+2023/06/18-05:43:20.561341 7f4cc68aab38 Delete type=3 #75
+2023/06/18-06:08:24.400479 7f4a4467ab38 Level-0 table #83: started
+2023/06/18-06:08:24.400539 7f4a4467ab38 Level-0 table #83: 0 bytes OK
+2023/06/18-06:08:24.406682 7f4a4467ab38 Delete type=0 #81
+2023/06/18-06:08:24.428854 7f4a4467ab38 Manual compaction at level-0 from '!scenes!CXF63C6akqi0HsSo' @ 72057594037927935 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at (end)
+2023/06/18-06:08:24.444399 7f4a4467ab38 Manual compaction at level-1 from '!scenes!CXF63C6akqi0HsSo' @ 72057594037927935 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at (end)
