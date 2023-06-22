@@ -1,0 +1,69 @@
+{
+  "title": "Monk's Combat Marker",
+  "description": "Display an animated disc behind the token to indicate the current combatant's turn. You can customise the animation, image that is display, size of the graphic, and speed of the animation.",
+  "version": "11.01",
+  "authors": [
+    {
+      "name": "IronMonk",
+      "discord": "ironmonk88#4075",
+	  "flags": {
+		  "github": "ironmonk88",
+		  "patreon": "ironmonk",
+		  "ko-fi": "ironmonk88"
+	  }
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "esmodules": [
+    "monks-combat-marker.js",
+    "settings.js"
+  ],
+  "url": "https://github.com/ironmonk88/monks-combat-marker",
+  "download": "https://github.com/ironmonk88/monks-combat-marker/archive/11.01.zip",
+  "manifest": "https://github.com/ironmonk88/monks-combat-marker/releases/latest/download/module.json",
+  "bugs": "https://github.com/ironmonk88/monks-combat-marker/issues",
+  "id": "monks-combat-marker",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "name": "monks-combat-marker",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11"
+}
