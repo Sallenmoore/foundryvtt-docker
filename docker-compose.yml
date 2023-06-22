@@ -10,7 +10,6 @@ services:
     container_name: foundry
     restart: unless-stopped
     volumes:
-      - ./data:/data/foundryvtt
-      #- ./app:/opt/foundryvtt/resources/app
+      - ./data:/opt/data/foundryvtt
     ports:
       - "30000:30000"
