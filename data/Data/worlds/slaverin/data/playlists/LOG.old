@@ -1,15 +1,23 @@
-2023/06/19-20:12:08.234535 7fe929ffb6c0 Recovering log #86
-2023/06/19-20:12:08.260280 7fe929ffb6c0 Delete type=0 #86
-2023/06/19-20:12:08.260470 7fe929ffb6c0 Delete type=3 #84
-2023/06/21-13:57:16.174007 7fe926b476c0 Level-0 table #92: started
-2023/06/21-13:57:16.201751 7fe926b476c0 Level-0 table #92: 56638 bytes OK
-2023/06/21-13:57:16.207385 7fe926b476c0 Delete type=0 #90
-2023/06/21-13:57:16.229505 7fe926b476c0 Manual compaction at level-0 from '!playlists!CUbHBWJaKayCoatf' @ 72057594037927935 : 1 .. '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 0 : 0; will stop at (end)
-2023/06/21-13:57:16.229652 7fe926b476c0 Manual compaction at level-1 from '!playlists!CUbHBWJaKayCoatf' @ 72057594037927935 : 1 .. '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 0 : 0; will stop at '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 2839 : 1
-2023/06/21-13:57:16.229670 7fe926b476c0 Compacting 1@1 + 1@2 files
-2023/06/21-13:57:16.237592 7fe926b476c0 Generated table #93@1: 336 keys, 40019 bytes
-2023/06/21-13:57:16.237632 7fe926b476c0 Compacted 1@1 + 1@2 files => 40019 bytes
-2023/06/21-13:57:16.245393 7fe926b476c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/06/21-13:57:16.245546 7fe926b476c0 Delete type=2 #88
-2023/06/21-13:57:16.245923 7fe926b476c0 Delete type=2 #92
-2023/06/21-13:57:16.307453 7fe926b476c0 Manual compaction at level-1 from '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 2839 : 1 .. '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 0 : 0; will stop at (end)
+2023/06/22-14:31:12.180700 7fe973bf06c0 Recovering log #95
+2023/06/22-14:31:12.183108 7fe973bf06c0 Level-0 table #97: started
+2023/06/22-14:31:12.191370 7fe973bf06c0 Level-0 table #97: 81512 bytes OK
+2023/06/22-14:31:12.208646 7fe973bf06c0 Delete type=0 #95
+2023/06/22-14:31:12.208797 7fe973bf06c0 Delete type=3 #94
+2023/06/22-14:35:33.248460 7fe9b8bfa6c0 Level-0 table #100: started
+2023/06/22-14:35:33.248646 7fe9b8bfa6c0 Level-0 table #100: 0 bytes OK
+2023/06/22-14:35:33.254668 7fe9b8bfa6c0 Delete type=0 #98
+2023/06/22-14:35:33.268195 7fe9b8bfa6c0 Manual compaction at level-0 from '!playlists!CUbHBWJaKayCoatf' @ 72057594037927935 : 1 .. '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 0 : 0; will stop at '!playlists.sounds!fGa0eJQST1BlTbwY.hC3oNnrrpxUY7a5I' @ 3829 : 1
+2023/06/22-14:35:33.268223 7fe9b8bfa6c0 Compacting 1@0 + 0@1 files
+2023/06/22-14:35:33.275875 7fe9b8bfa6c0 Generated table #101@0: 160 keys, 19457 bytes
+2023/06/22-14:35:33.275953 7fe9b8bfa6c0 Compacted 1@0 + 0@1 files => 19457 bytes
+2023/06/22-14:35:33.282046 7fe9b8bfa6c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/22-14:35:33.282348 7fe9b8bfa6c0 Delete type=2 #97
+2023/06/22-14:35:33.295834 7fe9b8bfa6c0 Manual compaction at level-0 from '!playlists.sounds!fGa0eJQST1BlTbwY.hC3oNnrrpxUY7a5I' @ 3829 : 1 .. '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 0 : 0; will stop at (end)
+2023/06/22-14:35:33.296009 7fe9b8bfa6c0 Manual compaction at level-1 from '!playlists!CUbHBWJaKayCoatf' @ 72057594037927935 : 1 .. '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 0 : 0; will stop at '!playlists.sounds!fGa0eJQST1BlTbwY.hC3oNnrrpxUY7a5I' @ 3881 : 1
+2023/06/22-14:35:33.296030 7fe9b8bfa6c0 Compacting 1@1 + 1@2 files
+2023/06/22-14:35:33.303382 7fe9b8bfa6c0 Generated table #102@1: 338 keys, 39247 bytes
+2023/06/22-14:35:33.303416 7fe9b8bfa6c0 Compacted 1@1 + 1@2 files => 39247 bytes
+2023/06/22-14:35:33.309262 7fe9b8bfa6c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/06/22-14:35:33.309733 7fe9b8bfa6c0 Delete type=2 #93
+2023/06/22-14:35:33.309996 7fe9b8bfa6c0 Delete type=2 #101
+2023/06/22-14:35:33.337985 7fe9b8bfa6c0 Manual compaction at level-1 from '!playlists.sounds!fGa0eJQST1BlTbwY.hC3oNnrrpxUY7a5I' @ 3881 : 1 .. '!playlists.sounds!ulMElb2e0krJUJPN.yk0g1WSUxkrmKmon' @ 0 : 0; will stop at (end)

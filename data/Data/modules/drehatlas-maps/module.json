@@ -1,0 +1,41 @@
+{
+    "id": "drehatlas-maps",
+    "title": "Drehatlas' Maps",
+    "description": "This module includes a big collection of my classical battle maps as well as adventure maps (bigger maps with focus on exploration and solving riddles/problems) I created for my group. The maps' setting is fantasy medieval  + some of the maps have a medieval seafaring / pirates setting. For full ambience pleasure: Some of the maps use ambient sounds of the Game Audio bundle (1-4) and michaelghelfi modules - please consider to install these modules as well.",
+    "version": "0.5.2",
+    "authors": [{
+		"name": "Drehatlas",
+		"flags": {}
+	}],
+	"compatibility": {
+		"minimum": "10",
+		"verified": "11"
+	},
+    "url": "http://fvtt.drehatlas.de/drehatlas-maps/",
+    "manifest": "http://fvtt.drehatlas.de/drehatlas-maps/module.json",
+    "download": "http://fvtt.drehatlas.de/drehatlas-maps/archive/module_0.5.2.zip",
+    "readme": "http://fvtt.drehatlas.de/drehatlas-maps/readme.md",
+    "changelog": "http://fvtt.drehatlas.de/drehatlas-maps/changelog.md",
+	"protected": false,
+	
+    "packs": [{
+        "name": "drehatlas-journal-entries",
+        "label": "Drehatlas' Maps - Descriptions",
+        "path": "./packs/drehatlas-maps_journals.db",
+        "type": "JournalEntry"
+    },{
+        "name": "drehatlas-scenes",
+        "label": "Drehatlas' Maps",
+        "path": "./packs/drehatlas-maps.db",
+        "type": "Scene"
+    }],
+
+	"relationships": {
+		"requires": [{
+			"id": "multilevel-tokens",
+			"type": "module",
+			"compatibility": {},
+            "manifest": "https://raw.githubusercontent.com/grandseiken/foundryvtt-multilevel-tokens/master/module.json"
+		}]
+	}
+  }

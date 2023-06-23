@@ -10,7 +10,7 @@
   "changelog": "https://github.com/MrPrimate/ddb-importer/blob/main/CHANGELOG.md",
   "url": "https://github.com/mrprimate/ddb-importer",
   "compatibility": {
-    "minimum": "10.282",
+    "minimum": "10",
     "verified": "11"
   },
   "authors": [

@@ -1,9 +1,10 @@
 {
-  "timestamp": 1687379205159,
+  "timestamp": 1687458025543,
   "os": {
     "platform": "linux",
-    "version": "Debian GNU/Linux 12 (bookworm)",
-    "node": "18.16.0"
+    "version": "Fedora Linux 38 (Server Edition)",
+    "node": "18.12.1",
+    "electron": "23.2.3"
   },
   "foundry": {
     "generation": 11,
@@ -23,9 +24,6 @@
     },
     "caeora-maps-tokens-assets": {
       "version": "2.1.5"
-    },
-    "ddb-importer": {
-      "version": "3.4.36"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -53,9 +51,6 @@
     },
     "tabletop-rpg-music": {
       "version": "2.2.0"
-    },
-    "vtta-tokenizer": {
-      "version": "4.2.1"
     }
   },
   "systems": {
