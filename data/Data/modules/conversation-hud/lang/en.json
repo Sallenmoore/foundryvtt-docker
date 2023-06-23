@@ -1,0 +1,117 @@
+{
+  "CHUD.name": "Name",
+  "CHUD.portrait": "Portrait",
+  "CHUD.anonymous": "Anonymous",
+  "CHUD.browseFiles": "Browse Files",
+  "CHUD.filePath": "File Path",
+  "CHUD.save": "Save",
+
+  "CHUD.nameHint": "Name of the conversation participant.",
+  "CHUD.portraitHint": "Portrait of the conversation participant.",
+
+  "CHUD.conversationName": "Conversation Name",
+  "CHUD.conversationParticipants": "Conversation Participants",
+
+  "CHUD.currentParticipants": "Current Participants",
+  "CHUD.noActiveParticipant": "No active participant",
+  "CHUD.noParticipantsInList": "Conversation has no participants. Try adding some. (Actor drag and drop is supported)",
+
+  "CHUD.newParticipant": "New Participant",
+  "CHUD.addParticipant": "Add Participant",
+  "CHUD.editParticipant": "Edit Participant",
+  "CHUD.deleteParticipant": "Delete Participant",
+
+  "CHUD.dropActor": "Drop actor here to add them to the conversation",
+
+  "CHUD.activateHUD": "Activate ConversationHUD",
+  "CHUD.activateConversation": "Activate Conversation",
+  "CHUD.createConversation": "Create Conversation",
+  "CHUD.startConversation": "Start Conversation",
+
+  "CHUD.toggleSpeakAs": "Toggle Speak As",
+  "CHUD.toggleVisibility": "Toggle Visibility",
+  "CHUD.saveConversation": "Save Conversation",
+  "CHUD.maximizeConversation": "Maximize Conversation",
+  "CHUD.minimizeConversation": "Minimize Conversation",
+
+  "CHUD.participantData": "Conversation Participant Data",
+  "CHUD.conversationEntry": "Conversation Entry",
+
+  "CHUD.unsavedChanges": "Unsaved Changes",
+  "CHUD.unsavedChangesHint": "The conversation contains unsaved changes. Do you wish to save them?",
+  "CHUD.discardChanges": "Discard Changes",
+
+  "CHUD.errors": {
+    "generic": "An unknown error has occurred, for more information check the console.",
+    "genericSheetError": "An unknown error occurred while trying to render the sheet. Are you sure this is a valid conversation sheet?",
+    "failedToParse": "Failed to parse sheet data. Are you sure this is a valid conversation sheet?",
+    "invalidActor": "The provided actor is of an invalid format and could not be parsed properly.",
+    "typeNotSupported": "This type of data is not supported by ConversationHUD.",
+
+    "activateNoPages": "Tried to activate a conversation with a document containing no pages.",
+    "activateNoInit": "Tried to activate a conversation when the ConversationHUD object was not yet initialized",
+    "activateNoPerms": "You do not have permission to activate this conversation.",
+
+    "noActiveConversation": "No active conversation found.",
+    "saveUnsuccessful": "Failed to save current conversation.",
+
+    "noSelectedTokens": "No tokens are selected.",
+    "conversationAlreadyActive": "Cannot create a new conversation as there is already an active conversation.",
+    "insufficientRights": "Insufficient user rights.",
+    "featureNotEnabled": "Feature is currently disabled. Enabled it in the settings if you wish to use it.",
+
+    "noLibWrapper": "ConversationHUD requires the libWrapper module for full functionality. Please install and activate it."
+  },
+
+  "CHUD.warnings": {
+    "noParticipantDataFound": "No viable participant data was found in this journal entry."
+  },
+
+  "CHUD.info": {
+    "saveSuccessful": "Current conversation has been saved successfully."
+  },
+
+  "CHUD.settings": {
+    "portraitStyle": {
+      "name": "Portrait Style",
+      "hint": "This option determines the orientation and style in which the portraits of the active participants will be displayed.",
+      "choices": {
+        "vertical": "Vertical",
+        "horizontal": "Horizontal",
+        "square": "Square"
+      }
+    },
+    "portraitAnchor": {
+      "name": "Portrait Anchor",
+      "hint": "The anchor represents a point of reference from which the portrait will begin to pe displayed. For example, with the Top option selected, the upper section of the portrait will always be displayed. This option has an impact only when the portrait displayed has an aspect ratio larger than the display area. In most cases, it shouldn't matter too much.",
+      "choices": {
+        "top": "Top",
+        "center": "Center",
+        "bottom": "Bottom"
+      }
+    },
+    "enableSpeakAs": {
+      "name": "Enable Speak As",
+      "hint": "Toggle the Speak As feature on or off. By default, the feature is on, but if you do not use it and do not want an extra button to appear, you can toggle it off."
+    },
+    "enableMinimize": {
+      "name": "Enable Minimize",
+      "hint": "Toggle the Minimize feature on or off. By default, the feature is on as it allows users to interact with the map while a conversation is active and visible. If you do not want this behavior, you can toggle the feature off."
+    },
+    "activeParticipantFontSize": {
+      "name": "Active Participant Font Size",
+      "hint": "This option determines the size of the font used to display the name of the currently active participant.",
+      "choices": {
+        "verySmall": "Very Small",
+        "small": "Small",
+        "regular": "Regular",
+        "large": "Large",
+        "veryLarge": "Very Large"
+      }
+    },
+    "rpgUiFix": {
+      "name": "Enable custom UI fix",
+      "hint": "If you are using a module that changes the look of the UI and you are experiencing an issue which makes the sidebar overlap the conversation interface or the control buttons, enabling this feature should fix the issues."
+    }
+  }
+}
