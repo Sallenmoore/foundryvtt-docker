@@ -8544,3 +8544,103 @@
 {"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-06-23 08:44:00"}
 {"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-06-23 08:44:40"}
 {"level":"info","message":"Shut-down success. Goodbye!","timestamp":"2023-06-23 08:44:40"}
+{"level":"info","message":"Running on Node.js - Version 18.12.1","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"Foundry Virtual Tabletop - Version 11 Build 302","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"User Data Directory - \"/home/samoore/projects/personal/foundryvtt-docker/data\"","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"Application Options:\n{\n  \"compressStatic\": true,\n  \"fullscreen\": false,\n  \"hostname\": null,\n  \"language\": \"en.core\",\n  \"localHostname\": null,\n  \"port\": 30000,\n  \"protocol\": null,\n  \"proxyPort\": null,\n  \"proxySSL\": false,\n  \"routePrefix\": null,\n  \"updateChannel\": \"stable\",\n  \"upnp\": true,\n  \"upnpLeaseDuration\": null,\n  \"awsConfig\": null,\n  \"compressSocket\": true,\n  \"cssTheme\": \"foundry\",\n  \"deleteNEDB\": false,\n  \"hotReload\": true,\n  \"passwordSalt\": null,\n  \"sslCert\": null,\n  \"sslKey\": null,\n  \"world\": null,\n  \"serviceConfig\": null,\n  \"telemetry\": true,\n  \"adminPassword\": \"••••••••••••••••\"\n}","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"Software license verification succeeded","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"Requesting UPnP port forwarding to destination port 30000","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"Running Electron application with version 23.2.3 using Chromium 110.0.5481.208","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-06-23 08:55:21"}
+{"level":"info","message":"Created client session 2dfd5dd2f57fab0824b670bc","timestamp":"2023-06-23 08:55:23"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-06-23 08:55:23"}
+{"level":"info","message":"Administrator authentication successful for session 2dfd5dd2f57fab0824b670bc","timestamp":"2023-06-23 08:56:13"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"actors\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"cards\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"messages\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"combats\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"drawings\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"fog\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"folders\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"items\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"journal\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"macros\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"playlists\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tables\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scenes\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"settings\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"users\"","timestamp":"2023-06-23 08:56:48"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-classes\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-backgrounds\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-class-features\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-subclasses\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-items\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-feats\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-monsters\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-vehicles\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-races\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-racial-traits\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-spells\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-tables\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-override\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-adventures\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.heroes\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsters\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.items\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tradegoods\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.spells\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.backgrounds\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classes\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.subclasses\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classfeatures\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.races\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsterfeatures\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.rules\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tables\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-gm\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-player\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tabletop-rpg-music.tabletop-rpg-music\"","timestamp":"2023-06-23 08:56:49"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-06-23 08:56:49"}
+{"ip":"::1","level":"info","message":"User authentication successful for user Gamemaster","session":"2dfd5dd2f57fab0824b670bc","timestamp":"2023-06-23 08:56:54"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-23 08:56:55"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 198ms","timestamp":"2023-06-23 08:56:55"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [RMgPjDLfZXTX8np6]","timestamp":"2023-06-23 09:01:42"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [YzmwDaowVsl2PcjM]","timestamp":"2023-06-23 09:02:00"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [brjQwtarrCQplfLh]","timestamp":"2023-06-23 09:02:12"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [7TFuOgepdUxE4yzy]","timestamp":"2023-06-23 09:03:09"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [bqszsKhMDWOUJHTm]","timestamp":"2023-06-23 09:04:03"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [pqT6IWurTueI661i]","timestamp":"2023-06-23 09:04:24"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.wild-magic\"","timestamp":"2023-06-23 09:04:48"}
+{"level":"info","message":"Created World Compendium Pack world.wild-magic","timestamp":"2023-06-23 09:04:48"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [Ba3FXsIoc1VDzqNv] in Compendium world.wild-magic","timestamp":"2023-06-23 09:05:09"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [xdkgWQXM6ocfP9ox] in Compendium world.wild-magic","timestamp":"2023-06-23 09:05:21"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [1Lv8D26z9EUVdj72] in Compendium world.wild-magic","timestamp":"2023-06-23 09:05:36"}
+{"level":"info","message":"FoundryVTT | Deleted RollTable with id [1Lv8D26z9EUVdj72] in Compendium world.wild-magic","timestamp":"2023-06-23 09:05:41"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [ZP09eD9xDrWpSnsq] in Compendium world.wild-magic","timestamp":"2023-06-23 09:05:50"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [NKopUity3FDD0pt9]","timestamp":"2023-06-23 09:06:15"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.coia\"","timestamp":"2023-06-23 09:06:40"}
+{"level":"info","message":"Created World Compendium Pack world.coia","timestamp":"2023-06-23 09:06:40"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [5mPjiLMJvcWmt46A]","timestamp":"2023-06-23 09:07:13"}
+{"level":"info","message":"FoundryVTT | Created TableResult with id [2ZabyR0Ur9vmCWbf] in parent RollTable [xdkgWQXM6ocfP9ox] in Compendium world.wild-magic","timestamp":"2023-06-23 09:08:19"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [xi6xOwApnqM5eTkr]","timestamp":"2023-06-23 09:08:31"}
+{"level":"info","message":"FoundryVTT | Deleted RollTable with id [xi6xOwApnqM5eTkr]","timestamp":"2023-06-23 09:09:30"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-monsters","timestamp":"2023-06-23 09:11:06"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-vehicles","timestamp":"2023-06-23 09:11:11"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-adventures","timestamp":"2023-06-23 09:11:15"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-backgrounds","timestamp":"2023-06-23 09:11:25"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-class-features","timestamp":"2023-06-23 09:11:29"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-subclasses","timestamp":"2023-06-23 09:11:55"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-spells","timestamp":"2023-06-23 09:11:58"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-racial-traits","timestamp":"2023-06-23 09:12:01"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-races","timestamp":"2023-06-23 09:12:07"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-override","timestamp":"2023-06-23 09:12:10"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-items","timestamp":"2023-06-23 09:12:13"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-feats","timestamp":"2023-06-23 09:12:18"}
+{"level":"info","message":"Deleted Compendium Pack world.ddb-slaverin-ddb-classes","timestamp":"2023-06-23 09:12:26"}
+{"level":"info","message":"FoundryVTT | Deleted Folder with id [BIATvPkWmay8QaAp]","timestamp":"2023-06-23 09:12:32"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [IPUhEXMHmYNp8UXO]","timestamp":"2023-06-23 09:14:00"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [B0wyRh0Ekojw383S]","timestamp":"2023-06-23 09:14:07"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [12J6olEEnrCoulFD]","timestamp":"2023-06-23 09:14:10"}
+{"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-06-23 10:03:58"}
+{"level":"info","message":"Shut-down success. Goodbye!","timestamp":"2023-06-23 10:03:58"}
