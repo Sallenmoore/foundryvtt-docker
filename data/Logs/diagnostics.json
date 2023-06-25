@@ -1,10 +1,9 @@
 {
-  "timestamp": 1687541282601,
+  "timestamp": 1687718967968,
   "os": {
     "platform": "linux",
-    "version": "Fedora Linux 38 (Server Edition)",
-    "node": "18.12.1",
-    "electron": "23.2.3"
+    "version": "Debian GNU/Linux 12 (bookworm)",
+    "node": "18.16.1"
   },
   "foundry": {
     "generation": 11,
@@ -13,12 +12,6 @@
     "hosting": null
   },
   "modules": {
-    "LockView": {
-      "version": "1.5.7"
-    },
-    "a5e-dnd5e-srd-content": {
-      "version": "1.0.0"
-    },
     "acelib": {
       "version": "1.8.3"
     },
@@ -27,6 +20,9 @@
     },
     "caeora-maps-tokens-assets": {
       "version": "2.1.5"
+    },
+    "conversation-hud": {
+      "version": "4.1.0"
     },
     "ddb-importer": {
       "version": "3.4.36"
@@ -40,20 +36,11 @@
     "dnd-item-icons-by-gwill": {
       "version": "1.2.0"
     },
-    "drehatlas-maps": {
-      "version": "0.5.2"
-    },
-    "forien-quest-log": {
-      "version": "0.7.12"
-    },
     "hidden-initiative": {
       "version": "1.0.3"
     },
-    "monks-combat-details": {
-      "version": "11.01"
-    },
-    "monks-combat-marker": {
-      "version": "11.01"
+    "lib-wrapper": {
+      "version": "1.12.12.1"
     },
     "monks-common-display": {
       "version": "11.01"
@@ -67,8 +54,8 @@
     "multilevel-tokens": {
       "version": "1.6.0"
     },
-    "npcgen": {
-      "version": "1.1.0"
+    "socketlib": {
+      "version": "1.0.13"
     },
     "tabletop-rpg-music": {
       "version": "2.2.0"
@@ -80,12 +67,12 @@
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 201248
+      "playtime": 202487
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 201248,
-    "max": 201248
+    "total": 202487,
+    "max": 202487
   }
 }

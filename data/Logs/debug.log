@@ -8995,3 +8995,145 @@
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 260ms","timestamp":"2023-06-23 15:22:26"}
 {"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-06-23 15:23:54"}
 {"level":"info","message":"Shut-down success. Goodbye!","timestamp":"2023-06-23 15:23:54"}
+{"level":"info","message":"Running on Node.js - Version 18.16.1","timestamp":"2023-06-25 18:47:19"}
+{"level":"info","message":"Foundry Virtual Tabletop - Version 11 Build 302","timestamp":"2023-06-25 18:47:19"}
+{"level":"info","message":"User Data Directory - \"/opt/data/foundryvtt\"","timestamp":"2023-06-25 18:47:19"}
+{"level":"info","message":"Application Options:\n{\n  \"compressStatic\": true,\n  \"fullscreen\": false,\n  \"hostname\": null,\n  \"language\": \"en.core\",\n  \"localHostname\": null,\n  \"port\": 30000,\n  \"protocol\": null,\n  \"proxyPort\": null,\n  \"proxySSL\": false,\n  \"routePrefix\": null,\n  \"updateChannel\": \"stable\",\n  \"upnp\": true,\n  \"upnpLeaseDuration\": null,\n  \"awsConfig\": null,\n  \"compressSocket\": true,\n  \"cssTheme\": \"foundry\",\n  \"deleteNEDB\": false,\n  \"hotReload\": true,\n  \"passwordSalt\": null,\n  \"sslCert\": null,\n  \"sslKey\": null,\n  \"world\": null,\n  \"serviceConfig\": null,\n  \"telemetry\": true,\n  \"adminPassword\": \"••••••••••••••••\"\n}","timestamp":"2023-06-25 18:47:19"}
+{"level":"info","message":"Software license verification succeeded","timestamp":"2023-06-25 18:47:19"}
+{"level":"info","message":"Requesting UPnP port forwarding to destination port 30000","timestamp":"2023-06-25 18:47:19"}
+{"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-06-25 18:47:19"}
+{"level":"info","message":"Created client session a8ce94323bf3857b89e88e3d","timestamp":"2023-06-25 18:49:19"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-06-25 18:49:19"}
+{"level":"info","message":"Administrator authentication successful for session a8ce94323bf3857b89e88e3d","timestamp":"2023-06-25 18:49:27"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"actors\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"cards\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"messages\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"combats\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"drawings\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"fog\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"folders\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"items\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"journal\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"macros\"","timestamp":"2023-06-25 18:49:46"}
+{"level":"info","message":"FoundryVTT | Connected to database \"playlists\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tables\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scenes\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"settings\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"users\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.wild-magic\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-tables\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-backgrounds\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.coia\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-classes\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-class-features\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-feats\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-items\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-monsters\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-vehicles\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-races\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-racial-traits\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-spells\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-override\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-adventures\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.heroes\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsters\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.items\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tradegoods\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.spells\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.backgrounds\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classes\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.subclasses\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classfeatures\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.races\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsterfeatures\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.rules\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tables\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"caeora-maps-tokens-assets.caeora-maps\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"conversation-hud.conversation-hud-macros\"","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-06-25 18:49:47"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tabletop-rpg-music.tabletop-rpg-music\"","timestamp":"2023-06-25 18:49:47"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"a8ce94323bf3857b89e88e3d","timestamp":"2023-06-25 18:49:56"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 18:49:59"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 642ms","timestamp":"2023-06-25 18:49:59"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [fHAq8iSYc2oWUlEZ]","timestamp":"2023-06-25 18:51:59"}
+{"level":"info","message":"FoundryVTT | Deleted Scene with id [fHAq8iSYc2oWUlEZ]","timestamp":"2023-06-25 18:55:33"}
+{"level":"info","message":"Logged user gAzsPFxmxxXHBdOg out of active World","timestamp":"2023-06-25 18:56:26"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"a8ce94323bf3857b89e88e3d","timestamp":"2023-06-25 18:56:46"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 18:56:53"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 646ms","timestamp":"2023-06-25 18:56:53"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-06-25 18:57:41"}
+{"level":"info","message":"Downloading Package - 12%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 24%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 36%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 48%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 60%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 72%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 84%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 96%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 99%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Downloading Package - 100%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installing package - 14%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installing package - 29%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installing package - 43%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installing package - 57%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installing package - 71%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installing package - 86%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installing package - 100%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Cleaning Up Artifacts - 100%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Installation Complete - 100%","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"FoundryVTT | Installed module dd-import","timestamp":"2023-06-25 19:01:04"}
+{"level":"info","message":"Vending Package - 100%","timestamp":"2023-06-25 19:01:04"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-06-25 19:01:11"}
+{"level":"info","message":"FoundryVTT | Connected to database \"actors\"","timestamp":"2023-06-25 19:01:11"}
+{"level":"info","message":"FoundryVTT | Connected to database \"cards\"","timestamp":"2023-06-25 19:01:11"}
+{"level":"info","message":"FoundryVTT | Connected to database \"messages\"","timestamp":"2023-06-25 19:01:11"}
+{"level":"info","message":"FoundryVTT | Connected to database \"combats\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"drawings\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"fog\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"folders\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"items\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"journal\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"macros\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"playlists\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tables\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scenes\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"settings\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"users\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-tables\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.wild-magic\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.coia\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-backgrounds\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-classes\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-class-features\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-feats\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-items\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-monsters\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-vehicles\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-races\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-racial-traits\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-spells\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-override\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-adventures\"","timestamp":"2023-06-25 19:01:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.heroes\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsters\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.items\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tradegoods\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.spells\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.backgrounds\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classes\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.subclasses\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classfeatures\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.races\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsterfeatures\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.rules\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tables\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"caeora-maps-tokens-assets.caeora-maps\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"conversation-hud.conversation-hud-macros\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tabletop-rpg-music.tabletop-rpg-music\"","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-06-25 19:01:13"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 19:01:15"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 623ms","timestamp":"2023-06-25 19:01:15"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-06-25 19:01:40"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 19:01:44"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 567ms","timestamp":"2023-06-25 19:01:44"}

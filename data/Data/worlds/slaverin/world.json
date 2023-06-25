@@ -11,8 +11,8 @@
     "verified": "11"
   },
   "systemVersion": "2.2.1",
-  "lastPlayed": "Fri Jun 23 2023 14:05:38 GMT-0400 (Eastern Daylight Time)",
-  "playtime": 202487,
+  "lastPlayed": "Sun Jun 25 2023 19:01:12 GMT+0000 (Coordinated Universal Time)",
+  "playtime": 202929,
   "packs": [
     {
       "type": "RollTable",
@@ -60,13 +60,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-backgrounds",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -78,13 +72,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-classes",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -96,13 +84,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-class-features",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -114,13 +96,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-feats",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -132,13 +108,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-items",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Actor",
@@ -150,13 +120,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-monsters",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Actor",
@@ -168,13 +132,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-vehicles",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -186,13 +144,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-races",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -204,13 +156,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-racial-traits",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -222,13 +168,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-spells",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Item",
@@ -240,13 +180,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world",
-      "id": "world.ddb-slaverin-ddb-override",
-      "packageType": "world",
-      "packageName": "slaverin",
-      "index": [],
-      "folders": []
+      "flags": {}
     },
     {
       "type": "Adventure",
@@ -258,8 +192,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {},
-      "package": "world"
+      "flags": {}
     }
   ]
 }
