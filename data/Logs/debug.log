@@ -10865,3 +10865,16 @@
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 20:30:58"}
 {"level":"info","message":"Vended World data to User [JTmGCXLuKUFxuiRA] in 832ms","timestamp":"2023-06-25 20:30:58"}
 {"level":"info","message":"FoundryVTT | Created ChatMessage with id [gSwLtw9hb7MaiqsT]","timestamp":"2023-06-25 20:31:07"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 22:49:24"}
+{"level":"info","message":"Vended World data to User [JTmGCXLuKUFxuiRA] in 774ms","timestamp":"2023-06-25 22:49:24"}
+{"level":"info","message":"Created client session b1122ca2b435a23578c9e380","timestamp":"2023-06-25 22:56:56"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 22:58:48"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 808ms","timestamp":"2023-06-25 22:58:49"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"User authentication failed for user Dank; invalid password","session":"b1122ca2b435a23578c9e380","status":401,"timestamp":"2023-06-25 23:01:45"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"b1122ca2b435a23578c9e380","timestamp":"2023-06-25 23:01:50"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 23:01:52"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 745ms","timestamp":"2023-06-25 23:01:52"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [nguv69sWKPaUlj66] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:03:58"}
+{"level":"info","message":"Toggling game pause status to false","timestamp":"2023-06-25 23:04:07"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 23:04:28"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 762ms","timestamp":"2023-06-25 23:04:28"}
