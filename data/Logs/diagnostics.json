@@ -1,9 +1,10 @@
 {
-  "timestamp": 1687718967968,
+  "timestamp": 1687793059432,
   "os": {
     "platform": "linux",
-    "version": "Debian GNU/Linux 12 (bookworm)",
-    "node": "18.16.1"
+    "version": "Fedora Linux 38 (Server Edition)",
+    "node": "18.12.1",
+    "electron": "23.2.3"
   },
   "foundry": {
     "generation": 11,
@@ -24,8 +25,8 @@
     "conversation-hud": {
       "version": "4.1.0"
     },
-    "ddb-importer": {
-      "version": "3.4.36"
+    "dd-import": {
+      "version": "2.6.1"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -59,20 +60,17 @@
     },
     "tabletop-rpg-music": {
       "version": "2.2.0"
-    },
-    "vtta-tokenizer": {
-      "version": "4.2.1"
     }
   },
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 202487
+      "playtime": 204492
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 202487,
-    "max": 202487
+    "total": 204492,
+    "max": 204492
   }
 }
