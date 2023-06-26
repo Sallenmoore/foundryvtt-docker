@@ -11318,3 +11318,4 @@
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 840ms","timestamp":"2023-06-26 02:30:32"}
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-26 05:14:06"}
 {"level":"info","message":"Vended World data to User [mEXrro24ZkwSqzXq] in 792ms","timestamp":"2023-06-26 05:14:07"}
+{"code":"ECOMPROMISED","level":"error","message":"Unable to update lock within the stale threshold","stack":"Error: Unable to update lock within the stale threshold\n    at /opt/foundryvtt/resources/app/node_modules/proper-lockfile/lib/lockfile.js:136:25\n    at callback (/opt/foundryvtt/resources/app/node_modules/graceful-fs/polyfills.js:306:20)\n    at FSReqCallback.oncomplete (node:fs:209:5)","timestamp":"2023-06-26 06:08:39"}
