@@ -10878,3 +10878,139 @@
 {"level":"info","message":"Toggling game pause status to false","timestamp":"2023-06-25 23:04:07"}
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 23:04:28"}
 {"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 762ms","timestamp":"2023-06-25 23:04:28"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"cbaf50df0615068c6e9932ab","timestamp":"2023-06-25 23:08:18"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 23:08:21"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 782ms","timestamp":"2023-06-25 23:08:21"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 23:08:38"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 548ms","timestamp":"2023-06-25 23:08:38"}
+{"level":"info","message":"FoundryVTT | Created Actor with id [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:09:56"}
+{"level":"info","message":"Boots-of-the-Winterlands.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-06-25 23:12:37"}
+{"level":"info","message":"Cloak-of-Protection.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-06-25 23:12:37"}
+{"level":"info","message":"Bracers-of-Defense.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-06-25 23:12:37"}
+{"level":"info","message":"Cloak-of-Protection-large.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-06-25 23:12:37"}
+{"level":"info","message":"Boots-of-the-Winterlands-large.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-06-25 23:12:38"}
+{"level":"info","message":"Bracers-of-Defense-large.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-06-25 23:12:38"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [Ntd4ZGhh1bhrhSsq,EnWQi6K5nER3DX4W] in parent Actor [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:12:39"}
+{"level":"info","message":"FoundryVTT | Created 32 Item documents in parent Actor [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:12:40"}
+{"level":"info","message":"FoundryVTT | Created 2 ActiveEffect documents with ids: [DIW4vsqozBwtmW9u,JHvkkG6PlF5vhC9b] in parent Actor [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:12:40"}
+{"level":"info","message":"FoundryVTT | Created FogExploration with id [38XTdbE9MlTmvCRR]","timestamp":"2023-06-25 23:15:56"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [yre23ddhNDeWLvfT]","timestamp":"2023-06-25 23:16:02"}
+{"level":"info","message":"Activating scene Chichingia [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:16:11"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [xG55MZjGn6XWHMhs] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:14"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [cA27frlOnc0EjinM] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:17"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [JeUS50KEqNbrVCs1] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:29"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [GCd4jilUyCmwIoEW] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:32"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [e9ePVB2p5DkskEH9] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:33"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [rkh6BoQrvpUMf0eo] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:34"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [KsMuiFCNXAST1JHb] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:35"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [bmifcYmMfZyQ34QW] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:36"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [SRrN0AmQ2JBthJyD] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:36"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [cjqFDyIIIwcWIdO1] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:17:37"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [kGoDOevYz2KF4fRt]","timestamp":"2023-06-25 23:18:10"}
+{"level":"info","message":"Activating scene Her Skin was Purple [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:18:15"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [SKIgyE4rCmYksZ2p] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:19:12"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [EJLVsNO68XNZgohE] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:19:37"}
+{"level":"info","message":"FoundryVTT | Deleted AmbientLight with id [EJLVsNO68XNZgohE] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:19:39"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [gXqYfcgk05g8ED9o] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:19:45"}
+{"level":"info","message":"FoundryVTT | Created Token with id [aHLo6BLQdRjPCngA] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:19:54"}
+{"level":"info","message":"FoundryVTT | Created Token with id [0eFZVHWyG6cDX45u] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:20:03"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 23:20:50"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 822ms","timestamp":"2023-06-25 23:20:50"}
+{"level":"info","message":"Logged user 94SaYfuv9U7rei5C out of active World","timestamp":"2023-06-25 23:20:59"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [vHmEcLaDIm8Y72X6]","timestamp":"2023-06-25 23:21:04"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"User authentication failed for user Kevin; invalid password","session":"b1122ca2b435a23578c9e380","status":401,"timestamp":"2023-06-25 23:21:04"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Kevin","session":"b1122ca2b435a23578c9e380","timestamp":"2023-06-25 23:21:09"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-25 23:21:11"}
+{"level":"info","message":"Vended World data to User [mEXrro24ZkwSqzXq] in 572ms","timestamp":"2023-06-25 23:21:11"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [LcWcCpJRZfasvmTc]","timestamp":"2023-06-25 23:21:20"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [psTGPhaDq0RXqq9F]","timestamp":"2023-06-25 23:21:21"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [XB454tYW1QH8tQcZ]","timestamp":"2023-06-25 23:21:42"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [al5guvkHCdxvKXnb]","timestamp":"2023-06-25 23:21:50"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [HRTD9xySKjN4WQJA]","timestamp":"2023-06-25 23:22:01"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [a0VG5al3C3N9G0vx]","timestamp":"2023-06-25 23:22:06"}
+{"level":"info","message":"Activating scene Chichingia [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:22:19"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [x74FKA1acfEsfUMS] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-25 23:22:25"}
+{"level":"info","message":"Activating scene Her Skin was Purple [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:22:26"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [yRIEjiFAPUzfdavi] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:22:28"}
+{"level":"info","message":"FoundryVTT | Created Token with id [3BOpORbj7cMdZW3q] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:22:37"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [vziOJhkRkPuaL8CM]","timestamp":"2023-06-25 23:22:42"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [nzdInXCspvlCzVzt]","timestamp":"2023-06-25 23:22:59"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [3BOpORbj7cMdZW3q] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:24:41"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [zWkQ4R3vL7xthi5B] in parent Actor [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:25:36"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [drsBrYddAh8Th9ko] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:25:55"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [SF5EJu3PtxpSyfQx] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:25:58"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [217R8TwQuv5q1X33] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:01"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [jTyGlRCADOJbTIsm] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:02"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [Y8oyHZLqliOtkZZu] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:05"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [UbOYFP9v5VNP5rep] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:13"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [jm1x67YgZB4M1i27] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:17"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [JAav0v48Sjm4FzQD] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:24"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [Pvb6WvHgefe3rLsL] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:25"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [PJgEt05U5S6YEEr8] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:27"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [DHNlL28uQyAoa4Ql] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:28"}
+{"level":"info","message":"FoundryVTT | Deleted 12 MeasuredTemplate documents in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:29"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [3q362fvgkqxeji8x] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:30"}
+{"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [3q362fvgkqxeji8x] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:26:34"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [Utxxv02PjCLus05E] in parent Actor [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:28:19"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [Utxxv02PjCLus05E] in parent Actor [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:28:21"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [zWkQ4R3vL7xthi5B] in parent Actor [ibhatJ2vRKct4wJC]","timestamp":"2023-06-25 23:28:25"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [194bGHZlpBza9Ssk]","timestamp":"2023-06-25 23:31:23"}
+{"level":"info","message":"FoundryVTT | Deleted Macro with id [vziOJhkRkPuaL8CM]","timestamp":"2023-06-25 23:32:13"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [zfNYTfJmwpwhSlo8]","timestamp":"2023-06-25 23:37:09"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [194bGHZlpBza9Ssk]","timestamp":"2023-06-25 23:37:28"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [a0VG5al3C3N9G0vx]","timestamp":"2023-06-25 23:37:30"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [HRTD9xySKjN4WQJA]","timestamp":"2023-06-25 23:37:31"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [al5guvkHCdxvKXnb]","timestamp":"2023-06-25 23:37:32"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [XB454tYW1QH8tQcZ]","timestamp":"2023-06-25 23:37:33"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [LcWcCpJRZfasvmTc]","timestamp":"2023-06-25 23:37:34"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [KQ8lmW0lBOieYORl]","timestamp":"2023-06-25 23:37:54"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [nLkArTSwCs62aHQj] in parent Combat [KQ8lmW0lBOieYORl]","timestamp":"2023-06-25 23:37:54"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [roeCf9V9T1KWSU7J] in parent Combat [KQ8lmW0lBOieYORl]","timestamp":"2023-06-25 23:37:57"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [BEQ7M8VVmkkvQZ7U]","timestamp":"2023-06-25 23:38:09"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [cYIV4E7iQZZ5EY80] in parent Combat [KQ8lmW0lBOieYORl]","timestamp":"2023-06-25 23:38:13"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [G8YTcj3yZ83T5QTH]","timestamp":"2023-06-25 23:38:37"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [hxPP0zo0yXPPUPns]","timestamp":"2023-06-25 23:38:39"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [pGKBF6KfmCqRbujI]","timestamp":"2023-06-25 23:38:54"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [0iht1NOukVsrEqBi] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-06-25 23:39:45"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [0iht1NOukVsrEqBi] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-06-25 23:39:47"}
+{"level":"info","message":"FoundryVTT | Created Actor with id [5JmIGeMstV3mfYA2]","timestamp":"2023-06-25 23:41:20"}
+{"level":"info","message":"FoundryVTT | Created Token with id [jXHeddNOzX8foUcs] in parent Scene [k9TS1QnDKP5j3Z28]","timestamp":"2023-06-25 23:41:21"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [9ngYXPOPWjtNcs4P] in parent Combat [KQ8lmW0lBOieYORl]","timestamp":"2023-06-25 23:41:42"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [TGAUTLd4c3i26tVg]","timestamp":"2023-06-25 23:42:04"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [gu7ByepbbSM9Iwe0]","timestamp":"2023-06-25 23:42:47"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [gu7ByepbbSM9Iwe0]","timestamp":"2023-06-25 23:42:53"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [qzpLvZkk0zpZ23eW]","timestamp":"2023-06-25 23:43:10"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [qzpLvZkk0zpZ23eW]","timestamp":"2023-06-25 23:43:12"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [yijeCbqL8LNWjsaU]","timestamp":"2023-06-25 23:51:12"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [t2RBjDZ2ACzPSy9U]","timestamp":"2023-06-25 23:51:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [pLvuEXDafpMJIEft]","timestamp":"2023-06-25 23:53:50"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [dVMW97uW0rQWxwpQ]","timestamp":"2023-06-25 23:54:33"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [AZzWYEyR5sRFLJSE]","timestamp":"2023-06-25 23:54:41"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Mk4ZVIWh0B7sjhlK]","timestamp":"2023-06-25 23:55:17"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [3Z8HfAxN5gUlMUaV]","timestamp":"2023-06-25 23:55:19"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [HaltoDwM7HwMuDQn]","timestamp":"2023-06-25 23:55:22"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [PYSuh6bM6S08hj9i]","timestamp":"2023-06-25 23:55:29"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [dVMW97uW0rQWxwpQ]","timestamp":"2023-06-25 23:56:06"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [Mk4ZVIWh0B7sjhlK]","timestamp":"2023-06-25 23:56:08"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [3Z8HfAxN5gUlMUaV]","timestamp":"2023-06-25 23:56:11"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [HaltoDwM7HwMuDQn]","timestamp":"2023-06-25 23:56:14"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [MoiKCPHwpkeQXYMV]","timestamp":"2023-06-25 23:57:34"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [MoiKCPHwpkeQXYMV]","timestamp":"2023-06-25 23:57:38"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [AZzWYEyR5sRFLJSE]","timestamp":"2023-06-25 23:58:45"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [w1NN4N7GN7C4AqGz]","timestamp":"2023-06-25 23:58:54"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [v9nOkmI69MouAaip]","timestamp":"2023-06-25 23:59:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [EfkLbrjyI02PXJ0x]","timestamp":"2023-06-25 23:59:51"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [pMmiEzJx0nQuigYj]","timestamp":"2023-06-26 00:00:30"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [S2STBliA9vsqga3W]","timestamp":"2023-06-26 00:00:44"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [phDTJWNQQuT0p10I]","timestamp":"2023-06-26 00:02:47"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [4DwhxZzgpoavfi3M]","timestamp":"2023-06-26 00:02:57"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [khnWsjjDqNYimgDk]","timestamp":"2023-06-26 00:02:58"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [GRarHcFKBN4XN5vX]","timestamp":"2023-06-26 00:03:16"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [WbHHRPnbgNhVgz4c]","timestamp":"2023-06-26 00:03:30"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [i9OMtVYBriO7ZUm9]","timestamp":"2023-06-26 00:03:30"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [pGW9ThgYC0JFDqQh]","timestamp":"2023-06-26 00:03:37"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [kcss8FdR6OZpM2RE]","timestamp":"2023-06-26 00:03:52"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [eoUcAtbTfSZBZxEr]","timestamp":"2023-06-26 00:03:56"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [m2XfR1dvpFih55Ir]","timestamp":"2023-06-26 00:04:01"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [bYDGGKUMenjWPkaj]","timestamp":"2023-06-26 00:04:01"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [HCW4SoH4lNBmMOGy]","timestamp":"2023-06-26 00:04:08"}
