@@ -11303,3 +11303,16 @@
 {"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [ShDxYSWyQbEbtQQU] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-26 01:56:44"}
 {"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [ShDxYSWyQbEbtQQU] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-26 01:56:53"}
 {"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [kmD1J37ZB6htSZVy] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-06-26 01:56:54"}
+{"level":"debug","message":"Starting edit session for user 'gAzsPFxmxxXHBdOg' and instance 'JournalEntry.XxIgA1AycMIuAEUA.JournalEntryPage.0WkAYuRYuvcJTvOm#text.content'.","timestamp":"2023-06-26 02:22:25"}
+{"level":"debug","message":"Starting edit session for user 'gAzsPFxmxxXHBdOg' and instance 'JournalEntry.XxIgA1AycMIuAEUA.JournalEntryPage.0WkAYuRYuvcJTvOm#text.content'.","timestamp":"2023-06-26 02:22:36"}
+{"level":"debug","message":"Retiring user 'gAzsPFxmxxXHBdOg' from editing session for instance 'JournalEntry.XxIgA1AycMIuAEUA.JournalEntryPage.0WkAYuRYuvcJTvOm#text.content'.","timestamp":"2023-06-26 02:22:37"}
+{"level":"debug","message":"Instance 'JournalEntry.XxIgA1AycMIuAEUA.JournalEntryPage.0WkAYuRYuvcJTvOm#text.content' has no more active editors, cleaning up.","timestamp":"2023-06-26 02:22:37"}
+{"level":"debug","message":"Starting edit session for user 'gAzsPFxmxxXHBdOg' and instance 'JournalEntry.XxIgA1AycMIuAEUA.JournalEntryPage.0WkAYuRYuvcJTvOm#text.content'.","timestamp":"2023-06-26 02:23:45"}
+{"level":"debug","message":"Retiring user 'gAzsPFxmxxXHBdOg' from editing session for instance 'JournalEntry.XxIgA1AycMIuAEUA.JournalEntryPage.0WkAYuRYuvcJTvOm#text.content'.","timestamp":"2023-06-26 02:23:57"}
+{"level":"debug","message":"Instance 'JournalEntry.XxIgA1AycMIuAEUA.JournalEntryPage.0WkAYuRYuvcJTvOm#text.content' has no more active editors, cleaning up.","timestamp":"2023-06-26 02:23:57"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [s1naAWOkjCfcUO2O]","timestamp":"2023-06-26 02:24:35"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [RaE6eIUey2fgxcol]","timestamp":"2023-06-26 02:24:36"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [kltSUHg42g3dJVL3]","timestamp":"2023-06-26 02:24:37"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [edDIuvhv53GDsGTZ]","timestamp":"2023-06-26 02:24:38"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-26 02:30:31"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 840ms","timestamp":"2023-06-26 02:30:32"}
