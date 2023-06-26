@@ -3,3 +3,21 @@
 2023/06/26-11:24:23.611355 7fa6cdbf06c0 Level-0 table #138: 2125 bytes OK
 2023/06/26-11:24:23.628892 7fa6cdbf06c0 Delete type=0 #136
 2023/06/26-11:24:23.628913 7fa6cdbf06c0 Delete type=3 #135
+2023/06/26-11:25:31.935820 7fa6c00e96c0 Level-0 table #141: started
+2023/06/26-11:25:31.935899 7fa6c00e96c0 Level-0 table #141: 0 bytes OK
+2023/06/26-11:25:31.942040 7fa6c00e96c0 Delete type=0 #139
+2023/06/26-11:25:31.948684 7fa6c00e96c0 Manual compaction at level-0 from '!journal!0WlPfblIrFXK1opv' @ 72057594037927935 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at '!journal.pages!XxIgA1AycMIuAEUA.0WkAYuRYuvcJTvOm' @ 473 : 1
+2023/06/26-11:25:31.948692 7fa6c00e96c0 Compacting 1@0 + 0@1 files
+2023/06/26-11:25:31.954929 7fa6c00e96c0 Generated table #142@0: 2 keys, 2125 bytes
+2023/06/26-11:25:31.954950 7fa6c00e96c0 Compacted 1@0 + 0@1 files => 2125 bytes
+2023/06/26-11:25:31.960616 7fa6c00e96c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/26-11:25:31.960934 7fa6c00e96c0 Delete type=2 #138
+2023/06/26-11:25:31.985998 7fa6c00e96c0 Manual compaction at level-0 from '!journal.pages!XxIgA1AycMIuAEUA.0WkAYuRYuvcJTvOm' @ 473 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at (end)
+2023/06/26-11:25:31.986117 7fa6c00e96c0 Manual compaction at level-1 from '!journal!0WlPfblIrFXK1opv' @ 72057594037927935 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at '!journal.pages!XxIgA1AycMIuAEUA.0WkAYuRYuvcJTvOm' @ 473 : 1
+2023/06/26-11:25:31.986123 7fa6c00e96c0 Compacting 1@1 + 1@2 files
+2023/06/26-11:25:31.993227 7fa6c00e96c0 Generated table #143@1: 31 keys, 6835 bytes
+2023/06/26-11:25:31.993303 7fa6c00e96c0 Compacted 1@1 + 1@2 files => 6835 bytes
+2023/06/26-11:25:31.999105 7fa6c00e96c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/06/26-11:25:31.999215 7fa6c00e96c0 Delete type=2 #118
+2023/06/26-11:25:31.999273 7fa6c00e96c0 Delete type=2 #142
+2023/06/26-11:25:32.025766 7fa6c00e96c0 Manual compaction at level-1 from '!journal.pages!XxIgA1AycMIuAEUA.0WkAYuRYuvcJTvOm' @ 473 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at (end)

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1687793059432,
+  "timestamp": 1687793257851,
   "os": {
     "platform": "linux",
     "version": "Fedora Linux 38 (Server Edition)",
@@ -65,12 +65,12 @@
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 204492
+      "playtime": 204552
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 204492,
-    "max": 204492
+    "total": 204552,
+    "max": 204552
   }
 }

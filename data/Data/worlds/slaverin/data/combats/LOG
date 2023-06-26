@@ -3,3 +3,21 @@
 2023/06/26-11:24:23.439130 7fa6cf3f36c0 Level-0 table #134: 8395 bytes OK
 2023/06/26-11:24:23.457597 7fa6cf3f36c0 Delete type=0 #132
 2023/06/26-11:24:23.457815 7fa6cf3f36c0 Delete type=3 #131
+2023/06/26-11:25:31.806985 7fa6c00e96c0 Level-0 table #137: started
+2023/06/26-11:25:31.807002 7fa6c00e96c0 Level-0 table #137: 0 bytes OK
+2023/06/26-11:25:31.812873 7fa6c00e96c0 Delete type=0 #135
+2023/06/26-11:25:31.813341 7fa6c00e96c0 Manual compaction at level-0 from '!combats!KQ8lmW0lBOieYORl' @ 72057594037927935 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 235 : 1
+2023/06/26-11:25:31.813346 7fa6c00e96c0 Compacting 1@0 + 0@1 files
+2023/06/26-11:25:31.820021 7fa6c00e96c0 Generated table #138@0: 5 keys, 853 bytes
+2023/06/26-11:25:31.820084 7fa6c00e96c0 Compacted 1@0 + 0@1 files => 853 bytes
+2023/06/26-11:25:31.826035 7fa6c00e96c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/26-11:25:31.826711 7fa6c00e96c0 Delete type=2 #134
+2023/06/26-11:25:31.862899 7fa6c00e96c0 Manual compaction at level-0 from '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 235 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at (end)
+2023/06/26-11:25:31.889727 7fa6c00e96c0 Manual compaction at level-1 from '!combats!KQ8lmW0lBOieYORl' @ 72057594037927935 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 281 : 1
+2023/06/26-11:25:31.889736 7fa6c00e96c0 Compacting 1@1 + 1@2 files
+2023/06/26-11:25:31.896219 7fa6c00e96c0 Generated table #139@1: 6 keys, 956 bytes
+2023/06/26-11:25:31.896287 7fa6c00e96c0 Compacted 1@1 + 1@2 files => 956 bytes
+2023/06/26-11:25:31.902014 7fa6c00e96c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/06/26-11:25:31.902252 7fa6c00e96c0 Delete type=2 #100
+2023/06/26-11:25:31.902363 7fa6c00e96c0 Delete type=2 #138
+2023/06/26-11:25:31.908977 7fa6c00e96c0 Manual compaction at level-1 from '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 281 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at (end)

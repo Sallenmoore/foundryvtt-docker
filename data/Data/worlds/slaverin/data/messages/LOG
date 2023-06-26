@@ -3,3 +3,22 @@
 2023/06/26-11:24:23.407527 7fa6cf3f36c0 Level-0 table #131: 96789 bytes OK
 2023/06/26-11:24:23.426447 7fa6cf3f36c0 Delete type=0 #129
 2023/06/26-11:24:23.426718 7fa6cf3f36c0 Delete type=3 #128
+2023/06/26-11:25:31.850809 7fa6c00e96c0 Level-0 table #134: started
+2023/06/26-11:25:31.850869 7fa6c00e96c0 Level-0 table #134: 0 bytes OK
+2023/06/26-11:25:31.856824 7fa6c00e96c0 Delete type=0 #132
+2023/06/26-11:25:31.863005 7fa6c00e96c0 Manual compaction at level-0 from '!messages!08P3JSFyrrEdj0HA' @ 72057594037927935 : 1 .. '!messages!zXAsp39swqmcVvjW' @ 0 : 0; will stop at '!messages!zfNYTfJmwpwhSlo8' @ 74 : 1
+2023/06/26-11:25:31.863024 7fa6c00e96c0 Compacting 1@0 + 1@1 files
+2023/06/26-11:25:31.870304 7fa6c00e96c0 Generated table #135@0: 116 keys, 49710 bytes
+2023/06/26-11:25:31.870320 7fa6c00e96c0 Compacted 1@0 + 1@1 files => 49710 bytes
+2023/06/26-11:25:31.876037 7fa6c00e96c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/26-11:25:31.876505 7fa6c00e96c0 Delete type=2 #91
+2023/06/26-11:25:31.876729 7fa6c00e96c0 Delete type=2 #131
+2023/06/26-11:25:31.908876 7fa6c00e96c0 Manual compaction at level-0 from '!messages!zfNYTfJmwpwhSlo8' @ 74 : 1 .. '!messages!zXAsp39swqmcVvjW' @ 0 : 0; will stop at (end)
+2023/06/26-11:25:31.909042 7fa6c00e96c0 Manual compaction at level-1 from '!messages!08P3JSFyrrEdj0HA' @ 72057594037927935 : 1 .. '!messages!zXAsp39swqmcVvjW' @ 0 : 0; will stop at '!messages!zXAsp39swqmcVvjW' @ 233 : 1
+2023/06/26-11:25:31.909047 7fa6c00e96c0 Compacting 1@1 + 1@2 files
+2023/06/26-11:25:31.916804 7fa6c00e96c0 Generated table #136@1: 82 keys, 48931 bytes
+2023/06/26-11:25:31.916854 7fa6c00e96c0 Compacted 1@1 + 1@2 files => 48931 bytes
+2023/06/26-11:25:31.922631 7fa6c00e96c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/06/26-11:25:31.922807 7fa6c00e96c0 Delete type=2 #87
+2023/06/26-11:25:31.922866 7fa6c00e96c0 Delete type=2 #135
+2023/06/26-11:25:31.942333 7fa6c00e96c0 Manual compaction at level-1 from '!messages!zXAsp39swqmcVvjW' @ 233 : 1 .. '!messages!zXAsp39swqmcVvjW' @ 0 : 0; will stop at (end)
