@@ -3,7 +3,7 @@
   "title": "ConversationHUD",
   "name": "conversation-hud",
   "description": "A simple module that adds a nice HUD that display the portraits of all the characters present in a conversation.",
-  "version": "4.1.0",
+  "version": "5.0.2",
   "library": "false",
   "compatibility": {
     "minimum": 10,
@@ -57,7 +57,21 @@
   "socket": true,
   "url": "https://github.com/CristianVasile23/conversation-hud",
   "manifest": "https://github.com/CristianVasile23/conversation-hud/releases/latest/download/module.json",
-  "download": "https://github.com/CristianVasile23/conversation-hud/releases/download/4.1.0/module.zip",
+  "download": "https://github.com/CristianVasile23/conversation-hud/releases/download/5.0.2/module.zip",
   "license": "https://github.com/CristianVasile23/conversation-hud/blob/main/LICENSE",
-  "readme": "https://github.com/CristianVasile23/conversation-hud/blob/main/README.md"
+  "readme": "https://github.com/CristianVasile23/conversation-hud/blob/main/README.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "https://raw.githubusercontent.com/CristianVasile23/conversation-hud/main/docs/icons/setup.jpg",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/CristianVasile23/conversation-hud/main/docs/icons/cover.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ]
 }

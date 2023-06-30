@@ -1,23 +1,3 @@
-2023/06/26-11:24:23.744696 7fa6cebf26c0 Recovering log #187
-2023/06/26-11:24:23.748887 7fa6cebf26c0 Level-0 table #191: started
-2023/06/26-11:24:23.767178 7fa6cebf26c0 Level-0 table #191: 1320735 bytes OK
-2023/06/26-11:24:23.787502 7fa6cebf26c0 Delete type=0 #187
-2023/06/26-11:24:23.788306 7fa6cebf26c0 Delete type=3 #152
-2023/06/26-11:24:32.535942 7fa6c00e96c0 Compacting 1@0 + 1@1 files
-2023/06/26-11:24:32.542727 7fa6c00e96c0 Generated table #193@0: 90 keys, 53089 bytes
-2023/06/26-11:24:32.542898 7fa6c00e96c0 Compacted 1@0 + 1@1 files => 53089 bytes
-2023/06/26-11:24:32.549002 7fa6c00e96c0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/06/26-11:24:32.549240 7fa6c00e96c0 Delete type=2 #189
-2023/06/26-11:24:32.549346 7fa6c00e96c0 Delete type=2 #191
-2023/06/26-11:25:32.019446 7fa6c00e96c0 Level-0 table #195: started
-2023/06/26-11:25:32.019504 7fa6c00e96c0 Level-0 table #195: 0 bytes OK
-2023/06/26-11:25:32.025500 7fa6c00e96c0 Delete type=0 #192
-2023/06/26-11:25:32.043456 7fa6c00e96c0 Manual compaction at level-0 from '!scenes!CXF63C6akqi0HsSo' @ 72057594037927935 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at (end)
-2023/06/26-11:25:32.062213 7fa6c00e96c0 Manual compaction at level-1 from '!scenes!CXF63C6akqi0HsSo' @ 72057594037927935 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at '!scenes.tokens.delta.items!k9TS1QnDKP5j3Z28.jXHeddNOzX8foUcs.4CDPoG3WZqBh3ced.g7e60AxXarlQ9xQC' @ 6174 : 1
-2023/06/26-11:25:32.062234 7fa6c00e96c0 Compacting 1@1 + 1@2 files
-2023/06/26-11:25:32.073427 7fa6c00e96c0 Generated table #196@1: 2507 keys, 239097 bytes
-2023/06/26-11:25:32.073444 7fa6c00e96c0 Compacted 1@1 + 1@2 files => 239097 bytes
-2023/06/26-11:25:32.079039 7fa6c00e96c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/06/26-11:25:32.079400 7fa6c00e96c0 Delete type=2 #147
-2023/06/26-11:25:32.079597 7fa6c00e96c0 Delete type=2 #193
-2023/06/26-11:25:32.118413 7fa6c00e96c0 Manual compaction at level-1 from '!scenes.tokens.delta.items!k9TS1QnDKP5j3Z28.jXHeddNOzX8foUcs.4CDPoG3WZqBh3ced.g7e60AxXarlQ9xQC' @ 6174 : 1 .. '!scenes.walls!pRCOZ1zDg5zZKQuw.zzc4tzfuq4pi0j4T' @ 0 : 0; will stop at (end)
+2023/06/30-17:24:22.544316 7f45957fa6c0 Recovering log #226
+2023/06/30-17:24:22.562460 7f45957fa6c0 Delete type=0 #226
+2023/06/30-17:24:22.562559 7f45957fa6c0 Delete type=3 #224

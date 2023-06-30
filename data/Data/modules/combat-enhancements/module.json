@@ -1,0 +1,49 @@
+{
+  "id": "combat-enhancements",
+  "title": "Combat Enhancements",
+  "description": "Adds health tracking and drag/drop re-ordering to the combat tracker.",
+  "authors": [
+    {
+      "name": "Asacolips"
+    }
+  ],
+  "version": "1.2.2",
+  "minimumCoreVersion": 10,
+  "compatibleCoreVersion": 10,
+  "compatibility": {
+    "minimum": 10,
+    "verified": "11.300",
+    "maximum": 11
+  },
+  "esmodules": [
+    "module/combat-enhancements.js"
+  ],
+  "styles": [
+    "styles/dist/combat-enhancements.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json"
+    }
+  ],
+  "url": "https://gitlab.com/asacolips-projects/foundry-mods/combat-enhancements",
+  "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/combat-enhancements/raw/master/module.json",
+  "download": "https://gitlab.com/asacolips-projects/foundry-mods/combat-enhancements/-/archive/1.2.2/combat-enhancements-master.zip"
+}

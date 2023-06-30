@@ -1,23 +1,3 @@
-2023/06/26-11:24:23.840262 7fa6cebf26c0 Recovering log #140
-2023/06/26-11:24:23.840689 7fa6cebf26c0 Level-0 table #142: started
-2023/06/26-11:24:23.848300 7fa6cebf26c0 Level-0 table #142: 29376 bytes OK
-2023/06/26-11:24:23.866674 7fa6cebf26c0 Delete type=0 #140
-2023/06/26-11:24:23.866916 7fa6cebf26c0 Delete type=3 #139
-2023/06/26-11:25:32.056241 7fa6c00e96c0 Level-0 table #145: started
-2023/06/26-11:25:32.056263 7fa6c00e96c0 Level-0 table #145: 0 bytes OK
-2023/06/26-11:25:32.061997 7fa6c00e96c0 Delete type=0 #143
-2023/06/26-11:25:32.092790 7fa6c00e96c0 Manual compaction at level-0 from '!users!94SaYfuv9U7rei5C' @ 72057594037927935 : 1 .. '!users!x83qRmrpV0xBYtKs' @ 0 : 0; will stop at '!users!x83qRmrpV0xBYtKs' @ 93 : 1
-2023/06/26-11:25:32.092811 7fa6c00e96c0 Compacting 1@0 + 0@1 files
-2023/06/26-11:25:32.099963 7fa6c00e96c0 Generated table #146@0: 5 keys, 2906 bytes
-2023/06/26-11:25:32.100015 7fa6c00e96c0 Compacted 1@0 + 0@1 files => 2906 bytes
-2023/06/26-11:25:32.105825 7fa6c00e96c0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/06/26-11:25:32.106018 7fa6c00e96c0 Delete type=2 #142
-2023/06/26-11:25:32.118443 7fa6c00e96c0 Manual compaction at level-0 from '!users!x83qRmrpV0xBYtKs' @ 93 : 1 .. '!users!x83qRmrpV0xBYtKs' @ 0 : 0; will stop at (end)
-2023/06/26-11:25:32.132215 7fa6c00e96c0 Manual compaction at level-1 from '!users!94SaYfuv9U7rei5C' @ 72057594037927935 : 1 .. '!users!x83qRmrpV0xBYtKs' @ 0 : 0; will stop at '!users!x83qRmrpV0xBYtKs' @ 122 : 1
-2023/06/26-11:25:32.132231 7fa6c00e96c0 Compacting 1@1 + 1@2 files
-2023/06/26-11:25:32.138708 7fa6c00e96c0 Generated table #147@1: 5 keys, 2906 bytes
-2023/06/26-11:25:32.138744 7fa6c00e96c0 Compacted 1@1 + 1@2 files => 2906 bytes
-2023/06/26-11:25:32.148372 7fa6c00e96c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/06/26-11:25:32.148604 7fa6c00e96c0 Delete type=2 #130
-2023/06/26-11:25:32.148703 7fa6c00e96c0 Delete type=2 #146
-2023/06/26-11:25:32.160200 7fa6c00e96c0 Manual compaction at level-1 from '!users!x83qRmrpV0xBYtKs' @ 122 : 1 .. '!users!x83qRmrpV0xBYtKs' @ 0 : 0; will stop at (end)
+2023/06/30-17:24:22.616038 7f45957fa6c0 Recovering log #178
+2023/06/30-17:24:22.634802 7f45957fa6c0 Delete type=3 #176
+2023/06/30-17:24:22.634951 7f45957fa6c0 Delete type=0 #178

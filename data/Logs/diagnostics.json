@@ -1,10 +1,9 @@
 {
-  "timestamp": 1687793257851,
+  "timestamp": 1688136399978,
   "os": {
     "platform": "linux",
-    "version": "Fedora Linux 38 (Server Edition)",
-    "node": "18.12.1",
-    "electron": "23.2.3"
+    "version": "Debian GNU/Linux 12 (bookworm)",
+    "node": "18.16.1"
   },
   "foundry": {
     "generation": 11,
@@ -22,11 +21,17 @@
     "caeora-maps-tokens-assets": {
       "version": "2.1.5"
     },
+    "combat-enhancements": {
+      "version": "1.2.2"
+    },
     "conversation-hud": {
-      "version": "4.1.0"
+      "version": "5.0.2"
     },
     "dd-import": {
       "version": "2.6.1"
+    },
+    "ddb-importer": {
+      "version": "3.4.41"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -37,40 +42,85 @@
     "dnd-item-icons-by-gwill": {
       "version": "1.2.0"
     },
+    "dragupload": {
+      "version": "2.2.2"
+    },
+    "forien-quest-log": {
+      "version": "0.7.12"
+    },
+    "foundryvtt-simple-calendar": {
+      "version": "2.2.0"
+    },
     "hidden-initiative": {
       "version": "1.0.3"
     },
     "lib-wrapper": {
       "version": "1.12.12.1"
     },
+    "monks-combat-details": {
+      "version": "11.01"
+    },
     "monks-common-display": {
+      "version": "11.01"
+    },
+    "monks-enhanced-journal": {
       "version": "11.01"
     },
     "monks-little-details": {
       "version": "11.03"
     },
+    "monks-scene-navigation": {
+      "version": "11.02"
+    },
+    "monks-sound-enhancements": {
+      "version": "11.03"
+    },
+    "monks-tokenbar": {
+      "version": "11.01"
+    },
     "monks-wall-enhancement": {
       "version": "11.01"
     },
+    "moulinette-core": {
+      "version": "11.1.2"
+    },
+    "moulinette-gameicons": {
+      "version": "11.0.0"
+    },
+    "moulinette-imagesearch": {
+      "version": "11.0.1"
+    },
+    "moulinette-sounds": {
+      "version": "11.0.2"
+    },
     "multilevel-tokens": {
       "version": "1.6.0"
+    },
+    "pin-cushion": {
+      "version": "1.8.37"
     },
     "socketlib": {
       "version": "1.0.13"
     },
     "tabletop-rpg-music": {
       "version": "2.2.0"
+    },
+    "vtta-tokenizer": {
+      "version": "4.2.2"
+    },
+    "wild-magic-surge-5e": {
+      "version": "4.5.1"
     }
   },
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 204552
+      "playtime": 446709
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 204552,
-    "max": 204552
+    "total": 446709,
+    "max": 259599
   }
 }

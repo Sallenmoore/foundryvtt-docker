@@ -1,0 +1,5 @@
+2023/06/26-21:13:44.281917 7f45957fa6c0 Delete type=3 #1
+2023/06/29-01:12:26.968886 7f42f73466c0 Level-0 table #5: started
+2023/06/29-01:12:26.975190 7f42f73466c0 Level-0 table #5: 621 bytes OK
+2023/06/29-01:12:26.983675 7f42f73466c0 Delete type=0 #3
+2023/06/29-01:12:27.007078 7f42f73466c0 Manual compaction at level-0 from '!users!JynN3eBxHvGUHdAT' @ 72057594037927935 : 1 .. '!users!JynN3eBxHvGUHdAT' @ 0 : 0; will stop at (end)
