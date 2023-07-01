@@ -1,5 +1,5 @@
 {
-  "timestamp": 1688136399978,
+  "timestamp": 1688232943441,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -12,6 +12,9 @@
     "hosting": null
   },
   "modules": {
+    "LockView": {
+      "version": "1.5.7"
+    },
     "acelib": {
       "version": "1.8.3"
     },
@@ -31,7 +34,7 @@
       "version": "2.6.1"
     },
     "ddb-importer": {
-      "version": "3.4.41"
+      "version": "3.4.42"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -48,8 +51,11 @@
     "forien-quest-log": {
       "version": "0.7.12"
     },
+    "foundry_community_tables": {
+      "version": "11.0"
+    },
     "foundryvtt-simple-calendar": {
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
     "hidden-initiative": {
       "version": "1.0.3"
@@ -93,11 +99,17 @@
     "moulinette-sounds": {
       "version": "11.0.2"
     },
+    "moulinette-tiles": {
+      "version": "11.0.5"
+    },
     "multilevel-tokens": {
       "version": "1.6.0"
     },
     "pin-cushion": {
       "version": "1.8.37"
+    },
+    "sequencer": {
+      "version": "3.1.0"
     },
     "socketlib": {
       "version": "1.0.13"
@@ -110,17 +122,20 @@
     },
     "wild-magic-surge-5e": {
       "version": "4.5.1"
+    },
+    "JB2A_DnD5e": {
+      "version": "0.5.9"
     }
   },
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 446709
+      "playtime": 485834
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 446709,
-    "max": 259599
+    "total": 485834,
+    "max": 298724
   }
 }

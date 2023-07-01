@@ -16321,3 +16321,77 @@
 {"level":"info","message":"Created client session f4a409fc93f6a3837c12e5d3","timestamp":"2023-07-01 14:07:00"}
 {"ip":"::ffff:209.159.147.236","level":"warn","message":"Administrator authentication failed for session e1a7852ae8bb81e94911e579; invalid password","status":403,"timestamp":"2023-07-01 16:59:17"}
 {"level":"info","message":"Logged user 94SaYfuv9U7rei5C out of active World","timestamp":"2023-07-01 16:59:17"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"e1a7852ae8bb81e94911e579","timestamp":"2023-07-01 17:35:39"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:35:43"}
+{"level":"info","message":"Core software stable update 11.304 is available!","timestamp":"2023-07-01 17:35:43"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 1149ms","timestamp":"2023-07-01 17:35:44"}
+{"level":"info","message":"Administrator authentication successful for session 8a3b669de867581ea112e144","timestamp":"2023-07-01 17:45:48"}
+{"level":"info","message":"Logged user gAzsPFxmxxXHBdOg out of active World","timestamp":"2023-07-01 17:45:48"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"8a3b669de867581ea112e144","timestamp":"2023-07-01 17:46:02"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:46:06"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 733ms","timestamp":"2023-07-01 17:46:06"}
+{"level":"info","message":"Created client session cef51cf0f925f1c6b69e0a24","timestamp":"2023-07-01 17:48:09"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"cef51cf0f925f1c6b69e0a24","timestamp":"2023-07-01 17:48:14"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:48:18"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 869ms","timestamp":"2023-07-01 17:48:18"}
+{"level":"info","message":"Logged user 94SaYfuv9U7rei5C out of active World","timestamp":"2023-07-01 17:48:31"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:48:33"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 593ms","timestamp":"2023-07-01 17:48:33"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"8a3b669de867581ea112e144","timestamp":"2023-07-01 17:48:48"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:48:51"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 667ms","timestamp":"2023-07-01 17:48:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-sequencer\"","timestamp":"2023-07-01 17:49:59"}
+{"level":"info","message":"FoundryVTT | Performing one-time migration of table \"JB2A_DnD5e.jb2a-sequencer\" from NEDB to LevelDB","timestamp":"2023-07-01 17:49:59"}
+{"level":"info","message":"FoundryVTT | Completed migration of table \"JB2A_DnD5e.jb2a-sequencer to LevelDB \"/opt/data/foundryvtt/Data/modules/JB2A_DnD5e/packs/jb2a-sequencer\"","timestamp":"2023-07-01 17:49:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-actors\"","timestamp":"2023-07-01 17:49:59"}
+{"level":"info","message":"FoundryVTT | Performing one-time migration of table \"JB2A_DnD5e.jb2a-actors\" from NEDB to LevelDB","timestamp":"2023-07-01 17:49:59"}
+{"level":"info","message":"FoundryVTT | Completed migration of table \"JB2A_DnD5e.jb2a-actors to LevelDB \"/opt/data/foundryvtt/Data/modules/JB2A_DnD5e/packs/jb2a-actors\"","timestamp":"2023-07-01 17:49:59"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-01 17:49:59"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:50:04"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1066ms","timestamp":"2023-07-01 17:50:04"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:50:05"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 747ms","timestamp":"2023-07-01 17:50:05"}
+{"level":"info","message":"Created client session 6d0cb3ee2687be453a4edb0a","timestamp":"2023-07-01 17:51:38"}
+{"level":"info","message":"Created client session 3ade0c7475fa9103d14edcce","timestamp":"2023-07-01 17:51:39"}
+{"level":"info","message":"Created client session d5ca84a85e80c47b005b0b34","timestamp":"2023-07-01 17:51:41"}
+{"level":"info","message":"Created client session 437a93c17cf4cb842460edd8","timestamp":"2023-07-01 17:51:42"}
+{"level":"info","message":"Created client session 0701131c5cb57826e78c9bdc","timestamp":"2023-07-01 17:51:43"}
+{"level":"info","message":"Created client session a3d67ba65df461408ad50d65","timestamp":"2023-07-01 17:51:44"}
+{"level":"info","message":"Created client session 5c4a8c6674d42b295d805055","timestamp":"2023-07-01 17:51:45"}
+{"level":"info","message":"Created client session 36a363c7341291b0857e6c12","timestamp":"2023-07-01 17:51:46"}
+{"level":"info","message":"Created client session 88125fcbbd38a97e2ed53a92","timestamp":"2023-07-01 17:51:46"}
+{"level":"info","message":"Created client session bf94eb0a320231f8492da475","timestamp":"2023-07-01 17:51:47"}
+{"level":"info","message":"Created client session cb268720fd372331d1ec8a32","timestamp":"2023-07-01 17:51:48"}
+{"level":"info","message":"Created client session 4ebb36d71f4beb78beba22f2","timestamp":"2023-07-01 17:51:49"}
+{"level":"info","message":"Created client session de1263ae8e987bd5414dbf57","timestamp":"2023-07-01 17:51:50"}
+{"level":"info","message":"Created client session 908d3010af9ae57dd7d28f08","timestamp":"2023-07-01 17:51:51"}
+{"level":"info","message":"Created client session 898639fc35f0fd424f8720f9","timestamp":"2023-07-01 17:51:52"}
+{"level":"info","message":"Created client session 035733e1658f8b372721831b","timestamp":"2023-07-01 17:51:53"}
+{"level":"info","message":"Created client session c25a1d3a74db12b71974cf18","timestamp":"2023-07-01 17:51:54"}
+{"level":"info","message":"Created client session 726d40a0f309dab79861b2c3","timestamp":"2023-07-01 17:51:55"}
+{"level":"info","message":"Created client session 3ec4af7672f843754694935e","timestamp":"2023-07-01 17:51:56"}
+{"level":"info","message":"Created client session a0c97b49a6c5532a8fa9148f","timestamp":"2023-07-01 17:51:57"}
+{"level":"info","message":"Created client session 2c083fdcc397b2cef1b5c07d","timestamp":"2023-07-01 17:51:58"}
+{"level":"info","message":"Created client session b11438c87c241f2f27437b22","timestamp":"2023-07-01 17:51:59"}
+{"level":"info","message":"Created client session c2c6ef9f4169117dc2b11ee3","timestamp":"2023-07-01 17:52:00"}
+{"level":"info","message":"Created client session 32aff635b8708c9b39175f1b","timestamp":"2023-07-01 17:52:01"}
+{"level":"info","message":"Created client session 41af5887ccd89c0e9eed2053","timestamp":"2023-07-01 17:52:02"}
+{"level":"info","message":"Created client session 5df5d55ed2278c482e0da96b","timestamp":"2023-07-01 17:52:03"}
+{"level":"info","message":"Created client session f26c9da8ce7bcadf57562c71","timestamp":"2023-07-01 17:52:04"}
+{"level":"info","message":"Created client session 675a5c73136c9fd70e7fb6dd","timestamp":"2023-07-01 17:52:05"}
+{"level":"info","message":"Created client session 0b90b888dd23d27f3b9d95e8","timestamp":"2023-07-01 17:52:06"}
+{"level":"info","message":"Created client session 2d4e42cdcb3fa83950e0de49","timestamp":"2023-07-01 17:52:07"}
+{"level":"info","message":"Created client session fec87097f0c9d50ad4f153e6","timestamp":"2023-07-01 17:52:08"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-01 17:52:36"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:52:41"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1193ms","timestamp":"2023-07-01 17:52:41"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 17:52:42"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 557ms","timestamp":"2023-07-01 17:52:42"}
+{"level":"info","message":"FoundryVTT | Created FogExploration with id [GU0VlX7dfrxDdFfT]","timestamp":"2023-07-01 18:00:38"}
+{"level":"info","message":"Toggling game pause status to false","timestamp":"2023-07-01 18:00:48"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 18:00:59"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 822ms","timestamp":"2023-07-01 18:00:59"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [DdWJ4mEJWl5brOUn] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:03:48"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [MU9jxhQbw1OOmvNx] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:04:04"}
+{"level":"info","message":"FoundryVTT | Deleted 2 MeasuredTemplate documents with ids: [DdWJ4mEJWl5brOUn,MU9jxhQbw1OOmvNx] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:04:11"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [JClzzOLXkPvQLv9d] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:04:45"}
