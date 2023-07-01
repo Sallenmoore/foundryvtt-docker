@@ -1,56 +1,56 @@
-<form autocomplete="off" class="fsc-oh">
-    <nav class="fsc-oc tabs">
-        <div class="fsc-ph fsc-lk">
-            <div class="fsc-qc">{{localize 'FSC.Configuration.Global.Title'}}</div>
-            <a class="fsc-sh" data-tab="globalSettings">{{localize 'FSC.Settings'}}</a>
+<form autocomplete="off" class="fsc-ph">
+    <nav class="fsc-pc tabs">
+        <div class="fsc-qh fsc-mk">
+            <div class="fsc-rc">{{localize 'FSC.Configuration.Global.Title'}}</div>
+            <a class="fsc-th" data-tab="globalSettings">{{localize 'FSC.Settings'}}</a>
             {{#if isGM}}
-            <a class="fsc-sh" data-tab="permissions">{{localize 'Permissions'}}</a>
-            <a class="fsc-sh" data-tab="importExport">{{localize 'FSC.Configuration.General.ImportExport.Title'}}</a>
+            <a class="fsc-th" data-tab="permissions">{{localize 'Permissions'}}</a>
+            <a class="fsc-th" data-tab="importExport">{{localize 'FSC.Configuration.General.ImportExport.Title'}}</a>
             {{/if}}
         </div>
         {{#if isGM}}
-        <div class="fsc-ph fsc-qh fsc-mk">
-            <div class="fsc-pc">
-                <div class="fsc-qc">{{localize 'FSC.Calendar'}}:<br/>{{object.name}}</div>
+        <div class="fsc-qh fsc-rh fsc-nk">
+            <div class="fsc-qc">
+                <div class="fsc-rc">{{localize 'FSC.Calendar'}}:<br/>{{object.name}}</div>
                 <ul class="fsc-c">
                     {{#each calendars}}
-                        <li class="{{#if (eq ../object.id id)}} fsc-rh{{/if}}" data-calendar="{{id}}">
-                            {{name}} {{#unless (eq id 'default_temp')}}<button class="fsc-xb fsc-gc" data-tooltip="{{localize 'FSC.RemoveCalendar'}}" data-calendar="{{id}}"><span class="fa fa-trash"></span></button>{{/unless}}
+                        <li class="{{#if (eq ../object.id id)}} fsc-sh{{/if}}" data-calendar="{{id}}">
+                            {{name}} {{#unless (eq id 'default_temp')}}<button class="fsc-xb fsc-hc" data-tooltip="{{localize 'FSC.RemoveCalendar'}}" data-calendar="{{id}}"><span class="fa fa-trash"></span></button>{{/unless}}
                         </li>
                     {{/each}}
-                    <li class="fsc-sh fsc-rc" data-tab="newCalendar">{{localize 'FSC.AddNewCalendar'}}<span class="fa fa-plus-circle"></span></li>
+                    <li class="fsc-th fsc-sc" data-tab="newCalendar">{{localize 'FSC.AddNewCalendar'}}<span class="fa fa-plus-circle"></span></li>
                 </ul>
             </div>
-            <a class="fsc-sh" data-tab="quickSetup">{{localize 'FSC.Configuration.General.QuickSetup'}}</a>
-            <div class="fsc-th">{{localize 'FSC.Settings'}}</div>
-            <a class="fsc-sh" data-tab="generalSettings">{{localize 'FSC.Configuration.General.Title'}}</a>
-            <a class="fsc-sh" data-tab="displayOptions">{{localize 'FSC.Configuration.General.DisplayOptions'}}</a>
-            <a class="fsc-sh" data-tab="yearSettings">{{localize 'FSC.Configuration.Year.Title'}}</a>
-            <a class="fsc-sh" data-tab="monthSettings">{{localize 'FSC.Configuration.Month.Title'}}</a>
-            <a class="fsc-sh" data-tab="weekdaySettings">{{localize 'FSC.Configuration.Weekday.Title'}}</a>
-            <a class="fsc-sh" data-tab="leapYearSettings">{{localize 'FSC.Configuration.LeapYear.Title'}}</a>
-            <a class="fsc-sh" data-tab="seasonSettings">{{localize 'FSC.Configuration.Season.Title'}}</a>
-            <a class="fsc-sh" data-tab="moonSettings">{{localize 'FSC.Configuration.Moon.Title'}}</a>
-            <a class="fsc-sh" data-tab="timeSettings">{{localize 'FSC.Configuration.Time.Title'}}</a>
-            <a class="fsc-sh" data-tab="noteSettings">{{localize 'FSC.Configuration.Notes.Title'}}</a>
+            <a class="fsc-th" data-tab="quickSetup">{{localize 'FSC.Configuration.General.QuickSetup'}}</a>
+            <div class="fsc-uh">{{localize 'FSC.Settings'}}</div>
+            <a class="fsc-th" data-tab="generalSettings">{{localize 'FSC.Configuration.General.Title'}}</a>
+            <a class="fsc-th" data-tab="displayOptions">{{localize 'FSC.Configuration.General.DisplayOptions'}}</a>
+            <a class="fsc-th" data-tab="yearSettings">{{localize 'FSC.Configuration.Year.Title'}}</a>
+            <a class="fsc-th" data-tab="monthSettings">{{localize 'FSC.Configuration.Month.Title'}}</a>
+            <a class="fsc-th" data-tab="weekdaySettings">{{localize 'FSC.Configuration.Weekday.Title'}}</a>
+            <a class="fsc-th" data-tab="leapYearSettings">{{localize 'FSC.Configuration.LeapYear.Title'}}</a>
+            <a class="fsc-th" data-tab="seasonSettings">{{localize 'FSC.Configuration.Season.Title'}}</a>
+            <a class="fsc-th" data-tab="moonSettings">{{localize 'FSC.Configuration.Moon.Title'}}</a>
+            <a class="fsc-th" data-tab="timeSettings">{{localize 'FSC.Configuration.Time.Title'}}</a>
+            <a class="fsc-th" data-tab="noteSettings">{{localize 'FSC.Configuration.Notes.Title'}}</a>
         </div>
         {{/if}}
-        <div class="fsc-ph fsc-nk">
-            <div class="fsc-qc">{{localize 'FSC.Help'}}</div>
-            <a class="fsc-sh" href="https://simplecalendar.info/index.html" target="_blank">{{localize 'FSC.Documentation'}}&nbsp;<span class="fa fa-external-link-alt"></span></a>
-            <a class="fsc-sh" data-tab="about">{{localize 'About'}}</a>
+        <div class="fsc-qh fsc-ok">
+            <div class="fsc-rc">{{localize 'FSC.Help'}}</div>
+            <a class="fsc-th" href="https://simplecalendar.info/" target="_blank">{{localize 'FSC.Documentation'}}&nbsp;<span class="fa fa-external-link-alt"></span></a>
+            <a class="fsc-th" data-tab="about">{{localize 'About'}}</a>
         </div>
     </nav>
-    <div class="fsc-nc">
-        <div class="tab fsc-lk" data-tab="globalSettings">
+    <div class="fsc-oc">
+        <div class="tab fsc-mk" data-tab="globalSettings">
             {{#if isGM}}
-            <div class="fsc-qf fsc-b">
-                <h2>{{localize 'FSC.Configuration.Global.Title'}} <a href="https://simplecalendar.info/pages/global-configuration/index/settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+            <div class="fsc-rf fsc-b">
+                <h2>{{localize 'FSC.Configuration.Global.Title'}} <a href="https://simplecalendar.info/docs/global-configuration/settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <p>{{localize 'FSC.Configuration.Global.Description'}}</p>
                 <div class="form-group fsc-b">
                     <label for="scSyncCalendars">{{localize 'FSC.Configuration.Global.SyncCalendars.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{globalConfiguration.syncCalendars}}" type="checkbox" id="scSyncCalendars" {{checked globalConfiguration.syncCalendars}} />
+                        <input class="fsc-vh" value="{{globalConfiguration.syncCalendars}}" type="checkbox" id="scSyncCalendars" {{checked globalConfiguration.syncCalendars}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Global.SyncCalendars.Description'}}</p>
                 </div>
@@ -58,7 +58,7 @@
                 <div class="form-group fsc-b">
                     <label for="scCalendarsSameTimestamp">{{localize 'FSC.Configuration.Global.SameTimestamp.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{globalConfiguration.calendarsSameTimestamp}}" type="checkbox" id="scCalendarsSameTimestamp" {{checked globalConfiguration.calendarsSameTimestamp}} />
+                        <input class="fsc-vh" value="{{globalConfiguration.calendarsSameTimestamp}}" type="checkbox" id="scCalendarsSameTimestamp" {{checked globalConfiguration.calendarsSameTimestamp}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Global.SameTimestamp.Description'}}</p>
                 </div>
@@ -82,14 +82,21 @@
                 <div class="form-group fsc-b">
                     <label for="scShowNoteFolder">{{localize 'FSC.Configuration.Global.ShowNoteFolder.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{globalConfiguration.showNotesFolder}}" type="checkbox" id="scShowNoteFolder" {{checked globalConfiguration.showNotesFolder}} />
+                        <input class="fsc-vh" value="{{globalConfiguration.showNotesFolder}}" type="checkbox" id="scShowNoteFolder" {{checked globalConfiguration.showNotesFolder}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Global.ShowNoteFolder.Description'}}</p>
                 </div>
+                <div class="form-group fsc-b">
+                    <label for="scInGameChatTimestamp">{{localize 'FSC.Configuration.Global.InGameChatTimestamp.Title'}}</label>
+                    <div class="form-fields">
+                        <input class="fsc-vh" value="{{globalConfiguration.inGameChatTimestamp}}" type="checkbox" id="scInGameChatTimestamp" {{checked globalConfiguration.inGameChatTimestamp}} />
+                    </div>
+                    <p class="notes">{{localize 'FSC.Configuration.Global.InGameChatTimestamp.Description'}}</p>
+                </div>
             </div>
             {{/if}}
-            <div class="fsc-qf fsc-b">
-                <h2>{{localize 'FSC.Configuration.Client.Title'}} <a href="https://simplecalendar.info/pages/global-configuration/index/settings.html#client-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+            <div class="fsc-rf fsc-b">
+                <h2>{{localize 'FSC.Configuration.Client.Title'}} <a href="https://simplecalendar.info/docs/using-sc/client-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <p>{{localize 'FSC.Configuration.Client.Description'}}</p>
                 <div class="form-group fsc-b">
                     <label for="scTheme">{{localize 'FSC.Configuration.Theme.Title'}}</label>
@@ -103,28 +110,28 @@
                 <div class="form-group fsc-b">
                     <label for="scOpenOnLoad">{{localize 'FSC.Configuration.Client.OpenOnLoad.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{clientSettings.openOnLoad}}" type="checkbox" id="scOpenOnLoad" {{checked clientSettings.openOnLoad}} />
+                        <input class="fsc-vh" value="{{clientSettings.openOnLoad}}" type="checkbox" id="scOpenOnLoad" {{checked clientSettings.openOnLoad}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Client.OpenOnLoad.Description'}}</p>
                 </div>
                 <div class="form-group fsc-b">
                     <label for="scOpenInCompact">{{localize 'FSC.Configuration.Client.OpenCompact.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{clientSettings.openInCompact}}" type="checkbox" id="scOpenInCompact" {{checked clientSettings.openInCompact}} />
+                        <input class="fsc-vh" value="{{clientSettings.openInCompact}}" type="checkbox" id="scOpenInCompact" {{checked clientSettings.openInCompact}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Client.OpenCompact.Description'}}</p>
                 </div>
                 <div class="form-group fsc-b">
                     <label for="scRememberPos">{{localize 'FSC.Configuration.Client.RememberPosition.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{clientSettings.rememberPos}}" type="checkbox" id="scRememberPos" {{checked clientSettings.rememberPos}} />
+                        <input class="fsc-vh" value="{{clientSettings.rememberPos}}" type="checkbox" id="scRememberPos" {{checked clientSettings.rememberPos}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Client.RememberPosition.Description'}}</p>
                 </div>
                 <div class="form-group fsc-b">
                     <label for="scRememberCompactPos">{{localize 'FSC.Configuration.Client.RememberCompactPosition.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{clientSettings.rememberCompactPos}}" type="checkbox" id="scRememberCompactPos" {{checked clientSettings.rememberCompactPos}} />
+                        <input class="fsc-vh" value="{{clientSettings.rememberCompactPos}}" type="checkbox" id="scRememberCompactPos" {{checked clientSettings.rememberCompactPos}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Client.RememberCompactPosition.Description'}}</p>
                 </div>
@@ -149,14 +156,14 @@
                 <div class="form-group fsc-b">
                     <label for="scAlwaysOpenNoteList">{{localize 'FSC.Configuration.Client.AlwaysShowNoteList.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{clientSettings.alwaysShowNoteList}}" type="checkbox" id="scAlwaysOpenNoteList" {{checked clientSettings.alwaysShowNoteList}} />
+                        <input class="fsc-vh" value="{{clientSettings.alwaysShowNoteList}}" type="checkbox" id="scAlwaysOpenNoteList" {{checked clientSettings.alwaysShowNoteList}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Client.AlwaysShowNoteList.Description'}}</p>
                 </div>
                 <div class="form-group fsc-b">
                     <label for="scPersistentOpen">{{localize 'FSC.Configuration.Client.PersistentOpen.Title'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{clientSettings.persistentOpen}}" type="checkbox" id="scPersistentOpen" {{checked clientSettings.persistentOpen}} />
+                        <input class="fsc-vh" value="{{clientSettings.persistentOpen}}" type="checkbox" id="scPersistentOpen" {{checked clientSettings.persistentOpen}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Client.PersistentOpen.Description'}}</p>
                 </div>
@@ -171,19 +178,19 @@
         </div>
 
         {{#if isGM}}
-        <div class="tab fsc-ai" data-tab="permissions">
-            <h2>{{localize 'Permissions'}} <a href="https://simplecalendar.info/pages/global-configuration/index/permissions.htmll" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+        <div class="tab fsc-bi" data-tab="permissions">
+            <h2>{{localize 'Permissions'}} <a href="https://simplecalendar.info/docs/global-configuration/permissions" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
             <p>{{localize 'FSC.Configuration.General.Permissions.Note'}}</p>
-            <header class="fsc-bi flexrow">
-                <label class="fsc-ci">{{localize 'PERMISSION.Permission'}}</label>
+            <header class="fsc-ci flexrow">
+                <label class="fsc-di">{{localize 'PERMISSION.Permission'}}</label>
                 <label>{{localize 'USER.RolePlayer'}}</label>
                 <label>{{localize 'USER.RoleTrusted'}}</label>
                 <label>{{localize 'USER.RoleAssistant'}}</label>
                 <label>{{localize 'USER.RoleGamemaster'}}</label>
             </header>
-            <ul class="fsc-di">
-                <li class="fsc-ei form-group fsc-b">
-                    <label class="fsc-ci">{{localize 'FSC.Configuration.General.CalendarPlayerVisible'}}</label>
+            <ul class="fsc-ei">
+                <li class="fsc-fi form-group fsc-b">
+                    <label class="fsc-di">{{localize 'FSC.Configuration.General.CalendarPlayerVisible'}}</label>
                     <div class="form-fields">
                         <input type="checkbox" name="CalendarVisible.P" id="scCalendarVisibleP" data-tooltip="{{localize 'FSC.Configuration.General.CalendarPlayerVisible'}}: {{localize 'USER.RolePlayer'}}" aria-label="{{localize 'FSC.Configuration.General.CalendarPlayerVisible'}}: {{localize 'USER.RolePlayer'}}" {{checked globalConfiguration.permissions.viewCalendar.player}} />
                         <input type="checkbox" name="CalendarVisible.TP" id="scCalendarVisibleTP" data-tooltip="{{localize 'FSC.Configuration.General.CalendarPlayerVisible'}}: {{localize 'USER.RoleTrusted'}}" aria-label="{{localize 'FSC.Configuration.General.CalendarPlayerVisible'}}: {{localize 'USER.RoleTrusted'}}" {{checked globalConfiguration.permissions.viewCalendar.trustedPlayer}} />
@@ -192,8 +199,8 @@
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.General.CalendarPlayerVisibleHelp'}}</p>
                 </li>
-                <li class="fsc-ei form-group fsc-b">
-                    <label class="fsc-ci">{{localize 'FSC.Configuration.General.PlayerAddNotes'}}</label>
+                <li class="fsc-fi form-group fsc-b">
+                    <label class="fsc-di">{{localize 'FSC.Configuration.General.PlayerAddNotes'}}</label>
                     <div class="form-fields">
                         <input type="checkbox" name="AddNotes.P" id="scAddNotesP" data-tooltip="{{localize 'FSC.Configuration.General.PlayerAddNotes'}}: {{localize 'USER.RolePlayer'}}" aria-label="{{localize 'FSC.Configuration.General.PlayerAddNotes'}}: {{localize 'USER.RolePlayer'}}" {{checked globalConfiguration.permissions.addNotes.player}} />
                         <input type="checkbox" name="AddNotes.TP" id="scAddNotesTP" data-tooltip="{{localize 'FSC.Configuration.General.PlayerAddNotes'}}: {{localize 'USER.RoleTrusted'}}" aria-label="{{localize 'FSC.Configuration.General.PlayerAddNotes'}}: {{localize 'USER.RoleTrusted'}}" {{checked globalConfiguration.permissions.addNotes.trustedPlayer}} />
@@ -202,8 +209,8 @@
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.General.PlayerAddNotesHelp'}}</p>
                 </li>
-                <li class="fsc-ei form-group fsc-b">
-                    <label class="fsc-ci">{{localize 'FSC.Configuration.General.PlayerReorderNotes'}}</label>
+                <li class="fsc-fi form-group fsc-b">
+                    <label class="fsc-di">{{localize 'FSC.Configuration.General.PlayerReorderNotes'}}</label>
                     <div class="form-fields">
                         <input type="checkbox" name="AddNotes.P" id="scReorderNotesP" data-tooltip="{{localize 'FSC.Configuration.General.PlayerReorderNotes'}}: {{localize 'USER.RolePlayer'}}" aria-label="{{localize 'FSC.Configuration.General.PlayerReorderNotes'}}: {{localize 'USER.RolePlayer'}}" {{checked globalConfiguration.permissions.reorderNotes.player}} />
                         <input type="checkbox" name="AddNotes.TP" id="scReorderNotesTP" data-tooltip="{{localize 'FSC.Configuration.General.PlayerReorderNotes'}}: {{localize 'USER.RoleTrusted'}}" aria-label="{{localize 'FSC.Configuration.General.PlayerReorderNotes'}}: {{localize 'USER.RoleTrusted'}}" {{checked globalConfiguration.permissions.reorderNotes.trustedPlayer}} />
@@ -212,8 +219,8 @@
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.General.PlayerReorderNotesHelp'}}</p>
                 </li>
-                <li class="fsc-ei form-group fsc-b">
-                    <label class="fsc-ci">{{localize 'FSC.Configuration.General.PlayersChangeDateTime'}}</label>
+                <li class="fsc-fi form-group fsc-b">
+                    <label class="fsc-di">{{localize 'FSC.Configuration.General.PlayersChangeDateTime'}}</label>
                     <div class="form-fields">
                         <input type="checkbox" name="AddNotes.P" id="scChangeDateTimeP" data-tooltip="{{localize 'FSC.Configuration.General.PlayersChangeDateTime'}}: {{localize 'USER.RolePlayer'}}" aria-label="{{localize 'FSC.Configuration.General.PlayersChangeDateTime'}}: {{localize 'USER.RolePlayer'}}" {{checked globalConfiguration.permissions.changeDateTime.player}} />
                         <input type="checkbox" name="AddNotes.TP" id="scChangeDateTimeTP" data-tooltip="{{localize 'FSC.Configuration.General.PlayersChangeDateTime'}}: {{localize 'USER.RoleTrusted'}}" aria-label="{{localize 'FSC.Configuration.General.PlayersChangeDateTime'}}: {{localize 'USER.RoleTrusted'}}" {{checked globalConfiguration.permissions.changeDateTime.trustedPlayer}} />
@@ -222,8 +229,8 @@
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.General.PlayersChangeDateTimeHelp'}}</p>
                 </li>
-                <li class="fsc-ei form-group fsc-b">
-                    <label class="fsc-ci">{{localize 'FSC.Configuration.General.PlayersChangeActiveCalendar'}}</label>
+                <li class="fsc-fi form-group fsc-b">
+                    <label class="fsc-di">{{localize 'FSC.Configuration.General.PlayersChangeActiveCalendar'}}</label>
                     <div class="form-fields">
                         <input type="checkbox" name="AddNotes.P" id="scChangeActiveCalP" data-tooltip="{{localize 'FSC.Configuration.General.PlayersChangeActiveCalendar'}}: {{localize 'USER.RolePlayer'}}" aria-label="{{localize 'FSC.Configuration.General.PlayersChangeActiveCalendar'}}: {{localize 'USER.RolePlayer'}}" {{checked globalConfiguration.permissions.changeActiveCalendar.player}} />
                         <input type="checkbox" name="AddNotes.TP" id="scChangeActiveCalTP" data-tooltip="{{localize 'FSC.Configuration.General.PlayersChangeActiveCalendar'}}: {{localize 'USER.RoleTrusted'}}" aria-label="{{localize 'FSC.Configuration.General.PlayersChangeActiveCalendar'}}: {{localize 'USER.RoleTrusted'}}" {{checked globalConfiguration.permissions.changeActiveCalendar.trustedPlayer}} />
@@ -234,24 +241,24 @@
                 </li>
             </ul>
         </div>
-        <div class="tab fsc-af" data-tab="importExport">
-            <h2>{{localize 'FSC.Configuration.General.ImportExport.Title'}} <a href="https://simplecalendar.info/pages/global-configuration/index/import-export.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
-            <div class="fsc-qf fsc-b">
+        <div class="tab fsc-bf" data-tab="importExport">
+            <h2>{{localize 'FSC.Configuration.General.ImportExport.Title'}} <a href="https://simplecalendar.info/docs/global-configuration/import-export" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+            <div class="fsc-rf fsc-b">
                 <div class="form-group fsc-b">
                     <label>{{localize 'FSC.Import'}}</label>
-                    <div class="form-fields fsc-ef">
+                    <div class="form-fields fsc-ff">
                         <input type="file" id="scImportCalendarPicker" accept="application/json, .json" />
-                        <div class="fsc-cf fsc-ha">
-                            <div class="fsc-df"></div>
+                        <div class="fsc-df fsc-ha">
+                            <div class="fsc-ef"></div>
                         </div>
-                        <div class="fsc-ff"></div>
+                        <div class="fsc-gf"></div>
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.ImportExport.ImportDescription'}}</p>
                 </div>
                 <div class="form-group fsc-b">
                     <label>{{localize 'FSC.Export'}}</label>
                     <div class="form-fields">
-                        <ul class="fsc-bf">
+                        <ul class="fsc-cf">
                             <li><label><input type="checkbox" data-id="global" checked /><span class="fa fa-cog"></span>&nbsp;{{localize 'FSC.Configuration.Global.Title'}}</label></li>
                             <li><label><input type="checkbox" data-id="permissions" checked /><span class="fa fa-key"></span>&nbsp;{{localize 'Permissions'}}</label></li>
                             {{#each calendars}}
@@ -259,38 +266,38 @@
                                 <li><label><input type="checkbox" data-id="{{id}}-notes" checked /><strong><span class="fa fa-sticky-note"></span> {{name}}</strong>: {{localize 'FSC.CalendarNotes'}}</label></li>
                             {{/each}}
                         </ul>
-                        <button class="fsc-xb fsc-bc" id="exportCalendar"><i class="fa fa-file-export"></i> {{localize 'FSC.Export'}}</button>
+                        <button class="fsc-xb fsc-cc" id="exportCalendar"><i class="fa fa-file-export"></i> {{localize 'FSC.Export'}}</button>
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.ImportExport.ExportDescription'}}</p>
                 </div>
             </div>
         </div>
 
-        <div class="tab fsc-rc" data-tab="newCalendar">
-            <h2>{{localize 'FSC.AddNewCalendar'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/add-remove-switch-calendar.html#add-a-new-calendar" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+        <div class="tab fsc-sc" data-tab="newCalendar">
+            <h2>{{localize 'FSC.AddNewCalendar'}} <a href="https://simplecalendar.info/docs/calendar-configuration/add-remove-switch-calendar#add-a-new-calendar" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
             <div class="form-group fsc-b">
                 <label for="scAddCalendarName">{{localize 'FSC.Configuration.AddCalendar.CalendarName'}}</label>
                 <div class="form-fields">
                     <input value="" type="text" id="scAddCalendarName" />
                 </div>
                 <p class="notes">{{localize 'FSC.Configuration.AddCalendar.CalendarNameHelp'}}</p>
-                <button class="fsc-xb fsc-sc" id="scAddCalendar">{{localize 'FSC.Configuration.AddCalendar.Button'}}</button>
+                <button class="fsc-xb fsc-tc" id="scAddCalendar">{{localize 'FSC.Configuration.AddCalendar.Button'}}</button>
             </div>
         </div>
-        <div class="tab fsc-tc" data-tab="quickSetup">
-            <h2>{{localize 'FSC.Configuration.General.QuickSetup'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/quick-setup.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+        <div class="tab fsc-uc" data-tab="quickSetup">
+            <h2>{{localize 'FSC.Configuration.General.QuickSetup'}} <a href="https://simplecalendar.info/docs/calendar-configuration/quick-setup" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
             <p>{{localize 'FSC.Configuration.QuickSetup.Description'}}</p>
-            <div class="fsc-wh">
-                <div class="fsc-qf fsc-cd {{#if uiElementStates.qsNextClicked}} fsc-c{{else}} fsc-b{{/if}}">
+            <div class="fsc-xh">
+                <div class="fsc-rf fsc-dd {{#if uiElementStates.qsNextClicked}} fsc-c{{else}} fsc-b{{/if}}">
                     <div class="form-group fsc-b">
                         <label>{{localize 'FSC.Configuration.QuickSetup.ChoosePredefinedTitle'}}</label>
                         <p class="notes">{{localize 'FSC.Configuration.QuickSetup.ChoosePredefinedDescription'}}</p>
-                        <div class="fsc-uc">
+                        <div class="fsc-vc">
                             {{#each predefined}}
-                                <div class="fsc-vc {{#if (eq ../uiElementStates.selectedPredefinedCalendar key)}} fsc-x{{/if}}" data-calendar="{{key}}">
-                                    <div class="fsc-zh">
+                                <div class="fsc-wc {{#if (eq ../uiElementStates.selectedPredefinedCalendar key)}} fsc-x{{/if}}" data-calendar="{{key}}">
+                                    <div class="fsc-_h">
                                         {{localize label}}
-                                        <div class="fsc-_h">
+                                        <div class="fsc-ai">
                                             {{localize "FSC.Includes"}}:
                                             {{#if config}}
                                                 <span class="fa fa-calendar" data-tooltip="{{localize "FSC.CalendarConfiguration"}}"></span>
@@ -312,11 +319,11 @@
                         </div>
                         <p class="notes">{{localize 'FSC.Configuration.QuickSetup.ImportNotesDescription'}}</p>
                     </div>
-                    <div class="fsc-wc">
-                        <button class="fsc-xb fsc-yb fsc-xc" {{#unless uiElementStates.selectedPredefinedCalendar}}style="display: none;" {{/unless}}>{{localize 'FSC.Next'}}&nbsp;<span class="fa fa-arrow-right"></span></button>
+                    <div class="fsc-xc">
+                        <button class="fsc-xb fsc-yb fsc-yc" {{#unless uiElementStates.selectedPredefinedCalendar}}style="display: none;" {{/unless}}>{{localize 'FSC.Next'}}&nbsp;<span class="fa fa-arrow-right"></span></button>
                     </div>
                 </div>
-                <div class="fsc-qf fsc-dd {{#if uiElementStates.qsNextClicked}} fsc-b{{else}} fsc-c{{/if}}">
+                <div class="fsc-rf fsc-ed {{#if uiElementStates.qsNextClicked}} fsc-b{{else}} fsc-c{{/if}}">
                     <div class="form-group fsc-b">
                         <label>{{localize 'FSC.Configuration.QuickSetup.ChooseCurrentDateTitle'}}</label>
                         <div class="form-fields">
@@ -327,20 +334,20 @@
                     <div class="form-group fsc-b">
                         <label for="scQSShowClock">{{localize 'FSC.Configuration.General.ShowClock'}}</label>
                         <div class="form-fields">
-                            <input class="fsc-uh" value="{{generalSettings.showClock}}" type="checkbox" id="scQSShowClock" {{checked generalSettings.showClock}} />
+                            <input class="fsc-vh" value="{{generalSettings.showClock}}" type="checkbox" id="scQSShowClock" {{checked generalSettings.showClock}} />
                         </div>
                         <p class="notes">{{localize 'FSC.Configuration.General.ShowClockHelp'}}</p>
                     </div>
-                    <div class="fsc-wc">
-                        <button class="fsc-xb fsc-yb fsc-yc"><span class="fa fa-arrow-left"></span>&nbsp;{{localize 'FSC.Back'}}</button>
-                        <button class="fsc-xb fsc-sc fsc-zc"><span class="fa fa-save"></span>&nbsp;{{localize 'FSC.Save'}}</button>
+                    <div class="fsc-xc">
+                        <button class="fsc-xb fsc-yb fsc-zc"><span class="fa fa-arrow-left"></span>&nbsp;{{localize 'FSC.Back'}}</button>
+                        <button class="fsc-xb fsc-tc fsc-_c"><span class="fa fa-save"></span>&nbsp;{{localize 'FSC.Save'}}</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="tab fsc-ok" data-tab="generalSettings">
-            <h2>{{localize 'FSC.Configuration.General.Title'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/general-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+        <div class="tab fsc-pk" data-tab="generalSettings">
+            <h2>{{localize 'FSC.Configuration.General.Title'}} <a href="https://simplecalendar.info/docs/calendar-configuration/general-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
             <p>{{localize 'FSC.Configuration.General.Description'}}</p>
             <div class="settings-group fsc-b">
                 <div class="form-group fsc-b">
@@ -363,27 +370,27 @@
                     <div class="form-group fsc-b">
                         <label for="scPF2ESync">{{localize 'FSC.Configuration.General.PF2ESync'}}</label>
                         <div class="form-fields">
-                            <input class="fsc-uh" value="{{generalSettings.pf2eSync}}" type="checkbox" id="scPF2ESync" {{checked generalSettings.pf2eSync}} />
+                            <input class="fsc-vh" value="{{generalSettings.pf2eSync}}" type="checkbox" id="scPF2ESync" {{checked generalSettings.pf2eSync}} />
                         </div>
                         <p class="notes">{{localize 'FSC.Configuration.General.PF2ESyncHelp'}}</p>
                     </div>
                 {{/if}}
             </div>
         </div>
-        <div class="tab fsc-ye" data-tab="displayOptions">
+        <div class="tab fsc-ze" data-tab="displayOptions">
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Display.DateTimeFormat'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/display-options.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.Display.DateTimeFormat'}} <a href="https://simplecalendar.info/docs/calendar-configuration/display-options" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <p>{{{localize 'FSC.Configuration.Display.Description'}}}</p>
-                <div class="fsc-xh fsc-ze" style="border-top: 1px solid #7a7971;">
-                    <div class="fsc-ed fsc-hd fsc-ad" style="cursor: pointer;">
-                        <div class="fsc-yh">
+                <div class="fsc-yh fsc-_e" style="border-top: 1px solid #7a7971;">
+                    <div class="fsc-fd fsc-id fsc-bd" style="cursor: pointer;">
+                        <div class="fsc-zh">
                             <div>{{localize 'FSC.DateFormat.Title'}}</div>
                             <div style="flex: 1 1 100%;font-weight: normal;font-size: 0.75rem; margin-top: 0.5rem;">{{localize 'FSC.DateFormat.Description'}}</div>
                         </div>
                         <div class="fa {{#if showDateFormatTokens}}fa-chevron-up{{else}}fa-chevron-down{{/if}}" style="flex: 0 1 50px;"></div>
                     </div>
-                    <div class="fsc-_e" style="{{#unless showDateFormatTokens}}display: none;{{/unless}}">
-                        <div class="fsc-ed">
+                    <div class="fsc-af" style="{{#unless showDateFormatTokens}}display: none;{{/unless}}">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.YearOptions'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -421,7 +428,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="fsc-ed">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.MonthOptions'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -453,7 +460,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="fsc-ed">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.DayOptions'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -480,7 +487,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="fsc-ed">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.WeekdayOptions'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -512,7 +519,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="fsc-ed">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.HourOptions'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -554,7 +561,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="fsc-ed">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.MinuteOptions'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -576,7 +583,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="fsc-ed">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.SecondOptions'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -598,7 +605,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="fsc-ed">
+                        <div class="fsc-fd">
                             <div style="flex: 1 1 25%;text-align: center;"><strong>{{localize 'FSC.DateFormat.Text'}}</strong></div>
                             <div style="flex: 1 1 75%;">
                                 <table style="border-left: 1px solid #7a7971;">
@@ -623,7 +630,7 @@
                     <div class="form-fields">
                         <input value="{{generalSettings.dateFormat.date}}" id="scDateFormatsDate" type="text" />
                     </div>
-                    <div class="fsc-ue"><strong>{{localize 'FSC.Example'}}</strong>: {{uiElementStates.dateFormatExample}}</div>
+                    <div class="fsc-ve"><strong>{{localize 'FSC.Example'}}</strong>: {{uiElementStates.dateFormatExample}}</div>
                     <p class="notes">{{localize 'FSC.Configuration.General.Display.DateFormat.DateHelp'}}</p>
                 </div>
                 <div class="form-group fsc-b">
@@ -631,7 +638,7 @@
                     <div class="form-fields">
                         <input value="{{generalSettings.dateFormat.time}}" id="scDateFormatsTime" type="text" />
                     </div>
-                    <div class="fsc-ue"><strong>{{localize 'FSC.Example'}}</strong>: {{uiElementStates.timeFormatExample}}</div>
+                    <div class="fsc-ve"><strong>{{localize 'FSC.Example'}}</strong>: {{uiElementStates.timeFormatExample}}</div>
                     <p class="notes">{{localize 'FSC.Configuration.General.Display.DateFormat.TimeHelp'}}</p>
                 </div>
                 <div class="form-group fsc-b">
@@ -639,21 +646,29 @@
                     <div class="form-fields">
                         <input value="{{generalSettings.dateFormat.monthYear}}" id="scDateFormatsMonthYear" type="text" />
                     </div>
-                    <div class="fsc-ue"><strong>{{localize 'FSC.Example'}}</strong>: {{uiElementStates.monthYearFormatExample}}</div>
+                    <div class="fsc-ve"><strong>{{localize 'FSC.Example'}}</strong>: {{uiElementStates.monthYearFormatExample}}</div>
                     <p class="notes">{{localize 'FSC.Configuration.General.Display.DateFormat.MonthYearHelp'}}</p>
+                </div>
+                <div class="form-group fsc-b">
+                    <label for="scDateFormatsChatTime">{{localize 'FSC.Configuration.General.Display.DateFormat.ChatTime'}}</label>
+                    <div class="form-fields">
+                        <input value="{{generalSettings.dateFormat.chatTime}}" id="scDateFormatsChatTime" type="text" />
+                    </div>
+                    <div class="fsc-ve"><strong>{{localize 'FSC.Example'}}</strong>: {{uiElementStates.chatFormatExample}}</div>
+                    <p class="notes">{{localize 'FSC.Configuration.General.Display.DateFormat.ChatTimeHelp'}}</p>
                 </div>
             </div>
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Display.Compact'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/display-options.html#compact-view-options" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.Display.Compact'}} <a href="https://simplecalendar.info/docs/calendar-configuration/display-options#compact-view-options" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b">
                     <label>{{localize 'FSC.Configuration.Display.CompactControls.Title'}}</label>
                     <div class="form-fields">
-                        <label class="fsc-oi">
+                        <label class="fsc-pi">
                             <img src="/modules/foundryvtt-simple-calendar/assets/sc-v2-theme-dark-comp.png" alt="{{localize 'FSC.FullControls'}}" />
                             <input value="full" name="scCompactControlLayout" type="radio" {{#if (eq generalSettings.compactViewOptions.controlLayout 'full')}} checked{{/if}} />
                             {{localize 'FSC.FullControls'}}
                         </label>
-                        <label class="fsc-oi">
+                        <label class="fsc-pi">
                             <img src="/modules/foundryvtt-simple-calendar/assets/sc-v2-theme-dark-comp-qi.png" alt="{{localize 'FSC.QuickIncrement'}}" />
                             <input value="quick-increment" name="scCompactControlLayout" type="radio" {{#if (eq generalSettings.compactViewOptions.controlLayout 'quick-increment')}} checked{{/if}} />
                             {{localize 'FSC.QuickIncrement'}}
@@ -663,9 +678,9 @@
                 </div>
             </div>
         </div>
-        <div class="tab fsc-fd" data-tab="yearSettings">
+        <div class="tab fsc-gd" data-tab="yearSettings">
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Year.Title'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/year-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.Year.Title'}} <a href="https://simplecalendar.info/docs/calendar-configuration/year-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b">
                     <label for="scCurrentYear">{{localize 'FSC.Configuration.Year.Current'}}</label>
                     <div class="form-fields">
@@ -696,7 +711,7 @@
                 </div>
             </div>
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Year.YearNames'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/year-settings.html#year-names" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.Year.YearNames'}} <a href="https://simplecalendar.info/docs/calendar-configuration/year-settings#year-names" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b">
                     <label for="scYearNameBehaviour">{{localize 'FSC.Configuration.Year.YearNameBehaviour'}}</label>
                     <div class="form-fields">
@@ -713,109 +728,109 @@
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Year.YearNamesStartHelp'}}</p>
                 </div>
-                <div class="fsc-mj">
-                    <label id="fsc-id">{{localize 'FSC.Configuration.Month.NameHelp'}}</label>
+                <div class="fsc-nj">
+                    <label id="fsc-jd">{{localize 'FSC.Configuration.Month.NameHelp'}}</label>
                 </div>
-                <div class="fsc-xh fsc-gd">
-                    <div class="fsc-ed fsc-hd">
-                        <div data-tooltip="{{localize 'FSC.Configuration.Year.YearNameHelp'}}" class="fsc-yh">{{localize 'FSC.Configuration.Year.YearName'}}</div>
-                        <div class="fsc-yh"></div>
+                <div class="fsc-yh fsc-hd">
+                    <div class="fsc-fd fsc-id">
+                        <div data-tooltip="{{localize 'FSC.Configuration.Year.YearNameHelp'}}" class="fsc-zh">{{localize 'FSC.Configuration.Year.YearName'}}</div>
+                        <div class="fsc-zh"></div>
                     </div>
                     {{#each currentYear.yearNames}}
-                    <div class="fsc-ed" data-index="{{@index}}">
-                        <div class="fsc-yh">
-                            <label for="-yearName{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Month.Name'}}</label>
-                            <input id="-yearName{{@index}}" class="fsc-id" value="{{this}}" type="text" aria-describedby="fsc-id" />
+                    <div class="fsc-fd" data-index="{{@index}}">
+                        <div class="fsc-zh">
+                            <label for="-yearName{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Month.Name'}}</label>
+                            <input id="-yearName{{@index}}" class="fsc-jd" value="{{this}}" type="text" aria-describedby="fsc-jd" />
                         </div>
-                        <div class="fsc-yh">
-                            <button class="fsc-xb fsc-gc" data-type="year-name"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
+                        <div class="fsc-zh">
+                            <button class="fsc-xb fsc-hc" data-type="year-name"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
                         </div>
                     </div>
                     {{/each}}
                 </div>
-                <div class="fsc-bd">
-                    <button class="fsc-xb fsc-sc" data-type="year-name"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Year.YearNameAdd'}}</button>
-                    <span class="fsc-hh"></span>
-                    <button class="fsc-xb fsc-gc" data-type="year-name" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Year.YearNameRemove'}}</button>
+                <div class="fsc-cd">
+                    <button class="fsc-xb fsc-tc" data-type="year-name"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Year.YearNameAdd'}}</button>
+                    <span class="fsc-ih"></span>
+                    <button class="fsc-xb fsc-hc" data-type="year-name" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Year.YearNameRemove'}}</button>
                 </div>
             </div>
         </div>
-        <div class="tab fsc-jd" data-tab="monthSettings"  >
+        <div class="tab fsc-kd" data-tab="monthSettings"  >
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Months'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/month-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.Months'}} <a href="https://simplecalendar.info/docs/calendar-configuration/month-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <p>{{localize 'FSC.Configuration.Month.Description'}}</p>
-                <div class="fsc-mj">
-                    <label id="fsc-ld">{{localize 'FSC.Configuration.Month.NameHelp'}}</label>
-                    <label id="fsc-od">{{localize 'FSC.Configuration.Month.DaysHelp'}}</label>
-                    <label id="fsc-pd">{{localize 'FSC.Configuration.Month.IntercalaryHelp'}}</label>
+                <div class="fsc-nj">
+                    <label id="fsc-md">{{localize 'FSC.Configuration.Month.NameHelp'}}</label>
+                    <label id="fsc-pd">{{localize 'FSC.Configuration.Month.DaysHelp'}}</label>
+                    <label id="fsc-qd">{{localize 'FSC.Configuration.Month.IntercalaryHelp'}}</label>
                 </div>
-                <div class="fsc-xh fsc-kd">
-                    <div class="fsc-ed fsc-hd">
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Month.NameHelp'}}">{{localize 'FSC.Configuration.Month.Name'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Month.DaysHelp'}}">{{localize 'FSC.Configuration.Month.Days'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Month.IntercalaryHelp'}}">{{localize 'FSC.Configuration.Month.Intercalary'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Month.NumberHelp'}}">{{localize 'FSC.Configuration.Month.Number'}}</div>
-                        <div class="fsc-yh"></div>
-                        <div class="fsc-yh"></div>
+                <div class="fsc-yh fsc-ld">
+                    <div class="fsc-fd fsc-id">
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Month.NameHelp'}}">{{localize 'FSC.Configuration.Month.Name'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Month.DaysHelp'}}">{{localize 'FSC.Configuration.Month.Days'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Month.IntercalaryHelp'}}">{{localize 'FSC.Configuration.Month.Intercalary'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Month.NumberHelp'}}">{{localize 'FSC.Configuration.Month.Number'}}</div>
+                        <div class="fsc-zh"></div>
+                        <div class="fsc-zh"></div>
                     </div>
                     {{#each months}}
-                    <div class="fsc-ed" data-index="{{@index}}" data-type="month">
-                        <div class="fsc-yh">
-                            <label for="-monthName{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Month.Name'}}</label>
-                            <input id="-monthName{{@index}}" class="fsc-ld" value="{{name}}" type="text" aria-describedby="fsc-ld" />
+                    <div class="fsc-fd" data-index="{{@index}}" data-type="month">
+                        <div class="fsc-zh">
+                            <label for="-monthName{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Month.Name'}}</label>
+                            <input id="-monthName{{@index}}" class="fsc-md" value="{{name}}" type="text" aria-describedby="fsc-md" />
                         </div>
-                        <div class="fsc-yh">
-                            <label for="-monthDays{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Month.Days'}}</label>
-                            <input id="-monthDays{{@index}}" class="fsc-od" value="{{numberOfDays}}" type="number" aria-describedby="fsc-od" />
+                        <div class="fsc-zh">
+                            <label for="-monthDays{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Month.Days'}}</label>
+                            <input id="-monthDays{{@index}}" class="fsc-pd" value="{{numberOfDays}}" type="number" aria-describedby="fsc-pd" />
                         </div>
-                        <div class="fsc-yh">
-                            <label for="-monthIntercalary{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Month.Intercalary'}}</label>
-                            <input id="-monthIntercalary{{@index}}" class="fsc-pd" value="{{intercalary}}" type="checkbox" aria-describedby="fsc-pd" {{checked intercalary}} />
+                        <div class="fsc-zh">
+                            <label for="-monthIntercalary{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Month.Intercalary'}}</label>
+                            <input id="-monthIntercalary{{@index}}" class="fsc-qd" value="{{intercalary}}" type="checkbox" aria-describedby="fsc-qd" {{checked intercalary}} />
                         </div>
-                        <div class="fsc-yh fsc-ve">{{#if (gt numericRepresentation 0)}}{{numericRepresentation}}{{else}}IC{{/if}}</div>
-                        <div class="fsc-yh">
+                        <div class="fsc-zh fsc-we">{{#if (gt numericRepresentation 0)}}{{numericRepresentation}}{{else}}IC{{/if}}</div>
+                        <div class="fsc-zh">
                             {{#if showAdvanced}}
-                            <a class="fsc-_c" aria-expanded="true" aria-controls="-monthAdvanced{{@index}}"><i class="fa fa-chevron-up"></i><span>{{localize 'FSC.HideAdvanced'}}</span></a>
+                            <a class="fsc-ad" aria-expanded="true" aria-controls="-monthAdvanced{{@index}}"><i class="fa fa-chevron-up"></i><span>{{localize 'FSC.HideAdvanced'}}</span></a>
                             {{else}}
-                            <a class="fsc-_c" aria-expanded="false" aria-controls="-monthAdvanced{{@index}}"><i class="fa fa-chevron-down"></i><span>{{localize 'FSC.ShowAdvanced'}}</span></a>
+                            <a class="fsc-ad" aria-expanded="false" aria-controls="-monthAdvanced{{@index}}"><i class="fa fa-chevron-down"></i><span>{{localize 'FSC.ShowAdvanced'}}</span></a>
                             {{/if}}
                         </div>
-                        <div class="fsc-yh">
-                            <button class="fsc-xb fsc-gc" data-type="month"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
+                        <div class="fsc-zh">
+                            <button class="fsc-xb fsc-hc" data-type="month"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
                         </div>
-                        <div id="-monthAdvanced{{@index}}" class="fsc-xe {{#if showAdvanced }} fsc-b{{else}} fsc-c{{/if}}">
+                        <div id="-monthAdvanced{{@index}}" class="fsc-ye {{#if showAdvanced }} fsc-b{{else}} fsc-c{{/if}}">
                             <div class="form-group fsc-b">
                                 <label for="-ma{{@index}}">{{localize 'FSC.Configuration.Month.Abbreviation'}}</label>
                                 <div class="form-fields">
-                                    <input class="fsc-md" value="{{abbreviation}}" id="-ma{{@index}}" type="text" />
+                                    <input class="fsc-nd" value="{{abbreviation}}" id="-ma{{@index}}" type="text" />
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Month.AbbreviationHelp'}}</p>
                             </div>
                             <div class="form-group fsc-b">
                                 <label for="-md{{@index}}">{{localize 'FSC.Configuration.Month.DescriptionField'}}</label>
                                 <div class="form-fields">
-                                    <textarea id="-md{{@index}}" class="fsc-nd">{{description}}</textarea>
+                                    <textarea id="-md{{@index}}" class="fsc-od">{{description}}</textarea>
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Month.DescriptionHelp'}}</p>
                             </div>
                             <div class="form-group {{#unless intercalary}} fsc-c {{else}} fsc-b{{/unless}}">
                                 <label for="-scii{{@index}}">{{localize 'FSC.Configuration.Month.IntercalaryInclude'}}</label>
                                 <div class="form-fields">
-                                    <input class="fsc-qd" value="{{intercalaryInclude}}" id="-scii{{@index}}" type="checkbox" {{checked intercalaryInclude}} />
+                                    <input class="fsc-rd" value="{{intercalaryInclude}}" id="-scii{{@index}}" type="checkbox" {{checked intercalaryInclude}} />
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Month.IntercalaryIncludeHelp'}}</p>
                             </div>
                             <div class="form-group fsc-b">
                                 <label for="-mdo{{@index}}">{{localize 'FSC.Configuration.Month.DayOffset'}}</label>
                                 <div class="form-fields">
-                                    <input class="fsc-rd" value="{{numericRepresentationOffset}}" id="-mdo{{@index}}" type="number" />
+                                    <input class="fsc-sd" value="{{numericRepresentationOffset}}" id="-mdo{{@index}}" type="number" />
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Month.DayOffsetHelp'}}</p>
                             </div>
                             <div class="form-group fsc-b">
                                 <label for="-mswd{{@index}}">{{localize 'FSC.Configuration.Month.StartingWeekDay'}}</label>
                                 <div class="form-fields">
-                                    <select class="fsc-sd" id="-mswd{{@index}}">
+                                    <select class="fsc-td" id="-mswd{{@index}}">
                                         {{selectOptions ../monthStartingWeekdays selected=startingWeekday }}
                                     </select>
                                 </div>
@@ -825,27 +840,27 @@
                     </div>
                     {{/each}}
                 </div>
-                <div class="fsc-bd">
-                    <button class="fsc-xb fsc-sc" data-type="month"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Month.Add'}}</button>
-                    <span class="fsc-hh"></span>
-                    <button class="fsc-xb fsc-gc" data-type="month" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.RemoveAll'}}</button>
+                <div class="fsc-cd">
+                    <button class="fsc-xb fsc-tc" data-type="month"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Month.Add'}}</button>
+                    <span class="fsc-ih"></span>
+                    <button class="fsc-xb fsc-hc" data-type="month" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.RemoveAll'}}</button>
                 </div>
             </div>
         </div>
-        <div class="tab fsc-td" data-tab="weekdaySettings" >
+        <div class="tab fsc-ud" data-tab="weekdaySettings" >
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Weekday.Title'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/weekday-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.Weekday.Title'}} <a href="https://simplecalendar.info/docs/calendar-configuration/weekday-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b">
                     <label for="scShowWeekdayHeaders">{{localize 'FSC.Configuration.Weekday.ShowHeadings'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{currentYear.showWeekdayHeadings}}" type="checkbox" id="scShowWeekdayHeaders" {{checked currentYear.showWeekdayHeadings}} />
+                        <input class="fsc-vh" value="{{currentYear.showWeekdayHeadings}}" type="checkbox" id="scShowWeekdayHeaders" {{checked currentYear.showWeekdayHeadings}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Weekday.ShowHeadingsHelp'}}</p>
                 </div>
                 <div class="form-group fsc-b {{#if uiElementStates.disabledControls.pf2e}} fsc-tb{{/if}}">
                     <label for="scWeekdayFirstDay">{{localize 'FSC.Configuration.Weekday.FirstWeekDay'}} <span class="fa-solid fa-triangle-exclamation" data-tooltip="{{localize 'FSC.Configuration.General.PF2ESyncDisabledSettings'}}"></span></label>
                     <div class="form-fields">
-                        <select class="fsc-je" id="scWeekdayFirstDay" {{#if uiElementStates.disabledControls.pf2e}} disabled{{/if}}>
+                        <select class="fsc-ke" id="scWeekdayFirstDay" {{#if uiElementStates.disabledControls.pf2e}} disabled{{/if}}>
                             {{#each weekdays}}
                             <option value="{{@index}}" {{#if (eq @index ../currentYear.firstWeekday)}}selected="selected"{{/if}}>{{name}}</option>
                             {{/each}}
@@ -855,50 +870,50 @@
                 </div>
             </div>
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Weekdays'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/weekday-settings.html#weekdays" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
-                <div class="fsc-mj">
-                    <label id="fsc-ud">{{localize 'FSC.Configuration.Weekday.NameHelp'}}</label>
-                    <label id="fsc-vd">{{localize 'FSC.Configuration.Weekday.AbbreviationHelp'}}</label>
+                <h2>{{localize 'FSC.Configuration.Weekdays'}} <a href="https://simplecalendar.info/docs/calendar-configuration/weekday-settings#weekdays" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <div class="fsc-nj">
+                    <label id="fsc-vd">{{localize 'FSC.Configuration.Weekday.NameHelp'}}</label>
+                    <label id="fsc-wd">{{localize 'FSC.Configuration.Weekday.AbbreviationHelp'}}</label>
                 </div>
-                <div class="fsc-xh fsc-p">
-                    <div class="fsc-ed fsc-hd">
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Weekday.NameHelp'}}">{{localize 'FSC.Configuration.Weekday.Name'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Weekday.AbbreviationHelp'}}">{{localize 'FSC.Configuration.Weekday.Abbreviation'}}</div>
-                        <div class="fsc-yh"></div>
-                        <div class="fsc-yh"></div>
+                <div class="fsc-yh fsc-p">
+                    <div class="fsc-fd fsc-id">
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Weekday.NameHelp'}}">{{localize 'FSC.Configuration.Weekday.Name'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Weekday.AbbreviationHelp'}}">{{localize 'FSC.Configuration.Weekday.Abbreviation'}}</div>
+                        <div class="fsc-zh"></div>
+                        <div class="fsc-zh"></div>
                     </div>
                     {{#each weekdays}}
-                    <div class="fsc-ed" data-index="{{@index}}" data-type="weekday">
-                        <div class="fsc-yh">
-                            <label for="-weekdayName{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Weekday.Name'}}</label>
-                            <input id="-weekdayName{{@index}}" class="fsc-ud" value="{{name}}" type="text" aria-describedby="fsc-ud" />
+                    <div class="fsc-fd" data-index="{{@index}}" data-type="weekday">
+                        <div class="fsc-zh">
+                            <label for="-weekdayName{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Weekday.Name'}}</label>
+                            <input id="-weekdayName{{@index}}" class="fsc-vd" value="{{name}}" type="text" aria-describedby="fsc-vd" />
                         </div>
-                        <div class="fsc-yh">
-                            <label for="-weekdayAbbrv{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Weekday.Abbreviation'}}</label>
-                            <input id="-weekdayAbbrv{{@index}}" class="fsc-vd" value="{{abbreviation}}" type="text" aria-describedby="fsc-vd" />
+                        <div class="fsc-zh">
+                            <label for="-weekdayAbbrv{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Weekday.Abbreviation'}}</label>
+                            <input id="-weekdayAbbrv{{@index}}" class="fsc-wd" value="{{abbreviation}}" type="text" aria-describedby="fsc-wd" />
                         </div>
-                        <div class="fsc-yh">
+                        <div class="fsc-zh">
                             {{#if showAdvanced}}
-                                <a class="fsc-_c" aria-expanded="true" aria-controls="-weekdayAdvanced{{@index}}"><i class="fa fa-chevron-up"></i><span>{{localize 'FSC.HideAdvanced'}}</span></a>
+                                <a class="fsc-ad" aria-expanded="true" aria-controls="-weekdayAdvanced{{@index}}"><i class="fa fa-chevron-up"></i><span>{{localize 'FSC.HideAdvanced'}}</span></a>
                             {{else}}
-                                <a class="fsc-_c" aria-expanded="false" aria-controls="-weekdayAdvanced{{@index}}"><i class="fa fa-chevron-down"></i><span>{{localize 'FSC.ShowAdvanced'}}</span></a>
+                                <a class="fsc-ad" aria-expanded="false" aria-controls="-weekdayAdvanced{{@index}}"><i class="fa fa-chevron-down"></i><span>{{localize 'FSC.ShowAdvanced'}}</span></a>
                             {{/if}}
                         </div>
-                        <div class="fsc-yh">
-                            <button class="fsc-xb fsc-gc" data-type="weekday"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
+                        <div class="fsc-zh">
+                            <button class="fsc-xb fsc-hc" data-type="weekday"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
                         </div>
-                        <div id="-weekdayAdvanced{{@index}}" class="fsc-xe {{#if showAdvanced }} fsc-b{{else}} fsc-c{{/if}}">
+                        <div id="-weekdayAdvanced{{@index}}" class="fsc-ye {{#if showAdvanced }} fsc-b{{else}} fsc-c{{/if}}">
                             <div class="form-group fsc-b">
                                 <label for="-ww{{@index}}">{{localize 'FSC.Configuration.Weekday.Weekend'}}</label>
                                 <div class="form-fields">
-                                    <input id="-ww{{@index}}" class="fsc-xd" type="checkbox" {{checked restday}} />
+                                    <input id="-ww{{@index}}" class="fsc-yd" type="checkbox" {{checked restday}} />
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Weekday.WeekendHelp'}}</p>
                             </div>
                             <div class="form-group fsc-b">
                                 <label for="-wd{{@index}}">{{localize 'FSC.Configuration.Weekday.DescriptionField'}}</label>
                                 <div class="form-fields">
-                                    <textarea id="-wd{{@index}}" class="fsc-wd">{{description}}</textarea>
+                                    <textarea id="-wd{{@index}}" class="fsc-xd">{{description}}</textarea>
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Weekday.DescriptionHelp'}}</p>
                             </div>
@@ -906,16 +921,16 @@
                     </div>
                     {{/each}}
                 </div>
-                <div class="fsc-bd">
-                    <button class="fsc-xb fsc-sc" data-type="weekday"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Weekday.Add'}}</button>
-                    <span class="fsc-hh"></span>
-                    <button class="fsc-xb fsc-gc" data-type="weekday" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Weekday.RemoveAll'}}</button>
+                <div class="fsc-cd">
+                    <button class="fsc-xb fsc-tc" data-type="weekday"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Weekday.Add'}}</button>
+                    <span class="fsc-ih"></span>
+                    <button class="fsc-xb fsc-hc" data-type="weekday" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Weekday.RemoveAll'}}</button>
                 </div>
             </div>
         </div>
-        <div class="tab fsc-yd" data-tab="leapYearSettings">
+        <div class="tab fsc-zd" data-tab="leapYearSettings">
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.LeapYear.Title'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/leap-year-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.LeapYear.Title'}} <a href="https://simplecalendar.info/docs/calendar-configuration/leap-year-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b {{#if uiElementStates.disabledControls.pf2e}} fsc-tb{{/if}}">
                     <label for="scLeapYearRule">{{localize 'FSC.Configuration.LeapYear.Rule'}} <span class="fa-solid fa-triangle-exclamation" data-tooltip="{{localize 'FSC.Configuration.General.PF2ESyncDisabledSettings'}}"></span></label>
                     <div class="form-fields">
@@ -933,92 +948,92 @@
                     <p class="notes">{{localize 'FSC.Configuration.LeapYear.CustomModHelp'}}</p>
                 </div>
             </div>
-            <div class="fsc-vh {{#if showLeapYearMonths}} fsc-b{{else}} fsc-c{{/if}}" id="scLeapYearMonthList">
-                <h2>{{localize 'FSC.Configuration.Months'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/leap-year-settings.html#months" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
-                <div class="fsc-mj">
-                    <label id="fsc-pk">{{localize 'FSC.Configuration.LeapYear.DaysHelp'}}</label>
+            <div class="fsc-wh {{#if showLeapYearMonths}} fsc-b{{else}} fsc-c{{/if}}" id="scLeapYearMonthList">
+                <h2>{{localize 'FSC.Configuration.Months'}} <a href="https://simplecalendar.info/docs/calendar-configuration/leap-year-settings#months" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <div class="fsc-nj">
+                    <label id="fsc-qk">{{localize 'FSC.Configuration.LeapYear.DaysHelp'}}</label>
                 </div>
-                <div class="fsc-xh fsc-kd">
-                    <div class="fsc-ed fsc-hd">
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Month.NameHelp'}}">{{localize 'FSC.Configuration.Month.Name'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.LeapYear.DaysHelp'}}">{{localize 'FSC.Configuration.LeapYear.Days'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Month.NumberHelp'}}">{{localize 'FSC.Configuration.Month.Number'}}</div>
+                <div class="fsc-yh fsc-ld">
+                    <div class="fsc-fd fsc-id">
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Month.NameHelp'}}">{{localize 'FSC.Configuration.Month.Name'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.LeapYear.DaysHelp'}}">{{localize 'FSC.Configuration.LeapYear.Days'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Month.NumberHelp'}}">{{localize 'FSC.Configuration.Month.Number'}}</div>
                     </div>
                     {{#each months}}
-                        <div class="fsc-ed" data-index="{{@index}}">
-                            <div class="fsc-yh">{{name}}</div>
-                            <div class="fsc-yh">
-                                <label for="-monthLeapDays{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.LeapYear.Days'}}</label>
-                                <input id="-monthLeapDays{{@index}}" class="fsc-zd" value="{{numberOfLeapYearDays}}" type="number" aria-describedby="fsc-pk" />
+                        <div class="fsc-fd" data-index="{{@index}}">
+                            <div class="fsc-zh">{{name}}</div>
+                            <div class="fsc-zh">
+                                <label for="-monthLeapDays{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.LeapYear.Days'}}</label>
+                                <input id="-monthLeapDays{{@index}}" class="fsc-_d" value="{{numberOfLeapYearDays}}" type="number" aria-describedby="fsc-qk" />
                             </div>
-                            <div class="fsc-yh">{{#if numericRepresentation}}{{numericRepresentation}}{{else}}IC{{/if}}</div>
+                            <div class="fsc-zh">{{#if numericRepresentation}}{{numericRepresentation}}{{else}}IC{{/if}}</div>
                         </div>
                     {{/each}}
                 </div>
             </div>
         </div>
-        <div class="tab fsc-_d" data-tab="seasonSettings">
+        <div class="tab fsc-ae" data-tab="seasonSettings">
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Season.Title'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/season-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <h2>{{localize 'FSC.Configuration.Season.Title'}} <a href="https://simplecalendar.info/docs/calendar-configuration/season-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <datalist id="scSeasonColors">
                     {{#each seasonColors}}
                         <option value="{{value}}">{{display}}</option>
                     {{/each}}
                 </datalist>
-                <div class="fsc-mj">
+                <div class="fsc-nj">
                     <label id="fsc-o">{{localize 'FSC.Configuration.Season.NameHelp'}}</label>
-                    <label id="fsc-qk">{{localize 'FSC.Configuration.Season.StartingDateHelp'}}</label>
-                    <label id="fsc-rk">{{localize 'FSC.Configuration.Season.SunriseSunsetHelp'}}</label>
-                    <label id="fsc-be">{{localize 'FSC.Configuration.Season.IconHelp'}}</label>
-                    <label id="fsc-ce">{{localize 'FSC.Configuration.Season.ColorHelp'}}</label>
+                    <label id="fsc-rk">{{localize 'FSC.Configuration.Season.StartingDateHelp'}}</label>
+                    <label id="fsc-sk">{{localize 'FSC.Configuration.Season.SunriseSunsetHelp'}}</label>
+                    <label id="fsc-ce">{{localize 'FSC.Configuration.Season.IconHelp'}}</label>
+                    <label id="fsc-de">{{localize 'FSC.Configuration.Season.ColorHelp'}}</label>
                 </div>
-                <div class="fsc-xh fsc-ae">
-                    <div class="fsc-ed fsc-hd">
-                        <div data-tooltip="{{localize 'FSC.Configuration.Season.NameHelp'}}" class="fsc-yh">{{localize 'FSC.Configuration.Season.Name'}}</div>
-                        <div data-tooltip="{{localize 'FSC.Configuration.Season.StartingDateHelp'}}" class="fsc-yh">{{localize 'FSC.Configuration.Season.StartingDate'}}</div>
-                        <div data-tooltip="{{localize 'FSC.Configuration.Season.SunriseSunsetHelp'}}" class="fsc-yh">{{localize 'FSC.Configuration.Season.SunriseSunset'}}</div>
-                        <div data-tooltip="{{localize 'FSC.Configuration.Season.IconHelp'}}" class="fsc-yh">{{localize 'FSC.Configuration.Season.Icon'}}</div>
-                        <div data-tooltip="{{localize 'FSC.Configuration.Season.ColorHelp'}}" class="fsc-yh">{{localize 'FSC.Configuration.Season.Color'}}</div>
-                        <div class="fsc-yh"></div>
-                        <div class="fsc-yh"></div>
+                <div class="fsc-yh fsc-be">
+                    <div class="fsc-fd fsc-id">
+                        <div data-tooltip="{{localize 'FSC.Configuration.Season.NameHelp'}}" class="fsc-zh">{{localize 'FSC.Configuration.Season.Name'}}</div>
+                        <div data-tooltip="{{localize 'FSC.Configuration.Season.StartingDateHelp'}}" class="fsc-zh">{{localize 'FSC.Configuration.Season.StartingDate'}}</div>
+                        <div data-tooltip="{{localize 'FSC.Configuration.Season.SunriseSunsetHelp'}}" class="fsc-zh">{{localize 'FSC.Configuration.Season.SunriseSunset'}}</div>
+                        <div data-tooltip="{{localize 'FSC.Configuration.Season.IconHelp'}}" class="fsc-zh">{{localize 'FSC.Configuration.Season.Icon'}}</div>
+                        <div data-tooltip="{{localize 'FSC.Configuration.Season.ColorHelp'}}" class="fsc-zh">{{localize 'FSC.Configuration.Season.Color'}}</div>
+                        <div class="fsc-zh"></div>
+                        <div class="fsc-zh"></div>
                     </div>
                     {{#each seasons}}
-                        <div class="fsc-ed" data-index="{{@index}}" data-type="season">
-                            <div class="fsc-yh">
-                                <label for="-seasonName{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Season.Name'}}</label>
+                        <div class="fsc-fd" data-index="{{@index}}" data-type="season">
+                            <div class="fsc-zh">
+                                <label for="-seasonName{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Season.Name'}}</label>
                                 <input id="-seasonName{{@index}}" class="fsc-o" value="{{name}}" type="text" aria-describedby="fsc-o" />
                             </div>
-                            <div class="fsc-yh">
+                            <div class="fsc-zh">
                                 {{sc-date-selector id=startDateSelectorId calendar=../activeCalendarId showDateSelector=true showTimeSelector=false showCalendarYear=false useCloneCalendars=true selectedStartDate=startDateSelectedDate }}
                             </div>
-                            <div class="fsc-yh">
+                            <div class="fsc-zh">
                                 {{sc-date-selector id=sunriseSelectorId calendar=../activeCalendarId showDateSelector=false showTimeSelector=true allowDateRangeSelection=false allowTimeRangeSelection=true timeDelimiter='/' useCloneCalendars=true selectedStartDate=sunriseSelectorSelectedDates.start selectedEndDate=sunriseSelectorSelectedDates.end}}
                             </div>
-                            <div class="fsc-yh">
-                                <label for="-seasonIcon{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Season.Icon'}}</label>
-                                <select id="-seasonIcon{{@index}}" class="fsc-be" aria-describedby="fsc-be">
+                            <div class="fsc-zh">
+                                <label for="-seasonIcon{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Season.Icon'}}</label>
+                                <select id="-seasonIcon{{@index}}" class="fsc-ce" aria-describedby="fsc-ce">
                                     {{selectOptions ../seasonIcons selected=icon }}
                                 </select>
                             </div>
-                            <div class="fsc-yh">
-                                <label for="-seasonColor{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Season.Color'}}</label>
-                                <input id="-seasonColor{{@index}}" type="color" value="{{color}}" class="fsc-ce" aria-describedby="fsc-ce" list="scSeasonColors" />
+                            <div class="fsc-zh">
+                                <label for="-seasonColor{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Season.Color'}}</label>
+                                <input id="-seasonColor{{@index}}" type="color" value="{{color}}" class="fsc-de" aria-describedby="fsc-de" list="scSeasonColors" />
                             </div>
-                            <div class="fsc-yh">
+                            <div class="fsc-zh">
                                 {{#if showAdvanced}}
-                                    <a class="fsc-_c" aria-expanded="true" aria-controls="-seasonAdvanced{{@index}}"><i class="fa fa-chevron-up"></i><span>{{localize 'FSC.HideAdvanced'}}</span></a>
+                                    <a class="fsc-ad" aria-expanded="true" aria-controls="-seasonAdvanced{{@index}}"><i class="fa fa-chevron-up"></i><span>{{localize 'FSC.HideAdvanced'}}</span></a>
                                 {{else}}
-                                    <a class="fsc-_c" aria-expanded="false" aria-controls="-seasonAdvanced{{@index}}"><i class="fa fa-chevron-down"></i><span>{{localize 'FSC.ShowAdvanced'}}</span></a>
+                                    <a class="fsc-ad" aria-expanded="false" aria-controls="-seasonAdvanced{{@index}}"><i class="fa fa-chevron-down"></i><span>{{localize 'FSC.ShowAdvanced'}}</span></a>
                                 {{/if}}
                             </div>
-                            <div class="fsc-yh">
-                                <button class="fsc-xb fsc-gc" data-type="season"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
+                            <div class="fsc-zh">
+                                <button class="fsc-xb fsc-hc" data-type="season"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
                             </div>
-                            <div id="-seasonAdvanced{{@index}}" class="fsc-xe {{#if showAdvanced }} fsc-b{{else}} fsc-c{{/if}}">
+                            <div id="-seasonAdvanced{{@index}}" class="fsc-ye {{#if showAdvanced }} fsc-b{{else}} fsc-c{{/if}}">
                                 <div class="form-group fsc-b">
                                     <label for="-sd{{@index}}">{{localize 'FSC.Configuration.Season.DescriptionField'}}</label>
                                     <div class="form-fields">
-                                        <textarea id="-sd{{@index}}" class="fsc-de">{{description}}</textarea>
+                                        <textarea id="-sd{{@index}}" class="fsc-ee">{{description}}</textarea>
                                     </div>
                                     <p class="notes">{{localize 'FSC.Configuration.Season.DescriptionHelp'}}</p>
                                 </div>
@@ -1026,57 +1041,57 @@
                         </div>
                     {{/each}}
                 </div>
-                <div class="fsc-bd">
-                    <button class="fsc-xb fsc-sc" data-type="season"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Season.Add'}}</button>
-                    <span class="fsc-hh"></span>
-                    <button class="fsc-xb fsc-gc" data-type="season" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Season.RemoveAll'}}</button>
+                <div class="fsc-cd">
+                    <button class="fsc-xb fsc-tc" data-type="season"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Season.Add'}}</button>
+                    <span class="fsc-ih"></span>
+                    <button class="fsc-xb fsc-hc" data-type="season" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Season.RemoveAll'}}</button>
                 </div>
             </div>
         </div>
-        <div class="tab fsc-ee" data-tab="moonSettings">
+        <div class="tab fsc-fe" data-tab="moonSettings">
             <div class="settings-group fsc-b">
-                <h2>{{localize 'FSC.Configuration.Moons'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/moon-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
-                <div class="fsc-mj">
-                    <label id="fsc-fe">{{localize 'FSC.Configuration.Moon.NameHelp'}}</label>
-                    <label id="fsc-sk">{{localize 'FSC.Configuration.Moon.CycleLengthHelp'}}</label>
-                    <label id="fsc-tk">{{localize 'FSC.Configuration.Moon.CycleAdjustmentHelp'}}</label>
-                    <label id="fsc-ie">{{localize 'FSC.Configuration.Moon.ColorHelp'}}</label>
+                <h2>{{localize 'FSC.Configuration.Moons'}} <a href="https://simplecalendar.info/docs/calendar-configuration/moon-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <div class="fsc-nj">
+                    <label id="fsc-ge">{{localize 'FSC.Configuration.Moon.NameHelp'}}</label>
+                    <label id="fsc-tk">{{localize 'FSC.Configuration.Moon.CycleLengthHelp'}}</label>
+                    <label id="fsc-uk">{{localize 'FSC.Configuration.Moon.CycleAdjustmentHelp'}}</label>
+                    <label id="fsc-je">{{localize 'FSC.Configuration.Moon.ColorHelp'}}</label>
                 </div>
-                <div class="fsc-xh fsc-ca">
-                    <div class="fsc-ed fsc-hd">
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.NameHelp'}}">{{localize 'FSC.Configuration.Moon.Name'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.CycleLengthHelp'}}" >{{localize 'FSC.Configuration.Moon.CycleLength'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.CycleAdjustmentHelp'}}" >{{localize 'FSC.Configuration.Moon.CycleAdjustment'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.ColorHelp'}}" >{{localize 'FSC.Configuration.Moon.Color'}}</div>
-                        <div class="fsc-yh"></div>
+                <div class="fsc-yh fsc-ca">
+                    <div class="fsc-fd fsc-id">
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.NameHelp'}}">{{localize 'FSC.Configuration.Moon.Name'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.CycleLengthHelp'}}" >{{localize 'FSC.Configuration.Moon.CycleLength'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.CycleAdjustmentHelp'}}" >{{localize 'FSC.Configuration.Moon.CycleAdjustment'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.ColorHelp'}}" >{{localize 'FSC.Configuration.Moon.Color'}}</div>
+                        <div class="fsc-zh"></div>
                     </div>
                     {{#each moons}}
-                    <div class="fsc-ed" data-index="{{@index}}">
-                        <div class="fsc-yh">
-                            <label for="-moonName{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Moon.Name'}}</label>
-                            <input id="-moonName{{@index}}" class="fsc-fe" value="{{name}}" type="text" aria-describedby="fsc-fe" />
+                    <div class="fsc-fd" data-index="{{@index}}">
+                        <div class="fsc-zh">
+                            <label for="-moonName{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Moon.Name'}}</label>
+                            <input id="-moonName{{@index}}" class="fsc-ge" value="{{name}}" type="text" aria-describedby="fsc-ge" />
                         </div>
-                        <div class="fsc-yh">
-                            <label for="-moonCycle{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Moon.CycleLength'}}</label>
-                            <input id="-moonCycle{{@index}}" class="fsc-ge" value="{{cycleLength}}" type="number" aria-describedby="fsc-sk" />
+                        <div class="fsc-zh">
+                            <label for="-moonCycle{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Moon.CycleLength'}}</label>
+                            <input id="-moonCycle{{@index}}" class="fsc-he" value="{{cycleLength}}" type="number" aria-describedby="fsc-tk" />
                         </div>
-                        <div class="fsc-yh">
-                            <label for="-moonCycleAdjust{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Moon.CycleAdjustment'}}</label>
-                            <input id="-moonCycleAdjust{{@index}}" class="fsc-he" value="{{cycleDayAdjust}}" type="number" aria-describedby="fsc-tk" />
+                        <div class="fsc-zh">
+                            <label for="-moonCycleAdjust{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Moon.CycleAdjustment'}}</label>
+                            <input id="-moonCycleAdjust{{@index}}" class="fsc-ie" value="{{cycleDayAdjust}}" type="number" aria-describedby="fsc-uk" />
                         </div>
-                        <div class="fsc-yh">
-                            <label for="-moonColor{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Moon.Color'}}</label>
-                            <input id="-moonColor{{@index}}" class="fsc-ie" value="{{color}}" type="color" aria-describedby="fsc-ie" />
+                        <div class="fsc-zh">
+                            <label for="-moonColor{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Moon.Color'}}</label>
+                            <input id="-moonColor{{@index}}" class="fsc-je" value="{{color}}" type="color" aria-describedby="fsc-je" />
                         </div>
-                        <div class="fsc-yh">
-                            <button class="fsc-xb fsc-gc" data-type="moon"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
+                        <div class="fsc-zh">
+                            <button class="fsc-xb fsc-hc" data-type="moon"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
                         </div>
-                        <div class="fsc-xe fsc-b">
+                        <div class="fsc-ye fsc-b">
                             <h3>{{localize 'FSC.Configuration.Moon.FirstNewMoon'}}</h3>
                             <div class="form-group fsc-b">
                                 <label for="-fnmyr{{@index}}">{{localize 'FSC.Configuration.Moon.YearReset'}}</label>
                                 <div class="form-fields">
-                                    <select class="fsc-je" id="-fnmyr{{@index}}">
+                                    <select class="fsc-ke" id="-fnmyr{{@index}}">
                                         {{selectOptions ../moonYearReset selected=firstNewMoon.yearReset localize=true}}
                                     </select>
                                 </div>
@@ -1085,14 +1100,14 @@
                             <div class="form-group {{#unless (eq firstNewMoon.yearReset 'none')}} fsc-c{{else}} fsc-b{{/unless}}">
                                 <label for="-fnmy{{@index}}">{{localize 'FSC.Configuration.Moon.Year'}}</label>
                                 <div class="form-fields">
-                                    <input class="fsc-ke" value="{{firstNewMoon.year}}" type="number" id="-fnmy{{@index}}" />
+                                    <input class="fsc-le" value="{{firstNewMoon.year}}" type="number" id="-fnmy{{@index}}" />
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Moon.YearHelp'}}</p>
                             </div>
                             <div class="form-group {{#unless (eq firstNewMoon.yearReset 'x-years')}} fsc-c{{else}} fsc-b{{/unless}}">
                                 <label for="-fnmyrx{{@index}}">{{localize 'FSC.Configuration.Moon.YearX'}}</label>
                                 <div class="form-fields">
-                                    <input class="fsc-le" value="{{firstNewMoon.yearX}}" type="number" id="-fnmyrx{{@index}}" />
+                                    <input class="fsc-me" value="{{firstNewMoon.yearX}}" type="number" id="-fnmyrx{{@index}}" />
                                 </div>
                                 <p class="notes">{{localize 'FSC.Configuration.Moon.YearXHelp'}}</p>
                             </div>
@@ -1104,61 +1119,61 @@
                                 <p class="notes">{{localize 'FSC.Configuration.Moon.MonthHelp'}}</p>
                             </div>
                             <h3>{{localize 'FSC.Configuration.Moon.Phases'}}</h3>
-                            <div class="fsc-mj">
-                                <label id="fsc-ne{{@index}}">{{localize 'FSC.Configuration.Moon.PhaseNameHelp'}}</label>
-                                <label id="fsc-uk{{@index}}">{{localize 'FSC.Configuration.Moon.PhaseSingleDayHelp'}}</label>
-                                <label id="fsc-pe{{@index}}">{{localize 'FSC.Configuration.Moon.PhaseIconHelp'}}</label>
+                            <div class="fsc-nj">
+                                <label id="fsc-oe{{@index}}">{{localize 'FSC.Configuration.Moon.PhaseNameHelp'}}</label>
+                                <label id="fsc-vk{{@index}}">{{localize 'FSC.Configuration.Moon.PhaseSingleDayHelp'}}</label>
+                                <label id="fsc-qe{{@index}}">{{localize 'FSC.Configuration.Moon.PhaseIconHelp'}}</label>
                             </div>
-                            <div class="fsc-xh fsc-me">
-                                <div class="fsc-ed fsc-hd">
-                                    <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseNameHelp'}}" >{{localize 'FSC.Configuration.Moon.PhaseName'}}</div>
-                                    <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseLengthHelp'}}">{{localize 'FSC.Configuration.Moon.PhaseLength'}}</div>
-                                    <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseSingleDayHelp'}}">{{localize 'FSC.Configuration.Moon.PhaseSingleDay'}}</div>
-                                    <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseIconHelp'}}">{{localize 'FSC.Configuration.Moon.PhaseIcon'}}</div>
-                                    <div class="fsc-yh"></div>
+                            <div class="fsc-yh fsc-ne">
+                                <div class="fsc-fd fsc-id">
+                                    <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseNameHelp'}}" >{{localize 'FSC.Configuration.Moon.PhaseName'}}</div>
+                                    <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseLengthHelp'}}">{{localize 'FSC.Configuration.Moon.PhaseLength'}}</div>
+                                    <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseSingleDayHelp'}}">{{localize 'FSC.Configuration.Moon.PhaseSingleDay'}}</div>
+                                    <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.Moon.PhaseIconHelp'}}">{{localize 'FSC.Configuration.Moon.PhaseIcon'}}</div>
+                                    <div class="fsc-zh"></div>
                                 </div>
                                 {{#each phases}}
-                                <div class="fsc-ed" data-index="{{@index}}">
-                                    <div class="fsc-yh">
-                                        <label for="-moonPhaseName{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Moon.PhaseName'}}</label>
-                                        <input id="-moonPhaseName{{@index}}" class="fsc-ne" value="{{name}}" type="text" data-moon-index="{{@../index}}" aria-describedby="fsc-ne{{@../index}}" />
+                                <div class="fsc-fd" data-index="{{@index}}">
+                                    <div class="fsc-zh">
+                                        <label for="-moonPhaseName{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Moon.PhaseName'}}</label>
+                                        <input id="-moonPhaseName{{@index}}" class="fsc-oe" value="{{name}}" type="text" data-moon-index="{{@../index}}" aria-describedby="fsc-oe{{@../index}}" />
                                     </div>
-                                    <div class="fsc-yh fsc-we">{{length}} {{localize 'FSC.Days'}}</div>
-                                    <div class="fsc-yh">
-                                        <label for="-moonPhaseSingle{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Moon.PhaseSingleDay'}}</label>
-                                        <input id="-moonPhaseSingle{{@index}}" class="fsc-oe" value="{{singleDay}}" type="checkbox" data-moon-index="{{@../index}}" aria-describedby="fsc-uk{{@../index}}" {{checked singleDay}} />
+                                    <div class="fsc-zh fsc-xe">{{length}} {{localize 'FSC.Days'}}</div>
+                                    <div class="fsc-zh">
+                                        <label for="-moonPhaseSingle{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Moon.PhaseSingleDay'}}</label>
+                                        <input id="-moonPhaseSingle{{@index}}" class="fsc-pe" value="{{singleDay}}" type="checkbox" data-moon-index="{{@../index}}" aria-describedby="fsc-vk{{@../index}}" {{checked singleDay}} />
                                     </div>
-                                    <div class="fsc-yh">
-                                        <label for="-moonPhaseIcon{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.Moon.PhaseIcon'}}</label>
-                                        <select id="-moonPhaseIcon{{@index}}" class="fsc-pe" data-moon-index="{{@../index}}" aria-describedby="fsc-pe{{@../index}}">
+                                    <div class="fsc-zh">
+                                        <label for="-moonPhaseIcon{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.Moon.PhaseIcon'}}</label>
+                                        <select id="-moonPhaseIcon{{@index}}" class="fsc-qe" data-moon-index="{{@../index}}" aria-describedby="fsc-qe{{@../index}}">
                                             {{selectOptions ../../moonIcons selected=icon localize=true}}
                                         </select>
                                     </div>
-                                    <div class="fsc-yh">
-                                        <button class="fsc-xb fsc-gc" data-type="moon-phase" data-moon-index="{{@../index}}"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
+                                    <div class="fsc-zh">
+                                        <button class="fsc-xb fsc-hc" data-type="moon-phase" data-moon-index="{{@../index}}"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
                                     </div>
                                 </div>
                                 {{/each}}
                             </div>
-                            <div class="fsc-bd">
-                                <button class="fsc-xb fsc-sc" data-type="moon-phase" data-moon-index="{{@index}}"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Moon.PhaseAdd'}}</button>
-                                <span class="fsc-hh"></span>
-                                <button class="fsc-xb fsc-gc" data-type="moon-phase" data-moon-index="{{@index}}" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Moon.PhaseRemoveAll'}}</button>
+                            <div class="fsc-cd">
+                                <button class="fsc-xb fsc-tc" data-type="moon-phase" data-moon-index="{{@index}}"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Moon.PhaseAdd'}}</button>
+                                <span class="fsc-ih"></span>
+                                <button class="fsc-xb fsc-hc" data-type="moon-phase" data-moon-index="{{@index}}" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Moon.PhaseRemoveAll'}}</button>
                             </div>
                         </div>
                     </div>
                     {{/each}}
                 </div>
-                <div class="fsc-bd">
-                    <button class="fsc-xb fsc-sc" data-type="moon"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Moon.Add'}}</button>
-                    <span class="fsc-hh"></span>
-                    <button class="fsc-xb fsc-gc" data-type="moon" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Moon.RemoveAll'}}</button>
+                <div class="fsc-cd">
+                    <button class="fsc-xb fsc-tc" data-type="moon"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.Moon.Add'}}</button>
+                    <span class="fsc-ih"></span>
+                    <button class="fsc-xb fsc-hc" data-type="moon" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Moon.RemoveAll'}}</button>
                 </div>
             </div>
         </div>
-        <div class="tab fsc-vk" data-tab="timeSettings">
-            <div class="fsc-qf fsc-b">
-                <h2>{{localize 'FSC.Configuration.Time.Title'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/time-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+        <div class="tab fsc-wk" data-tab="timeSettings">
+            <div class="fsc-rf fsc-b">
+                <h2>{{localize 'FSC.Configuration.Time.Title'}} <a href="https://simplecalendar.info/docs/calendar-configuration/time-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b">
                     <label for="scHoursInDay">{{localize 'FSC.Configuration.Time.HoursInDay'}}</label>
                     <div class="form-fields">
@@ -1181,12 +1196,12 @@
                     <p class="notes">{{localize 'FSC.Configuration.Time.SecondsInMinuteHelp'}}</p>
                 </div>
             </div>
-            <div class="fsc-qf fsc-b">
-                <h2>{{localize 'FSC.Configuration.Time.ClockSettings'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/time-settings.html#clock-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+            <div class="fsc-rf fsc-b">
+                <h2>{{localize 'FSC.Configuration.Time.ClockSettings'}} <a href="https://simplecalendar.info/docs/calendar-configuration/time-settings#clock-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b">
                     <label for="scShowClock">{{localize 'FSC.Configuration.General.ShowClock'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{generalSettings.showClock}}" type="checkbox" id="scShowClock" {{checked generalSettings.showClock}} />
+                        <input class="fsc-vh" value="{{generalSettings.showClock}}" type="checkbox" id="scShowClock" {{checked generalSettings.showClock}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.General.ShowClockHelp'}}</p>
                 </div>
@@ -1207,74 +1222,74 @@
                 <div class="form-group fsc-b">
                     <label for="scUnifyClockWithFoundryPause">{{localize 'FSC.Configuration.Time.UnifyGameAndClock'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{time.unifyGameAndClockPause}}" type="checkbox" id="scUnifyClockWithFoundryPause" {{checked time.unifyGameAndClockPause}} />
+                        <input class="fsc-vh" value="{{time.unifyGameAndClockPause}}" type="checkbox" id="scUnifyClockWithFoundryPause" {{checked time.unifyGameAndClockPause}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Time.UnifyGameAndClockHelp'}}</p>
                 </div>
             </div>
         </div>
-        <div class="tab fsc-qe" data-tab="noteSettings">
-            <div class="fsc-vh fsc-b">
-                <h2>{{localize 'FSC.Configuration.Notes.Title'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/note-settings.html" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+        <div class="tab fsc-re" data-tab="noteSettings">
+            <div class="fsc-wh fsc-b">
+                <h2>{{localize 'FSC.Configuration.Notes.Title'}} <a href="https://simplecalendar.info/docs/calendar-configuration/note-settings" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
                 <div class="form-group fsc-b">
                     <label for="scDefaultPlayerVisibility">{{localize 'FSC.Configuration.DefaultNoteVisibility'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{generalSettings.noteDefaultVisibility}}" type="checkbox" id="scDefaultPlayerVisibility" {{checked generalSettings.noteDefaultVisibility}} />
+                        <input class="fsc-vh" value="{{generalSettings.noteDefaultVisibility}}" type="checkbox" id="scDefaultPlayerVisibility" {{checked generalSettings.noteDefaultVisibility}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.DefaultNoteVisibilityHint'}}</p>
                 </div>
                 <div class="form-group fsc-b">
                     <label for="scPostNoteRemindersOnFoundryLoad">{{localize 'FSC.Configuration.Notes.PostNoteRemindersOnFoundryLoadTitle'}}</label>
                     <div class="form-fields">
-                        <input class="fsc-uh" value="{{generalSettings.postNoteRemindersOnFoundryLoad}}" type="checkbox" id="scPostNoteRemindersOnFoundryLoad" {{checked generalSettings.postNoteRemindersOnFoundryLoad}} />
+                        <input class="fsc-vh" value="{{generalSettings.postNoteRemindersOnFoundryLoad}}" type="checkbox" id="scPostNoteRemindersOnFoundryLoad" {{checked generalSettings.postNoteRemindersOnFoundryLoad}} />
                     </div>
                     <p class="notes">{{localize 'FSC.Configuration.Notes.PostNoteRemindersOnFoundryLoadHelp'}}</p>
                 </div>
             </div>
-            <div class="fsc-vh fsc-b">
-                <h2>{{localize 'FSC.Configuration.Notes.NoteCategories'}} <a href="https://simplecalendar.info/pages/calendar-configuration/index/note-settings.html#note-categories" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
-                <div class="fsc-mj">
-                    <label id="fsc-wk">{{localize 'FSC.Configuration.NoteCategories.NameHelp'}}</label>
-                    <label id="fsc-xk">{{localize 'FSC.Configuration.NoteCategories.ColorHelp'}}</label>
+            <div class="fsc-wh fsc-b">
+                <h2>{{localize 'FSC.Configuration.Notes.NoteCategories'}} <a href="https://simplecalendar.info/docs/calendar-configuration/note-settings#note-categories" data-tooltip="{{localize 'FSC.Help'}}" target="_blank" class="fa fa-question-circle"></a></h2>
+                <div class="fsc-nj">
+                    <label id="fsc-xk">{{localize 'FSC.Configuration.NoteCategories.NameHelp'}}</label>
+                    <label id="fsc-yk">{{localize 'FSC.Configuration.NoteCategories.ColorHelp'}}</label>
                 </div>
-                <div class="fsc-xh fsc-re">
-                    <div class="fsc-ed fsc-hd">
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.NoteCategories.NameHelp'}}">{{localize 'FSC.Configuration.NoteCategories.Name'}}</div>
-                        <div class="fsc-yh" data-tooltip="{{localize 'FSC.Configuration.NoteCategories.ColorHelp'}}">{{localize 'FSC.Configuration.NoteCategories.Color'}}</div>
-                        <div class="fsc-yh"></div>
+                <div class="fsc-yh fsc-se">
+                    <div class="fsc-fd fsc-id">
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.NoteCategories.NameHelp'}}">{{localize 'FSC.Configuration.NoteCategories.Name'}}</div>
+                        <div class="fsc-zh" data-tooltip="{{localize 'FSC.Configuration.NoteCategories.ColorHelp'}}">{{localize 'FSC.Configuration.NoteCategories.Color'}}</div>
+                        <div class="fsc-zh"></div>
                     </div>
                     {{#each noteCategories}}
-                        <div class="fsc-ed" data-index="{{@index}}">
-                            <div class="fsc-yh">
-                                <label for="-noteCategoryName{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.NoteCategories.Name'}}</label>
-                                <input id="-noteCategoryName{{@index}}" class="fsc-se" value="{{name}}" type="text"  aria-describedby="fsc-wk" />
+                        <div class="fsc-fd" data-index="{{@index}}">
+                            <div class="fsc-zh">
+                                <label for="-noteCategoryName{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.NoteCategories.Name'}}</label>
+                                <input id="-noteCategoryName{{@index}}" class="fsc-te" value="{{name}}" type="text"  aria-describedby="fsc-xk" />
                             </div>
-                            <div class="fsc-yh">
-                                <label for="-noteCategoryColor{{@index}}" class="fsc-mj">{{localize 'FSC.Configuration.NoteCategories.Color'}}</label>
-                                <input id="-noteCategoryColor{{@index}}" type="color" value="{{color}}" class="fsc-te" aria-describedby="fsc-xk" />
+                            <div class="fsc-zh">
+                                <label for="-noteCategoryColor{{@index}}" class="fsc-nj">{{localize 'FSC.Configuration.NoteCategories.Color'}}</label>
+                                <input id="-noteCategoryColor{{@index}}" type="color" value="{{color}}" class="fsc-ue" aria-describedby="fsc-yk" />
                             </div>
-                            <div class="fsc-yh">
-                                <button class="fsc-xb fsc-gc" data-type="note-category"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
+                            <div class="fsc-zh">
+                                <button class="fsc-xb fsc-hc" data-type="note-category"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.Month.Remove'}}</button>
                             </div>
                         </div>
                     {{/each}}
                 </div>
-                <div class="fsc-bd">
-                    <button class="fsc-xb fsc-sc" data-type="note-category"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.NoteCategories.Add'}}</button>
-                    <span class="fsc-hh"></span>
-                    <button class="fsc-xb fsc-gc" data-type="note-category" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.NoteCategories.RemoveAll'}}</button>
+                <div class="fsc-cd">
+                    <button class="fsc-xb fsc-tc" data-type="note-category"><span class="fa fa-plus"></span> {{localize 'FSC.Configuration.NoteCategories.Add'}}</button>
+                    <span class="fsc-ih"></span>
+                    <button class="fsc-xb fsc-hc" data-type="note-category" data-index="all"><span class="fa fa-trash"></span> {{localize 'FSC.Configuration.NoteCategories.RemoveAll'}}</button>
                 </div>
             </div>
         </div>
         {{/if}}
-        <div class="tab fsc-fi" data-tab="about">
-            <div class="fsc-gi">
+        <div class="tab fsc-gi" data-tab="about">
+            <div class="fsc-hi">
                 {{sc-icon name='logo'}}
             </div>
             <h1>{{localize 'FSC.Title'}}</h1>
-            <p class="fsc-hi">This module allows you to create a completely customizable calendar that ties in with the Game Masters world exactly how they want it to. Notes and events can be added to the calendar to help keep track of what and when things are happening in your world.</p>
-            <div class="fsc-ed">
-                <div class="fsc-ii fsc-yk">
+            <p class="fsc-ii">This module allows you to create a completely customizable calendar that ties in with the Game Masters world exactly how they want it to. Notes and events can be added to the calendar to help keep track of what and when things are happening in your world.</p>
+            <div class="fsc-fd">
+                <div class="fsc-ji fsc-zk">
                     <h2>Author</h2>
                     <p>Simple Calendar is a hobby project built and maintained by <a href="https://github.com/vigoren">Dean Vigoren (Vigorator)</a>!</p>
                     <p>If you wish to support the development of Simple Calendar there are a few ways you can help:</p>
@@ -1284,28 +1299,28 @@
                         <li>If you wish and are able to you can support the developer monetarily by becoming a <a href="https://www.patreon.com/vigorator">Patron</a> or donating on <a href="https://ko-fi.com/vigorator">Ko-fi</a>. Simple Calendar will always be free to use by anyone, these are just options for those who want to donate to the development.</li>
                     </ul>
                 </div>
-                <div class="fsc-ii fsc-zk">
+                <div class="fsc-ji fsc-_k">
                     <h2>Support</h2>
                     <p>If you run into issue with Simple Calendar there are several ways to get assistance:</p>
                     <ul>
-                        <li>Check out Simple Calendars <a href="https://simplecalendar.info/index.html">documentation</a>!</li>
+                        <li>Check out Simple Calendars <a href="https://simplecalendar.info">documentation</a>!</li>
                         <li>Ask on the <a href="https://discord.gg/foundryvtt">FoundryVTT Discord server</a>, lots of very knowledgeable individuals who can help out there.</li>
                         <li>Check the projects GitHub <a href="https://github.com/vigoren/foundryvtt-simple-calendar/issues">issues</a> or <a href="https://github.com/vigoren/foundryvtt-simple-calendar/discussions">discussions</a> to see if anyone else has had this issue before</li>
                         <li>If none of the above work then please create a new <a href="https://github.com/vigoren/foundryvtt-simple-calendar/issues">issue</a> or <a href="https://github.com/vigoren/foundryvtt-simple-calendar/discussions">discussion</a> and I will hapily look into it!</li>
                     </ul>
                 </div>
             </div>
-            <div class="fsc-ed">
-                <div class="fsc-ii fsc-ji">
+            <div class="fsc-fd">
+                <div class="fsc-ji fsc-ki">
                     <h2>Translations</h2>
                     <p>Simple Calendar is available in languages other than English thanks to many wonderful individuals a huge thank you to everyone who has helped out!</p>
-                    <p>Please check out the list of translation contributors <a href="https://simplecalendar.info/index.html#translations">here</a>!</p>
+                    <p>Please check out the list of translation contributors <a href="https://simplecalendar.info/docs/translations">here</a>!</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="fsc-ki">
-        <button class="fsc-xb fsc-sc" id="scSave" type="button" data-tooltip="{{localize 'FSC.Configuration.Save'}}">
+    <div class="fsc-li">
+        <button class="fsc-xb fsc-tc" id="scSave" type="button" data-tooltip="{{localize 'FSC.Configuration.Save'}}">
             <i class="far fa-save"></i> {{localize 'FSC.Configuration.Save'}}
         </button>
     </div>

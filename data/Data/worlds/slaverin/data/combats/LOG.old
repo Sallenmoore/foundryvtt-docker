@@ -1,15 +1,8 @@
-2023/06/30-17:24:22.296055 7f4596ffd6c0 Recovering log #167
-2023/06/30-17:24:22.317795 7f4596ffd6c0 Delete type=0 #167
-2023/06/30-17:24:22.317914 7f4596ffd6c0 Delete type=3 #165
-2023/07/01-01:51:41.600860 7f42f73466c0 Level-0 table #172: started
-2023/07/01-01:51:41.619172 7f42f73466c0 Level-0 table #172: 3325 bytes OK
-2023/07/01-01:51:41.632263 7f42f73466c0 Delete type=0 #170
-2023/07/01-01:51:41.632998 7f42f73466c0 Manual compaction at level-0 from '!combats!25d74uAbk0a5vToj' @ 72057594037927935 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at (end)
-2023/07/01-01:51:41.678150 7f42f73466c0 Manual compaction at level-1 from '!combats!25d74uAbk0a5vToj' @ 72057594037927935 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at '!combats.combatants!Iuv0YtJXSekRfRQp.zoq2Dg6Uarg9zhs9' @ 357 : 0
-2023/07/01-01:51:41.678183 7f42f73466c0 Compacting 1@1 + 1@2 files
-2023/07/01-01:51:41.684747 7f42f73466c0 Generated table #173@1: 18 keys, 1923 bytes
-2023/07/01-01:51:41.684785 7f42f73466c0 Compacted 1@1 + 1@2 files => 1923 bytes
-2023/07/01-01:51:41.695833 7f42f73466c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/07/01-01:51:41.695977 7f42f73466c0 Delete type=2 #172
-2023/07/01-01:51:41.696171 7f42f73466c0 Delete type=2 #164
-2023/07/01-01:51:41.738327 7f42f73466c0 Manual compaction at level-1 from '!combats.combatants!Iuv0YtJXSekRfRQp.zoq2Dg6Uarg9zhs9' @ 357 : 0 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at (end)
+2023/07/01-01:52:25.109966 7f45957fa6c0 Recovering log #171
+2023/07/01-01:52:25.127952 7f45957fa6c0 Delete type=3 #169
+2023/07/01-01:52:25.128198 7f45957fa6c0 Delete type=0 #171
+2023/07/01-05:47:17.553924 7f42f73466c0 Level-0 table #177: started
+2023/07/01-05:47:17.554076 7f42f73466c0 Level-0 table #177: 0 bytes OK
+2023/07/01-05:47:17.566714 7f42f73466c0 Delete type=0 #175
+2023/07/01-05:47:17.567336 7f42f73466c0 Manual compaction at level-0 from '!combats!25d74uAbk0a5vToj' @ 72057594037927935 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at (end)
+2023/07/01-05:47:17.621382 7f42f73466c0 Manual compaction at level-1 from '!combats!25d74uAbk0a5vToj' @ 72057594037927935 : 1 .. '!combats.combatants!KQ8lmW0lBOieYORl.ycxozSZCGQv2bf5y' @ 0 : 0; will stop at (end)

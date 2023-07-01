@@ -1,4 +1,4 @@
-<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.5.8/JB2A_DnD5e-0.5.8.zip?color=ffba00&label=Release%200.5.8%20Downloads)<br>
+<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.5.9/JB2A_DnD5e-0.5.9.zip?color=ffba00&label=Release%200.5.9%20Downloads)<br>
 
 [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)
 [![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)
@@ -13,19 +13,15 @@ We create ... animated assets ! *no scripts, only assets*
 ### Very useful FoundryVTT Modules for animated assets :
 [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/) - [Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
 [**Automated Animations**](https://github.com/otigon/automated-jb2a-animations/wiki) by Otigon - [Patreon](https://www.patreon.com/otigon)<br>
-[**Advanced Spell Effects**](https://github.com/Vauryx/advancedspelleffects/wiki) by Vauryx (DnD5e only and requires our Patreon pack)<br>
+DEVELOPMENT DISCONTINUED [**Advanced Spell Effects**](https://github.com/Vauryx/advancedspelleffects/wiki) by Vauryx (DnD5e only and requires our Patreon pack)<br>
 [**WarpGate**](https://github.com/trioderegion/warpgate) by Honeybadger - [Ko-fi](https://ko-fi.com/trioderegion)<br>
 
 > These Modules Makers are not affiliated with JB2A. Their modules are free and they develop and help the community on their own free time. Please consider supporting their work.
 
-### Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
+### Check out [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
 Complete Guide is accessible [here](https://jb2a.com/home/content-information/#token_animator)
 
-### Other Free Assets.
-- These assets aren't part of our free pack or patreon pack. But they are available for free for everyone. They are under the [Fan-Content License of Forgotten Adventures](https://www.forgotten-adventures.net/info/#copyright). 
-  - [Modified Blast Tile from Forgotten Adventures - Glowing Blast](https://www.dropbox.com/s/7z72w0cjznx6yeo/Modified_Blast_Tile_From_ForgottenAdventures.zip?dl=1)
-    - Intended for a sequence with Fireball's assets (see our macro in our compendium) 
-  - [Modified Chest Tile from Forgotten Adventures - Glints and shimmers](https://www.dropbox.com/s/8udmpsim7hjehnq/Modified_Treasure_Chests_ForgottenAdventures.zip?dl=1)
+### Other Free Assets available on our other module [JB2A-extras](https://github.com/Jules-Bens-Aa/jb2a-extras/releases/latest/download/module.json).
 
 # Table of content
 

@@ -1,8 +1,15 @@
-2023/06/30-17:24:22.343919 7f4596ffd6c0 Recovering log #163
-2023/06/30-17:24:22.359968 7f4596ffd6c0 Delete type=0 #163
-2023/06/30-17:24:22.360063 7f4596ffd6c0 Delete type=3 #161
-2023/07/01-01:51:41.739818 7f42f73466c0 Level-0 table #168: started
-2023/07/01-01:51:41.740247 7f42f73466c0 Level-0 table #168: 0 bytes OK
-2023/07/01-01:51:41.751226 7f42f73466c0 Delete type=0 #166
-2023/07/01-01:51:41.785335 7f42f73466c0 Manual compaction at level-0 from '!fog!38XTdbE9MlTmvCRR' @ 72057594037927935 : 1 .. '!fog!tB42KQ5uuxPfPTzT' @ 0 : 0; will stop at (end)
-2023/07/01-01:51:41.785635 7f42f73466c0 Manual compaction at level-1 from '!fog!38XTdbE9MlTmvCRR' @ 72057594037927935 : 1 .. '!fog!tB42KQ5uuxPfPTzT' @ 0 : 0; will stop at (end)
+2023/07/01-01:52:25.156592 7f45957fa6c0 Recovering log #167
+2023/07/01-01:52:25.173936 7f45957fa6c0 Delete type=0 #167
+2023/07/01-01:52:25.174161 7f45957fa6c0 Delete type=3 #165
+2023/07/01-05:47:17.622497 7f42f73466c0 Level-0 table #172: started
+2023/07/01-05:47:17.639178 7f42f73466c0 Level-0 table #172: 97180 bytes OK
+2023/07/01-05:47:17.644845 7f42f73466c0 Delete type=0 #170
+2023/07/01-05:47:17.689807 7f42f73466c0 Manual compaction at level-0 from '!fog!38XTdbE9MlTmvCRR' @ 72057594037927935 : 1 .. '!fog!tB42KQ5uuxPfPTzT' @ 0 : 0; will stop at (end)
+2023/07/01-05:47:17.689969 7f42f73466c0 Manual compaction at level-1 from '!fog!38XTdbE9MlTmvCRR' @ 72057594037927935 : 1 .. '!fog!tB42KQ5uuxPfPTzT' @ 0 : 0; will stop at '!fog!tB42KQ5uuxPfPTzT' @ 93 : 1
+2023/07/01-05:47:17.689987 7f42f73466c0 Compacting 1@1 + 1@2 files
+2023/07/01-05:47:17.700778 7f42f73466c0 Generated table #173@1: 2 keys, 97180 bytes
+2023/07/01-05:47:17.700820 7f42f73466c0 Compacted 1@1 + 1@2 files => 97180 bytes
+2023/07/01-05:47:17.706221 7f42f73466c0 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/07/01-05:47:17.706415 7f42f73466c0 Delete type=2 #152
+2023/07/01-05:47:17.706915 7f42f73466c0 Delete type=2 #172
+2023/07/01-05:47:17.737146 7f42f73466c0 Manual compaction at level-1 from '!fog!tB42KQ5uuxPfPTzT' @ 93 : 1 .. '!fog!tB42KQ5uuxPfPTzT' @ 0 : 0; will stop at (end)

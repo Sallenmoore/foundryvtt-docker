@@ -1,8 +1,15 @@
-2023/06/30-17:24:22.425575 7f4595ffb6c0 Recovering log #173
-2023/06/30-17:24:22.450227 7f4595ffb6c0 Delete type=0 #173
-2023/06/30-17:24:22.450335 7f4595ffb6c0 Delete type=3 #171
-2023/07/01-01:51:41.775558 7f42f73466c0 Level-0 table #178: started
-2023/07/01-01:51:41.775782 7f42f73466c0 Level-0 table #178: 0 bytes OK
-2023/07/01-01:51:41.785057 7f42f73466c0 Delete type=0 #176
-2023/07/01-01:51:41.785570 7f42f73466c0 Manual compaction at level-0 from '!journal!0WlPfblIrFXK1opv' @ 72057594037927935 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at (end)
-2023/07/01-01:51:41.785808 7f42f73466c0 Manual compaction at level-1 from '!journal!0WlPfblIrFXK1opv' @ 72057594037927935 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at (end)
+2023/07/01-01:52:25.260065 7f4596ffd6c0 Recovering log #177
+2023/07/01-01:52:25.284577 7f4596ffd6c0 Delete type=3 #175
+2023/07/01-01:52:25.284721 7f4596ffd6c0 Delete type=0 #177
+2023/07/01-05:47:17.673029 7f42f73466c0 Level-0 table #182: started
+2023/07/01-05:47:17.680418 7f42f73466c0 Level-0 table #182: 10229 bytes OK
+2023/07/01-05:47:17.689577 7f42f73466c0 Delete type=0 #180
+2023/07/01-05:47:17.689933 7f42f73466c0 Manual compaction at level-0 from '!journal!0WlPfblIrFXK1opv' @ 72057594037927935 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at (end)
+2023/07/01-05:47:17.722470 7f42f73466c0 Manual compaction at level-1 from '!journal!0WlPfblIrFXK1opv' @ 72057594037927935 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at '!journal.pages!yqIxG6muYdC2JLZy.EsElsxqAz8hggRgi' @ 579 : 1
+2023/07/01-05:47:17.722500 7f42f73466c0 Compacting 1@1 + 1@2 files
+2023/07/01-05:47:17.729029 7f42f73466c0 Generated table #183@1: 34 keys, 9064 bytes
+2023/07/01-05:47:17.729064 7f42f73466c0 Compacted 1@1 + 1@2 files => 9064 bytes
+2023/07/01-05:47:17.736678 7f42f73466c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/01-05:47:17.736791 7f42f73466c0 Delete type=2 #170
+2023/07/01-05:47:17.736969 7f42f73466c0 Delete type=2 #182
+2023/07/01-05:47:17.808002 7f42f73466c0 Manual compaction at level-1 from '!journal.pages!yqIxG6muYdC2JLZy.EsElsxqAz8hggRgi' @ 579 : 1 .. '!journal.pages!xu9wMhR7YMHy2OU7.VK5GhmUj8QGdPG6f' @ 0 : 0; will stop at (end)
