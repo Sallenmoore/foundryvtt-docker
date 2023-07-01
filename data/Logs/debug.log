@@ -15289,3 +15289,7 @@
 {"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"615366b74e2f2cb3fb292944","timestamp":"2023-06-30 22:13:14"}
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-06-30 22:13:18"}
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 915ms","timestamp":"2023-06-30 22:13:18"}
+{"level":"info","message":"Logged user gAzsPFxmxxXHBdOg out of active World","timestamp":"2023-07-01 00:56:06"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"615366b74e2f2cb3fb292944","timestamp":"2023-07-01 00:56:22"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-01 00:56:27"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 689ms","timestamp":"2023-07-01 00:56:27"}
