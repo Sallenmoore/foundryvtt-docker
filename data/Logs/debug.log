@@ -16395,3 +16395,7 @@
 {"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [MU9jxhQbw1OOmvNx] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:04:04"}
 {"level":"info","message":"FoundryVTT | Deleted 2 MeasuredTemplate documents with ids: [DdWJ4mEJWl5brOUn,MU9jxhQbw1OOmvNx] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:04:11"}
 {"level":"info","message":"FoundryVTT | Created Tile with id [JClzzOLXkPvQLv9d] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:04:45"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [zYYKXJxwmCueY5OX] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-01 18:05:04"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [HCY5jU9YNw0BvfWn]","timestamp":"2023-07-01 18:10:15"}
+{"level":"info","message":"Reset 1 FogExploration documents for Scene pRCOZ1zDg5zZKQuw","timestamp":"2023-07-01 18:14:22"}
+{"level":"info","message":"FoundryVTT | Created FogExploration with id [ydw0AglhOLuVDp0B]","timestamp":"2023-07-01 18:14:35"}
