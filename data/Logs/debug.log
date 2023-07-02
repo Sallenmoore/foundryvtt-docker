@@ -16854,3 +16854,28 @@
 {"level":"info","message":"goblin.TokenUP7NoRz2a29XkouM.webp saved to assets/tokens","timestamp":"2023-07-02 17:03:36"}
 {"level":"info","message":"goblin.TokenCtrHNntg0tVi92NQ.webp saved to assets/tokens","timestamp":"2023-07-02 17:03:56"}
 {"level":"info","message":"goblin.Token0jed3j9CstTXWurH.webp saved to assets/tokens","timestamp":"2023-07-02 17:04:06"}
+{"level":"info","message":"goblin.Token99bOx59jUle1yvM3.webp saved to assets/tokens","timestamp":"2023-07-02 17:05:15"}
+{"level":"info","message":"goblin.TokenqpggAvXaYvUnUPM4.webp saved to assets/tokens","timestamp":"2023-07-02 17:05:33"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [QosmnQv22VtgITIA] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:05:49"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [lVKTRJsTbkL5Inlf] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:06:09"}
+{"level":"info","message":"goblin.TokenjCGuV7uIfNm3tlhj.webp saved to assets/tokens","timestamp":"2023-07-02 17:07:34"}
+{"level":"info","message":"goblin.Avatar4WIrcjEG5RxurxwS.webp saved to assets/tokens","timestamp":"2023-07-02 17:09:44"}
+{"level":"info","message":"goblin.Token4WIrcjEG5RxurxwS.webp saved to assets/tokens","timestamp":"2023-07-02 17:09:44"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [18vFGeT9v69lmnCF] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:10:51"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [cK6tvz05nLbVn1IX] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:10:56"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [AwlCr2I8d2BZZsEL] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:11:46"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [JftVm22YDmkJgygm] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:12:08"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [tNflstA5kLngvpYT] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:14:35"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [EJTJcoomoKwDd5NU] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 17:15:02"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"97a62d35c63018ccbe0d05b9","timestamp":"2023-07-02 17:53:23"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 17:53:27"}
+{"level":"info","message":"Core software stable update 11.304 is available!","timestamp":"2023-07-02 17:53:28"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 1244ms","timestamp":"2023-07-02 17:53:28"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [pv3owfjZc7pGJdIY] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 17:58:39"}
+{"level":"info","message":"FoundryVTT | Deleted AmbientLight with id [pv3owfjZc7pGJdIY] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 17:58:41"}
+{"level":"info","message":"FoundryVTT | Deleted 4 ChatMessage documents with ids: [SUw1ir32Y7WKhXOt,Y5zGhrTlMVcbt5LH,jfq8dYW1hXwWxcYc,xxT32BcZ37EhAGtH]","timestamp":"2023-07-02 17:58:59"}
+{"level":"info","message":"Created client session ae15f110a9b4dbfefa650e98","timestamp":"2023-07-02 18:00:01"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"ae15f110a9b4dbfefa650e98","timestamp":"2023-07-02 18:00:06"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 18:00:10"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 804ms","timestamp":"2023-07-02 18:00:10"}
+{"level":"info","message":"Activating scene GoblinField [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:03:14"}

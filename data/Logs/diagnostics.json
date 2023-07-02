@@ -1,5 +1,5 @@
 {
-  "timestamp": 1688232943441,
+  "timestamp": 1688320407846,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -12,17 +12,17 @@
     "hosting": null
   },
   "modules": {
+    "JB2A_DnD5e": {
+      "version": "0.5.9"
+    },
     "LockView": {
       "version": "1.5.7"
     },
     "acelib": {
       "version": "1.8.3"
     },
-    "automated-conditions-5e": {
-      "version": "11.0.1"
-    },
-    "caeora-maps-tokens-assets": {
-      "version": "2.1.5"
+    "canvas3dtokencompendium": {
+      "version": "0.9.4"
     },
     "combat-enhancements": {
       "version": "1.2.2"
@@ -51,9 +51,6 @@
     "forien-quest-log": {
       "version": "0.7.12"
     },
-    "foundry_community_tables": {
-      "version": "11.0"
-    },
     "foundryvtt-simple-calendar": {
       "version": "2.3.0"
     },
@@ -75,9 +72,6 @@
     "monks-little-details": {
       "version": "11.03"
     },
-    "monks-scene-navigation": {
-      "version": "11.02"
-    },
     "monks-sound-enhancements": {
       "version": "11.03"
     },
@@ -87,23 +81,8 @@
     "monks-wall-enhancement": {
       "version": "11.01"
     },
-    "moulinette-core": {
-      "version": "11.1.2"
-    },
-    "moulinette-gameicons": {
-      "version": "11.0.0"
-    },
-    "moulinette-imagesearch": {
-      "version": "11.0.1"
-    },
-    "moulinette-sounds": {
-      "version": "11.0.2"
-    },
-    "moulinette-tiles": {
-      "version": "11.0.5"
-    },
-    "multilevel-tokens": {
-      "version": "1.6.0"
+    "pf2e-iconic-adventurers": {
+      "version": "1.2.3"
     },
     "pin-cushion": {
       "version": "1.8.37"
@@ -122,20 +101,17 @@
     },
     "wild-magic-surge-5e": {
       "version": "4.5.1"
-    },
-    "JB2A_DnD5e": {
-      "version": "0.5.9"
     }
   },
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 485834
+      "playtime": 567774
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 485834,
-    "max": 298724
+    "total": 567774,
+    "max": 380664
   }
 }
