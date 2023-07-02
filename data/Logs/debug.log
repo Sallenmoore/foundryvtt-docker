@@ -16739,3 +16739,118 @@
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 14:27:54"}
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 809ms","timestamp":"2023-07-02 14:27:54"}
 {"level":"info","message":"FoundryVTT | Created Setting with id [DtNae45Pd3LmdlgK]","timestamp":"2023-07-02 14:30:35"}
+{"level":"info","message":"Logged user gAzsPFxmxxXHBdOg out of active World","timestamp":"2023-07-02 16:27:53"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-02 16:27:59"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-02 16:27:59"}
+{"level":"info","message":"FoundryVTT | Uninstalled module caeora-maps-tokens-assets","timestamp":"2023-07-02 16:28:10"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-02 16:28:50"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-02 16:28:50"}
+{"level":"info","message":"FoundryVTT | Connected to database \"actors\"","timestamp":"2023-07-02 16:28:50"}
+{"level":"info","message":"FoundryVTT | Connected to database \"cards\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"messages\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"combats\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"drawings\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"fog\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"folders\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"items\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"journal\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"macros\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"playlists\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tables\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scenes\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"settings\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"users\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.wild-magic\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-tables\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.coia\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-backgrounds\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-classes\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-class-features\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-feats\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-items\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-monsters\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-vehicles\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-races\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-racial-traits\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-spells\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-override\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-adventures\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.heroes\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsters\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.items\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tradegoods\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.spells\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.backgrounds\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classes\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.subclasses\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classfeatures\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.races\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsterfeatures\"","timestamp":"2023-07-02 16:28:51"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.rules\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tables\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-sequencer\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-actors\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"conversation-hud.conversation-hud-macros\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-gm\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-player\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.shop-names\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.person-names\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tabletop-rpg-music.tabletop-rpg-music\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"FoundryVTT | Connected to database \"wild-magic-surge-5e.wild-magic-surge-5e\"","timestamp":"2023-07-02 16:28:52"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 16:29:04"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1115ms","timestamp":"2023-07-02 16:29:04"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/CXF63C6akqi0HsSo-thumb.webp\"","timestamp":"2023-07-02 16:30:40"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/Xvw04TxWMJZp22SK-thumb.webp\"","timestamp":"2023-07-02 16:31:49"}
+{"level":"info","message":"arcon_domine.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:33:47"}
+{"level":"info","message":"arcon_domine.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:34:15"}
+{"level":"info","message":"arcon_domine.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:34:15"}
+{"level":"info","message":"borin_stonehammer.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:35:25"}
+{"level":"info","message":"borin_stonehammer.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:35:25"}
+{"level":"info","message":"grimgar.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:35:56"}
+{"level":"info","message":"grimgar.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:35:56"}
+{"level":"info","message":"harding_quickstop.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:36:21"}
+{"level":"info","message":"harding_quickstop.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:36:21"}
+{"level":"info","message":"igan_dot.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:37:10"}
+{"level":"info","message":"igan_dot.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:37:10"}
+{"level":"info","message":"meklen_tiammen.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:37:35"}
+{"level":"info","message":"meklen_tiammen.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:37:35"}
+{"level":"info","message":"party.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:38:01"}
+{"level":"info","message":"party.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:38:01"}
+{"level":"info","message":"pelonius.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:38:30"}
+{"level":"info","message":"pelonius.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:38:30"}
+{"level":"info","message":"dank.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:38:52"}
+{"level":"info","message":"dank.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:38:52"}
+{"level":"info","message":"goblin_boss.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:39:45"}
+{"level":"info","message":"goblin_boss.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:39:46"}
+{"level":"info","message":"goblin_commoner.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:40:18"}
+{"level":"info","message":"goblin_commoner.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:40:18"}
+{"level":"info","message":"caelan_blackthorn.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:41:07"}
+{"level":"info","message":"caelan_blackthorn.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:41:07"}
+{"level":"info","message":"elysia_windrider.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:41:30"}
+{"level":"info","message":"elysia_windrider.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:41:30"}
+{"level":"info","message":"grimsby_flintlock.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:41:50"}
+{"level":"info","message":"grimsby_flintlock.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:41:51"}
+{"level":"info","message":"jonas_greenfield.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:42:11"}
+{"level":"info","message":"jonas_greenfield.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:42:11"}
+{"level":"info","message":"kaelin_satier.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:42:36"}
+{"level":"info","message":"kaelin_satier.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:42:36"}
+{"level":"info","message":"kira.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:42:58"}
+{"level":"info","message":"kira.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:42:58"}
+{"level":"info","message":"lucius_blackthorn.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:43:23"}
+{"level":"info","message":"lucius_blackthorn.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:43:23"}
+{"level":"info","message":"rollo.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:43:48"}
+{"level":"info","message":"rollo.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:43:48"}
+{"level":"info","message":"seraphina_stormwind.Avatar.webp saved to assets/tokens","timestamp":"2023-07-02 16:44:18"}
+{"level":"info","message":"seraphina_stormwind.Token.webp saved to assets/tokens","timestamp":"2023-07-02 16:44:18"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 16:44:29"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 821ms","timestamp":"2023-07-02 16:44:29"}
+{"level":"info","message":"Toggling game pause status to false","timestamp":"2023-07-02 16:44:56"}
+{"level":"info","message":"Activating scene Chichingia [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 16:45:08"}
+{"level":"info","message":"FoundryVTT | Created Token with id [JB3BxdKyDcPCOgAg] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-02 16:57:40"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 17:00:54"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 671ms","timestamp":"2023-07-02 17:00:55"}
+{"level":"info","message":"goblin.TokenCLK75QGSgikOM4sA.webp saved to assets/tokens","timestamp":"2023-07-02 17:03:26"}
+{"level":"info","message":"goblin.TokenUP7NoRz2a29XkouM.webp saved to assets/tokens","timestamp":"2023-07-02 17:03:36"}
+{"level":"info","message":"goblin.TokenCtrHNntg0tVi92NQ.webp saved to assets/tokens","timestamp":"2023-07-02 17:03:56"}
+{"level":"info","message":"goblin.Token0jed3j9CstTXWurH.webp saved to assets/tokens","timestamp":"2023-07-02 17:04:06"}
