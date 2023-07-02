@@ -1,15 +1,8 @@
-2023/07/01-01:52:25.084768 7f45957fa6c0 Recovering log #170
-2023/07/01-01:52:25.105031 7f45957fa6c0 Delete type=0 #170
-2023/07/01-01:52:25.105239 7f45957fa6c0 Delete type=3 #168
-2023/07/01-05:47:17.534595 7f42f73466c0 Level-0 table #176: started
-2023/07/01-05:47:17.542590 7f42f73466c0 Level-0 table #176: 13809 bytes OK
-2023/07/01-05:47:17.553369 7f42f73466c0 Delete type=0 #174
-2023/07/01-05:47:17.567302 7f42f73466c0 Manual compaction at level-0 from '!messages!SUw1ir32Y7WKhXOt' @ 72057594037927935 : 1 .. '!messages!xxT32BcZ37EhAGtH' @ 0 : 0; will stop at (end)
-2023/07/01-05:47:17.567696 7f42f73466c0 Manual compaction at level-1 from '!messages!SUw1ir32Y7WKhXOt' @ 72057594037927935 : 1 .. '!messages!xxT32BcZ37EhAGtH' @ 0 : 0; will stop at '!messages!zwyHd1mF7Ga4aEzm' @ 613 : 0
-2023/07/01-05:47:17.567721 7f42f73466c0 Compacting 1@1 + 1@2 files
-2023/07/01-05:47:17.574819 7f42f73466c0 Generated table #177@1: 4 keys, 994 bytes
-2023/07/01-05:47:17.574887 7f42f73466c0 Compacted 1@1 + 1@2 files => 994 bytes
-2023/07/01-05:47:17.583438 7f42f73466c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/07/01-05:47:17.583595 7f42f73466c0 Delete type=2 #172
-2023/07/01-05:47:17.583791 7f42f73466c0 Delete type=2 #176
-2023/07/01-05:47:17.621464 7f42f73466c0 Manual compaction at level-1 from '!messages!zwyHd1mF7Ga4aEzm' @ 613 : 0 .. '!messages!xxT32BcZ37EhAGtH' @ 0 : 0; will stop at (end)
+2023/07/01-05:49:28.425216 7f4596ffd6c0 Recovering log #175
+2023/07/01-05:49:28.453444 7f4596ffd6c0 Delete type=3 #173
+2023/07/01-05:49:28.453588 7f4596ffd6c0 Delete type=0 #175
+2023/07/02-14:20:52.322703 7f42f73466c0 Level-0 table #181: started
+2023/07/02-14:20:52.323151 7f42f73466c0 Level-0 table #181: 0 bytes OK
+2023/07/02-14:20:52.338116 7f42f73466c0 Delete type=0 #179
+2023/07/02-14:20:52.345477 7f42f73466c0 Manual compaction at level-0 from '!messages!SUw1ir32Y7WKhXOt' @ 72057594037927935 : 1 .. '!messages!xxT32BcZ37EhAGtH' @ 0 : 0; will stop at (end)
+2023/07/02-14:20:52.377667 7f42f73466c0 Manual compaction at level-1 from '!messages!SUw1ir32Y7WKhXOt' @ 72057594037927935 : 1 .. '!messages!xxT32BcZ37EhAGtH' @ 0 : 0; will stop at (end)
