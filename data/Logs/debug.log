@@ -16879,3 +16879,42 @@
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 18:00:10"}
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 804ms","timestamp":"2023-07-02 18:00:10"}
 {"level":"info","message":"Activating scene GoblinField [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:03:14"}
+{"level":"info","message":"FoundryVTT | Deleted 46 Item documents in parent Actor [yaO8Tr8E7TSbBVZC]","timestamp":"2023-07-02 18:05:03"}
+{"level":"info","message":"Ring-of-Spell-Turning.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-07-02 18:05:07"}
+{"level":"info","message":"Robe-of-the-Archmagi.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-07-02 18:05:07"}
+{"level":"info","message":"Ring-of-Spell-Turning-large.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-07-02 18:05:07"}
+{"level":"info","message":"Robe-of-the-Archmagi-large.jpeg saved to ddb-images/other/item/equipment","timestamp":"2023-07-02 18:05:08"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xe9hSH0nnyIWhcLd] in parent Actor [yaO8Tr8E7TSbBVZC]","timestamp":"2023-07-02 18:05:09"}
+{"level":"info","message":"FoundryVTT | Created 52 Item documents in parent Actor [yaO8Tr8E7TSbBVZC]","timestamp":"2023-07-02 18:05:09"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [laiehbmGnY1ggNao] in parent Actor [yaO8Tr8E7TSbBVZC]","timestamp":"2023-07-02 18:05:10"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lpxUXGa1BPhbqLPM] in parent Actor [yaO8Tr8E7TSbBVZC]","timestamp":"2023-07-02 18:05:10"}
+{"level":"info","message":"FoundryVTT | Created 26 Item documents in parent Actor [yaO8Tr8E7TSbBVZC]","timestamp":"2023-07-02 18:05:10"}
+{"level":"info","message":"Activating scene Chichingia [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:05:33"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-02 18:30:34"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 928ms","timestamp":"2023-07-02 18:30:34"}
+{"level":"info","message":"FoundryVTT | Created Token with id [jUkEAAqalCG4clxB] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:44:19"}
+{"level":"info","message":"FoundryVTT | Created Token with id [9S8lIeuoWcUsITUt] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:44:21"}
+{"level":"info","message":"FoundryVTT | Created Token with id [6QuBQYEJ7QgmwxGn] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:44:27"}
+{"level":"info","message":"FoundryVTT | Created Token with id [k6fusKdCzoORCOrq] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:44:30"}
+{"level":"info","message":"FoundryVTT | Created Token with id [FrJU3r8oBRFXhmYc] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:44:32"}
+{"level":"info","message":"FoundryVTT | Created Token with id [7bUJ35gwzQtTfIJ6] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:44:35"}
+{"level":"info","message":"FoundryVTT | Created Token with id [UWGLlNj0Gxv7m9Df] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:44:41"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [7bUJ35gwzQtTfIJ6] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:50:37"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [k6fusKdCzoORCOrq] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:50:38"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [jUkEAAqalCG4clxB] in parent Scene [XuDgIaWiroOTaT5L]","timestamp":"2023-07-02 18:50:39"}
+{"level":"info","message":"Activating scene GoblinField [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:55:46"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [jQdWuphWreoDK7A8] in parent Scene [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:55:52"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [fgyLMxuXBLuO9Qyi] in parent Combat [25d74uAbk0a5vToj]","timestamp":"2023-07-02 18:55:52"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [sSP00aDzae6NfrzG] in parent Scene [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:55:54"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [8XboaG2wdxZboOuk] in parent Combat [25d74uAbk0a5vToj]","timestamp":"2023-07-02 18:55:54"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [92PQuJ3JNly66nH7] in parent Scene [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:55:56"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [oLQC3jeKLib3Z2ef] in parent Combat [25d74uAbk0a5vToj]","timestamp":"2023-07-02 18:55:56"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [C6lYkO9qaDNljQzZ] in parent Scene [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:55:57"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [5v69xse0O0fVTuz7] in parent Combat [25d74uAbk0a5vToj]","timestamp":"2023-07-02 18:55:57"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [sFyGdo7xBzpaPBSP] in parent Scene [CXF63C6akqi0HsSo]","timestamp":"2023-07-02 18:56:01"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [KDVjbfJjsF9BErwX] in parent Combat [25d74uAbk0a5vToj]","timestamp":"2023-07-02 18:56:01"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-02 19:03:11"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-02 19:03:11"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"Administrator authentication failed for session ae15f110a9b4dbfefa650e98; invalid password","status":403,"timestamp":"2023-07-02 19:03:13"}
+{"level":"info","message":"Administrator authentication successful for session ae15f110a9b4dbfefa650e98","timestamp":"2023-07-02 19:03:18"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-02 19:05:01"}
