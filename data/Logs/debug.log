@@ -17172,3 +17172,1385 @@
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 780ms","timestamp":"2023-07-03 16:04:50"}
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 16:04:51"}
 {"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 783ms","timestamp":"2023-07-03 16:04:51"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [oPWAPN6ljlvOvvx0]","timestamp":"2023-07-03 16:05:05"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [UQLL4axWf0kYHTWw]","timestamp":"2023-07-03 16:05:14"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [4xwwdJq9wi0oCr2y]","timestamp":"2023-07-03 16:05:20"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [gS6EfYQcNVJ3DEbe]","timestamp":"2023-07-03 16:05:22"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [nwEdXzBhmTq5053h]","timestamp":"2023-07-03 16:05:24"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [6HMm24PQ1Pe5UIjg]","timestamp":"2023-07-03 16:05:26"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [mhQVPxS81uAbh9SK]","timestamp":"2023-07-03 16:05:27"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [RfJVGBVoIUbpgWb6]","timestamp":"2023-07-03 16:05:28"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [nFdZb4POsNbSrAkF]","timestamp":"2023-07-03 16:05:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [ItoH91SVkcRzJG1V]","timestamp":"2023-07-03 16:05:30"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [AxJSs212a1fzAReY]","timestamp":"2023-07-03 16:05:32"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [NhZBfQDhehTeNBsN]","timestamp":"2023-07-03 16:05:34"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [sYkMG0ZDiAtOIsLy]","timestamp":"2023-07-03 16:05:36"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [M828eIS37HpvkaQX]","timestamp":"2023-07-03 16:05:38"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Nc3r84MfxgF4VrUv]","timestamp":"2023-07-03 16:05:47"}
+{"level":"info","message":"FoundryVTT | Deleted 18 ChatMessage documents","timestamp":"2023-07-03 16:05:55"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [n5isyYGoJSjoS3x9]","timestamp":"2023-07-03 16:11:45"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [RfgzbnGUFGdE4ng0]","timestamp":"2023-07-03 16:11:45"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [yyeWNCfaEbDINumN]","timestamp":"2023-07-03 16:22:57"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [rwyQHC5dbz6dgpyx]","timestamp":"2023-07-03 16:22:57"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [umMH7arvxbir4jLd]","timestamp":"2023-07-03 16:22:57"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [7bHXelkYLHdydz8u]","timestamp":"2023-07-03 16:22:57"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [udeGwarkPSp1Kga7]","timestamp":"2023-07-03 16:22:57"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 16:23:00"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 881ms","timestamp":"2023-07-03 16:23:01"}
+{"level":"info","message":"Activating scene GoblinField [CXF63C6akqi0HsSo]","timestamp":"2023-07-03 16:23:22"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [CxMRLSBocqV24XF4]","timestamp":"2023-07-03 16:24:13"}
+{"level":"info","message":"FoundryVTT | Created 8 Combatant documents in parent Combat [25d74uAbk0a5vToj]","timestamp":"2023-07-03 16:26:52"}
+{"level":"info","message":"Toggling game pause status to true","timestamp":"2023-07-03 16:31:09"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [DGeVkYZDbyZmCCPM]","timestamp":"2023-07-03 16:40:26"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [Gn8bMbxEqylQ9LaR] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [y5fLs7IoG7zRBZDL] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [QU6bnYZtzAvimpRZ] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [Xi2x0GlXGm8jotOl] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [3lrrksoUik4RLZXR] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [DiIVcbYWUaBICQHl] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [bCZk3vJ97me3ne1B] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [l4DUH5VbNZSvg2H3] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [P8cIR05XPHn1KEBE] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [UDLsGOfEfivJNa8D] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [YtBheDGu06oZxD7U] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [TMRtDjZPuHajUMmr] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-03 16:42:17"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ZhoADqD73pMUmx2M] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [yZkVeo40ZPhdzxG1] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [x0XIprhOU96wPfcN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [maKaOUI76bn4OBuW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Sc7rwdzfE6GHjOuY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [RPdcj7uSbRhIjKha] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tNrApo7PWokK8Por] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1qBl4mJzeJZQmkrX] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [PRw7zKMp6lxIPbML] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [glrO4EI2s76Oe1xs] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Upht02KbnqbXe3Eu] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [rrWrmVrZNAgrepWL] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QR9OuChCQmYT53LD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fwLLjB3YHiuVMmFO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [zhpj1M1A6ua56raO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1qo3wmYf1E0h65u6] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [RMwLAl0eMXcjJjua] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [5J8HBICb6U8ViG6d] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UYjc3qk53om5znSi] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [sJTTfqrprl29fCnd] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [C8nXD1sXHDAhANSe] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [GpClGivvun0zjl3s] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [rEzATpm55UCbx6ao] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [NwCqMoElz5HXlvCN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [yq0KyPzvrBPkLOeC] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [JR41GNQy5lg2mhfF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [rBAQvvprOZaiyVFd] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [XSO62muLa3t47fcJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [emudQPrxMfBxsQaC] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [MbfHsO8io0KdZaQw] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DCRy3Gw6DwydvGLB] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QM01Msm4D2hRfuZo] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Faj3DBPMCD8A55jW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [j6JpkiIXCpDAwfVc] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tLZKAh0WJig8xbRh] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [f9Re2Z0ndmsrhv1I] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [uYHCZbYVMHqnXPpF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [L9jaZK4My1oMEyFm] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9m6ASro052tllAOf] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HFxAnyvXa2dmAdJT] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [cdKvjfYkcQijCq8c] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [JQPOzQfVNQlFUtaP] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:20"}
+{"level":"info","message":"FoundryVTT | Created Item with id [iEYbtjyW8GQcnV9L] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [O69StPTeeqAGuJBa] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [or8HpI0ee6mdvtBy] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [t50cB1lu299FbAUF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wbP8G43iWEjFZOsQ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [aVPdDbfTNyQaAoaa] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [cW1CF8NDWZ1TmldF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [0vHgo2MnVzVWaqJ8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [q8I0yqF7SJjeNZKO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [bZe3gy05rcrUpVek] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [SMOEPKuFy6G1QLbF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [YSY85mcWLpFuJX0m] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pIPfrle7kQbbKxoX] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [6GHHNF3NTJdJS1Y3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Qo3j17VFPMWSTnRb] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DzU7U7YrdZTkxoy4] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9J9YNyZxbYlXn90J] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [PnmHUfUkLZiVRqUR] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [aKA8tGPi8sNetmwJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [I9qmtQyijnPVUOTh] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1HJPpL3FH2W941bJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [N0ga1fqwBfIgNJeD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [bjW0n3fIcbtWnrr8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Qi1adpht2zm90hhq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [VJTEZPVHsTo0WBX3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [WRodxeokS1F1H93p] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wYqGHBBc7JCNRIsK] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [nYEO6U4n2V2B0Ap9] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [2fQAsYBw3eQR6F6s] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [4YCoNp93aqw3YIiF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ZU4yHVbuXkybn2W5] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [YJQW7H8lBsUJddfT] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Hm0x6YvKgtKadkpZ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [TNOCwrTsdtJBhJei] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fpgVRtUEEW6Xs7Gi] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [jaGUm12UM9v0gjUc] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [TICRacObWjEMTDUU] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [bslUpLbCbPTHA6xA] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [vN0W8YxgCfwIpvhh] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [OSliBAS2ukLGPMNI] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ODTLxTOSrAhWYqWQ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ujdMrctp991IkrG6] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [XcfwMO2WXuJF4VWc] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [LDzAis9zZHxK8FTw] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [CRJo0JDazd4eFCug] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [SvcRf1BYMW01Ue6B] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DNvyDToPSttX6eeb] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [10hQvpuMVEoXfinD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [8R2UfXDxMjalcM1k] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [62S4Yqj1XJIIp1TI] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BZbr4uFDrTakXnSN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Ot1ETqEK1rNcl5aC] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tOSKvK7FmQvSZh9a] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [VqNJEPR5lcELFI6c] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pXI6WWTkHIokhD8e] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ccs7fEkitFvdf7Ui] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [gCVBnMJWHrOwhrzY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [vscVsPyS5qUUDYJA] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [idHywFNbs3leDNlX] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fFSElXBxh674918H] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [IslRfdzgKerXGcSA] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [H8aKurAfWtxmcPQV] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Qa8Rjm3VkRICqtcq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [v2y8yVgtnHNz0QTF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [IZ6WibpXxWvm53qM] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [XJmCyKkDUOduxYgD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wR38eCRYxHzD1nKv] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [VkXGYmd6CHbhf1D2] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ZAomjsSCoVWBwLj1] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [d3WVVwrxsNEk4ep3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [FnoNOZ6AWZ1AfW01] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BrImnzg3LJlz4AW6] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [E2Qe24U8KAVGUtUa] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [EYBwSqoE27TaEAP3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Dc0VbkiMfpTCr8Dp] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [82qx6QyoYbL7EhVk] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [usShG0fi1BkaA32E] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [FJoHy4IkahUPCeUN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [P5hDOKV4Laqzc704] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [IuC5V5VXGkSaxDgX] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [aEqExjmrfbOtIsWq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HcCSv9YvtLzdbL0B] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [VsXfB5I2jPv1FmNq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [4qDzaNoMz7ZJaSB6] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dgS8ZsC5NoMrznli] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [3iMYC8IBjYXviRmh] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [u34HSqLbl417OL0w] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [vXHGGwCtZNXPigcl] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [XOI0SfSohApuhWXx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [inad2R2RQsCKsDhy] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [qQxXrMFzYZFqJ4AN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tvhMf4NAKsnh0aP1] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DDSixM7EvjCw6h6h] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tuAGH2iG9g0bYLmb] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [nNaCm1lR75hgIVEq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BAwm7uJ1rIRmQar5] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1PdrumV7zyNAzd4M] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dXFOKlmEMEodKpmN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [2N55jU3wzmHWJWNT] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Ck8avHwMaSp0ru2F] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DZLWxrwsWrCVurBe] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lpqKKpEOizSG69Cm] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [x7qmcMbOViZLwkZ5] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QtVsyRgxaxsDk7Lx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ochyCSMhj6yd2HE1] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ozfPoIlpHlv8iEPe] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HOC3JuWsrAO0vZlu] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [uo3Ja2ml97oj670i] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [8khktXOPi2XufywX] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [n1mhg9owqXPyC6WM] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [uszauLkfC8zGLAXh] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [qIfH2TwVFHdGSG4s] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [SpnA76juZ9qVK75i] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HKJ8QxW3OUt3x0Se] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [MyZuTevv8HBM6MCY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [RLfv7l5x65t4ZJYK] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [z8EsgrvLatpgZMEJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Tf0TXZfWfVCcERKl] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [U4VWnm6FiHR9jdC6] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [KN6lL3IGSGRbgTTn] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [b7dt3Jr9hJpgV0Af] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UiObeQcoSAY2qr6B] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [GuZ7Um1gbjeaHCaW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [NQK06rSdhfCZLqnA] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [kpYa3AU2BXqlwmNc] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [hfnrqhWxaxAiflnx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [gWDoAL4BlUmhcTWB] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [jNNiKoI9pxlhRHDg] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [R4bHpOQgg653D7fC] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [AQlJ1DIWzKHJlVHI] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [GhpGjdmAoldFiveR] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [kFkooANiFgl1KLQw] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [LT09ZTUPjU3bIR4s] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HvkrDEsOckYT5jhV] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [KuGTSHQkc4OFV66l] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BJHVz8tHJHknsQdN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [PYjcs30QQwX5tQJW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xQeBIMK77Ff974Ir] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ZTM3cyAldjMeP7j5] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QQ7zl3HIqsEim5l3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [AGCCXSvyYZcQ9Pqi] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [CMACsRq1PynsgGFR] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [x5QDNLw73L8T1N09] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [W3kYz9Q7bZKu7YrY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wO9MeIIPXxBENRzr] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [iPIjB0FtHRtjF0pm] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [48Xj1Pk3hbGBF8ng] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [g1zyayhzdCU35d4L] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [3ZncYtldqwYuL544] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [gYirrHExSraIdKEf] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wXEeSYfc74NbgSaZ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wHtQv3SczoG52WWq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [z2zynBVXNvqoy7sp] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [47OltLWNQJhfTNfe] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:21"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BSoCPOVHWX2dMTCW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ubV3cwUNSSdvIcb8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lH5fExs4bnziMLZJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [4U0xFG9DUsI2srhN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [aBMjeb7M2qg9GdH6] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [IZ6HFNHmuXOXqQQf] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dOkZ4fNC0ESoXuOD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fS41VzBlsuyJ0iyW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [RbTYBK79HIwEvLt9] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [u5hO1cP8b9YHefRd] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [eOWOtdIylGr6tozs] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [H1Fy9frDh44AUMld] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lfglRthY1qBtPnFr] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xvV1pu3raEtlbow8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [2sMmNo78J8Ja86Ca] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [YoaUEViljeJHphuK] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [FzNwlRkrneudWd2p] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [VVZ2CdRF9spZaSea] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Cg3phiJu515zTLQG] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9TLW9o7vIJioVNx6] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [25vTEeGngeJKwPy3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Q5QUhyrBBOfqEM4G] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lNeR8YrcJ5zmOfXF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [88eh4Rnq8zB8NXRZ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [7wMhAEPhjBsEnviy] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9LXhwj50uoc5vhdD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [WC874d9Tfhfmnh1e] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QBYSFw0GCwlaNu2k] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [8TFwz2g3EGStxSx4] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pUAqu3WcuTYHaW3y] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dWR26BefWYhKLLAs] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [67JBokIKNQR9QoRE] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [RYTo9oFPG4diAQML] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [XBz5K9ySpw7hIcLJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [LMYdiv9I0dyOOZBL] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lbL93SBidZCYwReb] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [7HsprH41PyucRNd8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xPJswFI8HvSwB62q] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DtEtHHnLTLOwLZhv] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [sd7WH96kYaXMtGVp] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9hmq5MzdCHZ2O48w] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [IeldrtO1stzHbzmG] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [TMz638XR1mxde5Wu] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QRWIFnuTKvk96yBv] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [PuuYtE7WKm4HNjok] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [537es06acyjCrGDx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fnX0I7EaYor3r7un] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [kOnWbuiDFPB6yVk3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [61SVipf4yK6PVDA5] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [vm41jMcB9rVIEHwO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [d190ek09kCNDJajS] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [jQt3s5jacej6xVbV] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Xh7vbwF5bHoXAjiH] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [jYNTcEYjy20T086K] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dg3Rhz3e5Nvuzmhm] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pDHHwNcXePnYdAjE] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [gCl3LErilX5z2wyK] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [quSYwXc01pyZWBuO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QNdqDaNZ5bjxhn9J] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tdE3BU7Dg7w1tT2e] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [o8p4xUzvXgv5Pt5u] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pekzsp7027tElfEY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tK95hQLlwnPro3pf] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [mZzlv2B3b1PftoaW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wrzVBIuytKL3DwSr] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [FkIjdw3STaR1oeJE] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [EPzlw7J7QAtlwxdR] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [r1FOdvZfEuLpUr4O] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ET4dLubLc9CA209r] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HHJf2bvp8LGfSKFl] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wcXF1bLd9U7241o0] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UeYrM7Mwu1I2c2PQ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [gypvbSz3E3v9A5jf] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [n9MNXsoA81SOnni8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [nXa1kkrMc31Ms2qU] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1nqA5YTPBdKGU6t0] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [A0yxkWoQiut4A6oh] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [cVhSI0YOgcOpldSq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [uCkD8CUfxQywDzLk] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [izqjSMfR7MbAcZa8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [PgXvJLcxKu35ZW2g] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [w9MLYMlnh3sE9LWI] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [KuePN6gsy9YLp1i5] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DnPTdZUgykJqGOlo] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [hxrqLXcIvDAkakdn] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [jrUMqSNrWLdDlIKs] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ondz2kvMsTAiVTQm] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [3VVomFYKx3XCcxM7] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [4ryYuGSEu5jGeEG0] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [eILd3if5ucCH7676] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [0hWIgE55hHznvvtp] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [OexlwNnXsg1GUNpY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HMz2OAEcmjhoRget] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tXlgYQsGDFx8l5Wi] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9DP6Zfhx1FBehxHO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wI2eXWvSbRrQCf2c] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pcjMhmCRBwrEh6gw] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Ky2TWnE50ilTWtSO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [CuFcJw1d1OUcBo6D] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [WZQhbn1GpUyAotOx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [R7M0ugIDxGRKLUBz] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QO2pkxmyc6uHtYgl] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [XbBF5MSpQjqKORwq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Pk9V4CsoLZ4ILzRL] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [uMTzLayx2oCHVemf] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [8nJzToA8jWHRgr2g] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [muKjLVlSgiiV2AIS] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ST0JggK7hUzjFdp9] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [K9nqxrtc4xF0uKOZ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fNScchJkBW9EDfx2] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lU83QvH0O1XYf7IF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [I9rmXOwc8a2hbC65] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [iITGkIv09nUYqRJ9] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [No23dNVuSusX7t7l] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [2w9sFZdFZUVSI9Sd] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [apslhxWirK7sh633] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [2bUtPmClvhZ31gQe] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pAppy1MgVh0CVxx2] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fLwSnzvNS2OnHm3e] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [GLxLRrAZQpnI8IcH] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UNBGhs3ehyrsjo4U] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [tXimUq02VjDckOB4] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [VxZQr5iao6Ey7tiC] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [NTQo6Hn6upiBWOZl] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [02km8zCRwJYrViqH] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [qzvGrJoZ61ikttKN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [TwL1WLZ54TgDAIJB] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [kL7HVjNzzVVsUQ7p] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [YzreHQnbQyA63lvD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Lt4DOPgAWoO7m2XP] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DR9ixSjtCRVx0w6q] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [6wvIds2MLTnIFEhl] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1H4w8DeqGhGCyoBE] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [WkDHI0BTSkfB62XJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [CDRFEHq1Zqgx7ZVK] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [PuEkCv1IHIF0KGzT] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [eKuAkqH3KT9pxQoU] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Q4qOYtrx96txkH38] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [E7gfjzhDyioPWxFR] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [g3y76G9hASDNQxxO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ed0aajGAyc4MWgWG] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DADqpXcXwouqBdQK] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [M1XuDnYeY6jGUqUq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [v0Ni9DrsitcSAhR8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [rG8iLuwKfviFRySO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [OwYZXtc1JaTySYQV] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [asunydC5tuxXJ0eS] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [3LJ66A8IjmXyFowJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [m804PQISu8Dr3y5p] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [8cWWW8Q7JBnoFkv7] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [TQ511dRguuiFnDrY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Peyvnum95G8RFRZC] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [zCEi9yZJW5qqlrkq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [pZz43lpujIHV99XB] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [568oiALdkQf5dDQF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Baadv5no7cL35yEL] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [f05ix6kQQlLu5su3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dfn9Lilr6Buv4A4W] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [w1QWPcM0v4iP4RGW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [podOD8HPKeA7dlo2] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [yJedyZiy1F7Uoi6V] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [MM9iOFOFczA3L3fF] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [eCstJJ1QnO0mOhkQ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [C96ScKchSgF33fMm] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [y9kn1XLCFMpEATZX] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xHJPX7QeEy7lQLyO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [WkrP9dPLreKnceU8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BqB7GTaYnagIGhMs] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [EAABipUMzFQs9OHH] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [mWAZbafFQEJSxQGJ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xRmIwWxxYzxvU42k] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [MdgmdHy8MGvGYK4P] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [AGzjas9W0tIU6Bwy] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [XtBj03p7bqh0IRg8] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Sugap7vuiZAaMbvv] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [vMbK3Idh2rXmWCrS] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [5GDePzjj61omQnsx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [3tZyDJeBqLXrEQrY] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [sSg8IO0tmpEqrkfI] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [i1K4wSbkpqX0vFiq] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fE4qC9gxWjwA4j0f] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [zHah4BSzJtpgdqFN] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ZZJn78nVJRA93aeD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UqJ9t14ICAMeT1V3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [N67l8c61fUwMcBga] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [OJzhsQ7bmBGguGvZ] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [AklbKX9PENeqqGzM] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1LlKsoZQJzBTsk1e] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UiQCJvMUY0tOrK5r] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Wtcv0KfA56TFmNYu] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [MWg2LGlCyyooPZam] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [P0ESke5QN8QKV5s1] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [N5MA1ZLOxY2EDFOO] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [bEvxiAoDZBVSdg1T] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [GNreAPfpPNL5738d] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BMBFkrNZ5iyDDjnT] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [KeWweLB2ciehW9GT] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [FtKa00H5ZG835utm] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ge70sTfYRQxvMjii] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [eA4VjeZSMBgzTNcj] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UGQhXbdpuTSInYj2] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [3YmNVXiLb5eisRLs] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wXdY3EyGBh0EdjZ2] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [hBFVmzldZUmxgrjx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [6nbktV5iNMvb94V1] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [urrYoTWdgu6qWUcx] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [AItHxIBeZMkZEZxX] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [19p8dlJFM8hwqh2u] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Mvt88ZLQGnpLtT9t] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [7KZHSbR8S7S6BKHj] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [kd2U355Q8jxtH3ob] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [HRRvhQjx1UfTSN1V] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [lVbn5ahCIyRxhL2v] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Jb12mvu7UF6GpJiz] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Vw3BYQoKWx0qbldl] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [cXjt1SKdUsFMLXVE] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ErWOcX7GCeM2eaEU] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dKBVqcKM5ncch3rK] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [zUzT5ahCEBjpP4a3] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9J3sJaQaN7OuQKQW] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [WNONeRYEfUoUhaCD] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ssFEO1JbiUo1pfyc] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [KwSf582wvmkfd97H] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [rYcO1s6otSuF3LEz] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [DPXbVcsvR9dkZAVM] in Compendium world.ddb-slaverin-ddb-spells","timestamp":"2023-07-03 16:42:23"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [FhSAHjKdju1yJXsk] in parent Item [IsbhVf8NJc1Fyxwp] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:47:05"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [12cl1XrdDrnpc1Jl] in parent Item [pKnXaEclbwiENysB] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:47:06"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [AlZ5yaJQSqhV1bwp] in parent Item [U0LoHohBMDq1MGL1] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:47:13"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [nrJ76oabsYcEsgkB] in parent Item [Ap43it1nfo1NDlry] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:47:15"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [IJQY9xdPFhJiw4z0] in parent Item [tHFUYTCI7KV03nGZ] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:47:20"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [0p2rlU3jRwWI3Aik] in parent Item [NpjWFAd1nwUaebAV] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:47:52"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [zFydB3vCKruhqFND] in parent Item [bcQfFxOgRPBkc9lU] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:47:55"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [RoFq169mTxJa52VB] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:18"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [vMO31wEHTYcGtoUe] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:18"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [8NgYKOqd8ZlMPJs4] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:18"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [f6gJ3RFLk4reNsbM] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:20"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [QLRgpdOqp3hrr1jQ] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:20"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [vSlhnNYAV6O5z64r] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:21"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [vLQ8Vvuu4BldjDWl] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:21"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [tptaetM6dWMJzpM4] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:21"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [9bWcRRfR80o9gtkE] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:21"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [JAr54UIoRXGbXGYo] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:22"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [9e9S9O4SWnJSueNk] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:22"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [OkgYA8vAnudVZ6WM] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:22"}
+{"level":"info","message":"FoundryVTT | Deleted Item with id [TcPdjjFUJaeJXI1O] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [mHA44VTy4TPblo7U] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [bFZhofPPRHF0jyea] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [OHAk7YxjOacUl14N] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1gfCVpmMmD0Azzsg] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QYZDq2SDcrOEbTxT] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [OyzN4RBr7Myt0qVa] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [iAdUPOuCjSNFsMgN] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xYskNXDBQecfskcB] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [BfGdkwlTnqKjVsh2] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [fhUWCooUv51wv3pA] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xYJb4AlVhExNXgG2] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [neKoHplaL5GZofwr] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Item with id [Iv4iQe8WZdlTh0Xw] in Compendium world.ddb-slaverin-ddb-items","timestamp":"2023-07-03 16:48:24"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [kGapePjvi9fHgkte]","timestamp":"2023-07-03 16:53:50"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [NoTdVlm4Z6V2nZwD]","timestamp":"2023-07-03 16:53:50"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [Fiq6W2fNysj2Rv2B]","timestamp":"2023-07-03 16:54:27"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [ggKxyMcjkt0K2d5I]","timestamp":"2023-07-03 16:54:27"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [GB2ywrCVKMNYslEN]","timestamp":"2023-07-03 16:54:27"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [O0WgXdYbP15oZZKp]","timestamp":"2023-07-03 16:54:27"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [eNq6Ajg83CVWel7Z]","timestamp":"2023-07-03 16:54:27"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [U469RuTczcwUfmyU]","timestamp":"2023-07-03 16:54:28"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [6xWX6nRrKkrFZTfi]","timestamp":"2023-07-03 16:54:28"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 16:56:05"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 955ms","timestamp":"2023-07-03 16:56:05"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 16:58:09"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 16:58:09"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to module JB2A_DnD5e","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to module canvas3dtokencompendium","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to module dice-calculator","timestamp":"2023-07-03 16:58:17"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 16:58:17"}
+{"level":"warn","message":"The module \"dragupload\" is using \"name\" which is deprecated in favor of \"id\"\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 16:58:17"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 16:58:17"}
+{"level":"warn","message":"The module \"hidden-initiative\" is using \"name\" which is deprecated in favor of \"id\"\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 16:58:17"}
+{"level":"warn","message":"The module \"hidden-initiative\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 1%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 2%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 3%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 4%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 5%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 6%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 7%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 8%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 9%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 10%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 11%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 12%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 13%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 14%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 15%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 16%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 17%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 18%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 19%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 20%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 21%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 22%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 23%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 24%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 25%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 26%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 27%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 28%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 29%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 30%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 31%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 32%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 33%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 34%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 35%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 36%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 37%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 38%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 39%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 40%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 41%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 42%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 43%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 44%","timestamp":"2023-07-03 16:58:17"}
+{"level":"info","message":"Downloading Package - 45%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 46%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 47%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 48%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 49%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 50%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 51%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 52%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 53%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 54%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 55%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 56%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 57%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 58%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 59%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 60%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 61%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 62%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 63%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 64%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 65%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 66%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 67%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 68%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 69%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 70%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 71%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 72%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 73%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 74%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 75%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 76%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 77%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 78%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 79%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 80%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 81%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 82%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 83%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 84%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 85%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 86%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 87%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 88%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 89%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 90%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 91%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 92%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 93%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 94%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 95%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 96%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 97%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 98%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 99%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 100%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 0%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 1%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 2%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 1%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 3%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 2%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 3%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 4%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 4%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 5%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 6%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 5%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 7%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 6%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 8%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 9%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 7%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 10%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 11%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 8%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 12%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 13%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 9%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 14%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 15%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 10%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 16%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 17%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Installing package - 11%","timestamp":"2023-07-03 16:58:18"}
+{"level":"info","message":"Downloading Package - 18%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 1%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 2%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 3%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 4%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 5%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 6%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 7%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 8%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 9%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 10%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 11%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 12%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 13%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 14%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 19%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 15%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 16%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 17%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 18%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 19%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 20%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 21%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 22%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 12%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 23%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 24%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 25%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 26%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 27%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 28%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 29%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 30%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 31%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 32%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 33%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 34%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 35%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 36%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 37%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 38%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 39%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 40%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 41%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 42%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 43%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 44%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 45%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 46%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 47%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 48%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 49%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 50%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 20%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 51%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 52%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 53%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 54%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 55%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 56%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 57%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 58%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 59%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 60%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 61%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 62%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 63%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 64%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 65%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 66%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 67%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 68%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 69%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 70%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 71%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 72%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 73%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 74%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 75%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 76%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 77%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 78%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 79%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 21%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 80%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 81%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 82%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 83%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 84%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 85%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 86%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 87%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 13%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 88%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 89%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 90%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 91%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 92%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 93%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 94%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 95%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 96%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 97%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 98%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 99%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 100%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 22%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 14%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 23%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 24%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 15%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 25%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 26%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 27%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 16%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 28%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 17%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 29%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 30%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 18%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 31%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 32%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 19%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 33%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 34%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 20%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 4%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 35%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 8%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 21%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 12%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 36%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 15%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 19%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 37%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 23%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 27%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 38%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 22%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 31%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 39%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 35%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 38%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 42%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 40%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 23%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 46%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 41%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 50%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 54%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 24%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 42%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 58%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 62%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 43%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 65%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 25%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 44%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 69%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 73%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 45%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 77%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 26%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 46%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 81%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 85%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 47%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 88%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 48%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 27%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 92%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 49%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 96%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 28%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 50%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 100%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Cleaning Up Artifacts - 100%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installation Complete - 100%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"FoundryVTT | Installed module monks-combat-details","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Vending Package - 100%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 51%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to module vtta-tokenizer","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 29%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 52%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 53%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 30%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 54%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 55%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 31%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 56%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 57%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 32%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 58%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 59%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 33%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 60%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 61%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 34%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 62%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 63%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 35%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 64%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 36%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 65%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 66%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 37%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 67%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 38%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 68%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 69%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 70%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to module wild-magic-surge-5e","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 39%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 71%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 40%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 72%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 73%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 41%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 74%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 42%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 75%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 76%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 43%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 77%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 78%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 44%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 79%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 80%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 81%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 45%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 82%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 46%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 83%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 84%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 47%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 85%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 86%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Installing package - 48%","timestamp":"2023-07-03 16:58:19"}
+{"level":"info","message":"Downloading Package - 87%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 49%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 88%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 89%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 50%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 90%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 91%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 51%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 92%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 93%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 94%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 52%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 95%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 96%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 53%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 97%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 98%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 99%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 54%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Downloading Package - 100%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 55%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 56%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 57%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 58%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 59%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 60%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 61%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 62%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 63%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 64%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 65%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 66%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 67%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 68%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 69%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 70%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 71%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 72%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 73%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 74%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 75%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 76%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 77%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 78%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 79%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 80%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 81%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 82%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 83%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 84%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 85%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 86%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 87%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 88%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 89%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 90%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 91%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 92%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 93%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 0%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 1%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 94%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 2%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 95%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 3%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 4%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 96%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 5%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 97%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 6%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 7%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 98%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 8%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 99%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 9%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 100%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 10%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Cleaning Up Artifacts - 100%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installation Complete - 100%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"FoundryVTT | Installed module ddb-importer","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to module ddb-importer","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Vending Package - 100%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 11%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 12%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 13%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 14%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 15%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 16%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 17%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 18%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 19%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 20%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 21%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 22%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 23%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 24%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 25%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 26%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 27%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 28%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 29%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 30%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 31%","timestamp":"2023-07-03 16:58:20"}
+{"level":"info","message":"Installing package - 32%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 33%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 34%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 35%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 36%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 37%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 38%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 39%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 40%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 41%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 42%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 43%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 44%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 45%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 46%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 47%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 48%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 49%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 50%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 51%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 52%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 53%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 54%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 55%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 56%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 57%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 58%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 59%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 60%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 61%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 62%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 63%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 64%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 65%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 66%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 67%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 68%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 69%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 70%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 71%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 72%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 73%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 74%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 75%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 76%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 77%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 78%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 79%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 80%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 81%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 82%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 83%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 84%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 85%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 86%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 87%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 88%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 89%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 90%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 91%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 92%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 93%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 94%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 95%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 96%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 97%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 98%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 99%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installing package - 100%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Cleaning Up Artifacts - 100%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Installation Complete - 100%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"FoundryVTT | Installed module monks-enhanced-journal","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Vending Package - 100%","timestamp":"2023-07-03 16:58:21"}
+{"level":"info","message":"Core software stable update 11.304 is available!","timestamp":"2023-07-03 16:59:54"}
+{"level":"info","message":"Downloading software update - 1%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 2%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 3%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 4%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 5%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 6%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 7%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 8%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 9%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 10%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 11%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 12%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 13%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 14%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 15%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 16%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 17%","timestamp":"2023-07-03 17:00:02"}
+{"level":"info","message":"Downloading software update - 18%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 19%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 20%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 21%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 22%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 23%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 24%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 25%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 26%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 27%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 28%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 29%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 30%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 31%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 32%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 33%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 34%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 35%","timestamp":"2023-07-03 17:00:03"}
+{"level":"info","message":"Downloading software update - 36%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 37%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 38%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 39%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 40%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 41%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 42%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 43%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 44%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 45%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 46%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 47%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 48%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 49%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 50%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 51%","timestamp":"2023-07-03 17:00:04"}
+{"level":"info","message":"Downloading software update - 52%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 53%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 54%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 55%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 56%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 57%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 58%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 59%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 60%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 61%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 62%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 63%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 64%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 65%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 66%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 67%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 68%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 69%","timestamp":"2023-07-03 17:00:05"}
+{"level":"info","message":"Downloading software update - 70%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 71%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 72%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 73%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 74%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 75%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 76%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 77%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 78%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 79%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 80%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 81%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 82%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 83%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 84%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 85%","timestamp":"2023-07-03 17:00:06"}
+{"level":"info","message":"Downloading software update - 86%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 87%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 88%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 89%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 90%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 91%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 92%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 93%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 94%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 95%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 96%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 97%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 98%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Downloading software update - 99%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Update download complete - 100%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Extracting downloaded update files","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Extracting downloaded update files - 1%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Extracting downloaded update files - 2%","timestamp":"2023-07-03 17:00:07"}
+{"level":"info","message":"Extracting downloaded update files - 3%","timestamp":"2023-07-03 17:00:08"}
+{"level":"info","message":"Extracting downloaded update files - 4%","timestamp":"2023-07-03 17:00:08"}
+{"level":"info","message":"Extracting downloaded update files - 5%","timestamp":"2023-07-03 17:00:08"}
+{"level":"info","message":"Extracting downloaded update files - 6%","timestamp":"2023-07-03 17:00:08"}
+{"level":"info","message":"Extracting downloaded update files - 7%","timestamp":"2023-07-03 17:00:09"}
+{"level":"info","message":"Extracting downloaded update files - 8%","timestamp":"2023-07-03 17:00:09"}
+{"level":"info","message":"Extracting downloaded update files - 9%","timestamp":"2023-07-03 17:00:09"}
+{"level":"info","message":"Extracting downloaded update files - 10%","timestamp":"2023-07-03 17:00:10"}
+{"level":"info","message":"Extracting downloaded update files - 11%","timestamp":"2023-07-03 17:00:10"}
+{"level":"info","message":"Extracting downloaded update files - 12%","timestamp":"2023-07-03 17:00:10"}
+{"level":"info","message":"Extracting downloaded update files - 13%","timestamp":"2023-07-03 17:00:10"}
+{"level":"info","message":"Extracting downloaded update files - 14%","timestamp":"2023-07-03 17:00:11"}
+{"level":"info","message":"Extracting downloaded update files - 15%","timestamp":"2023-07-03 17:00:11"}
+{"level":"info","message":"Extracting downloaded update files - 16%","timestamp":"2023-07-03 17:00:11"}
+{"level":"info","message":"Extracting downloaded update files - 17%","timestamp":"2023-07-03 17:00:12"}
+{"level":"info","message":"Extracting downloaded update files - 18%","timestamp":"2023-07-03 17:00:12"}
+{"level":"info","message":"Extracting downloaded update files - 19%","timestamp":"2023-07-03 17:00:12"}
+{"level":"info","message":"Extracting downloaded update files - 20%","timestamp":"2023-07-03 17:00:12"}
+{"level":"info","message":"Extracting downloaded update files - 21%","timestamp":"2023-07-03 17:00:12"}
+{"level":"info","message":"Extracting downloaded update files - 22%","timestamp":"2023-07-03 17:00:13"}
+{"level":"info","message":"Extracting downloaded update files - 23%","timestamp":"2023-07-03 17:00:13"}
+{"level":"info","message":"Extracting downloaded update files - 24%","timestamp":"2023-07-03 17:00:13"}
+{"level":"info","message":"Extracting downloaded update files - 25%","timestamp":"2023-07-03 17:00:13"}
+{"level":"info","message":"Extracting downloaded update files - 26%","timestamp":"2023-07-03 17:00:14"}
+{"level":"info","message":"Extracting downloaded update files - 27%","timestamp":"2023-07-03 17:00:14"}
+{"level":"info","message":"Extracting downloaded update files - 28%","timestamp":"2023-07-03 17:00:14"}
+{"level":"info","message":"Extracting downloaded update files - 29%","timestamp":"2023-07-03 17:00:14"}
+{"level":"info","message":"Extracting downloaded update files - 30%","timestamp":"2023-07-03 17:00:14"}
+{"level":"info","message":"Extracting downloaded update files - 31%","timestamp":"2023-07-03 17:00:15"}
+{"level":"info","message":"Extracting downloaded update files - 32%","timestamp":"2023-07-03 17:00:15"}
+{"level":"info","message":"Extracting downloaded update files - 33%","timestamp":"2023-07-03 17:00:15"}
+{"level":"info","message":"Extracting downloaded update files - 34%","timestamp":"2023-07-03 17:00:15"}
+{"level":"info","message":"Extracting downloaded update files - 35%","timestamp":"2023-07-03 17:00:16"}
+{"level":"info","message":"Extracting downloaded update files - 36%","timestamp":"2023-07-03 17:00:16"}
+{"level":"info","message":"Extracting downloaded update files - 37%","timestamp":"2023-07-03 17:00:16"}
+{"level":"info","message":"Extracting downloaded update files - 38%","timestamp":"2023-07-03 17:00:16"}
+{"level":"info","message":"Extracting downloaded update files - 39%","timestamp":"2023-07-03 17:00:17"}
+{"level":"info","message":"Extracting downloaded update files - 40%","timestamp":"2023-07-03 17:00:17"}
+{"level":"info","message":"Extracting downloaded update files - 41%","timestamp":"2023-07-03 17:00:17"}
+{"level":"info","message":"Extracting downloaded update files - 42%","timestamp":"2023-07-03 17:00:17"}
+{"level":"info","message":"Extracting downloaded update files - 43%","timestamp":"2023-07-03 17:00:17"}
+{"level":"info","message":"Extracting downloaded update files - 44%","timestamp":"2023-07-03 17:00:18"}
+{"level":"info","message":"Extracting downloaded update files - 45%","timestamp":"2023-07-03 17:00:18"}
+{"level":"info","message":"Extracting downloaded update files - 46%","timestamp":"2023-07-03 17:00:18"}
+{"level":"info","message":"Extracting downloaded update files - 47%","timestamp":"2023-07-03 17:00:18"}
+{"level":"info","message":"Extracting downloaded update files - 48%","timestamp":"2023-07-03 17:00:18"}
+{"level":"info","message":"Extracting downloaded update files - 49%","timestamp":"2023-07-03 17:00:19"}
+{"level":"info","message":"Extracting downloaded update files - 50%","timestamp":"2023-07-03 17:00:19"}
+{"level":"info","message":"Extracting downloaded update files - 51%","timestamp":"2023-07-03 17:00:19"}
+{"level":"info","message":"Extracting downloaded update files - 52%","timestamp":"2023-07-03 17:00:19"}
+{"level":"info","message":"Extracting downloaded update files - 53%","timestamp":"2023-07-03 17:00:20"}
+{"level":"info","message":"Extracting downloaded update files - 54%","timestamp":"2023-07-03 17:00:20"}
+{"level":"info","message":"Extracting downloaded update files - 55%","timestamp":"2023-07-03 17:00:20"}
+{"level":"info","message":"Extracting downloaded update files - 56%","timestamp":"2023-07-03 17:00:20"}
+{"level":"info","message":"Extracting downloaded update files - 57%","timestamp":"2023-07-03 17:00:21"}
+{"level":"info","message":"Extracting downloaded update files - 58%","timestamp":"2023-07-03 17:00:21"}
+{"level":"info","message":"Extracting downloaded update files - 59%","timestamp":"2023-07-03 17:00:23"}
+{"level":"info","message":"Extracting downloaded update files - 60%","timestamp":"2023-07-03 17:00:23"}
+{"level":"info","message":"Extracting downloaded update files - 61%","timestamp":"2023-07-03 17:00:24"}
+{"level":"info","message":"Extracting downloaded update files - 62%","timestamp":"2023-07-03 17:00:24"}
+{"level":"info","message":"Extracting downloaded update files - 63%","timestamp":"2023-07-03 17:00:24"}
+{"level":"info","message":"Extracting downloaded update files - 64%","timestamp":"2023-07-03 17:00:24"}
+{"level":"info","message":"Extracting downloaded update files - 65%","timestamp":"2023-07-03 17:00:25"}
+{"level":"info","message":"Extracting downloaded update files - 66%","timestamp":"2023-07-03 17:00:25"}
+{"level":"info","message":"Extracting downloaded update files - 67%","timestamp":"2023-07-03 17:00:25"}
+{"level":"info","message":"Extracting downloaded update files - 68%","timestamp":"2023-07-03 17:00:25"}
+{"level":"info","message":"Extracting downloaded update files - 69%","timestamp":"2023-07-03 17:00:25"}
+{"level":"info","message":"Extracting downloaded update files - 70%","timestamp":"2023-07-03 17:00:25"}
+{"level":"info","message":"Extracting downloaded update files - 71%","timestamp":"2023-07-03 17:00:26"}
+{"level":"info","message":"Extracting downloaded update files - 72%","timestamp":"2023-07-03 17:00:26"}
+{"level":"info","message":"Extracting downloaded update files - 73%","timestamp":"2023-07-03 17:00:26"}
+{"level":"info","message":"Extracting downloaded update files - 74%","timestamp":"2023-07-03 17:00:26"}
+{"level":"info","message":"Extracting downloaded update files - 75%","timestamp":"2023-07-03 17:00:26"}
+{"level":"info","message":"Extracting downloaded update files - 76%","timestamp":"2023-07-03 17:00:27"}
+{"level":"info","message":"Extracting downloaded update files - 77%","timestamp":"2023-07-03 17:00:27"}
+{"level":"info","message":"Extracting downloaded update files - 78%","timestamp":"2023-07-03 17:00:27"}
+{"level":"info","message":"Extracting downloaded update files - 79%","timestamp":"2023-07-03 17:00:27"}
+{"level":"info","message":"Extracting downloaded update files - 80%","timestamp":"2023-07-03 17:00:27"}
+{"level":"info","message":"Extracting downloaded update files - 81%","timestamp":"2023-07-03 17:00:28"}
+{"level":"info","message":"Extracting downloaded update files - 82%","timestamp":"2023-07-03 17:00:28"}
+{"level":"info","message":"Extracting downloaded update files - 83%","timestamp":"2023-07-03 17:00:28"}
+{"level":"info","message":"Extracting downloaded update files - 84%","timestamp":"2023-07-03 17:00:28"}
+{"level":"info","message":"Extracting downloaded update files - 85%","timestamp":"2023-07-03 17:00:28"}
+{"level":"info","message":"Extracting downloaded update files - 86%","timestamp":"2023-07-03 17:00:29"}
+{"level":"info","message":"Extracting downloaded update files - 87%","timestamp":"2023-07-03 17:00:29"}
+{"level":"info","message":"Extracting downloaded update files - 88%","timestamp":"2023-07-03 17:00:29"}
+{"level":"info","message":"Extracting downloaded update files - 89%","timestamp":"2023-07-03 17:00:29"}
+{"level":"info","message":"Extracting downloaded update files - 90%","timestamp":"2023-07-03 17:00:29"}
+{"level":"info","message":"Extracting downloaded update files - 91%","timestamp":"2023-07-03 17:00:29"}
+{"level":"info","message":"Extracting downloaded update files - 92%","timestamp":"2023-07-03 17:00:30"}
+{"level":"info","message":"Extracting downloaded update files - 93%","timestamp":"2023-07-03 17:00:30"}
+{"level":"info","message":"Extracting downloaded update files - 94%","timestamp":"2023-07-03 17:00:30"}
+{"level":"info","message":"Extracting downloaded update files - 95%","timestamp":"2023-07-03 17:00:30"}
+{"level":"info","message":"Extracting downloaded update files - 96%","timestamp":"2023-07-03 17:00:30"}
+{"level":"info","message":"Extracting downloaded update files - 97%","timestamp":"2023-07-03 17:00:31"}
+{"level":"info","message":"Extracting downloaded update files - 98%","timestamp":"2023-07-03 17:00:31"}
+{"level":"info","message":"Extracting downloaded update files - 99%","timestamp":"2023-07-03 17:00:31"}
+{"level":"info","message":"Update extraction complete - 100%","timestamp":"2023-07-03 17:00:33"}
+{"level":"info","message":"Cleaning existing folder content - 25%","timestamp":"2023-07-03 17:00:33"}
+{"level":"info","message":"Cleaning existing folder content - 2%","timestamp":"2023-07-03 17:00:33"}
+{"level":"info","message":"Cleaning existing folder content - 3%","timestamp":"2023-07-03 17:00:33"}
+{"level":"info","message":"Folder cleaning complete - 100%","timestamp":"2023-07-03 17:00:33"}
+{"level":"info","message":"Installing update files","timestamp":"2023-07-03 17:00:33"}
+{"level":"info","message":"Installing update files - 1%","timestamp":"2023-07-03 17:00:34"}
+{"level":"info","message":"Installing update files - 2%","timestamp":"2023-07-03 17:00:35"}
+{"level":"info","message":"Installing update files - 3%","timestamp":"2023-07-03 17:00:37"}
+{"level":"info","message":"Installing update files - 4%","timestamp":"2023-07-03 17:00:39"}
+{"level":"info","message":"Installing update files - 5%","timestamp":"2023-07-03 17:00:41"}
+{"level":"info","message":"Installing update files - 6%","timestamp":"2023-07-03 17:00:43"}
+{"level":"info","message":"Installing update files - 7%","timestamp":"2023-07-03 17:00:45"}
+{"level":"info","message":"Installing update files - 8%","timestamp":"2023-07-03 17:00:48"}
+{"level":"info","message":"Installing update files - 9%","timestamp":"2023-07-03 17:00:49"}
+{"level":"info","message":"Installing update files - 10%","timestamp":"2023-07-03 17:00:51"}
+{"level":"info","message":"Installing update files - 11%","timestamp":"2023-07-03 17:00:54"}
+{"level":"info","message":"Installing update files - 12%","timestamp":"2023-07-03 17:00:55"}
+{"level":"info","message":"Installing update files - 13%","timestamp":"2023-07-03 17:00:57"}
+{"level":"info","message":"Installing update files - 14%","timestamp":"2023-07-03 17:01:00"}
+{"level":"info","message":"Installing update files - 15%","timestamp":"2023-07-03 17:01:05"}
+{"level":"info","message":"Installing update files - 16%","timestamp":"2023-07-03 17:01:10"}
+{"level":"info","message":"Installing update files - 17%","timestamp":"2023-07-03 17:01:13"}
+{"level":"info","message":"Installing update files - 18%","timestamp":"2023-07-03 17:01:15"}
+{"level":"info","message":"Installing update files - 19%","timestamp":"2023-07-03 17:01:16"}
+{"level":"info","message":"Installing update files - 20%","timestamp":"2023-07-03 17:01:18"}
+{"level":"info","message":"Installing update files - 21%","timestamp":"2023-07-03 17:01:20"}
+{"level":"info","message":"Installing update files - 22%","timestamp":"2023-07-03 17:01:21"}
+{"level":"info","message":"Installing update files - 23%","timestamp":"2023-07-03 17:01:23"}
+{"level":"info","message":"Installing update files - 24%","timestamp":"2023-07-03 17:01:24"}
+{"level":"info","message":"Installing update files - 25%","timestamp":"2023-07-03 17:01:26"}
+{"level":"info","message":"Installing update files - 26%","timestamp":"2023-07-03 17:01:28"}
+{"level":"info","message":"Installing update files - 27%","timestamp":"2023-07-03 17:01:30"}
+{"level":"info","message":"Installing update files - 28%","timestamp":"2023-07-03 17:01:33"}
+{"level":"info","message":"Installing update files - 29%","timestamp":"2023-07-03 17:01:36"}
+{"level":"info","message":"Installing update files - 30%","timestamp":"2023-07-03 17:01:38"}
+{"level":"info","message":"Installing update files - 31%","timestamp":"2023-07-03 17:01:41"}
+{"level":"info","message":"Installing update files - 32%","timestamp":"2023-07-03 17:01:43"}
+{"level":"info","message":"Installing update files - 33%","timestamp":"2023-07-03 17:01:45"}
+{"level":"info","message":"Installing update files - 34%","timestamp":"2023-07-03 17:01:48"}
+{"level":"info","message":"Installing update files - 35%","timestamp":"2023-07-03 17:01:49"}
+{"level":"info","message":"Installing update files - 36%","timestamp":"2023-07-03 17:01:52"}
+{"level":"info","message":"Installing update files - 37%","timestamp":"2023-07-03 17:01:54"}
+{"level":"info","message":"Installing update files - 38%","timestamp":"2023-07-03 17:01:56"}
+{"level":"info","message":"Installing update files - 39%","timestamp":"2023-07-03 17:01:58"}
+{"level":"info","message":"Installing update files - 40%","timestamp":"2023-07-03 17:02:00"}
+{"level":"info","message":"Installing update files - 41%","timestamp":"2023-07-03 17:02:03"}
+{"level":"info","message":"Installing update files - 42%","timestamp":"2023-07-03 17:02:08"}
+{"level":"info","message":"Installing update files - 43%","timestamp":"2023-07-03 17:02:10"}
+{"level":"info","message":"Installing update files - 44%","timestamp":"2023-07-03 17:02:12"}
+{"level":"info","message":"Installing update files - 45%","timestamp":"2023-07-03 17:02:13"}
+{"level":"info","message":"Installing update files - 46%","timestamp":"2023-07-03 17:02:15"}
+{"level":"info","message":"Installing update files - 47%","timestamp":"2023-07-03 17:02:17"}
+{"level":"info","message":"Installing update files - 48%","timestamp":"2023-07-03 17:02:18"}
+{"level":"info","message":"Installing update files - 49%","timestamp":"2023-07-03 17:02:20"}
+{"level":"info","message":"Installing update files - 50%","timestamp":"2023-07-03 17:02:21"}
+{"level":"info","message":"Installing update files - 51%","timestamp":"2023-07-03 17:02:23"}
+{"level":"info","message":"Installing update files - 52%","timestamp":"2023-07-03 17:02:25"}
+{"level":"info","message":"Installing update files - 53%","timestamp":"2023-07-03 17:02:27"}
+{"level":"info","message":"Installing update files - 54%","timestamp":"2023-07-03 17:02:29"}
+{"level":"info","message":"Installing update files - 55%","timestamp":"2023-07-03 17:02:32"}
+{"level":"info","message":"Installing update files - 56%","timestamp":"2023-07-03 17:02:35"}
+{"level":"info","message":"Installing update files - 57%","timestamp":"2023-07-03 17:02:38"}
+{"level":"info","message":"Installing update files - 58%","timestamp":"2023-07-03 17:02:41"}
+{"level":"info","message":"Installing update files - 59%","timestamp":"2023-07-03 17:02:44"}
+{"level":"info","message":"Installing update files - 60%","timestamp":"2023-07-03 17:02:46"}
+{"level":"info","message":"Installing update files - 61%","timestamp":"2023-07-03 17:02:47"}
+{"level":"info","message":"Installing update files - 62%","timestamp":"2023-07-03 17:02:49"}
+{"level":"info","message":"Installing update files - 63%","timestamp":"2023-07-03 17:02:50"}
+{"level":"info","message":"Installing update files - 64%","timestamp":"2023-07-03 17:02:52"}
+{"level":"info","message":"Installing update files - 65%","timestamp":"2023-07-03 17:02:53"}
+{"level":"info","message":"Installing update files - 66%","timestamp":"2023-07-03 17:02:55"}
+{"level":"info","message":"Installing update files - 67%","timestamp":"2023-07-03 17:02:56"}
+{"level":"info","message":"Installing update files - 68%","timestamp":"2023-07-03 17:02:57"}
+{"level":"info","message":"Installing update files - 69%","timestamp":"2023-07-03 17:02:59"}
+{"level":"info","message":"Installing update files - 70%","timestamp":"2023-07-03 17:03:01"}
+{"level":"info","message":"Installing update files - 71%","timestamp":"2023-07-03 17:03:02"}
+{"level":"info","message":"Installing update files - 72%","timestamp":"2023-07-03 17:03:05"}
+{"level":"info","message":"Installing update files - 73%","timestamp":"2023-07-03 17:03:09"}
+{"level":"info","message":"Installing update files - 74%","timestamp":"2023-07-03 17:03:11"}
+{"level":"info","message":"Installing update files - 75%","timestamp":"2023-07-03 17:03:14"}
+{"level":"info","message":"Installing update files - 76%","timestamp":"2023-07-03 17:03:17"}
+{"level":"info","message":"Installing update files - 77%","timestamp":"2023-07-03 17:03:19"}
+{"level":"info","message":"Installing update files - 78%","timestamp":"2023-07-03 17:03:22"}
+{"level":"info","message":"Installing update files - 79%","timestamp":"2023-07-03 17:03:24"}
+{"level":"info","message":"Installing update files - 80%","timestamp":"2023-07-03 17:03:27"}
+{"level":"info","message":"Installing update files - 81%","timestamp":"2023-07-03 17:03:29"}
+{"level":"info","message":"Installing update files - 82%","timestamp":"2023-07-03 17:03:32"}
+{"level":"info","message":"Installing update files - 83%","timestamp":"2023-07-03 17:03:34"}
+{"level":"info","message":"Installing update files - 84%","timestamp":"2023-07-03 17:03:37"}
+{"level":"info","message":"Installing update files - 85%","timestamp":"2023-07-03 17:03:38"}
+{"level":"info","message":"Installing update files - 86%","timestamp":"2023-07-03 17:03:40"}
+{"level":"info","message":"Installing update files - 87%","timestamp":"2023-07-03 17:03:41"}
+{"level":"info","message":"Installing update files - 88%","timestamp":"2023-07-03 17:03:43"}
+{"level":"info","message":"Installing update files - 89%","timestamp":"2023-07-03 17:03:44"}
+{"level":"info","message":"Installing update files - 90%","timestamp":"2023-07-03 17:03:46"}
+{"level":"info","message":"Installing update files - 91%","timestamp":"2023-07-03 17:03:47"}
+{"level":"info","message":"Installing update files - 92%","timestamp":"2023-07-03 17:03:49"}
+{"level":"info","message":"Installing update files - 93%","timestamp":"2023-07-03 17:03:50"}
+{"level":"info","message":"Installing update files - 94%","timestamp":"2023-07-03 17:03:52"}
+{"level":"info","message":"Installing update files - 95%","timestamp":"2023-07-03 17:03:53"}
+{"level":"info","message":"Installing update files - 96%","timestamp":"2023-07-03 17:03:55"}
+{"level":"info","message":"Installing update files - 97%","timestamp":"2023-07-03 17:03:57"}
+{"level":"info","message":"Installing update files - 98%","timestamp":"2023-07-03 17:03:58"}
+{"level":"info","message":"Installing update files - 99%","timestamp":"2023-07-03 17:04:01"}
+{"level":"info","message":"Update installation complete - 100%","timestamp":"2023-07-03 17:04:05"}
+{"level":"info","message":"Update Complete - 100%","timestamp":"2023-07-03 17:04:07"}
+{"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-07-03 17:04:07"}
+{"level":"info","message":"Running on Node.js - Version 18.16.1","timestamp":"2023-07-03 17:04:14"}
+{"level":"info","message":"Foundry Virtual Tabletop - Version 11 Build 304","timestamp":"2023-07-03 17:04:14"}
+{"level":"info","message":"User Data Directory - \"/opt/data/foundryvtt\"","timestamp":"2023-07-03 17:04:14"}
+{"level":"info","message":"Application Options:\n{\n  \"compressStatic\": true,\n  \"fullscreen\": false,\n  \"hostname\": null,\n  \"language\": \"en.core\",\n  \"localHostname\": null,\n  \"port\": 30000,\n  \"protocol\": null,\n  \"proxyPort\": null,\n  \"proxySSL\": false,\n  \"routePrefix\": null,\n  \"updateChannel\": \"stable\",\n  \"upnp\": true,\n  \"upnpLeaseDuration\": null,\n  \"awsConfig\": null,\n  \"compressSocket\": true,\n  \"cssTheme\": \"foundry\",\n  \"deleteNEDB\": false,\n  \"hotReload\": true,\n  \"passwordSalt\": null,\n  \"sslCert\": null,\n  \"sslKey\": null,\n  \"world\": null,\n  \"serviceConfig\": null,\n  \"telemetry\": true,\n  \"adminPassword\": \"••••••••••••••••\"\n}","timestamp":"2023-07-03 17:04:14"}
+{"level":"info","message":"Software license verification succeeded","timestamp":"2023-07-03 17:04:14"}
+{"level":"info","message":"Requesting UPnP port forwarding to destination port 30000","timestamp":"2023-07-03 17:04:14"}
+{"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-07-03 17:04:14"}
+{"level":"info","message":"Created client session 325aa6e995a25d0d290951f8","timestamp":"2023-07-03 17:04:20"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 17:04:20"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-03 17:04:20"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"Administrator authentication failed for session 325aa6e995a25d0d290951f8; invalid password","status":403,"timestamp":"2023-07-03 17:04:24"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"Administrator authentication failed for session 325aa6e995a25d0d290951f8; invalid password","status":403,"timestamp":"2023-07-03 17:04:38"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"Administrator authentication failed for session 325aa6e995a25d0d290951f8; invalid password","status":403,"timestamp":"2023-07-03 17:04:44"}

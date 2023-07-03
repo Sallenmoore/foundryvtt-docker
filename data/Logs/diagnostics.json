@@ -1,5 +1,5 @@
 {
-  "timestamp": 1688320407846,
+  "timestamp": 1688403593862,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -34,7 +34,7 @@
       "version": "2.6.1"
     },
     "ddb-importer": {
-      "version": "3.4.42"
+      "version": "3.4.44"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -61,13 +61,13 @@
       "version": "1.12.12.1"
     },
     "monks-combat-details": {
-      "version": "11.01"
+      "version": "11.02"
     },
     "monks-common-display": {
       "version": "11.01"
     },
     "monks-enhanced-journal": {
-      "version": "11.01"
+      "version": "11.02"
     },
     "monks-little-details": {
       "version": "11.03"
@@ -106,12 +106,12 @@
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 567774
+      "playtime": 645257
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 567774,
-    "max": 380664
+    "total": 645257,
+    "max": 458147
   }
 }
