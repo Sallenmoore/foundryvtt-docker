@@ -17105,3 +17105,70 @@
 {"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 915ms","timestamp":"2023-07-03 02:55:01"}
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 03:04:52"}
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 678ms","timestamp":"2023-07-03 03:04:52"}
+{"level":"info","message":"Created client session 6925e982a7fe8ab95f44e546","timestamp":"2023-07-03 15:25:33"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"6925e982a7fe8ab95f44e546","timestamp":"2023-07-03 15:25:43"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 15:25:47"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 808ms","timestamp":"2023-07-03 15:25:47"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 15:33:10"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 918ms","timestamp":"2023-07-03 15:33:10"}
+{"level":"info","message":"FoundryVTT | Deleted 58 ChatMessage documents","timestamp":"2023-07-03 15:34:00"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [iv6pK85COuaiWfcu]","timestamp":"2023-07-03 15:35:35"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 15:35:38"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 840ms","timestamp":"2023-07-03 15:35:38"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 15:35:39"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 663ms","timestamp":"2023-07-03 15:35:39"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [b8S0mZEhefwgGmF2]","timestamp":"2023-07-03 15:36:22"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [0juM1QsiwzFWYy1A]","timestamp":"2023-07-03 15:37:03"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [PQQIoNkCXfmgkNEI]","timestamp":"2023-07-03 15:37:03"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [5sOrICihKougfd27]","timestamp":"2023-07-03 15:37:04"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [cvpLCbWO4aJb5jct]","timestamp":"2023-07-03 15:37:04"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [ST2Vl1c6EBcev5ax]","timestamp":"2023-07-03 15:37:04"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [q2IOLE4PU6vTNCRH]","timestamp":"2023-07-03 15:37:04"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [PtIAO0Fa1J2DDLFk]","timestamp":"2023-07-03 15:38:43"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [jgJH75jOPwo9Qaxd]","timestamp":"2023-07-03 15:38:50"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [D6jNRg7RlCuUvZvv]","timestamp":"2023-07-03 15:39:00"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [bAxTKkhlhmzG4Bwu]","timestamp":"2023-07-03 15:40:07"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Zt6yrFOCIZh5cdaI]","timestamp":"2023-07-03 15:40:07"}
+{"level":"info","message":"Created client session bd1aa79f8992a8a2e186b8d6","timestamp":"2023-07-03 15:40:09"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [hR1Yvnvu287VCRrX]","timestamp":"2023-07-03 15:40:13"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [iTrdJcPBeHOjEUef]","timestamp":"2023-07-03 15:40:13"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [JdxtIKTRfkIiCAsw]","timestamp":"2023-07-03 15:40:15"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [a2XKlDrChIGmuxad]","timestamp":"2023-07-03 15:40:15"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [7WwrhlFuoVjg11ey]","timestamp":"2023-07-03 15:40:21"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [4HYyvEc2EinXjWK2]","timestamp":"2023-07-03 15:40:21"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [EeUmfIoP51H2j2ti]","timestamp":"2023-07-03 15:40:25"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [xJ7U51t5XcI5eLtB]","timestamp":"2023-07-03 15:40:25"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [T73fv0KAOZ5LXtkh]","timestamp":"2023-07-03 15:40:26"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [z5n6Fx9iDAilZG9a]","timestamp":"2023-07-03 15:40:26"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [CtQYDsxtwtcBKtuV]","timestamp":"2023-07-03 15:40:27"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Gm3CUfDr26MYO46E]","timestamp":"2023-07-03 15:40:27"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [J2pWQwYImHCrrLjn]","timestamp":"2023-07-03 15:40:28"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [qRRaDItkCrMrCzsX]","timestamp":"2023-07-03 15:40:28"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [2MUUsoumA0MumcsT]","timestamp":"2023-07-03 15:40:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [LI6K4VBxBINdYIjB]","timestamp":"2023-07-03 15:40:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Apig49BWuDZ38kCP]","timestamp":"2023-07-03 15:40:30"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [8X8zNc2YVCfpoh5h]","timestamp":"2023-07-03 15:40:30"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [eRjd0DWiyzu2r1ZS]","timestamp":"2023-07-03 15:40:34"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [RjBK8dJpokgRdhpB]","timestamp":"2023-07-03 15:40:34"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [4P8ym0NdPOEn09ju]","timestamp":"2023-07-03 15:42:07"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [wLOkSlCSQELOvSsj]","timestamp":"2023-07-03 15:42:43"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [uwZ8vzPTNbNVcooS]","timestamp":"2023-07-03 15:43:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [t6CHikHeKwgiRTH0]","timestamp":"2023-07-03 15:44:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [ejMRNUER8pVp96qB]","timestamp":"2023-07-03 15:45:10"}
+{"level":"info","message":"FoundryVTT | Deleted 35 ChatMessage documents","timestamp":"2023-07-03 15:45:26"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [idhj03B0Wrdzor1R]","timestamp":"2023-07-03 15:45:32"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [chjGA3I5tqBPZzti]","timestamp":"2023-07-03 15:46:45"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [TDQfOj61N7iWCjoV]","timestamp":"2023-07-03 15:46:49"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [chjGA3I5tqBPZzti]","timestamp":"2023-07-03 15:47:07"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [TDQfOj61N7iWCjoV]","timestamp":"2023-07-03 15:47:07"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [idhj03B0Wrdzor1R]","timestamp":"2023-07-03 15:47:09"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 16:02:14"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 824ms","timestamp":"2023-07-03 16:02:14"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [YZtsq1kiobGLcQTM]","timestamp":"2023-07-03 16:02:25"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [0DORHszXq2BpdMzs]","timestamp":"2023-07-03 16:02:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [UxATZRjDGYTnCYKA]","timestamp":"2023-07-03 16:02:43"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [jjOz9Ueg9RVo99Wr]","timestamp":"2023-07-03 16:04:47"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 16:04:50"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 780ms","timestamp":"2023-07-03 16:04:50"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-03 16:04:51"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 783ms","timestamp":"2023-07-03 16:04:51"}
