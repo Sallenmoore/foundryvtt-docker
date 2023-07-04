@@ -19148,3 +19148,47 @@
 {"level":"info","message":"FoundryVTT | Created ChatMessage with id [PIgJx7keCSGkfJ4i]","timestamp":"2023-07-03 23:58:56"}
 {"level":"info","message":"Activating scene The Pit Inn [Xvw04TxWMJZp22SK]","timestamp":"2023-07-04 00:02:22"}
 {"level":"info","message":"FoundryVTT | Created Token with id [Tmv7qbbvIqxI4fYU] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-04 00:03:20"}
+{"level":"info","message":"Activating scene Rueside [ldQIkVMIqktMVuY6]","timestamp":"2023-07-04 00:20:54"}
+{"level":"info","message":"Activating scene Chichingia [XuDgIaWiroOTaT5L]","timestamp":"2023-07-04 00:21:00"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [E3EpoMRvLEaQuK9x]","timestamp":"2023-07-04 00:21:42"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Tklb842bCv932oKo]","timestamp":"2023-07-04 00:22:05"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [wjZtS732XMImwiug]","timestamp":"2023-07-04 00:22:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [lJpZEIWqWzguzppI]","timestamp":"2023-07-04 00:22:47"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [7rpXl6S4kZpDkLQj]","timestamp":"2023-07-04 00:24:38"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [UdrrATdvwIzLNEWn]","timestamp":"2023-07-04 00:26:37"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [8bwAlGPSBZFMM13d]","timestamp":"2023-07-04 00:26:57"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [N7ygpKrCm4yLJ4K1]","timestamp":"2023-07-04 00:27:18"}
+{"level":"info","message":"Activating scene Goblin Caves [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-04 00:39:10"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:12"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [f1jVZf12IvAQnX7x] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:13"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [kF2zRmmsH7SPdync] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:14"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [HejJpO3jTOJCFwRm] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:16"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [9N70wQAjLMNocUnu] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:18"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [F8F7sznggeXlVoJW] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:19"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [HejJpO3jTOJCFwRm] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:21"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [PiLYbbTkQ6dw4wsj] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:22"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [t7vOe6agmDrT4NUJ] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:40:24"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [K00aqSPYP0rLyShJ]","timestamp":"2023-07-04 00:45:42"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [LD4FMccoOaKqfXrW]","timestamp":"2023-07-04 00:46:43"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [lg5SUEwheJ9ag6Xw] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:47:35"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [szWOZFhIOKypbvp9] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:47:36"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [vYKWeq9VZ2GeAvAI] in parent ActorDelta [5rkrTH9LOF1HKWD0]","timestamp":"2023-07-04 00:47:47"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [dCr67lGkJ2nIXXiR] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:47:54"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [bgCyI3myK5Whilcg] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:47:56"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [yDIk2qTkA0nwHB43] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:47:59"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [QpUxasSo9BGSNNKw] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:48:06"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [HbgiSjJsz1JEQuf3] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:48:08"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [1m11eEvw6rPnsoAs] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:48:10"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [ac9XpZSWwfF1H3za] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:48:25"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [RFMg2wzRHG2jXLwv] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:48:27"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [Z4Ry2DTdOrKtasr5] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:48:29"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [POYZf7Vg8ZzXsu28] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:48:31"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [CSaroBbQ3DLkkc93] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-04 00:49:07"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [lg5SUEwheJ9ag6Xw] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:49:07"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [H77Y9b3AmuVCF3GF] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-04 00:49:08"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [szWOZFhIOKypbvp9] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:49:08"}
+{"level":"info","message":"FoundryVTT | Created 10 ChatMessage documents","timestamp":"2023-07-04 00:49:34"}
+{"level":"info","message":"FoundryVTT | Created 6 ChatMessage documents","timestamp":"2023-07-04 00:50:16"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [hhuW675wQNO29KUf] in parent Combat [IhJoD6Svuvw0G8XJ]","timestamp":"2023-07-04 00:52:12"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [fbeHwxD60sLI6cAF]","timestamp":"2023-07-04 00:52:49"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [KJFr2vcsvllgGmyt] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-04 01:03:11"}
