@@ -19305,3 +19305,4 @@
 {"level":"info","message":"Activating scene Goblin Caves [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-04 04:04:41"}
 {"code":"ECOMPROMISED","level":"error","message":"Unable to update lock within the stale threshold","stack":"Error: Unable to update lock within the stale threshold\n    at /opt/foundryvtt/resources/app/node_modules/proper-lockfile/lib/lockfile.js:136:25\n    at callback (/opt/foundryvtt/resources/app/node_modules/graceful-fs/polyfills.js:306:20)\n    at FSReqCallback.oncomplete (node:fs:209:5)","timestamp":"2023-07-04 06:04:43"}
 {"level":"info","message":"Created client session e9628834a6e22d373cbbd23c","timestamp":"2023-07-04 07:35:25"}
+{"level":"info","message":"Created client session 0f991fd14cf9d52a130887a5","timestamp":"2023-07-04 09:01:56"}
