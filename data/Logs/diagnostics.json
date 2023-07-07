@@ -1,5 +1,5 @@
 {
-  "timestamp": 1688403914760,
+  "timestamp": 1688759297108,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -24,8 +24,14 @@
     "canvas3dtokencompendium": {
       "version": "0.9.4"
     },
+    "character-actions-list-5e": {
+      "version": "6.0.4"
+    },
     "combat-enhancements": {
       "version": "1.2.2"
+    },
+    "compact-beyond-5e-sheet": {
+      "version": "0.21.1"
     },
     "conversation-hud": {
       "version": "5.0.2"
@@ -106,12 +112,12 @@
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 645257
+      "playtime": 646476
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 645257,
-    "max": 458147
+    "total": 646476,
+    "max": 459366
   }
 }
