@@ -19455,3 +19455,5 @@
 {"level":"info","message":"FoundryVTT | Created Item with id [wkYx8TFEcDxqXmwC] in parent ActorDelta [H8KqhSAYHCymCaf4]","timestamp":"2023-07-07 21:46:39"}
 {"level":"info","message":"FoundryVTT | Created Item with id [dXanG7J01OfutzwC] in parent ActorDelta [H8KqhSAYHCymCaf4]","timestamp":"2023-07-07 21:46:45"}
 {"level":"info","message":"FoundryVTT | Created Item with id [AzXOy9CHS5sO7RKp] in parent ActorDelta [H8KqhSAYHCymCaf4]","timestamp":"2023-07-07 21:47:10"}
+{"level":"info","message":"Created client session 72d4d8f2c3f5656dc28112ea","timestamp":"2023-07-08 00:27:54"}
+{"level":"info","message":"Created client session ac084db592f38439af191844","timestamp":"2023-07-08 00:27:54"}
