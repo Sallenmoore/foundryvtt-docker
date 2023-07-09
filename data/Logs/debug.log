@@ -19479,3 +19479,68 @@
 {"level":"info","message":"Created client session 5c7298de320820287d9a99db","timestamp":"2023-07-08 14:09:18"}
 {"level":"info","message":"Created client session 0352b5b0476d607b61a21198","timestamp":"2023-07-08 14:09:19"}
 {"level":"info","message":"Created client session 2b8dc5cee636a24db044b8e6","timestamp":"2023-07-08 14:09:19"}
+{"level":"info","message":"Created client session 7c0c9d0417cd0b955c5ec8af","timestamp":"2023-07-09 01:05:10"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"7c0c9d0417cd0b955c5ec8af","timestamp":"2023-07-09 01:05:24"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 01:05:27"}
+{"level":"info","message":"Core software stable update 11.305 is available!","timestamp":"2023-07-09 01:05:27"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1135ms","timestamp":"2023-07-09 01:05:28"}
+{"level":"info","message":"priely_headstrong.TokenQBpDcpHMaFs4eXZb.webp saved to assets/tokens","timestamp":"2023-07-09 01:07:48"}
+{"level":"info","message":"FoundryVTT | Created Token with id [Vl8ImtUrWre7epSK] in parent Scene [ldQIkVMIqktMVuY6]","timestamp":"2023-07-09 01:08:56"}
+{"level":"info","message":"andre_malring.Avatar.webp saved to assets/tokens","timestamp":"2023-07-09 01:10:10"}
+{"level":"info","message":"andre_malring.Token.webp saved to assets/tokens","timestamp":"2023-07-09 01:10:11"}
+{"level":"info","message":"astelic.Avatar.webp saved to assets/tokens","timestamp":"2023-07-09 01:10:52"}
+{"level":"info","message":"astelic.Token.webp saved to assets/tokens","timestamp":"2023-07-09 01:10:52"}
+{"level":"info","message":"captain_branor_ironear.Avatar.webp saved to assets/tokens","timestamp":"2023-07-09 01:11:53"}
+{"level":"info","message":"captain_branor_ironear.Token.webp saved to assets/tokens","timestamp":"2023-07-09 01:11:53"}
+{"level":"info","message":"carmine_calim.Avatar.webp saved to assets/tokens","timestamp":"2023-07-09 01:14:42"}
+{"level":"info","message":"carmine_calim.Token.webp saved to assets/tokens","timestamp":"2023-07-09 01:14:42"}
+{"level":"info","message":"Toggling game pause status to true","timestamp":"2023-07-09 01:15:11"}
+{"level":"info","message":"sora.Avatar.webp saved to assets/tokens","timestamp":"2023-07-09 01:18:53"}
+{"level":"info","message":"sora.Token.webp saved to assets/tokens","timestamp":"2023-07-09 01:18:53"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [KdvSDux2T8GEwxX1]","timestamp":"2023-07-09 01:19:36"}
+{"level":"info","message":"FoundryVTT | Created Token with id [HIgvKALapEt7dbdy] in parent Scene [ldQIkVMIqktMVuY6]","timestamp":"2023-07-09 01:19:58"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:21:39"}
+{"level":"info","message":"ruesidegates.jpg saved to assets/maps","timestamp":"2023-07-09 01:23:09"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/IIRqClWGtyDCJfi3-thumb.webp\"","timestamp":"2023-07-09 01:24:23"}
+{"level":"info","message":"Toggling game pause status to false","timestamp":"2023-07-09 01:24:36"}
+{"level":"info","message":"FoundryVTT | Created Token with id [o9Xk5iNLsWPmbWOM] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:25:33"}
+{"level":"info","message":"FoundryVTT | Created Token with id [A9xG8DyZjVa7ljXm] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:25:40"}
+{"level":"info","message":"Logged user gAzsPFxmxxXHBdOg out of active World","timestamp":"2023-07-09 01:28:49"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"7c0c9d0417cd0b955c5ec8af","timestamp":"2023-07-09 01:28:57"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 01:29:01"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 806ms","timestamp":"2023-07-09 01:29:01"}
+{"level":"info","message":"FoundryVTT | Created Token with id [7CJC3bY6BjXef31I] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:32:34"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 01:35:57"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 899ms","timestamp":"2023-07-09 01:35:57"}
+{"level":"info","message":"FoundryVTT | Created Token with id [kDRPXVD9P5uueah6] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:39:20"}
+{"level":"info","message":"FoundryVTT | Created Token with id [mrZXhY7LZh4D4mEB] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:39:24"}
+{"level":"info","message":"FoundryVTT | Created Token with id [k6KiXM54HkDqlLvB] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:39:29"}
+{"level":"info","message":"FoundryVTT | Created Token with id [HXhKyl6JVs1gaLUN] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:39:33"}
+{"level":"info","message":"FoundryVTT | Created Token with id [MTa7aNHYeUx6Odpb] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:39:36"}
+{"level":"info","message":"FoundryVTT | Created Token with id [UtFaSoaomBWKEqb4] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:39:40"}
+{"level":"info","message":"FoundryVTT | Created Token with id [FhHoVuLztd6TC4AQ] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:39:44"}
+{"level":"info","message":"FoundryVTT | Created Token with id [GaqFRVz9XVFe2LwT] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:40:31"}
+{"level":"info","message":"FoundryVTT | Created Token with id [hOq7aRMG43aCwE19] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:41:18"}
+{"level":"info","message":"FoundryVTT | Created Token with id [e5y5add8s4MlK2Hn] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:41:22"}
+{"level":"info","message":"FoundryVTT | Created Item with id [jUNKdaFsTDSlTFg5] in parent Actor [T12oa0hd11lnz5F1]","timestamp":"2023-07-09 01:45:14"}
+{"level":"info","message":"FoundryVTT | Created Item with id [wRNZxuAHbsSx1V7e] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:45:34"}
+{"level":"info","message":"FoundryVTT | Created Item with id [N6gY7vl2DwVVIien] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:46:07"}
+{"level":"info","message":"FoundryVTT | Created Item with id [QZVVdrNYpA1TNT56] in parent Actor [T12oa0hd11lnz5F1]","timestamp":"2023-07-09 01:46:13"}
+{"level":"info","message":"FoundryVTT | Created Item with id [xtODvfWw6PcmbD6T] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:46:50"}
+{"level":"info","message":"FoundryVTT | Created Item with id [EzzEmMB68ACVzbjM] in parent Actor [T12oa0hd11lnz5F1]","timestamp":"2023-07-09 01:47:01"}
+{"level":"info","message":"FoundryVTT | Created Item with id [atTxO1V781CYSeHo] in parent Actor [T12oa0hd11lnz5F1]","timestamp":"2023-07-09 01:48:55"}
+{"level":"info","message":"FoundryVTT | Created Item with id [SXZEVTIH1ImJvT47] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:49:01"}
+{"level":"info","message":"FoundryVTT | Created Item with id [faZkZid75JI2i88M] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:49:18"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dUhB6z7WXxZh9Z3w] in parent Actor [T12oa0hd11lnz5F1]","timestamp":"2023-07-09 01:49:23"}
+{"level":"info","message":"FoundryVTT | Created Item with id [apsylErU43ipJLOQ] in parent Actor [T12oa0hd11lnz5F1]","timestamp":"2023-07-09 01:50:10"}
+{"level":"info","message":"FoundryVTT | Created Item with id [YikSST3eh7IKEdaK] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:51:00"}
+{"level":"info","message":"FoundryVTT | Created Item with id [1KdJq0rIUgA4JqI1] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:51:34"}
+{"level":"info","message":"FoundryVTT | Created Item with id [dcq4elgFtNLYYXLT] in parent Actor [kniQbSQSy5CCRmNV]","timestamp":"2023-07-09 01:51:58"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [WkVVFnmkPKkNedJM] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:53:54"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [WkVVFnmkPKkNedJM] in parent Scene [IIRqClWGtyDCJfi3]","timestamp":"2023-07-09 01:53:57"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 01:54:23"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 794ms","timestamp":"2023-07-09 01:54:23"}
+{"level":"info","message":"Created client session fe98cd96d10ee87d4c813325","timestamp":"2023-07-09 01:56:52"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"fe98cd96d10ee87d4c813325","timestamp":"2023-07-09 01:57:01"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 01:57:05"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 901ms","timestamp":"2023-07-09 01:57:05"}
