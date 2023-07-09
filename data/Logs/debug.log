@@ -19624,3 +19624,89 @@
 {"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"507364b060916728a8e2acb2","timestamp":"2023-07-09 02:53:05"}
 {"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 02:53:09"}
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 897ms","timestamp":"2023-07-09 02:53:09"}
+{"level":"info","message":"Created client session 5334b502a39ec7e2d626b180","timestamp":"2023-07-09 03:48:51"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"Administrator authentication failed for session 5334b502a39ec7e2d626b180; invalid password","status":403,"timestamp":"2023-07-09 03:49:22"}
+{"level":"info","message":"Administrator authentication successful for session 5334b502a39ec7e2d626b180","timestamp":"2023-07-09 03:49:30"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-09 03:49:32"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-09 03:49:32"}
+{"level":"warn","message":"module \"dice-so-nice\" declares media.link which is unsupported, media.url should be used\nDeprecated since Version 11\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-09 03:49:38"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"actors\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"cards\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"messages\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"combats\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"drawings\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"fog\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"folders\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"items\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"journal\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"macros\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"playlists\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tables\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scenes\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"settings\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"users\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.wild-magic\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-tables\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.coia\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-backgrounds\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-classes\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-class-features\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-feats\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-items\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-monsters\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-vehicles\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-races\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-racial-traits\"","timestamp":"2023-07-09 03:49:38"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-spells\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-override\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-adventures\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.heroes\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsters\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.items\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tradegoods\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.spells\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.backgrounds\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classes\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.subclasses\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classfeatures\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.races\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsterfeatures\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.rules\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tables\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-sequencer\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-actors\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"conversation-hud.conversation-hud-macros\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-gm\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-player\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.shop-names\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.person-names\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tabletop-rpg-music.tabletop-rpg-music\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Connected to database \"wild-magic-surge-5e.wild-magic-surge-5e\"","timestamp":"2023-07-09 03:49:39"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-09 03:49:39"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"5334b502a39ec7e2d626b180","timestamp":"2023-07-09 03:49:46"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 03:49:50"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 900ms","timestamp":"2023-07-09 03:49:50"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [bouQ61vD3s7CfN7l] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:50:34"}
+{"level":"info","message":"FoundryVTT | Deleted AmbientSound with id [kUZy0RJohavn1iDf] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:51:02"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [YB1yBGaxvSSu1GI8] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:51:34"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [cbl40JJLDddAjJUv] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:51:36"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [aoPTxpltkTkflnLF] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:51:38"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [YIbzd3cGzu0gKt7h] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:51:44"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [R5zeaUr0EOnGMbYh] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:51:45"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [DgHV39OpvfelvVIX] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:51:47"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [DIYwc49tfLOMewPf] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:08"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [DIYwc49tfLOMewPf] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:13"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [cGoB5s2FgxJePJAo] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:20"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [68SBdh8P2wl5Blrt] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:26"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [GHzal0Or5K9as5QV] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:33"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [NdTl02dhS5SWnJir] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:36"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [8zscMZpSB5gl8JXn] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:42"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [0o8jeszHxsD0Wij7] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:44"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [sl4KeYChTlfEJ62V] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:45"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [aPcAIekEWa0Z4JG8] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:48"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [MOTrh6izj7YMF3aV] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:51"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [brtaoBSTALdSuVZK] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:52"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [Fue4UB8irVS1JCSc] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:54"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [3ADmFDHNDmFXPIZR] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:55"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [dfamhdK6wOQhArqj] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-09 03:52:59"}
