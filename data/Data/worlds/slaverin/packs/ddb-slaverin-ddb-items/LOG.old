@@ -1,15 +1,8 @@
-2023/07/03-17:29:08.489077 7ffbd67fc6c0 Recovering log #85
-2023/07/03-17:29:08.514005 7ffbd67fc6c0 Delete type=3 #83
-2023/07/03-17:29:08.514222 7ffbd67fc6c0 Delete type=0 #85
-2023/07/09-03:49:31.442466 7ff9374836c0 Level-0 table #90: started
-2023/07/09-03:49:31.456255 7ff9374836c0 Level-0 table #90: 13270 bytes OK
-2023/07/09-03:49:31.465116 7ff9374836c0 Delete type=0 #88
-2023/07/09-03:49:31.500245 7ff9374836c0 Manual compaction at level-0 from '!items!003jzmW02KeqOdZ1' @ 72057594037927935 : 1 .. '!items!zqGFOcY0QoAhErTG' @ 0 : 0; will stop at (end)
-2023/07/09-03:49:31.500377 7ff9374836c0 Manual compaction at level-1 from '!items!003jzmW02KeqOdZ1' @ 72057594037927935 : 1 .. '!items!zqGFOcY0QoAhErTG' @ 0 : 0; will stop at '!items.effects!tHFUYTCI7KV03nGZ.anoPH5YciHYwCsBW' @ 2358 : 0
-2023/07/09-03:49:31.500394 7ff9374836c0 Compacting 1@1 + 1@2 files
-2023/07/09-03:49:31.538924 7ff9374836c0 Generated table #91@1: 1154 keys, 1260252 bytes
-2023/07/09-03:49:31.538968 7ff9374836c0 Compacted 1@1 + 1@2 files => 1260252 bytes
-2023/07/09-03:49:31.546781 7ff9374836c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/07/09-03:49:31.546916 7ff9374836c0 Delete type=2 #90
-2023/07/09-03:49:31.547289 7ff9374836c0 Delete type=2 #82
-2023/07/09-03:49:31.582883 7ff9374836c0 Manual compaction at level-1 from '!items.effects!tHFUYTCI7KV03nGZ.anoPH5YciHYwCsBW' @ 2358 : 0 .. '!items!zqGFOcY0QoAhErTG' @ 0 : 0; will stop at (end)
+2023/07/09-03:49:38.873800 7ffbd67fc6c0 Recovering log #89
+2023/07/09-03:49:38.899959 7ffbd67fc6c0 Delete type=0 #89
+2023/07/09-03:49:38.900077 7ffbd67fc6c0 Delete type=3 #87
+2023/07/09-12:33:32.577117 7ff9374836c0 Level-0 table #95: started
+2023/07/09-12:33:32.577293 7ff9374836c0 Level-0 table #95: 0 bytes OK
+2023/07/09-12:33:32.597519 7ff9374836c0 Delete type=0 #93
+2023/07/09-12:33:32.605759 7ff9374836c0 Manual compaction at level-0 from '!items!003jzmW02KeqOdZ1' @ 72057594037927935 : 1 .. '!items!zqGFOcY0QoAhErTG' @ 0 : 0; will stop at (end)
+2023/07/09-12:33:32.625218 7ff9374836c0 Manual compaction at level-1 from '!items!003jzmW02KeqOdZ1' @ 72057594037927935 : 1 .. '!items!zqGFOcY0QoAhErTG' @ 0 : 0; will stop at (end)

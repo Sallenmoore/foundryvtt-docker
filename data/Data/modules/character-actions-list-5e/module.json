@@ -37,8 +37,7 @@
     ]
   },
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "10"
   },
   "bugs": "https://github.com/ElfFriend-DnD/foundryvtt-dnd5eCharacterActions/issues",
   "changelog": "https://github.com/ElfFriend-DnD/foundryvtt-dnd5eCharacterActions/releases",
