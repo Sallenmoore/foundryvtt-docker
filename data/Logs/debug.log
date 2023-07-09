@@ -20305,3 +20305,29 @@
 {"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/ldQIkVMIqktMVuY6-thumb.webp\"","timestamp":"2023-07-09 18:14:54"}
 {"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 18:17:04"}
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 780ms","timestamp":"2023-07-09 18:17:04"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"User authentication failed for user Dank; invalid password","session":"fe98cd96d10ee87d4c813325","status":401,"timestamp":"2023-07-09 20:29:17"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"fe98cd96d10ee87d4c813325","timestamp":"2023-07-09 20:29:25"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 20:29:29"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 817ms","timestamp":"2023-07-09 20:29:29"}
+{"level":"info","message":"Activating scene Unchained Attack [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-09 20:29:45"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [63Fi5OpufYEhU8sD]","timestamp":"2023-07-09 20:46:07"}
+{"level":"info","message":"ancientgiantsword.jpg saved to assets/maps","timestamp":"2023-07-09 20:50:11"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/63Fi5OpufYEhU8sD-thumb.webp\"","timestamp":"2023-07-09 20:50:43"}
+{"level":"info","message":"Activating scene Travel Map A [63Fi5OpufYEhU8sD]","timestamp":"2023-07-09 20:51:01"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 20:51:40"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 907ms","timestamp":"2023-07-09 20:51:40"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [riRJPRKcoyglO7VG]","timestamp":"2023-07-09 20:52:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [N7c52jW0bYKddP8Q]","timestamp":"2023-07-09 20:52:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [4Hw2KJzxjx82fboH]","timestamp":"2023-07-09 20:52:41"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [EBo7rOMjTi4USJyK]","timestamp":"2023-07-09 20:52:41"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Ccz8qRD4EzNUl0Nv]","timestamp":"2023-07-09 20:53:59"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [BHo2O9EfIKZCOquH]","timestamp":"2023-07-09 20:53:59"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [szKvI27BjNGs9WCX]","timestamp":"2023-07-09 20:54:02"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [NObF64AGJtlYfjVG]","timestamp":"2023-07-09 20:54:02"}
+{"level":"info","message":"Activating scene Sluta and Slachus [IkdquowsHhYQ9WYb]","timestamp":"2023-07-09 20:54:50"}
+{"level":"info","message":"Activating scene Goblin Caves [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-09 20:57:24"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [VQXjTzsXWqFD6pYo]","timestamp":"2023-07-09 21:02:38"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 21:02:41"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1407ms","timestamp":"2023-07-09 21:02:41"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-09 21:02:43"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 709ms","timestamp":"2023-07-09 21:02:43"}
