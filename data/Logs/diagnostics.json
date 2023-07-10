@@ -1,5 +1,5 @@
 {
-  "timestamp": 1688864727623,
+  "timestamp": 1688996853816,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -63,8 +63,14 @@
     "hidden-initiative": {
       "version": "1.0.3"
     },
+    "hourglass": {
+      "version": "1.5.1"
+    },
     "lib-wrapper": {
       "version": "1.12.12.1"
+    },
+    "monks-active-tiles": {
+      "version": "11.01"
     },
     "monks-combat-details": {
       "version": "11.02"
@@ -102,6 +108,9 @@
     "tabletop-rpg-music": {
       "version": "2.2.0"
     },
+    "torch": {
+      "version": "2.7.0"
+    },
     "vtta-tokenizer": {
       "version": "4.2.2"
     },
@@ -112,12 +121,12 @@
   "systems": {
     "dnd5e": {
       "version": "2.2.1",
-      "playtime": 646476
+      "playtime": 793160
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 646476,
-    "max": 459366
+    "total": 793160,
+    "max": 606050
   }
 }

@@ -20334,3 +20334,26 @@
 {"level":"info","message":"Created client session eaa14e464c67553cee346e00","timestamp":"2023-07-10 02:14:24"}
 {"level":"info","message":"Created client session 9c3cfc653bd195dd156545e9","timestamp":"2023-07-10 02:14:24"}
 {"level":"info","message":"Created client session 0aea4a4ba0c5d14618e826e4","timestamp":"2023-07-10 06:49:57"}
+{"level":"info","message":"Created client session 2dea253e584ef42614795ddc","timestamp":"2023-07-10 13:46:57"}
+{"ip":"::ffff:209.159.147.236","level":"warn","message":"User authentication failed for user Gamemaster; invalid password","session":"2dea253e584ef42614795ddc","status":401,"timestamp":"2023-07-10 13:47:19"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"2dea253e584ef42614795ddc","timestamp":"2023-07-10 13:47:31"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 13:47:33"}
+{"level":"info","message":"Core software stable update 11.305 is available!","timestamp":"2023-07-10 13:47:34"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1100ms","timestamp":"2023-07-10 13:47:34"}
+{"level":"info","message":"FoundryVTT | Deleted 8 ChatMessage documents","timestamp":"2023-07-10 13:47:48"}
+{"level":"info","message":"Created client session 675df093d1c2057fafb55948","timestamp":"2023-07-10 13:50:05"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"675df093d1c2057fafb55948","timestamp":"2023-07-10 13:50:30"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 13:50:35"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 1147ms","timestamp":"2023-07-10 13:50:35"}
+{"level":"info","message":"Logged user 94SaYfuv9U7rei5C out of active World","timestamp":"2023-07-10 13:52:36"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 13:52:40"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 788ms","timestamp":"2023-07-10 13:52:40"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"675df093d1c2057fafb55948","timestamp":"2023-07-10 13:52:50"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 13:52:53"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 632ms","timestamp":"2023-07-10 13:52:53"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 13:59:08"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 855ms","timestamp":"2023-07-10 13:59:08"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [irpSBukYWNTLOYVh]","timestamp":"2023-07-10 14:01:10"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [s7bhOgUGDofYvM1B]","timestamp":"2023-07-10 14:01:11"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [ke42fDQIUFKkxNQb]","timestamp":"2023-07-10 14:01:11"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [tlvOTVWRGMJxy8oU]","timestamp":"2023-07-10 14:01:11"}
