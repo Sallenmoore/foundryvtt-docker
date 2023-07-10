@@ -25061,3 +25061,14 @@
 {"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"2dea253e584ef42614795ddc","timestamp":"2023-07-10 19:16:11"}
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 19:16:13"}
 {"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 933ms","timestamp":"2023-07-10 19:16:13"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [7oOQe0ULXJMUXwi2]","timestamp":"2023-07-10 20:11:49"}
+{"level":"info","message":"silkhousethroneroom.jpg saved to assets/maps","timestamp":"2023-07-10 20:12:28"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/7oOQe0ULXJMUXwi2-thumb.webp\"","timestamp":"2023-07-10 20:12:51"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [tcEjenH5K0GQHLVz]","timestamp":"2023-07-10 20:30:31"}
+{"level":"info","message":"seastonehouse.jpg saved to assets/maps","timestamp":"2023-07-10 20:30:59"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/tcEjenH5K0GQHLVz-thumb.webp\"","timestamp":"2023-07-10 20:31:14"}
+{"level":"info","message":"FoundryVTT | Created Token with id [UayxUzjNFrrVlXJt] in parent Scene [tcEjenH5K0GQHLVz]","timestamp":"2023-07-10 20:31:55"}
+{"level":"info","message":"FoundryVTT | Created Token with id [hZUEYhpRNdsD1FA8] in parent Scene [7oOQe0ULXJMUXwi2]","timestamp":"2023-07-10 20:34:00"}
+{"level":"info","message":"FoundryVTT | Created Token with id [ht9Y2wRv0fANpgmn] in parent Scene [7oOQe0ULXJMUXwi2]","timestamp":"2023-07-10 20:34:08"}
+{"level":"info","message":"FoundryVTT | Created Token with id [6YilU4pptdSYS9fP] in parent Scene [7oOQe0ULXJMUXwi2]","timestamp":"2023-07-10 20:34:22"}
+{"level":"info","message":"FoundryVTT | Created Token with id [FsjHgLENh0QwlHOO] in parent Scene [7oOQe0ULXJMUXwi2]","timestamp":"2023-07-10 20:35:01"}
