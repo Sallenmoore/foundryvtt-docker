@@ -15,7 +15,7 @@
   "download": "https://github.com/theripper93/canvas3dtokencompendium/releases/download/1.0.4/module.zip",
   "id": "canvas3dtokencompendium",
   "compatibility": {
-    "minimum": "8",
+    "minimum": "9",
     "verified": "11"
   }
 }

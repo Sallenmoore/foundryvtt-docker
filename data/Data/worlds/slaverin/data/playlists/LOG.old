@@ -1,8 +1,8 @@
-2023/07/09-03:49:38.525866 7ffbd7fff6c0 Recovering log #204
-2023/07/09-03:49:38.550012 7ffbd7fff6c0 Delete type=3 #202
-2023/07/09-03:49:38.550185 7ffbd7fff6c0 Delete type=0 #204
-2023/07/09-12:33:32.353331 7ff9374836c0 Level-0 table #210: started
-2023/07/09-12:33:32.353417 7ff9374836c0 Level-0 table #210: 0 bytes OK
-2023/07/09-12:33:32.362778 7ff9374836c0 Delete type=0 #208
-2023/07/09-12:33:32.369699 7ff9374836c0 Manual compaction at level-0 from '!playlists!MVh595EWhk87THDn' @ 72057594037927935 : 1 .. '!playlists.sounds!z8EY5L4ldCWDaS8n.QPIZhehDkYUF9hVo' @ 0 : 0; will stop at (end)
-2023/07/09-12:33:32.403387 7ff9374836c0 Manual compaction at level-1 from '!playlists!MVh595EWhk87THDn' @ 72057594037927935 : 1 .. '!playlists.sounds!z8EY5L4ldCWDaS8n.QPIZhehDkYUF9hVo' @ 0 : 0; will stop at (end)
+2023/07/10-16:49:08.240742 7ffbd67fc6c0 Recovering log #213
+2023/07/10-16:49:08.259665 7ffbd67fc6c0 Delete type=3 #211
+2023/07/10-16:49:08.259823 7ffbd67fc6c0 Delete type=0 #213
+2023/07/10-16:59:55.273424 7ff9374836c0 Level-0 table #219: started
+2023/07/10-16:59:55.273513 7ff9374836c0 Level-0 table #219: 0 bytes OK
+2023/07/10-16:59:55.282710 7ff9374836c0 Delete type=0 #217
+2023/07/10-16:59:55.289718 7ff9374836c0 Manual compaction at level-0 from '!playlists!MVh595EWhk87THDn' @ 72057594037927935 : 1 .. '!playlists.sounds!z8EY5L4ldCWDaS8n.QPIZhehDkYUF9hVo' @ 0 : 0; will stop at (end)
+2023/07/10-16:59:55.336925 7ff9374836c0 Manual compaction at level-1 from '!playlists!MVh595EWhk87THDn' @ 72057594037927935 : 1 .. '!playlists.sounds!z8EY5L4ldCWDaS8n.QPIZhehDkYUF9hVo' @ 0 : 0; will stop at (end)

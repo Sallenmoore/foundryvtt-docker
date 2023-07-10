@@ -13,8 +13,7 @@
   "version": "4.2.60",
   "compatibility": {
     "minimum": "10",
-    "verified": "11",
-    "maximum": "11"
+    "verified": "11"
   },
   "esmodules": [
     "index.js"
