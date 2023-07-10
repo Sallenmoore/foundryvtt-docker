@@ -24883,3 +24883,171 @@
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:04:06"}
 {"level":"info","message":"Vended World data to User [x83qRmrpV0xBYtKs] in 941ms","timestamp":"2023-07-10 18:04:06"}
 {"level":"info","message":"Logged user x83qRmrpV0xBYtKs out of active World","timestamp":"2023-07-10 18:04:53"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Patrick","session":"4100a3265d79dc1cb20e5d16","timestamp":"2023-07-10 18:05:26"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:05:28"}
+{"level":"info","message":"Vended World data to User [x83qRmrpV0xBYtKs] in 914ms","timestamp":"2023-07-10 18:05:28"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [D05wPQADGcMAPEm4]","timestamp":"2023-07-10 18:05:54"}
+{"level":"info","message":"Created client session ff21ec381a52279b7b5735c2","timestamp":"2023-07-10 18:06:50"}
+{"level":"info","message":"Created client session 45b08ad690d38e6d60dc9df6","timestamp":"2023-07-10 18:06:50"}
+{"level":"info","message":"Created client session f6fe20073a71438c2b29b4a7","timestamp":"2023-07-10 18:06:52"}
+{"level":"info","message":"Logged user x83qRmrpV0xBYtKs out of active World","timestamp":"2023-07-10 18:07:53"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Patrick","session":"ff21ec381a52279b7b5735c2","timestamp":"2023-07-10 18:08:31"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:08:40"}
+{"level":"info","message":"Vended World data to User [x83qRmrpV0xBYtKs] in 833ms","timestamp":"2023-07-10 18:08:40"}
+{"level":"info","message":"citrine.png saved to assets/tiles/items/treasure","timestamp":"2023-07-10 18:16:20"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [IJ0Xu35baG7FYpC0]","timestamp":"2023-07-10 18:18:20"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [RVPqOPDL54RK5ucr]","timestamp":"2023-07-10 18:22:35"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [zNTg8T9bTqA8UNVh]","timestamp":"2023-07-10 18:22:35"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:22:46"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 913ms","timestamp":"2023-07-10 18:22:46"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [D05wPQADGcMAPEm4]","timestamp":"2023-07-10 18:23:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [QoXcbMNUoMNWDKWG]","timestamp":"2023-07-10 18:23:51"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-10 18:27:48"}
+{"level":"warn","message":"The module \"hourglass\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-10 18:27:48"}
+{"level":"info","message":"Downloading Package - 12%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 24%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 36%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 48%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 60%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 72%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 84%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 95%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 99%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Downloading Package - 100%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 7%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 14%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 21%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 29%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 36%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 43%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 50%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 57%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 64%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 71%","timestamp":"2023-07-10 18:28:00"}
+{"level":"info","message":"Installing package - 79%","timestamp":"2023-07-10 18:28:01"}
+{"level":"info","message":"Installing package - 86%","timestamp":"2023-07-10 18:28:01"}
+{"level":"info","message":"Installing package - 93%","timestamp":"2023-07-10 18:28:01"}
+{"level":"info","message":"Installing package - 100%","timestamp":"2023-07-10 18:28:01"}
+{"level":"info","message":"Cleaning Up Artifacts - 100%","timestamp":"2023-07-10 18:28:01"}
+{"level":"info","message":"Installation Complete - 100%","timestamp":"2023-07-10 18:28:01"}
+{"level":"info","message":"FoundryVTT | Installed module hide-gm-rolls","timestamp":"2023-07-10 18:28:01"}
+{"level":"info","message":"Vending Package - 100%","timestamp":"2023-07-10 18:28:01"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-10 18:28:12"}
+{"level":"warn","message":"The module \"hourglass\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"actors\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"cards\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"messages\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"combats\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"drawings\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"fog\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"folders\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"items\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"journal\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"macros\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"playlists\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tables\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scenes\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"settings\"","timestamp":"2023-07-10 18:28:12"}
+{"level":"info","message":"FoundryVTT | Connected to database \"users\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.wild-magic\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-tables\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.coia\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-backgrounds\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-class-features\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-classes\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-feats\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-items\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-monsters\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-vehicles\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-races\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-racial-traits\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-spells\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-override\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-adventures\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.heroes\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsters\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.items\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tradegoods\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.spells\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.backgrounds\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classes\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.subclasses\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classfeatures\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.races\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsterfeatures\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.rules\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tables\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-sequencer\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-actors\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e-animations.Macros\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e-animations.Items\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-gm\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-player\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-active-tiles.active-tile-macros\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.shop-names\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.person-names\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scene-packer.journals\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scene-packer.macros\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tabletop-rpg-music.tabletop-rpg-music\"","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-10 18:28:13"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:28:18"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1715ms","timestamp":"2023-07-10 18:28:19"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:28:40"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 876ms","timestamp":"2023-07-10 18:28:40"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Yuvxo8rDxVsPHf1m]","timestamp":"2023-07-10 18:28:44"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [Yuvxo8rDxVsPHf1m]","timestamp":"2023-07-10 18:28:49"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [QoXcbMNUoMNWDKWG]","timestamp":"2023-07-10 18:28:50"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [NRGNs57FucGHG56u]","timestamp":"2023-07-10 18:29:02"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [Wg1CLpD8w4Aj4LZF]","timestamp":"2023-07-10 18:29:04"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [63S5XFKctvAXFCXu]","timestamp":"2023-07-10 18:29:05"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [aChV2mlISeXHDncF]","timestamp":"2023-07-10 18:29:06"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [Wg1CLpD8w4Aj4LZF]","timestamp":"2023-07-10 18:29:14"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [63S5XFKctvAXFCXu]","timestamp":"2023-07-10 18:29:18"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [aChV2mlISeXHDncF]","timestamp":"2023-07-10 18:29:25"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-10 18:29:35"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:29:40"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 1367ms","timestamp":"2023-07-10 18:29:40"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-10 18:29:40"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1325ms","timestamp":"2023-07-10 18:29:40"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [ykc7BxbLYr7kBELQ]","timestamp":"2023-07-10 18:30:59"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [eLGuu8bYT4sVwEzo]","timestamp":"2023-07-10 18:30:59"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [t1OJCfAcSxi3PttG]","timestamp":"2023-07-10 18:30:59"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [10EUt4kz9urxkYhJ]","timestamp":"2023-07-10 18:30:59"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Aqq0DiAKctUXiN9v]","timestamp":"2023-07-10 18:31:07"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [MiwdKHtmzIxoJFHO]","timestamp":"2023-07-10 18:31:23"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [wiJhgrXjf9ex1eyD]","timestamp":"2023-07-10 18:31:23"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [BpDGoP8dc9BruSXL]","timestamp":"2023-07-10 18:31:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [fsLgPHHI9Ijvhh56]","timestamp":"2023-07-10 18:31:36"}
+{"level":"info","message":"FoundryVTT | Deleted Macro with id [BpDGoP8dc9BruSXL]","timestamp":"2023-07-10 18:31:56"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [bLviSxPf3pc5tcai]","timestamp":"2023-07-10 18:35:42"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [H54T9J4mi4yTMkGW]","timestamp":"2023-07-10 18:35:46"}
+{"level":"info","message":"FoundryVTT | Created Macro with id [AXk2DQOnKk2lM2u4]","timestamp":"2023-07-10 18:35:49"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [XWBEsGKeNyimgKNP]","timestamp":"2023-07-10 18:35:51"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [BprgtTB0DxJGowqd]","timestamp":"2023-07-10 18:35:51"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [UFYplXwYjf45pvyx]","timestamp":"2023-07-10 18:35:57"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [7dMS3QI8NI7QAx8r]","timestamp":"2023-07-10 18:36:07"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [SXysBbV9wpsQnmw9]","timestamp":"2023-07-10 18:36:25"}
+{"level":"info","message":"FoundryVTT | Deleted 9 ChatMessage documents","timestamp":"2023-07-10 18:36:41"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [e882ZbmUEDlO1Mm4]","timestamp":"2023-07-10 18:37:25"}
+{"level":"info","message":"FoundryVTT | Created TableResult with id [JTqaqVdXGwBQen5L] in parent RollTable [e882ZbmUEDlO1Mm4]","timestamp":"2023-07-10 18:37:44"}
+{"level":"info","message":"FoundryVTT | Created Actor with id [An5Ir2NXchLKkJqk]","timestamp":"2023-07-10 18:41:13"}
+{"level":"info","message":"bornewinter.png saved to assets/tokens","timestamp":"2023-07-10 18:50:38"}
+{"level":"info","message":"borne_winter.Avatar.webp saved to assets/tokens","timestamp":"2023-07-10 18:51:30"}
+{"level":"info","message":"borne_winter.Token.webp saved to assets/tokens","timestamp":"2023-07-10 18:51:30"}
+{"level":"info","message":"FoundryVTT | Created Actor with id [gGW01uGmaOGqYLqV]","timestamp":"2023-07-10 18:52:43"}
+{"level":"info","message":"cylawinter.png saved to assets/tokens","timestamp":"2023-07-10 18:52:55"}
+{"level":"info","message":"cyla_winter.Avatar.webp saved to assets/tokens","timestamp":"2023-07-10 18:53:21"}
+{"level":"info","message":"cyla_winter.Token.webp saved to assets/tokens","timestamp":"2023-07-10 18:53:21"}
+{"level":"info","message":"FoundryVTT | Created Token with id [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]","timestamp":"2023-07-10 18:53:51"}
+{"level":"error","message":"User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]","stack":"Error: User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:53:53"}
+{"level":"error","message":"User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]","stack":"Error: User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:53:53"}
+{"level":"error","message":"User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]","stack":"Error: User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:53:54"}
+{"level":"error","message":"User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]","stack":"Error: User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:53:54"}
+{"level":"error","message":"User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]","stack":"Error: User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:54:48"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [6NbK9F3OudGyjjJ6]","timestamp":"2023-07-10 18:55:11"}
+{"level":"error","message":"User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]","stack":"Error: User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:55:12"}
+{"level":"error","message":"User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]","stack":"Error: User Dank lacks permission to update Setting [rjaAFXHdIx9z07s0]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:55:42"}
+{"level":"error","message":"User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]","stack":"Error: User Dank lacks permission to update Token [1zYSQdHgaMcoAZRf] in parent Scene [ldQIkVMIqktMVuY6]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 18:55:42"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [W4qpaPb4PxzXl4fM]","timestamp":"2023-07-10 18:57:21"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [9KPKaSEYnjG8WYNh]","timestamp":"2023-07-10 18:57:21"}
+{"level":"info","message":"FoundryVTT | Created Token with id [pfIgwQhveNrggOeF] in parent Scene [ldQIkVMIqktMVuY6]","timestamp":"2023-07-10 18:57:30"}
