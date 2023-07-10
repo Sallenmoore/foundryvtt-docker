@@ -20357,3 +20357,59 @@
 {"level":"info","message":"FoundryVTT | Created Setting with id [s7bhOgUGDofYvM1B]","timestamp":"2023-07-10 14:01:11"}
 {"level":"info","message":"FoundryVTT | Created Setting with id [ke42fDQIUFKkxNQb]","timestamp":"2023-07-10 14:01:11"}
 {"level":"info","message":"FoundryVTT | Created Setting with id [tlvOTVWRGMJxy8oU]","timestamp":"2023-07-10 14:01:11"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:06:58"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 799ms","timestamp":"2023-07-10 14:06:58"}
+{"level":"info","message":"Created client session 592a2cf085a4aaaf3487a11c","timestamp":"2023-07-10 14:09:29"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Dank","session":"592a2cf085a4aaaf3487a11c","timestamp":"2023-07-10 14:09:38"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:09:41"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 991ms","timestamp":"2023-07-10 14:09:42"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [oxjEHW6czGb7kKfc]","timestamp":"2023-07-10 14:24:21"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [9deGuTbBgZD7EdTv]","timestamp":"2023-07-10 14:27:47"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:27:51"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 1276ms","timestamp":"2023-07-10 14:27:51"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:27:51"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1242ms","timestamp":"2023-07-10 14:27:51"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [exilaaYsJujiHKWy]","timestamp":"2023-07-10 14:27:57"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [exilaaYsJujiHKWy]","timestamp":"2023-07-10 14:28:15"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [cuI0UDMajOWPewZH]","timestamp":"2023-07-10 14:32:39"}
+{"level":"info","message":"FoundryVTT | Created 7 Combatant documents in parent Combat [cuI0UDMajOWPewZH]","timestamp":"2023-07-10 14:32:39"}
+{"level":"info","message":"FoundryVTT | Created Token with id [h1Y2ABkW8tDWjF6J] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-10 14:32:50"}
+{"level":"info","message":"FoundryVTT | Created Token with id [dIQrOjGjqNgtH4Yl] in parent Scene [pRCOZ1zDg5zZKQuw]","timestamp":"2023-07-10 14:33:00"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [7Pr7vd2chq5iw9Z0] in parent Combat [cuI0UDMajOWPewZH]","timestamp":"2023-07-10 14:33:27"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [9ceTviLHkJh7CbwK] in parent Combat [cuI0UDMajOWPewZH]","timestamp":"2023-07-10 14:33:33"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [ONUqcnDcEevccFtq]","timestamp":"2023-07-10 14:36:40"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [LkCXVUeoXwT980nZ]","timestamp":"2023-07-10 14:36:41"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:38:13"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 853ms","timestamp":"2023-07-10 14:38:13"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:38:32"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 667ms","timestamp":"2023-07-10 14:38:32"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [lHk24H0Dtc4dNO0R]","timestamp":"2023-07-10 14:41:10"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:41:14"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 1367ms","timestamp":"2023-07-10 14:41:15"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:41:15"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1451ms","timestamp":"2023-07-10 14:41:15"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:42:56"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 917ms","timestamp":"2023-07-10 14:42:56"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 14:43:30"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 781ms","timestamp":"2023-07-10 14:43:31"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [XzaYz59jB4IckvUf]","timestamp":"2023-07-10 14:45:47"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [69F3KuH3RuoFTaLz] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-10 14:46:20"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [pWik416paHACt4nb] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-10 14:46:21"}
+{"level":"info","message":"FoundryVTT | Deleted 2 ActiveEffect documents with ids: [69F3KuH3RuoFTaLz,pWik416paHACt4nb] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-10 14:46:22"}
+{"level":"error","message":"undefined id [69F3KuH3RuoFTaLz] is not in the set of invalid ids","stack":"Error: undefined id [69F3KuH3RuoFTaLz] is not in the set of invalid ids\n    at EmbeddedCollection.getInvalid (file:///opt/foundryvtt/resources/app/common/abstract/embedded-collection.mjs:272:27)\n    at file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:4864\n    at Array.map (<anonymous>)\n    at ServerDatabaseBackend._deleteDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:4844)\n    at ServerDatabaseBackend.delete (file:///opt/foundryvtt/resources/app/common/abstract/backend.mjs:182:17)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-10 14:46:22"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [cuI0UDMajOWPewZH]","timestamp":"2023-07-10 14:46:36"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Grab5JHHcRUOeqKn]","timestamp":"2023-07-10 14:46:36"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [XzaYz59jB4IckvUf]","timestamp":"2023-07-10 14:47:01"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [Grab5JHHcRUOeqKn]","timestamp":"2023-07-10 14:47:01"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [WnDD3SY6cWRZVPuC]","timestamp":"2023-07-10 14:49:20"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [tRVEgDTsLrpkNLkY] in parent Combat [WnDD3SY6cWRZVPuC]","timestamp":"2023-07-10 14:49:20"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [ZtkjWPEAYPnn9wam]","timestamp":"2023-07-10 14:49:27"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [MIZlmVNF8NXhzUnx]","timestamp":"2023-07-10 14:49:34"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [SxSyHZP6cIR3OGFK]","timestamp":"2023-07-10 14:49:35"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [tRVEgDTsLrpkNLkY] in parent Combat [WnDD3SY6cWRZVPuC]","timestamp":"2023-07-10 14:49:44"}
+{"level":"info","message":"FoundryVTT | Deleted Actor with id [k4UIbsaJYwFc7L2f]","timestamp":"2023-07-10 14:54:07"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 15:02:10"}
+{"level":"info","message":"Vended World data to User [94SaYfuv9U7rei5C] in 1164ms","timestamp":"2023-07-10 15:02:11"}
+{"level":"info","message":"DnD5e - Fifth Edition System update 2.2.2 is now available!","timestamp":"2023-07-10 15:02:12"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 867ms","timestamp":"2023-07-10 15:02:12"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [WnDD3SY6cWRZVPuC]","timestamp":"2023-07-10 15:02:42"}
