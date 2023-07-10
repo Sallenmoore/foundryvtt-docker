@@ -1,0 +1,172 @@
+<div class="action-pack__container {{iconSize}}">
+    <div class="action-pack__actors">
+        {{#*inline "item-list"}}
+            <ul class="action-pack__items">
+                {{#each this}}
+                    <li class="action-pack__item item" data-item-uuid="{{item.uuid}}">
+                        <div class="item-name rollable flexrow">
+                            <div class="item-image" style="background-image: url('{{item.img}}')">
+                                <i class="fa fa-dice-d20"></i>
+                            </div>
+                            <h4>
+                                {{item.name}}
+                                {{#if (and uses (or (not (eq item.type "spell")) (eq item.system.preparation.mode "innate")))}}
+                                    ({{uses.available}}{{#if uses.maximum}}/{{uses.maximum}}{{/if}})
+                                {{/if}}
+                            </h4>
+
+                            {{#if item.system.components.ritual}}
+                                <div class="ritual flag" title="{{localize "action-pack.flag.ritual-title"}}">{{localize "action-pack.flag.ritual"}}</div>
+                            {{/if}}
+                            {{#if item.system.components.concentration}}
+                                <div class="concentration flag" title="{{localize "action-pack.flag.concentration-title"}}">{{localize "action-pack.flag.concentration"}}</div>
+                            {{/if}}
+
+                            {{#if (eq item.system.activation.type "bonus")}}
+                                <div class="bonus flag" title="{{localize "action-pack.flag.bonus-title"}}">{{localize "action-pack.flag.bonus"}}</div>
+                            {{/if}}
+                            {{#if (eq item.system.activation.type "reaction")}}
+                                <div class="reaction flag" title="{{localize "action-pack.flag.reaction-title"}}">{{localize "action-pack.flag.reaction"}}</div>
+                            {{/if}}
+                            {{#if (eq item.system.activation.type "legendary")}}
+                                <div class="legendary flag" title="{{localize "action-pack.flag.legendary-title"}}">{{localize "action-pack.flag.legendary"}}</div>
+                            {{/if}}
+
+                            {{#if (and item.system.recharge.value item.system.recharge.charged)}}
+                               <div class="flag"><i class="fas fa-bolt"></i></div>
+                            {{/if}}
+                            {{#if (and item.system.recharge.value (not item.system.recharge.charged))}}
+                               <div class="flag"><a class="rollable item-recharge"><i class="fas fa-dice-six"></i> {{item.system.recharge.value}}+</a></div>
+                            {{/if}}
+
+                            {{#if (and (eq item.system.preparation.mode "prepared") (not item.system.preparation.prepared) (ne item.system.level 0))}}
+                                <div class="unprepared flag" title="{{localize "action-pack.flag.unprepared-title"}}">{{localize "action-pack.flag.unprepared"}}</div>
+                            {{/if}}
+                        </div>
+                    </li>
+                {{/each}}
+            </ul>
+        {{/inline}}
+
+        {{#*inline "item-category"}}
+            <h2>{{localize title}}</h2>
+            {{#each groups as |group groupName|}}
+                {{> item-group groupName=groupName showSpellDots=../showSpellDots }}
+            {{/each}}
+            {{#with items}}
+                {{> item-list }}
+            {{/with}}
+        {{/inline}}
+
+        {{#*inline "item-group"}}
+            {{#if (or items.length (and uses.maximum showSpellDots))}}
+                <div class="flexrow">
+                    <h3>
+                        <span>{{localize title}}</span>
+                        {{#if (and uses showSpellDots)}}
+                            <div class="group-dots" data-group-name="{{groupName}}">
+                                {{#each (actionPackSlots uses.available uses.maximum) as |available slotNumber|}}
+                                    <div class="dot {{#unless available}}empty{{/unless}}" data-slot="{{slotNumber}}"></div>
+                                {{/each}}
+                            </div>
+                        {{/if}}
+                    </h3>
+                    {{#if uses}}
+                        <div class="group-uses">{{uses.available}}/{{uses.maximum}}</div>
+                    {{/if}}
+                </div>
+
+                {{#with items}}
+                    {{> item-list }}
+                {{/with}}
+            {{/if}}
+        {{/inline}}
+
+        {{#*inline "skill-container"}}
+            <div class="action-pack__skill-container {{skillMode}} {{#if showSkills}}is-open{{/if}}">
+                <a class="action-pack__skill-header">
+                    Skills
+                    <i class="fas fa-caret-up"></i>
+                </a>
+                <div class="action-pack__skills">
+                    {{#each actor.system.skills as |skill s|}}
+                        <a class="action-pack__skill-row flexrow {{#if (gte skill.proficient 1)}}proficient{{/if}}" data-skill="{{s}}">
+                            <div class="flex0">
+                                {{#if (eq skill.proficient 0)}}<i class="far fa-circle"></i>{{/if}}
+                                {{#if (eq skill.proficient 0.5)}}<i class="fas fa-adjust"></i>{{/if}}
+                                {{#if (eq skill.proficient 1)}}<i class="fas fa-check"></i>{{/if}}
+                                {{#if (eq skill.proficient 2)}}<i class="fas fa-check-double"></i>{{/if}}
+                            </div>
+                            <div class="action-pack__skill-label">
+                                {{#with (lookup ../skills s)}}
+                                    <span>{{label}}</span>
+                                {{/with}}
+                            </div>
+                            <div class="flex1 action-pack__skill-bonus">
+                                {{numberFormat total decimals=0 sign=true}}
+                            </div>
+                            <div class="flex1 action-pack__skill-passive">
+                                ({{passive}})
+                            </div>
+                        </a>
+                    {{/each}}
+                </div>
+            </div>
+        {{/inline}}
+
+        {{#each actors as |actor|}}
+            <div class="action-pack__actor" data-actor-uuid="{{actor.actor.uuid}}">
+                <h1><a class="action-pack__actor-name">{{name}}</a></h1>
+
+                {{#if needsInitiative}}
+                    <a class="action-pack__initiative flexrow">
+                        <i class="flex0 fas fa-swords action-pack__initiative-icon"></i>
+                        <div>{{localize "action-pack.roll-initiative"}}</div>
+                    </a>
+                {{/if}}
+
+                <div class="action-pack__abilities">
+                    {{#each ../abilities as |abl abbr|}}
+                        {{#with (lookup actor.actor.system.abilities abbr) as |details|}}
+                            <a class="action-pack__ability" data-ability="{{abbr}}" title="{{abl.label}} {{details.value}} ({{numberFormat details.mod decimals=0 sign=true}} / {{numberFormat details.save decimals=0 sign=true}})">{{abbr}}</a>
+                        {{/with}}
+                    {{/each}}
+                </div>
+
+                {{#if (eq skillMode "dropdown")}}
+                    {{> skill-container}}
+                {{/if}}
+
+                {{#with sections}}
+                    {{#with equipped}}
+                        {{> item-category}}
+                    {{/with}}
+                    {{#with feature}}
+                        {{> item-category}}
+                    {{/with}}
+                    {{#with spell}}
+                        {{> item-category showSpellDots=../../../showSpellDots}}
+                    {{/with}}
+                    {{#with inventory}}
+                        {{> item-category}}
+                    {{/with}}
+                    {{#with passive}}
+                        {{> item-category}}
+                    {{/with}}
+                {{/with}}
+
+                {{#if (eq skillMode "append")}}
+                    {{> skill-container}}
+                {{/if}}
+            </div>
+        {{/each}}
+
+        {{#unless actors.length}}
+            <div class="action-pack__empty-tray">
+                <i class="fas fa-dice-d20"></i>
+            </div>
+        {{/unless}}
+    </div>
+</div>
+
+<div class="action-pack__end-turn">{{localize "action-pack.end-turn"}}</div>

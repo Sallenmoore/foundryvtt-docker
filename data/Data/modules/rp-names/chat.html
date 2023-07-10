@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="apple-mobile-web-app-title" content="RPGM Tools" />
+		<meta property="og:image" content="http://rpgm.tools/img/d20-og.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:align" content="center" />
+		<meta property="og:title" content="RPGM Tools" />
+		<meta
+			property="og:description"
+			content="Unique and powerful tools for game masters and players of tabletop role-playing games." />
+
+		<link
+			rel="icon"
+			href="icons/d20-192x192.png"
+			sizes="192x192"
+			type="image/png" />
+		<link rel="apple-touch-icon" href="icons/d20-192x192.png" />
+		<link rel="manifest" href="manifest.json" />
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link rel="stylesheet" href="styles/chat.css" />
+		<link rel="stylesheet" href="styles/media-queries.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous" />
+		<script type="module" src="scripts/rpgmtools.js"></script>
+		<script type="module" src="scripts/chat.js"></script>
+		<script>
+			if ("serviceWorker" in navigator) {
+				window.addEventListener("load", () => {
+					navigator.serviceWorker
+						.register("./sw.js", { scope: "./" })
+						.then(
+							(registration) => {
+								console.log(
+									"ServiceWorker registration successful with scope:",
+									registration.scope
+								);
+							},
+							(error) => {
+								console.log(
+									"ServiceWorker registration failed:",
+									error
+								);
+							}
+						);
+				});
+				navigator.serviceWorker.addEventListener(
+					"controllerchange",
+					() => {
+						if (
+							window.confirm(
+								"A new version of this app is available. Reload to update?"
+							)
+						) {
+							window.location.reload();
+						}
+					}
+				);
+			}
+		</script>
+		<title>RPGM Tools - Chat</title>
+	</head>
+	<body>
+		<header class="page">
+			<div>
+				<h1 id="RP">
+					<span class="RP">Role Playing</span> Game Management Tools
+				</h1>
+				<p class="header-description">
+					Unique and powerful tools for game masters and players of
+					tabletop role-playing games.
+				</p>
+			</div>
+		</header>
+		<div class="hamburger">
+			<div class="hamburger-line"></div>
+			<div class="hamburger-line"></div>
+			<div class="hamburger-line"></div>
+		</div>
+		<nav class="page" id="navigation">
+			<ul class="nav-list desktop-navbar">
+				<li class="nav-item">
+					<a href="./index.html" tabindex="-1">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="./rp-names.html" tabindex="-1"
+						>Random Procedural Names</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="./chat.html" tabindex="-1"
+						>Chats</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						href="https://foundryvtt.com/packages/rp-names"
+						tabindex="-1"
+						><img src=./img/fvtt.png class="nav-img"> RP Names for
+						Foundry VTT</a
+					>
+				</li>
+			</ul>
+		</nav>
+		<div class="nav-dropdown">
+			<ul class="nav-list">
+				<li class="nav-item">
+					<a href="./index.html" tabindex="-1">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="./rp-names.html" tabindex="-1"
+						>Random Procedural Names</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						href="https://foundryvtt.com/packages/rp-names"
+						tabindex="-1"
+						><img src=./img/fvtt.png class="nav-img"> RP Names for
+						Foundry VTT</a
+					>
+				</li>
+			</ul>
+		</div>
+		<main id="chat">
+			<div class="card">
+				<div class="card-body" id="chat-container">
+					<!-- Chatbot messages will go here -->
+				</div>
+				<div class="card-footer">
+					<input
+						type="text"
+						id="user-input"
+						class="form-control"
+						placeholder="Type your message here..." />
+					<select id="rp-function-select">
+						<option value="name">Name</option>
+						<option value="desc">Description</option>
+						<option value="gpt">GPT</option>
+						<option value="home">Homebrew</option>
+					</select>
+					<button id="send-button" class="btn btn-primary mt-2">
+						Send
+					</button>
+				</div>
+			</div>
+		</main>
+		<footer>
+			&copy; 2023 RPGM Tools, LLC. All rights reserved.
+			<div class="patreon-container">
+				<a href="https://patreon.com/RPGMTools" target="_blank">
+					<img
+						class="patreon-image"
+						src="./img/patreon.png"
+						alt="Support me on Patreon"
+						tabindex="-1" />
+				</a>
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

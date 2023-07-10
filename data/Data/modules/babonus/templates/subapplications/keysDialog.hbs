@@ -1,0 +1,34 @@
+<div class="dialog-content">
+  <p>{{{localize description}}}</p>
+  <table>
+    <thead>
+      <tr>
+        <th>{{localize "BABONUS.KeysDialogValue"}}</th>
+        <th><a data-action="cycle-all">{{localize "BABONUS.KeysDialogState"}}</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each values}}
+      <tr>
+        <td><a data-action="cycle">{{#if icon}}<img src="{{icon}}">{{/if}}{{label}}</a></td>
+        <td>
+          <a data-action="cycle-left"><i class="fa-solid fa-arrow-left"></i></a>
+          <select data-value="{{value}}">
+            <option value="none">&mdash;</option>
+            <option value="include" {{#if include}}selected{{/if}}>{{localize "BABONUS.KeysDialogInclude"}}</option>
+            {{#if ../canExclude}}
+            <option value="exclude" {{#if exclude}}selected{{/if}}>{{localize "BABONUS.KeysDialogExclude"}}</option>
+            {{/if}}
+          </select>
+          <a data-action="cycle-right"><i class="fa-solid fa-arrow-right"></i></a>
+        </td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+<div class="dialog-buttons">
+  <button class="dialog-button ok" data-button="ok">
+    <i class="fas fa-check"></i> {{localize "BABONUS.KeysDialogApplySelection"}}
+  </button>
+</div>

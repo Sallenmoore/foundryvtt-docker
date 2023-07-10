@@ -1,0 +1,233 @@
+@media screen and (max-width: 768px) {
+	input,
+	select,
+	textarea {
+		font-size: 16px;
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.tool-intro {
+		flex-direction: column;
+	}
+
+	header.page {
+		flex-direction: column;
+		height: auto;
+		position: relative;
+	}
+
+	nav.page {
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-evenly;
+		position: relative;
+		padding: 0;
+		background-color: var(--bg1);
+	}
+
+	.nav-dropdown ul {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	span.nav a {
+		font-size: 0.9rem;
+	}
+
+	h1#RP {
+		font-size: 1.6rem;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	p.header-description {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	h1#RP .RP {
+		display: block;
+	}
+
+	.hamburger {
+		display: block;
+		position: absolute;
+		top: 40px;
+		left: 10px;
+		z-index: 999;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+
+	.hamburger .hamburger-line {
+		width: 25px;
+		height: 3px;
+		background-color: var(--text1);
+		margin: 5px 0;
+	}
+
+	.nav-dropdown {
+		display: none;
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+
+	.nav-dropdown.active {
+		display: block;
+	}
+
+	.nav-list.desktop-navbar {
+		display: none;
+	}
+
+	.nav-item a {
+		background-color: var(--bg3);
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	li.nav-item a {
+		box-sizing: border-box;
+		text-decoration: none;
+		font-size: 1.2em; /* Increase the font size */
+		font-weight: bold;
+		color: var(--bg);
+		padding: 5px 10px;
+		background-color: var(--accent);
+		border-radius: 5px;
+	}
+
+	.nav-list {
+		width: 100%;
+	}
+
+	.nav-item {
+		width: 100%;
+	}
+
+	footer {
+		box-sizing: border-box;
+		font-size: 0.8em;
+		padding: 10px;
+	}
+
+	input[type="text"],
+	input[type="number"],
+	select {
+		font-size: 0.9rem;
+	}
+
+	input[type="range"] {
+		width: 100%;
+	}
+
+	button[type="submit"] {
+		box-sizing: border-box;
+		font-size: 0.9rem;
+		padding: 0.4rem 0.8rem;
+	}
+
+	.form-group {
+		margin-bottom: 0.5rem;
+	}
+
+	.collapsible-form {
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.output-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.settings-container {
+		margin-bottom: 0.5rem;
+		order: 0;
+	}
+
+	.patreon-image {
+		max-width: 50%;
+	}
+
+	.nav-img {
+		max-width: 18px;
+		max-height: 18px;
+		vertical-align: middle;
+		padding: 0;
+	}
+
+	.list-group-item {
+		font-size: 18px; /* Increase the font size for easier selection on touch screens */
+		padding: 15px; /* Increase padding for better touch experience */
+	}
+
+	.fit {
+		max-width: 95%;
+	}
+
+	.description-area {
+		width: 100%;
+		min-height: unset;
+		padding: 5px;
+		font-size: 1em;
+	}
+
+	.name-pill {
+		padding: 0.5rem 0.5rem;
+		margin-bottom: 5px;
+		border-radius: 20px;
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.hamburger {
+		display: none;
+	}
+
+	.nav-dropdown {
+		display: flex;
+	}
+
+	.nav-dropdown {
+		box-sizing: border-box;
+		display: flex;
+		position: static;
+		background-color: transparent;
+		padding: 0;
+	}
+
+	.nav-list.desktop-navbar {
+		display: flex;
+	}
+
+	.form-content form {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 10px;
+	}
+
+	.form-content label,
+	.form-content input,
+	.form-content select {
+		width: 100%;
+	}
+
+	.image-container {
+		flex: 0 0 calc(50% - 20px);
+		margin-right: 20px;
+	}
+}

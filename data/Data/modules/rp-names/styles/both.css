@@ -1,0 +1,53 @@
+.json-root {
+	font-family: Arial, sans-serif;
+}
+
+.key-value {
+	margin-bottom: 10px;
+}
+
+.key {
+	font-weight: bold;
+}
+
+.value {
+	color: #777;
+}
+
+.level0 > .heading {
+	font-size: 24px;
+}
+
+.level1 > .heading {
+	font-size: 20px;
+}
+
+.level2 > .heading {
+	font-size: 16px;
+}
+
+@keyframes jitter {
+	0% {
+		transform: translate(0, 0);
+	}
+	20% {
+		transform: translate(-2px, -2px);
+	}
+	40% {
+		transform: translate(-2px, 2px);
+	}
+	50%,
+	60% {
+		transform: translate(0, 0);
+	} /* pause in the middle */
+	80% {
+		transform: translate(2px, 2px);
+	}
+	100% {
+		transform: translate(2px, -2px);
+	}
+}
+
+.jitter {
+	animation: jitter 0.2s infinite;
+}

@@ -1,0 +1,284 @@
+<form>
+	<style>
+		.delete-all-container {
+			position: sticky;
+			top: -8px;
+			z-index: 100; /* This ensures the sticky elements are displayed on top of other elements */
+		}
+		.search-bar {
+			position: sticky;
+			top: 22px; /* Adjust this value as needed */
+			z-index: 100;
+		}
+		.saved-names-window {
+			display: flex;
+			flex-direction: column;
+			overflow: auto;
+		}
+		.saved-names-window table {
+			width: 100%;
+			table-layout: auto;
+			border-collapse: collapse;
+		}
+		.saved-names-window th {
+			position: sticky;
+			top: 47px; /* Adjust this value as needed */
+			z-index: 100;
+			background-color: #8878a0;
+			color: #ddbde2;
+			font-weight: bold;
+			white-space: nowrap; /* Prevent text wrapping */
+		}
+		.saved-names-window th,
+		.saved-names-window td {
+			border: 1px solid #6633cc;
+			padding: 2px;
+			text-align: left;
+			vertical-align: middle;
+		}
+		.saved-names-window td {
+			white-space: nowrap; /* Prevent text wrapping */
+		}
+		.key {
+			font-weight: bold;
+		}
+		.saved-names-window .delete-name {
+			background-color: #6633cc;
+			color: #fcfaff;
+			border: none;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 14px;
+			cursor: pointer;
+			position: relative;
+			z-index: 0;
+		}
+		.saved-names-window .delete-name:hover {
+			background-color: #512b9d;
+		}
+		.saved-names-window .delete-name::after {
+			content: "";
+			position: absolute;
+			top: -2px;
+			right: -2px;
+			bottom: -2px;
+			left: -2px;
+			border: 2px solid transparent;
+			z-index: -1;
+		}
+		.saved-names-window .delete-name:hover::after {
+			border-color: #6633cc;
+		}
+		.saved-names-window .apply-name {
+			background-color: #6633cc;
+			color: #fcfaff;
+			border: none;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 14px;
+			cursor: pointer;
+			position: relative;
+			z-index: 0;
+		}
+		.saved-names-window .apply-name:hover {
+			background-color: #512b9d;
+		}
+		.saved-names-window .apply-name::after {
+			content: "";
+			position: absolute;
+			top: -2px;
+			right: -2px;
+			bottom: -2px;
+			left: -2px;
+			border: 2px solid transparent;
+			z-index: -1;
+		}
+		.saved-names-window .apply-name:hover::after {
+			border-color: #6633cc;
+		}
+		.editable-indicator {
+			font-size: 0.8em;
+			color: #6633cc;
+		}
+		/* New styles */
+		.search-bar input[type="text"] {
+			padding: 8px;
+			border: 1px solid #6633cc;
+			background-color: #e8cafa;
+			border-radius: 4px;
+			outline: none;
+			transition: border-color 0.3s ease;
+		}
+		.search-bar input[type="text"]:focus {
+			border-color: #6633cc;
+			box-shadow: 0 0 0 1px #6633cc;
+		}
+		.edit-field:focus {
+			outline: none;
+			border-color: #6633cc;
+			box-shadow: 0 0 4px rgba(102, 51, 204, 0.5);
+		}
+		.saved-names-window tr:nth-child(even) {
+			background-color: #ddbde2; /* This is a very light shade of lavender */
+		}
+	</style>
+	<div class="delete-all-container">
+		<button id="delete-all-names" class="delete-all delete-name">
+			{{localize "CONFIG.DELETE_ALL"}}
+		</button>
+	</div>
+	<div
+		id="confirmation-dialog-names"
+		title="Confirm Delete All"
+		style="display: none">
+		<p>{{localize "CONFIG.DELETE_ALL_NAMES"}}</p>
+	</div>
+	<div class="search-bar">
+		<input
+			type="text"
+			id="search-names"
+			autocomplete="off"
+			placeholder="{{localize 'CONFIG.SEARCH'}}" />
+	</div>
+	<table>
+		<thead>
+			<tr>
+				<th>{{localize "CONFIG.DATE"}}</th>
+				<th>{{localize "CONFIG.CREATURE"}}</th>
+				<th>{{localize "CONFIG.FULL_NAME"}}</th>
+				<th>
+					{{localize "CONFIG.GENRE"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>
+					{{localize "CONFIG.LANGUAGE"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>
+					{{localize "CONFIG.GENDER"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>
+					{{localize "CONFIG.FIRST_NAME"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>
+					{{localize "CONFIG.NICKNAME"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>
+					{{localize "CONFIG.SURNAME"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>
+					{{localize "CONFIG.TITLE"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>
+					{{localize "CONFIG.ADJECTIVE"}}
+					<span class="editable-indicator">&#x270E;</span>
+				</th>
+				<th>{{localize "CONFIG.NAME_FORMAT"}}</th>
+				<th>
+					{{localize "CONFIG.USED"}}
+					<span class="editable-indicator"></span>
+				</th>
+				<th>{{localize "CONFIG.APPLY"}}</th>
+				<th>{{localize "CONFIG.DELETE"}}</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each rpSavedNames as |name key|}}
+			<tr>
+				<td>{{rpFormatDate name.date}}</td>
+				<td>{{name.creature}}</td>
+				<td
+					class="edit-field key"
+					data-key="{{key}}"
+					data-field="fullName"
+					contenteditable="false">
+					{{name.fullName}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="genre"
+					contenteditable="true">
+					{{name.genre}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="language"
+					contenteditable="true">
+					{{name.language}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="gender"
+					contenteditable="true">
+					{{name.gender}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="first_name"
+					contenteditable="true">
+					{{name.first_name}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="nickname"
+					contenteditable="true">
+					{{name.nickname}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="surname"
+					contenteditable="true">
+					{{name.surname}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="title"
+					contenteditable="true">
+					{{name.title}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="adjective"
+					contenteditable="true">
+					{{name.adjective}}
+				</td>
+				<td
+					class="edit-field"
+					data-key="{{key}}"
+					data-field="nameFormat"
+					contenteditable="false">
+					{{name.nameFormat}}
+				</td>
+				<td class="toggle-used" data-key="{{key}}">{{name.used}}</td>
+				<td>
+					<button class="apply-name" data-key="{{key}}">
+						{{localize "CONFIG.APPLY"}}
+					</button>
+				</td>
+				<td>
+					<button class="delete-name" data-key="{{key}}">
+						{{localize "CONFIG.DELETE"}}
+					</button>
+				</td>
+			</tr>
+			{{/each}}
+		</tbody>
+	</table>
+	<span class="editable-indicator">&#x270E;</span> {{localize
+	"CONFIG.EDITABLE_INDICATOR"}}. {{localize "CONFIG.CLICK_TO_EDIT"}}.
+</form>

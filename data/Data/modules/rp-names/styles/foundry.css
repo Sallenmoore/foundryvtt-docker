@@ -1,0 +1,72 @@
+.control-icon.rp-names-undo i.fas.fa-undo {
+	color: #2d9be4;
+}
+
+.control-icon.rp-names-refresh i.fas.fa-sync {
+	color: #7b4ed4;
+}
+
+.control-icon.rp-names-saved-names i.fas.fa-list {
+	color: #ad8cef;
+}
+
+.control-icon.rp-names-description i.fas.fa-file-alt {
+	color: #e93d98;
+}
+
+.ai-overlay {
+	position: absolute;
+	bottom: -5px;
+	right: -5px;
+	font-size: 0.3em;
+	color: white;
+	background: none;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.count-overlay {
+	position: absolute;
+	bottom: -5px;
+	right: -5px;
+	font-size: 0.3em;
+	color: white;
+	background: none;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.control-icon.rp-names-undo.pulsate i.fas.fa-undo,
+.control-icon.rp-names-refresh.pulsate i.fas.fa-sync,
+.control-icon.rp-names-saved-names.pulsate i.fas.fa-list,
+.control-icon.rp-names-description.pulsate i.fas.fa-file-alt,
+.ai-overlay.pulsate,
+.count-overlay.pulsate {
+	color: #b41ee6; /* Choose your starting color */
+}
+
+.pulsate {
+	animation: pulsate 10s infinite;
+}
+
+@keyframes pulsate {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(360deg);
+	}
+}
+
+.control-icon.highlight-border {
+	border: 2px solid #e61e1e !important;
+}
+
+.rp-description-header {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #7b4ed4;
+}
+
+.rp-description-body {
+	font-size: 1em;
+	color: #e93d98;
+}

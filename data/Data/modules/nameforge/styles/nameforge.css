@@ -1,0 +1,57 @@
+.nf-tags {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.nf-tag {
+  margin: 0.15rem;
+  align-items: center;
+  background-color: #c9c7bd;
+  border-radius: 4px;
+  display: inline-flex;
+  height: 1.5em;
+  justify-content: center;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+.nf-progress {
+  height: 1rem;
+  width: 100%;
+}
+
+ol.nf-table {
+  padding: 0;
+}
+
+ol.nf-table li.nf-table-header {
+  background: rgba(0, 0, 0, 0.05);
+  border: 2px groove var(--color-border-light-secondary);
+  margin: 0 0 0.5rem 0;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+
+.nf-column {
+  padding: 0.05rem;
+}
+
+.nf-column.nf-row-2 {
+  flex: 2;
+}
+
+.nf-column.nf-row-3 {
+  flex: 3;
+}
+
+.nf-column select {
+  width: 100%;
+}
+
+.nf-text-centered {
+  text-align: center;
+}

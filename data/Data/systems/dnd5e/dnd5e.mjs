@@ -684,7 +684,7 @@ class AdvancementError extends Error {
  * @param {object} [options={}]  Options which affect DataModel construction.
  * @abstract
  */
-let Advancement$1 = class Advancement extends BaseAdvancement {
+class Advancement extends BaseAdvancement {
   constructor(data, {parent=null, ...options}={}) {
     if ( parent instanceof Item ) parent = parent.system;
     super(data, {parent, ...options});
@@ -982,7 +982,7 @@ let Advancement$1 = class Advancement extends BaseAdvancement {
    */
   async reverse(level) { }
 
-};
+}
 
 /**
  * Configuration application for hit points.
@@ -1436,7 +1436,7 @@ var utils = /*#__PURE__*/Object.freeze({
  * Keeps track of player hit point rolls or selection for each class level. **Can only be added to classes and each
  * class can only have one.**
  */
-class HitPointsAdvancement extends Advancement$1 {
+class HitPointsAdvancement extends Advancement {
 
   /** @inheritdoc */
   static get metadata() {
@@ -1632,7 +1632,7 @@ class ItemGrantConfig extends AdvancementConfig {
   /** @inheritdoc */
   getData(options={}) {
     const context = super.getData(options);
-    context.showSpellConfig = context.configuration.items.map(uuid => fromUuidSync(uuid)).some(i => i.type === "spell");
+    context.showSpellConfig = context.configuration.items.map(uuid => fromUuidSync(uuid)).some(i => i?.type === "spell");
     return context;
   }
 
@@ -1669,7 +1669,7 @@ class ItemGrantFlow extends AdvancementFlow {
     const checked = new Set(Object.values(added ?? {}));
     return {
       optional: this.advancement.configuration.optional,
-      items: (await Promise.all(config.map(fromUuid))).reduce((arr, item) => {
+      items: (await Promise.all(config.map(uuid => fromUuid(uuid)))).reduce((arr, item) => {
         if ( !item ) return arr;
         item.checked = added ? checked.has(item.uuid) : true;
         arr.push(item);
@@ -1778,7 +1778,7 @@ class ItemGrantConfigurationData extends foundry.abstract.DataModel {
  * Advancement that automatically grants one or more items to the player. Presents the player with the option of
  * skipping any or all of the items.
  */
-class ItemGrantAdvancement extends Advancement$1 {
+class ItemGrantAdvancement extends Advancement {
 
   /** @inheritdoc */
   static get metadata() {
@@ -3694,7 +3694,7 @@ class Actor5e extends Actor {
 
     // Remaining goes to health
     const tmpMax = parseInt(hp.tempmax) || 0;
-    const dh = Math.clamped(hp.value - (amount - dt), 0, hp.max + tmpMax);
+    const dh = Math.clamped(hp.value - (amount - dt), 0, Math.max(0, hp.max + tmpMax));
 
     // Update the Actor
     const updates = {
@@ -4280,9 +4280,9 @@ class Actor5e extends Actor {
         parts.push("@prof");
         data.prof = init.prof.term;
       }
-      if ( init.bonus !== 0 ) {
+      if ( init.bonus ) {
         parts.push("@bonus");
-        data.bonus = init.bonus;
+        data.bonus = Roll.replaceFormulaData(init.bonus, data);
       }
     }
 
@@ -4291,7 +4291,7 @@ class Actor5e extends Actor {
       const abilityBonus = this.system.abilities[abilityId]?.bonuses?.check;
       if ( abilityBonus ) {
         parts.push("@abilityBonus");
-        data.abilityBonus = abilityBonus;
+        data.abilityBonus = Roll.replaceFormulaData(abilityBonus, data);
       }
     }
 
@@ -4300,7 +4300,7 @@ class Actor5e extends Actor {
       const globalCheckBonus = this.system.bonuses.abilities?.check;
       if ( globalCheckBonus ) {
         parts.push("@globalBonus");
-        data.globalBonus = globalCheckBonus;
+        data.globalBonus = Roll.replaceFormulaData(globalCheckBonus, data);
       }
     }
 
@@ -4447,7 +4447,7 @@ class Actor5e extends Actor {
     if ( rollConfig.chatMessage ) roll.toMessage(rollConfig.messageData);
 
     const hp = this.system.attributes.hp;
-    const dhp = Math.min(hp.max + (hp.tempmax ?? 0) - hp.value, roll.total);
+    const dhp = Math.min(Math.max(0, hp.max + (hp.tempmax ?? 0)) - hp.value, roll.total);
     const updates = {
       actor: {"system.attributes.hp.value": hp.value + dhp},
       class: {"system.hitDiceUsed": cls.system.hitDiceUsed + 1}
@@ -4820,7 +4820,7 @@ class Actor5e extends Actor {
    */
   async autoSpendHitDice({ threshold=3 }={}) {
     const hp = this.system.attributes.hp;
-    const max = hp.max + hp.tempmax;
+    const max = Math.max(0, hp.max + hp.tempmax);
     let diceRolled = 0;
     while ( (this.system.attributes.hp.value + threshold) <= max ) {
       const r = await this.rollHitDie();
@@ -4845,7 +4845,7 @@ class Actor5e extends Actor {
     let max = hp.max;
     let updates = {};
     if ( recoverTempMax ) updates["system.attributes.hp.tempmax"] = 0;
-    else max += hp.tempmax;
+    else max = Math.max(0, max + (hp.tempmax || 0));
     updates["system.attributes.hp.value"] = max;
     if ( recoverTemp ) updates["system.attributes.hp.temp"] = 0;
     return { updates, hitPointsRecovered: max - hp.value };
@@ -5189,7 +5189,7 @@ class Actor5e extends Actor {
         if ( origin.type === "spell" ) return keepSpellAE;
         if ( origin.type === "feat" ) return keepFeatAE;
         if ( origin.type === "background" ) return keepBackgroundAE;
-        if ( ["subclass", "feat"].includes(origin.type) ) return keepClassAE;
+        if ( ["subclass", "class"].includes(origin.type) ) return keepClassAE;
         if ( ["equipment", "weapon", "tool", "loot", "backpack"].includes(origin.type) ) return keepEquipmentAE;
         return true;
       });
@@ -5506,7 +5506,7 @@ class ItemChoiceFlow extends ItemGrantFlow {
       this.retainedData?.items.map(i => foundry.utils.getProperty(i, "flags.dnd5e.sourceId"))
         ?? Object.values(this.advancement.value[this.level] ?? {})
     );
-    this.pool ??= await Promise.all(this.advancement.configuration.pool.map(fromUuid));
+    this.pool ??= await Promise.all(this.advancement.configuration.pool.map(uuid => fromUuid(uuid)));
     if ( !this.dropped ) {
       this.dropped = [];
       for ( const data of this.retainedData?.items ?? [] ) {
@@ -5525,7 +5525,7 @@ class ItemChoiceFlow extends ItemGrantFlow {
     const previouslySelected = new Set();
     for ( const [level, data] of Object.entries(this.advancement.value.added ?? {}) ) {
       if ( level > this.level ) continue;
-      previousLevels[level] = await Promise.all(Object.values(data).map(fromUuid));
+      previousLevels[level] = await Promise.all(Object.values(data).map(uuid => fromUuid(uuid)));
       Object.values(data).forEach(uuid => previouslySelected.add(uuid));
     }
 
@@ -6331,7 +6331,7 @@ class ScaleValueFlow extends AdvancementFlow {
 /**
  * Advancement that represents a value that scales with class level. **Can only be added to classes or subclasses.**
  */
-class ScaleValueAdvancement extends Advancement$1 {
+class ScaleValueAdvancement extends Advancement {
 
   /** @inheritdoc */
   static get metadata() {
@@ -6426,7 +6426,7 @@ class ScaleValueAdvancement extends Advancement$1 {
 
 var _module$a = /*#__PURE__*/Object.freeze({
   __proto__: null,
-  Advancement: Advancement$1,
+  Advancement: Advancement,
   HitPointsAdvancement: HitPointsAdvancement,
   ItemChoiceAdvancement: ItemChoiceAdvancement,
   ItemGrantAdvancement: ItemGrantAdvancement,
@@ -8068,7 +8068,7 @@ DND5E.traits = {
   },
   tool: {
     label: "DND5E.TraitToolProf",
-    actorKeyPath: "traits.toolProf",
+    actorKeyPath: "tools",
     configKey: "toolProficiencies",
     subtypes: { keyPath: "toolType", ids: ["toolIds"] },
     children: { vehicle: "vehicleTypes" },
@@ -9611,7 +9611,7 @@ class Item5e extends Item {
       needingConfiguration: []
     };
     for ( const advancement of this.system.advancement ?? [] ) {
-      if ( !(advancement instanceof Advancement$1) ) continue;
+      if ( !(advancement instanceof Advancement) ) continue;
       this.advancement.byId[advancement.id] = advancement;
       this.advancement.byType[advancement.type] ??= [];
       this.advancement.byType[advancement.type].push(advancement);
@@ -11175,9 +11175,10 @@ class Item5e extends Item {
     if ( data.system?.proficient === undefined ) {
       if ( isNPC ) updates["system.proficient"] = 1;
       else {
-        const actorToolProfs = this.parent.system.traits?.toolProf?.value || new Set();
-        const proficient = actorToolProfs.has(this.system.toolType) || actorToolProfs.has(this.system.baseItem);
-        updates["system.proficient"] = Number(proficient);
+        const actorToolProfs = this.parent.system.tools || {};
+        const toolProf = actorToolProfs[this.system.baseItem]?.value;
+        const generalProf = actorToolProfs[this.system.toolType]?.value;
+        updates["system.proficient"] = toolProf ?? generalProf ?? 0;
       }
     }
     return updates;
@@ -12706,7 +12707,7 @@ class AdvancementManager extends Application {
         this.clone.reset();
       } while ( this.step?.automatic );
     } catch(error) {
-      if ( !(error instanceof Advancement$1.ERROR) ) throw error;
+      if ( !(error instanceof Advancement.ERROR) ) throw error;
       ui.notifications.error(error.message);
       this.step.automatic = false;
       if ( this.step.type === "restore" ) this.step.type = "forward";
@@ -12747,7 +12748,7 @@ class AdvancementManager extends Application {
         this.clone.reset();
       } while ( this.step?.automatic );
     } catch(error) {
-      if ( !(error instanceof Advancement$1.ERROR) ) throw error;
+      if ( !(error instanceof Advancement.ERROR) ) throw error;
       ui.notifications.error(error.message);
       this.step.automatic = false;
     } finally {
@@ -15698,7 +15699,7 @@ class GroupActorSheet extends ActorSheet {
       // HP bar
       const hp = member.system.attributes.hp;
       m.hp.current = hp.value + (hp.temp || 0);
-      m.hp.max = hp.max + (hp.tempmax || 0);
+      m.hp.max = Math.max(0, hp.max + (hp.tempmax || 0));
       m.hp.pct = Math.clamped((m.hp.current / m.hp.max) * 100, 0, 100).toFixed(2);
       m.hp.color = dnd5e.documents.Actor5e.getHPColor(m.hp.current, m.hp.max).css;
       stats.currentHP += m.hp.current;
@@ -16168,7 +16169,7 @@ class AdvancementSelection extends Dialog {
   getData() {
     const context = { types: {} };
     for ( const [name, advancement] of Object.entries(CONFIG.DND5E.advancementTypes) ) {
-      if ( !(advancement.prototype instanceof Advancement$1)
+      if ( !(advancement.prototype instanceof Advancement)
         || !advancement.metadata.validItemTypes.has(this.item.type) ) continue;
       context.types[name] = {
         label: advancement.metadata.title,
@@ -18396,7 +18397,7 @@ class AttributesFields {
    */
   static _migrateInitiative(source) {
     const init = source?.init;
-    if ( !init?.value ) return;
+    if ( !init?.value || (typeof init?.bonus === "string") ) return;
     if ( init.bonus ) init.bonus += init.value < 0 ? ` - ${init.value * -1}` : ` + ${init.value}`;
     else init.bonus = `${init.value}`;
   }
@@ -18469,7 +18470,7 @@ class CommonTemplate extends SystemDataModel.mixin(CurrencyTemplate) {
     const config = CONFIG.DND5E.abilities[key];
     if ( config ) {
       let defaultValue = config.defaults?.[this._systemType] ?? initial.value;
-      if ( typeof defaultValue === "string" ) defaultValue = existing[defaultValue]?.value ?? initial.value;
+      if ( typeof defaultValue === "string" ) defaultValue = existing?.[defaultValue]?.value ?? initial.value;
       initial.value = defaultValue;
     }
     return initial;
@@ -18659,7 +18660,7 @@ class CreatureTemplate extends CommonTemplate {
       const match = s.match(pattern);
       if ( !match ) continue;
       const type = match[1].toLowerCase();
-      if ( type in CONFIG.DND5E.senses ) {
+      if ( (type in CONFIG.DND5E.senses) && !(type in source.attributes.senses) ) {
         source.attributes.senses[type] = Number(match[2]).toNearest(0.5);
         wasMatched = true;
       }
@@ -18680,7 +18681,8 @@ class CreatureTemplate extends CommonTemplate {
     if ( !original || foundry.utils.isEmpty(original.value) ) return;
     source.tools ??= {};
     for ( const prof of original.value ) {
-      if ( !(prof in CONFIG.DND5E.toolProficiencies) && !(prof in CONFIG.DND5E.toolIds) ) continue;
+      const validProf = (prof in CONFIG.DND5E.toolProficiencies) || (prof in CONST.DND5E.toolIds);
+      if ( !validProf || (prof in source.tools) ) continue;
       source.tools[prof] = {
         value: 1,
         ability: "int",
@@ -18891,7 +18893,6 @@ class TraitsField {
  * @property {object} traits
  * @property {SimpleTraitData} traits.weaponProf          Character's weapon proficiencies.
  * @property {SimpleTraitData} traits.armorProf           Character's armor proficiencies.
- * @property {SimpleTraitData} traits.toolProf            Character's tool proficiencies.
  * @property {object} resources
  * @property {CharacterResourceData} resources.primary    Resource number one.
  * @property {CharacterResourceData} resources.secondary  Resource number two.
@@ -19413,7 +19414,10 @@ class VehicleData extends CommonTemplate {
           })
         }, {label: "DND5E.VehicleCargoCrew"})
       }, {label: "DND5E.Attributes"}),
-      details: new foundry.data.fields.SchemaField(DetailsField.common, {label: "DND5E.Details"}),
+      details: new foundry.data.fields.SchemaField({
+        ...DetailsField.common,
+        source: new foundry.data.fields.StringField({required: true, label: "DND5E.Source"})
+      }, {label: "DND5E.Details"}),
       traits: new foundry.data.fields.SchemaField({
         ...TraitsField.common,
         size: new foundry.data.fields.StringField({required: true, initial: "lg", label: "DND5E.Size"}),
@@ -19747,11 +19751,11 @@ class ActionTemplate extends foundry.abstract.DataModel {
    */
   static #migrateCritical(source) {
     if ( !("critical" in source) ) return;
-    if ( source.critical?.damage === null ) source.critical.damage = "";
     if ( (typeof source.critical !== "object") || (source.critical === null) ) source.critical = {
       threshold: null,
       damage: ""
     };
+    if ( source.critical.damage === null ) source.critical.damage = "";
   }
 
   /* -------------------------------------------- */
@@ -19761,9 +19765,11 @@ class ActionTemplate extends foundry.abstract.DataModel {
    * @param {object} source  The candidate source data from which the model will be constructed.
    */
   static #migrateSave(source) {
-    if ( source.save?.scaling === "" ) source.save.scaling = "spell";
-    if ( source.save?.ability === null ) source.save.ability = "";
-    if ( typeof source.save?.dc === "string" ) {
+    if ( !("save" in source) ) return;
+    source.save ??= {};
+    if ( source.save.scaling === "" ) source.save.scaling = "spell";
+    if ( source.save.ability === null ) source.save.ability = "";
+    if ( typeof source.save.dc === "string" ) {
       if ( source.save.dc === "" ) source.save.dc = null;
       else if ( Number.isNumeric(source.save.dc) ) source.save.dc = Number(source.save.dc);
     }
@@ -19777,6 +19783,7 @@ class ActionTemplate extends foundry.abstract.DataModel {
    */
   static #migrateDamage(source) {
     if ( !("damage" in source) ) return;
+    source.damage ??= {};
     source.damage.parts ??= [];
   }
 
@@ -20026,6 +20033,7 @@ class ActivatedEffectTemplate extends foundry.abstract.DataModel {
    */
   static #migrateRanges(source) {
     if ( !("range" in source) ) return;
+    source.range ??= {};
     if ( source.range.units === null ) source.range.units = "";
     if ( typeof source.range.long === "string" ) {
       if ( source.range.long === "" ) source.range.long = null;
@@ -20048,9 +20056,11 @@ class ActivatedEffectTemplate extends foundry.abstract.DataModel {
    * @param {object} source  The candidate source data from which the model will be constructed.
    */
   static #migrateTargets(source) {
-    if ( source.target?.value === "" ) source.target.value = null;
-    if ( source.target?.units === null ) source.target.units = "";
-    if ( source.target?.type === null ) source.target.type = "";
+    if ( !("target" in source) ) return;
+    source.target ??= {};
+    if ( source.target.value === "" ) source.target.value = null;
+    if ( source.target.units === null ) source.target.units = "";
+    if ( source.target.type === null ) source.target.type = "";
   }
 
   /* -------------------------------------------- */
@@ -20061,6 +20071,7 @@ class ActivatedEffectTemplate extends foundry.abstract.DataModel {
    */
   static #migrateUses(source) {
     if ( !("uses" in source) ) return;
+    source.uses ??= {};
     const value = source.uses.value;
     if ( typeof value === "string" ) {
       if ( value === "" ) source.uses.value = null;
@@ -20077,6 +20088,7 @@ class ActivatedEffectTemplate extends foundry.abstract.DataModel {
    */
   static #migrateConsume(source) {
     if ( !("consume" in source) ) return;
+    source.consume ??= {};
     if ( source.consume.type === null ) source.consume.type = "";
     const amount = source.consume.amount;
     if ( typeof amount === "string" ) {
@@ -20220,6 +20232,7 @@ class EquippableItemTemplate extends foundry.abstract.DataModel {
    * @param {object} source  The candidate source data from which the model will be constructed.
    */
   static #migrateEquipped(source) {
+    if ( !("equipped" in source) ) return;
     if ( (source.equipped === null) || (source.equipped === undefined) ) source.equipped = false;
   }
 
@@ -20294,7 +20307,7 @@ class PhysicalItemTemplate extends foundry.abstract.DataModel {
    * @param {object} source  The candidate source data from which the model will be constructed.
    */
   static #migratePrice(source) {
-    if ( foundry.utils.getType(source.price) === "Object" ) return;
+    if ( !("price" in source) || foundry.utils.getType(source.price) === "Object" ) return;
     source.price = {
       value: Number.isNumeric(source.price) ? Number(source.price) : 0,
       denomination: "gp"
@@ -20321,6 +20334,7 @@ class PhysicalItemTemplate extends foundry.abstract.DataModel {
    * @param {object} source  The candidate source data from which the model will be constructed.
    */
   static #migrateWeight(source) {
+    if ( !("weight" in source) ) return;
     if ( (source.weight === null) || (source.weight === undefined) ) source.weight = 0;
   }
 }
@@ -20511,6 +20525,7 @@ class EquipmentData extends SystemDataModel.mixin(
    * @param {object} source  The candidate source data from which the model will be constructed.
    */
   static #migrateArmor(source) {
+    if ( !("armor" in source) ) return;
     source.armor ??= {};
     if ( source.armor.type === "bonus" ) source.armor.type = "trinket";
     if ( (typeof source.armor.dex === "string") ) {
@@ -20623,6 +20638,7 @@ class FeatData extends SystemDataModel.mixin(
    * @param {object} source The candidate source data from which the model will be constructed.
    */
   static #migrateType(source) {
+    if ( !("type" in source) ) return;
     if ( !source.type ) source.type = {value: "", subtype: ""};
   }
 
@@ -21738,7 +21754,7 @@ class TokenDocument5e extends TokenDocument {
     if ( data && (data.attribute === "attributes.hp") ) {
       const hp = this.actor.system.attributes.hp || {};
       data.value += (hp.temp || 0);
-      data.max += (hp.tempmax || 0);
+      data.max = Math.max(0, data.max + (hp.tempmax || 0));
     }
     return data;
   }
@@ -21998,7 +22014,7 @@ var chatMessage = /*#__PURE__*/Object.freeze({
  * @returns {D20Roll}         The D20Roll instance which is used to determine initiative for the Combatant
  */
 function getInitiativeRoll(formula="1d20") {
-  if ( !this.actor ) return new CONFIG.Dice.D20Roll(formula, {});
+  if ( !this.actor ) return new CONFIG.Dice.D20Roll(formula ?? "1d20", {});
   return this.actor.getInitiativeRoll();
 }
 
@@ -22877,8 +22893,12 @@ function _configureTrackableAttributes() {
       value: [...creature.value, "details.cr", "details.spellLevel", "details.xp.value"]
     },
     vehicle: {
-      bar: [...common.bar],
+      bar: [...common.bar, "attributes.hp"],
       value: [...common.value]
+    },
+    group: {
+      bar: [],
+      value: []
     }
   };
 }

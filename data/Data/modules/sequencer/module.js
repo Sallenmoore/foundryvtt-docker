@@ -19356,7 +19356,12 @@ class SequencerEffectManager {
     const allObjects = get_all_documents_from_scene();
     allObjects.push(canvas.scene);
     const docEffectsMap = allObjects.reduce((acc, doc) => {
-      let tokenEffects = flagManager.getFlags(doc);
+      let effects = flagManager.getFlags(doc);
+      effects.forEach((e) => {
+        if (is_UUID(e[1].source) && e[1].source !== doc.uuid) {
+          e[1].delete = true;
+        }
+      });
       if (doc instanceof TokenDocument && doc?.actorLink) {
         const actorEffects = flagManager.getFlags(doc?.actor);
         actorEffects.forEach((e) => {
@@ -19364,10 +19369,10 @@ class SequencerEffectManager {
           e[1].source = doc.uuid;
           e[1].sceneId = doc.parent.id;
         });
-        tokenEffects = tokenEffects.concat(actorEffects);
+        effects = effects.concat(actorEffects);
       }
-      if (tokenEffects.length) {
-        acc[doc.uuid] = tokenEffects;
+      if (effects.length) {
+        acc[doc.uuid] = effects;
       }
       return acc;
     }, {});
@@ -19467,7 +19472,7 @@ class SequencerEffectManager {
     if (inEffects instanceof Map)
       inEffects = Array.from(inEffects);
     return Promise.all(
-      inEffects.map(async (effect) => {
+      inEffects.map((effect) => {
         if (!CanvasEffect.checkValid(effect[1])) {
           if (!game.user.isGM)
             return;
@@ -20287,7 +20292,7 @@ class CanvasEffect extends PIXI.Container {
    * @returns {boolean}
    */
   get isSourceDestroyed() {
-    return this.source && (this.source?.destroyed || this.sourceDocument?._destroyed);
+    return this.source && (this.source?.destroyed || !this.sourceDocument?.object);
   }
   /**
    * Whether the target of this effect is temporary
@@ -20303,7 +20308,7 @@ class CanvasEffect extends PIXI.Container {
    * @returns {boolean}
    */
   get isTargetDestroyed() {
-    return this.target && (this.target?.destroyed || this.targetDocument?._destroyed);
+    return this.target && (this.target?.destroyed || !this.targetDocument?.object);
   }
   /**
    * The source object (or source location) of the effect
@@ -20626,6 +20631,9 @@ class CanvasEffect extends PIXI.Container {
     return !inData.persist ? new CanvasEffect(inData) : new PersistentCanvasEffect(inData);
   }
   static checkValid(effectData) {
+    if (effectData.delete) {
+      return false;
+    }
     let sourceExists = true;
     let targetExists = true;
     if (effectData.source && is_UUID(effectData.source)) {
@@ -21579,11 +21587,13 @@ class CanvasEffect extends PIXI.Container {
       const targetSort = this.target ? this.targetMesh.sort + (this.data.isometric?.overlay ? 1 : -1) : 0;
       this.sort = Math.max(sourceSort, targetSort);
     } else {
-      this.sort = !is_real_number(this.data.zIndex) ? this.data.index + this.parent.children.length : 1e5 + this.data.zIndex;
+      this.sort = !is_real_number(this.data.zIndex) ? this.data.index + (this?.parent?.children?.length ?? 0) : 1e5 + this.data.zIndex;
     }
     this.elevation = effectElevation;
     this.sort += 100;
-    this.parent.sortChildren();
+    if (this.parent) {
+      this?.parent?.sortChildren();
+    }
   }
   updateTransform() {
     super.updateTransform();
@@ -21673,6 +21683,10 @@ class CanvasEffect extends PIXI.Container {
     for (const shapeData of maskShapes) {
       const shape = createShape(shapeData);
       shape.cullable = true;
+      shape.custom = true;
+      shape.renderable = false;
+      this.spriteContainer.addChild(shape);
+      this.shapes[shapeData?.name ?? "shape-" + randomID()] = shape;
       maskFilter.masks.push(shape);
     }
     this.sprite.filters.push(maskFilter);
@@ -34313,9 +34327,13 @@ const migrations = {
     }
   }
 };
+let moduleValid = false;
+let moduleReady = false;
+let canvasReady = false;
 Hooks.once("init", async function() {
   if (!game.modules.get("socketlib")?.active)
     return;
+  moduleValid = true;
   CONSTANTS.INTEGRATIONS.ISOMETRIC.ACTIVE = false;
   initialize_module();
 });
@@ -34335,20 +34353,32 @@ Hooks.once("ready", async function() {
       CanvasAnimation[name] = func2;
     }
   }
-  await runMigrations();
-  PlayerSettings.migrateOldPresets();
+  if (game.user.isGM) {
+    await runMigrations();
+    await migrateSettings();
+    await PlayerSettings.migrateOldPresets();
+  }
   SequencerFoundryReplicator.registerHooks();
   InteractionManager.initialize();
-  setTimeout(() => {
+});
+Hooks.on("canvasTearDown", () => {
+  canvasReady = false;
+});
+Hooks.on("refreshToken", async () => {
+  if (!moduleValid)
+    return;
+  if (!moduleReady) {
+    moduleReady = true;
     console.log("Sequencer | Ready to go!");
     Hooks.callAll("sequencer.ready");
     Hooks.callAll("sequencerReady");
-    migrateSettings();
-    SequencerEffectManager.setUpPersists();
-    Hooks.on("canvasReady", () => {
+  }
+  if (!canvasReady) {
+    canvasReady = true;
+    setTimeout(() => {
       SequencerEffectManager.setUpPersists();
-    });
-  }, 50);
+    }, 25);
+  }
 });
 function initialize_module() {
   window.Sequence = Sequence$1;

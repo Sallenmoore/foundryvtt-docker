@@ -1,0 +1,272 @@
+{
+  "arabic-feminine": {
+    "type": "name",
+    "name": "Arabic (Feminine)",
+    "path": "modules/nameforge/models/arabic-feminine.json"
+  },
+  "arabic-masculine": {
+    "type": "name",
+    "name": "Arabic (Masculine)",
+    "path": "modules/nameforge/models/arabic-masculine.json"
+  },
+  "chinese-feminine": {
+    "type": "name",
+    "name": "Chinese (Feminine)",
+    "path": "modules/nameforge/models/chinese-feminine.json"
+  },
+  "chinese-masculine": {
+    "type": "name",
+    "name": "Chinese (Masculine)",
+    "path": "modules/nameforge/models/chinese-masculine.json"
+  },
+  "chinese-surnames": {
+    "type": "surname",
+    "name": "Chinese (Surnames)",
+    "path": "modules/nameforge/models/chinese-surnames.json"
+  },
+  "arabic-surnames": {
+    "type": "surname",
+    "name": "Arabic (Surnames)",
+    "path": "modules/nameforge/models/arabic-surnames.json"
+  },
+  "egyptian-feminine": {
+    "type": "name",
+    "name": "Egyptian (Feminine)",
+    "path": "modules/nameforge/models/egyptian-feminine.json"
+  },
+  "egyptian-masculine": {
+    "type": "name",
+    "name": "Egyptian (Masculine)",
+    "path": "modules/nameforge/models/egyptian-masculine.json"
+  },
+  "english-feminine": {
+    "type": "name",
+    "name": "English (Feminine)",
+    "path": "modules/nameforge/models/english-feminine.json"
+  },
+  "english-masculine": {
+    "type": "name",
+    "name": "English (Masculine)",
+    "path": "modules/nameforge/models/english-masculine.json"
+  },
+  "english-surnames": {
+    "type": "surname",
+    "name": "English (Surnames)",
+    "path": "modules/nameforge/models/english-surnames.json"
+  },
+  "french-feminine": {
+    "type": "name",
+    "name": "French (Feminine)",
+    "path": "modules/nameforge/models/french-feminine.json"
+  },
+  "french-masculine": {
+    "type": "name",
+    "name": "French (Masculine)",
+    "path": "modules/nameforge/models/french-masculine.json"
+  },
+  "french-surnames": {
+    "type": "surname",
+    "name": "French (Surnames)",
+    "path": "modules/nameforge/models/french-surnames.json"
+  },
+  "german-feminine": {
+    "type": "name",
+    "name": "German (Feminine)",
+    "path": "modules/nameforge/models/german-feminine.json"
+  },
+  "german-masculine": {
+    "type": "name",
+    "name": "German (Masculine)",
+    "path": "modules/nameforge/models/german-masculine.json"
+  },
+  "german-surnames": {
+    "type": "surname",
+    "name": "German (Surnames)",
+    "path": "modules/nameforge/models/german-surnames.json"
+  },
+  "greek-feminine": {
+    "type": "name",
+    "name": "Greek (Feminine)",
+    "path": "modules/nameforge/models/greek-feminine.json"
+  },
+  "greek-feminine-surnames": {
+    "type": "surname",
+    "name": "Greek (Feminine Surnames)",
+    "path": "modules/nameforge/models/greek-feminine-surnames.json"
+  },
+  "greek-masculine": {
+    "type": "name",
+    "name": "Greek (Masculine)",
+    "path": "modules/nameforge/models/greek-masculine.json"
+  },
+  "greek-masculine-surnames": {
+    "type": "surname",
+    "name": "Greek (Masculine Surnames)",
+    "path": "modules/nameforge/models/greek-masculine-surnames.json"
+  },
+  "hindi-feminine": {
+    "type": "name",
+    "name": "Hindi (Feminine)",
+    "path": "modules/nameforge/models/hindi-feminine.json"
+  },
+  "hindi-masculine": {
+    "type": "name",
+    "name": "Hindi (Masculine)",
+    "path": "modules/nameforge/models/hindi-masculine.json"
+  },
+  "icelandic-feminine": {
+    "type": "name",
+    "name": "Icelandic (Feminine)",
+    "path": "modules/nameforge/models/icelandic-feminine.json"
+  },
+  "icelandic-masculine": {
+    "type": "name",
+    "name": "Icelandic (Masculine)",
+    "path": "modules/nameforge/models/icelandic-masculine.json"
+  },
+  "indigenous-american-feminine": {
+    "type": "name",
+    "name": "Indigenous American (Feminine)",
+    "path": "modules/nameforge/models/indigenous-american-feminine.json"
+  },
+  "indigenous-american-masculine": {
+    "type": "name",
+    "name": "Indigenous American (Masculine)",
+    "path": "modules/nameforge/models/indigenous-american-masculine.json"
+  },
+  "italian-feminine": {
+    "type": "name",
+    "name": "Italian (Feminine)",
+    "path": "modules/nameforge/models/italian-feminine.json"
+  },
+  "italian-masculine": {
+    "type": "name",
+    "name": "Italian (Masculine)",
+    "path": "modules/nameforge/models/italian-masculine.json"
+  },
+  "italian-surnames": {
+    "type": "surname",
+    "name": "Italian (Surnames)",
+    "path": "modules/nameforge/models/italian-surnames.json"
+  },
+  "japanese-feminine": {
+    "type": "name",
+    "name": "Japanese (Feminine)",
+    "path": "modules/nameforge/models/japanese-feminine.json"
+  },
+  "japanese-masculine": {
+    "type": "name",
+    "name": "Japanese (Masculine)",
+    "path": "modules/nameforge/models/japanese-masculine.json"
+  },
+  "japanese-surnames": {
+    "type": "surname",
+    "name": "Japanese (Surnames)",
+    "path": "modules/nameforge/models/japanese-surnames.json"
+  },
+  "korean-feminine": {
+    "type": "name",
+    "name": "Korean (Feminine)",
+    "path": "modules/nameforge/models/korean-feminine.json"
+  },
+  "korean-masculine": {
+    "type": "name",
+    "name": "Korean (Masculine)",
+    "path": "modules/nameforge/models/korean-masculine.json"
+  },
+  "maori-feminine": {
+    "type": "name",
+    "name": "Maori (Feminine)",
+    "path": "modules/nameforge/models/maori-feminine.json"
+  },
+  "maori-masculine": {
+    "type": "name",
+    "name": "Maori (Masculine)",
+    "path": "modules/nameforge/models/maori-masculine.json"
+  },
+  "maori-surnames": {
+    "type": "surname",
+    "name": "Maori (Surnames)",
+    "path": "modules/nameforge/models/maori-surnames.json"
+  },
+  "old-norse-feminine": {
+    "type": "name",
+    "name": "Old Norse (Feminine)",
+    "path": "modules/nameforge/models/old-norse-feminine.json"
+  },
+  "old-norse-masculine": {
+    "type": "name",
+    "name": "Old Norse (Masculine)",
+    "path": "modules/nameforge/models/old-norse-masculine.json"
+  },
+  "polish-feminine": {
+    "type": "name",
+    "name": "Polish (Feminine)",
+    "path": "modules/nameforge/models/polish-feminine.json"
+  },
+  "polish-masculine": {
+    "type": "name",
+    "name": "Polish (Masculine)",
+    "path": "modules/nameforge/models/polish-masculine.json"
+  },
+  "scottish-feminine": {
+    "type": "name",
+    "name": "Scottish (Feminine)",
+    "path": "modules/nameforge/models/scottish-feminine.json"
+  },
+  "scottish-masculine": {
+    "type": "name",
+    "name": "Scottish (Masculine)",
+    "path": "modules/nameforge/models/scottish-masculine.json"
+  },
+  "scottish-surnames": {
+    "type": "surname",
+    "name": "Scottish (Surnames)",
+    "path": "modules/nameforge/models/scottish-surnames.json"
+  },
+  "south-african-feminine": {
+    "type": "name",
+    "name": "South African (Feminine)",
+    "path": "modules/nameforge/models/south-african-feminine.json"
+  },
+  "south-african-masculine": {
+    "type": "name",
+    "name": "South African (Masculine)",
+    "path": "modules/nameforge/models/south-african-masculine.json"
+  },
+  "spanish-feminine": {
+    "type": "name",
+    "name": "Spanish (Feminine)",
+    "path": "modules/nameforge/models/spanish-feminine.json"
+  },
+  "spanish-masculine": {
+    "type": "name",
+    "name": "Spanish (Masculine)",
+    "path": "modules/nameforge/models/spanish-masculine.json"
+  },
+  "swedish-feminine": {
+    "type": "name",
+    "name": "Swedish (Feminine)",
+    "path": "modules/nameforge/models/swedish-feminine.json"
+  },
+  "swedish-masculine": {
+    "type": "name",
+    "name": "Swedish (Masculine)",
+    "path": "modules/nameforge/models/swedish-masculine.json"
+  },
+  "tolkien": {
+    "type": "name",
+    "name": "Tolkien",
+    "path": "modules/nameforge/models/tolkien.json"
+  },
+  "yoruba-feminine": {
+    "type": "name",
+    "name": "Yoruba (Feminine)",
+    "path": "modules/nameforge/models/yoruba-feminine.json"
+  },
+  "yoruba-masculine": {
+    "type": "name",
+    "name": "Yoruba (Masculine)",
+    "path": "modules/nameforge/models/yoruba-masculine.json"
+  }
+}
