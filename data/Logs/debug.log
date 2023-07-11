@@ -25307,3 +25307,38 @@
 {"level":"error","message":"User Scott lacks permission to update Setting [rjaAFXHdIx9z07s0]","stack":"Error: User Scott lacks permission to update Setting [rjaAFXHdIx9z07s0]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-11 00:52:50"}
 {"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [6RoSgrVJzJWnJMYS] in parent ActorDelta [HcKIMMacQnaouecy]","timestamp":"2023-07-11 00:57:05"}
 {"level":"error","message":"undefined id [6RoSgrVJzJWnJMYS] is not in the set of invalid ids","stack":"Error: undefined id [6RoSgrVJzJWnJMYS] is not in the set of invalid ids\n    at EmbeddedCollectionDelta.getInvalid (file:///opt/foundryvtt/resources/app/common/abstract/embedded-collection.mjs:272:27)\n    at file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:4864\n    at Array.map (<anonymous>)\n    at ServerDatabaseBackend._deleteDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:4844)\n    at ServerDatabaseBackend.delete (file:///opt/foundryvtt/resources/app/common/abstract/backend.mjs:182:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-11 00:57:05"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [iwYsi9jWqymGHLFH]","timestamp":"2023-07-11 01:05:57"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Byw8502qHjhr73oD]","timestamp":"2023-07-11 01:06:04"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [u0mFmnw2elMt6reD]","timestamp":"2023-07-11 01:06:13"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [ORpntSwsB6IxcS3Q] in parent ActorDelta [tshp0vRBqTOD2bhm]","timestamp":"2023-07-11 01:06:31"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [bfsozyEVy2xEGGSR] in parent ActorDelta [0Qct4ND6Kfa0nlKI]","timestamp":"2023-07-11 01:08:56"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [u7tyyvtAUUl1seLG]","timestamp":"2023-07-11 01:12:49"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [56Nve0LqKRoiAomt] in parent Actor [adWqmnp1RFsdj8Fa]","timestamp":"2023-07-11 01:13:23"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [aF4tjpaCo2tZYbmv] in parent Actor [adWqmnp1RFsdj8Fa]","timestamp":"2023-07-11 01:13:23"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [2ivJ4p26rbPvTCPI]","timestamp":"2023-07-11 01:16:18"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [lHWRPX18ya0Z1dhs]","timestamp":"2023-07-11 01:16:34"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [EWoI6eazkh4aFv57]","timestamp":"2023-07-11 01:16:37"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [tT8X8TD2zJ0qKAdi]","timestamp":"2023-07-11 01:16:41"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [oUTGT5Q3Y1fAcMDI] in parent ActorDelta [6OdZ0hMrMI4CdD7x]","timestamp":"2023-07-11 01:16:47"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [ORpntSwsB6IxcS3Q] in parent ActorDelta [tshp0vRBqTOD2bhm]","timestamp":"2023-07-11 01:17:53"}
+{"level":"error","message":"undefined id [ORpntSwsB6IxcS3Q] is not in the set of invalid ids","stack":"Error: undefined id [ORpntSwsB6IxcS3Q] is not in the set of invalid ids\n    at EmbeddedCollectionDelta.getInvalid (file:///opt/foundryvtt/resources/app/common/abstract/embedded-collection.mjs:272:27)\n    at file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:4864\n    at Array.map (<anonymous>)\n    at ServerDatabaseBackend._deleteDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:4844)\n    at ServerDatabaseBackend.delete (file:///opt/foundryvtt/resources/app/common/abstract/backend.mjs:182:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-11 01:17:53"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [lfg5W9IWrw1u9YvH]","timestamp":"2023-07-11 01:18:07"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [DgESGNAlK0ZwcbLo]","timestamp":"2023-07-11 01:18:07"}
+{"level":"info","message":"FoundryVTT | Deleted 2 ActiveEffect documents with ids: [56Nve0LqKRoiAomt,aF4tjpaCo2tZYbmv] in parent Actor [adWqmnp1RFsdj8Fa]","timestamp":"2023-07-11 01:23:21"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [j86Gxuc8IeAjiEj9]","timestamp":"2023-07-11 01:23:26"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [qoC4jASZcQzgTwRq] in parent Combat [j86Gxuc8IeAjiEj9]","timestamp":"2023-07-11 01:23:26"}
+{"level":"info","message":"FoundryVTT | Deleted Combatant with id [qoC4jASZcQzgTwRq] in parent Combat [j86Gxuc8IeAjiEj9]","timestamp":"2023-07-11 01:23:28"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [QHr2Qu4W5tEQ8k3N] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:33:58"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [dTWXmZbkMaEh70qX] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:34:01"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [RObdxgZMqVdhyInZ]","timestamp":"2023-07-11 01:35:31"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [uYtHLWBZnYcTolYM] in parent Actor [adWqmnp1RFsdj8Fa]","timestamp":"2023-07-11 01:40:43"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [UFGCWN3iVLoiZWKt]","timestamp":"2023-07-11 01:42:20"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [pwCQXJsNLf5PfyDV] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:43:17"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [udtJBFazmlU4Hbl3] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:43:20"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [lBhYcZv4Y20sw5hJ] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:43:21"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [MjYSzH1iBE2sinhK] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:43:36"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [YVtLn2GF8KOIReM3] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:43:37"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [9ZBaBZK6omZJOSJm] in parent Scene [3xvxnPHUHMbn5AiF]","timestamp":"2023-07-11 01:43:45"}
+{"level":"info","message":"Activating scene Rueside [ldQIkVMIqktMVuY6]","timestamp":"2023-07-11 01:55:01"}
+{"level":"info","message":"Activating scene The Pit Inn [Xvw04TxWMJZp22SK]","timestamp":"2023-07-11 01:57:41"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [VHSSnM5XfnS0Gx56] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-11 01:58:39"}
