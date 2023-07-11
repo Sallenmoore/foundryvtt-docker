@@ -25342,3 +25342,5 @@
 {"level":"info","message":"Activating scene Rueside [ldQIkVMIqktMVuY6]","timestamp":"2023-07-11 01:55:01"}
 {"level":"info","message":"Activating scene The Pit Inn [Xvw04TxWMJZp22SK]","timestamp":"2023-07-11 01:57:41"}
 {"level":"info","message":"FoundryVTT | Deleted Token with id [VHSSnM5XfnS0Gx56] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-11 01:58:39"}
+{"level":"info","message":"Activating scene Rueside [ldQIkVMIqktMVuY6]","timestamp":"2023-07-11 02:08:57"}
+{"level":"info","message":"Created client session 64b410fc94e9d316d724208d","timestamp":"2023-07-11 02:46:19"}
