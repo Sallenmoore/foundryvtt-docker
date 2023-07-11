@@ -1,5 +1,5 @@
 {
-  "timestamp": 1688996853816,
+  "timestamp": 1689099861132,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -21,26 +21,29 @@
     "acelib": {
       "version": "1.8.3"
     },
-    "canvas3dtokencompendium": {
-      "version": "0.9.4"
+    "action-pack": {
+      "version": "0"
     },
-    "character-actions-list-5e": {
-      "version": "6.0.4"
+    "autoanimations": {
+      "version": "4.2.60"
+    },
+    "babonus": {
+      "version": "11.0.5"
+    },
+    "canvas3dtokencompendium": {
+      "version": "1.0.4"
     },
     "combat-enhancements": {
       "version": "1.2.2"
     },
-    "compact-beyond-5e-sheet": {
-      "version": "0.21.1"
-    },
-    "conversation-hud": {
-      "version": "5.0.2"
+    "combat-tracker-dock": {
+      "version": "2.3.7"
     },
     "dd-import": {
       "version": "2.6.1"
     },
     "ddb-importer": {
-      "version": "3.4.44"
+      "version": "3.4.47"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -50,6 +53,9 @@
     },
     "dnd-item-icons-by-gwill": {
       "version": "1.2.0"
+    },
+    "dnd5e-animations": {
+      "version": "1.6.0"
     },
     "dragupload": {
       "version": "2.2.2"
@@ -63,6 +69,12 @@
     "hidden-initiative": {
       "version": "1.0.3"
     },
+    "hide-gm-rolls": {
+      "version": "0.15.3"
+    },
+    "hide-player-ui": {
+      "version": "1.5.5"
+    },
     "hourglass": {
       "version": "1.5.1"
     },
@@ -70,16 +82,16 @@
       "version": "1.12.12.1"
     },
     "monks-active-tiles": {
-      "version": "11.01"
+      "version": "11.02"
     },
     "monks-combat-details": {
-      "version": "11.02"
+      "version": "11.03"
     },
     "monks-common-display": {
       "version": "11.01"
     },
     "monks-enhanced-journal": {
-      "version": "11.02"
+      "version": "11.03"
     },
     "monks-little-details": {
       "version": "11.03"
@@ -87,11 +99,11 @@
     "monks-sound-enhancements": {
       "version": "11.03"
     },
-    "monks-tokenbar": {
-      "version": "11.01"
-    },
     "monks-wall-enhancement": {
       "version": "11.01"
+    },
+    "nameforge": {
+      "version": "1.3.0"
     },
     "pf2e-iconic-adventurers": {
       "version": "1.2.3"
@@ -99,8 +111,17 @@
     "pin-cushion": {
       "version": "1.8.37"
     },
+    "rp-names": {
+      "version": "1.13.0.1"
+    },
+    "scene-helpers": {
+      "version": "11.0"
+    },
+    "scene-packer": {
+      "version": "2.7.4"
+    },
     "sequencer": {
-      "version": "3.1.0"
+      "version": "3.1.1"
     },
     "socketlib": {
       "version": "1.0.13"
@@ -112,21 +133,18 @@
       "version": "2.7.0"
     },
     "vtta-tokenizer": {
-      "version": "4.2.2"
-    },
-    "wild-magic-surge-5e": {
-      "version": "4.5.1"
+      "version": "4.2.3"
     }
   },
   "systems": {
     "dnd5e": {
-      "version": "2.2.1",
-      "playtime": 793160
+      "version": "2.2.2",
+      "playtime": 889313
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 793160,
-    "max": 606050
+    "total": 889313,
+    "max": 702203
   }
 }
