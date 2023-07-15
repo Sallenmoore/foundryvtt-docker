@@ -25426,3 +25426,58 @@
 {"level":"info","message":"FoundryVTT | Deleted Wall with id [rxKjS785eqyUIdnD] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:04:46"}
 {"level":"info","message":"FoundryVTT | Created Wall with id [KeEKu9hE1BLRPCCt] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:04:53"}
 {"level":"info","message":"FoundryVTT | Created Wall with id [JfCiOrkK2xLfFgcy] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:01"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [uKLmURyrQVzfppkb] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:06"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [DyGaNG6HkE6s6gWI] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:12"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [dNAZPkd4tA6KDHT5] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:19"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [StRpXYowkmsGahOc] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:24"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [xWLbt8nsUteeC7Uv] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:29"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [KQ3jPMrMDYJf6BPT] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:30"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [nWlnVRRvB1qTPbdp] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:33"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [6bofvRwn3tP2BDKJ] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:34"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [C194K1lDgzsz3UhA] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:38"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [vam58D4r4j4yFZdw] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:44"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [3iATX9E4o7tIJBuP] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:51"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [Cvs9l3lsMJMBCu6s] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:05:56"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [BBVpX7DDc90DrkAK] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:06:00"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [gDhi0d7xzaIJKrT8] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:06:05"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [md6hDV0uP4uMII4j] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:06:10"}
+{"level":"info","message":"FoundryVTT | Deleted 23 Item documents in parent Actor [CM3hOKWraZHNcz1l]","timestamp":"2023-07-15 22:16:24"}
+{"level":"info","message":"Goggles-of-Night.webp saved to ddb-images/other/item/equipment","timestamp":"2023-07-15 22:16:27"}
+{"level":"info","message":"Goggles-of-Night-large.webp saved to ddb-images/other/item/equipment","timestamp":"2023-07-15 22:16:28"}
+{"level":"info","message":"FoundryVTT | Created Item with id [9hZiZli5JJZufJLl] in parent Actor [CM3hOKWraZHNcz1l]","timestamp":"2023-07-15 22:16:29"}
+{"level":"info","message":"FoundryVTT | Created 5 Item documents with ids: [FhmH3hdI2Pfd7t8L,1bEZfNn0bS32eG6v,3UT2KD7BQ8PoJwaD,uI84Y88ItGH4tB3l,MxJanIQ6HbJIWR5K] in parent Actor [CM3hOKWraZHNcz1l]","timestamp":"2023-07-15 22:16:29"}
+{"level":"info","message":"FoundryVTT | Created Item with id [qDuWP0tUnnV5nrQJ] in parent Actor [CM3hOKWraZHNcz1l]","timestamp":"2023-07-15 22:16:29"}
+{"level":"info","message":"FoundryVTT | Created 22 Item documents in parent Actor [CM3hOKWraZHNcz1l]","timestamp":"2023-07-15 22:16:30"}
+{"level":"info","message":"FoundryVTT | Deleted 69 Item documents in parent Actor [bMDEuDW94AT890zu]","timestamp":"2023-07-15 22:16:41"}
+{"level":"info","message":"FoundryVTT | Created Item with id [6Af5VOS27JnrzgWn] in parent Actor [bMDEuDW94AT890zu]","timestamp":"2023-07-15 22:16:41"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [PEADIu11x9BsHV96,UUTmsMqh5Z0CcQWP] in parent Actor [bMDEuDW94AT890zu]","timestamp":"2023-07-15 22:16:41"}
+{"level":"info","message":"FoundryVTT | Created 67 Item documents in parent Actor [bMDEuDW94AT890zu]","timestamp":"2023-07-15 22:16:42"}
+{"level":"info","message":"FoundryVTT | Created RollTable with id [KjwN7h2zaBk20KUJ] in Compendium world.ddb-slaverin-ddb-tables","timestamp":"2023-07-15 22:16:59"}
+{"level":"info","message":"FoundryVTT | Deleted 20 Item documents in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-15 22:16:59"}
+{"level":"info","message":"Sending-Stone.webp saved to ddb-images/other/item/equipment","timestamp":"2023-07-15 22:17:01"}
+{"level":"info","message":"Sending-Stone-large.webp saved to ddb-images/other/item/equipment","timestamp":"2023-07-15 22:17:01"}
+{"level":"info","message":"FoundryVTT | Created Item with id [zESgj2qHPJgzlanI] in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-15 22:17:01"}
+{"level":"info","message":"FoundryVTT | Created 28 Item documents in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-15 22:17:02"}
+{"level":"info","message":"FoundryVTT | Created Item with id [ClcwUDiXSpYxV0WU] in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-15 22:17:02"}
+{"level":"info","message":"FoundryVTT | Created 18 Item documents in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-15 22:17:02"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [QUh9CeXZx6Jxx6Cy] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-15 22:17:18"}
+{"level":"info","message":"FoundryVTT | Deleted 36 Item documents in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-15 22:17:18"}
+{"level":"info","message":"FoundryVTT | Created 13 Item documents in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-15 22:17:19"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [Z8UoRYMzQyCgbDhM] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-15 22:17:19"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [xC5mIQVaP0YwdQDS,LklGbUU9MioniJQX] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-15 22:17:19"}
+{"level":"info","message":"FoundryVTT | Created 32 Item documents in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-15 22:17:20"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [4upZ2WIfN3psJuSP] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-15 22:17:20"}
+{"level":"info","message":"FoundryVTT | Deleted 50 Item documents in parent Actor [w08cFTLxFAWkgoDT]","timestamp":"2023-07-15 22:17:33"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [MRZfdBAWI8vq7MSb,NgrsR4GdgDHVQdHg] in parent Actor [w08cFTLxFAWkgoDT]","timestamp":"2023-07-15 22:17:33"}
+{"level":"info","message":"FoundryVTT | Created 48 Item documents in parent Actor [w08cFTLxFAWkgoDT]","timestamp":"2023-07-15 22:17:34"}
+{"level":"info","message":"FoundryVTT | Deleted 58 Item documents in parent Actor [42eOn47txYeslvRW]","timestamp":"2023-07-15 22:17:48"}
+{"level":"info","message":"FoundryVTT | Created Item with id [EP0dZZng4x33mZHS] in parent Actor [42eOn47txYeslvRW]","timestamp":"2023-07-15 22:17:48"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [2CHcCkJcstfuGiG8,PS7vvLoBrDnPAwmB] in parent Actor [42eOn47txYeslvRW]","timestamp":"2023-07-15 22:17:48"}
+{"level":"info","message":"FoundryVTT | Created 56 Item documents in parent Actor [42eOn47txYeslvRW]","timestamp":"2023-07-15 22:17:49"}
+{"level":"info","message":"FoundryVTT | Deleted 39 Item documents in parent Actor [J4osye6lREBsU5tU]","timestamp":"2023-07-15 22:18:41"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [2ehoPvwEhqOmTuud,lnP005k0hBLwTqey] in parent Actor [J4osye6lREBsU5tU]","timestamp":"2023-07-15 22:18:42"}
+{"level":"info","message":"FoundryVTT | Created 36 Item documents in parent Actor [J4osye6lREBsU5tU]","timestamp":"2023-07-15 22:18:42"}
+{"level":"info","message":"FoundryVTT | Created 14 Item documents in parent Actor [J4osye6lREBsU5tU]","timestamp":"2023-07-15 22:18:42"}
+{"level":"info","message":"FoundryVTT | Deleted Note with id [17ugEmYMLvAP6nXx] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:24:16"}
+{"level":"info","message":"BookStand_Stone_A1_01.png saved to assets/uploaded/tiles","timestamp":"2023-07-15 22:36:26"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [wneMBstTuEtGCXjp] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 22:36:27"}
