@@ -25399,3 +25399,5 @@
 {"level":"info","message":"FoundryVTT | Created Token with id [SocwC4AtcwxCQQKl] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 12:23:59"}
 {"level":"info","message":"FoundryVTT | Created Token with id [vClh6kfKu4PMn4O1] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 12:24:02"}
 {"level":"info","message":"FoundryVTT | Deleted Token with id [SocwC4AtcwxCQQKl] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-15 12:24:17"}
+{"level":"info","message":"Created client session 58a059f1d14711adb991aba2","timestamp":"2023-07-15 17:07:40"}
+{"level":"info","message":"Created client session cf483a3b72aafd863aad76a9","timestamp":"2023-07-15 17:07:41"}
