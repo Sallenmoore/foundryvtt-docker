@@ -25492,3 +25492,58 @@
 {"level":"info","message":"townsquare.jpg saved to assets/maps","timestamp":"2023-07-16 17:46:46"}
 {"level":"info","message":"FoundryVTT | Created 4 Wall documents with ids: [BSXXbmLsLs5sHeDm,ebTrTlrpftYckccD,EyFlsgJBqXOq1Z8l,qLZbBPSrCjCXtvNZ] in parent Scene [rONckTZvMUG7sC59]","timestamp":"2023-07-16 17:47:00"}
 {"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/rONckTZvMUG7sC59-thumb.webp\"","timestamp":"2023-07-16 17:47:07"}
+{"level":"info","message":"townsquare.png saved to assets/maps","timestamp":"2023-07-16 18:19:14"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/rONckTZvMUG7sC59-thumb.webp\"","timestamp":"2023-07-16 18:19:34"}
+{"level":"info","message":"FoundryVTT | Deleted Scene with id [rONckTZvMUG7sC59]","timestamp":"2023-07-16 18:19:43"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:19:50"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/iDANmbQoeAIYSLvN-thumb.webp\"","timestamp":"2023-07-16 18:20:24"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [cp5i0RFMtHRT8Fcx] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:22:46"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [Eozqxd2RDHaMTlyz] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:22:49"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [BNaoqw9VdNWwsKGY] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:22:50"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [nWJ1OWaSyKZ0xmJ4] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:22:52"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [yw7IZ7YI265Uxvur] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:33"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [6BERFK4YGiZTEv7L] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:35"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [Ard3aqI9teav9opb] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:37"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [QgyNr0gLnDoaOkoK] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:39"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [NCYjXMTXeK3LGd03] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:42"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [377A4tMcElJTFJvW] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:48"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [WSFfziYd0a1MfLua] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:51"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [2U8zmOQwQiqnxvxc] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:23:52"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [dAGd11LG5DjBtxBR] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:10"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [xCNQ7gqBMCVV8xoM] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:19"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [AVhl8iEsDxwq2GSl] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:25"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [6N8qM6U5qsBYu7Yg] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:27"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [Abonnl8KzPy7E6Tk] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:31"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [SAoNee6uBTsKtfxC] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:40"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [9bhXq9tz8HC5aXyK] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:51"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [PISgzkiwEkOqLDxy] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:52"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [SAoNee6uBTsKtfxC] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:54"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [9bhXq9tz8HC5aXyK] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:55"}
+{"level":"info","message":"FoundryVTT | Deleted Wall with id [PISgzkiwEkOqLDxy] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:24:56"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [3R9wdneVhw5m12Sw] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:26:03"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [CYmBhQ9fQfakJ5JO] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:26:57"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [OiEdeg35c8HzeWoy] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:39"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [X8xrpVy9eLAHRXAm] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:40"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [QFWF0f5x0KFYOqbp] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:41"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [HEWjineRXz1mI4Ww] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:42"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [j1qkVZeKUBj1lX7n] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:43"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [69f0he3f5bR7ElXi] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:45"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [9hT0BCW7DjcYfQ5n] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:46"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [1yrNx02FQd6aHC7O] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:28:49"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [vKmbh4HLA2pSqwmr] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:29:12"}
+{"level":"info","message":"FoundryVTT | Created Wall with id [JvLqwVVT9geZKGI3] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:29:16"}
+{"level":"info","message":"Reset 0 FogExploration documents for Scene iDANmbQoeAIYSLvN","timestamp":"2023-07-16 18:30:26"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [qoG0AL7Ouxp0wv4f] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:30:38"}
+{"level":"info","message":"FoundryVTT | Deleted AmbientLight with id [qoG0AL7Ouxp0wv4f] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:30:43"}
+{"level":"info","message":"FoundryVTT | Created Actor with id [aNzGdAwEjAUf6oPX]","timestamp":"2023-07-16 18:40:40"}
+{"level":"info","message":"marcus_graves.Avatar.webp saved to assets/tokens","timestamp":"2023-07-16 18:41:15"}
+{"level":"info","message":"marcus_graves.Token.webp saved to assets/tokens","timestamp":"2023-07-16 18:41:15"}
+{"level":"info","message":"FoundryVTT | Created Token with id [WrgNbcGmF2klIZ1c] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 18:41:26"}
+{"level":"info","message":"FoundryVTT | Created Item with id [jAnnLdPQ12NPGfoA] in parent Actor [aNzGdAwEjAUf6oPX]","timestamp":"2023-07-16 18:53:51"}
+{"level":"info","message":"FoundryVTT | Created Item with id [98xqowFaLFM6okfJ] in parent Actor [aNzGdAwEjAUf6oPX]","timestamp":"2023-07-16 18:54:05"}
+{"level":"info","message":"FoundryVTT | Created Item with id [RuWdVnU0PkaBgUXj] in parent Actor [aNzGdAwEjAUf6oPX]","timestamp":"2023-07-16 18:54:51"}
+{"level":"info","message":"FoundryVTT | Created Item with id [UPV4mKJDZSGvaK0S] in parent Actor [aNzGdAwEjAUf6oPX]","timestamp":"2023-07-16 18:56:10"}
+{"level":"info","message":"FoundryVTT | Created Actor with id [OFricDMrt8R10gv9]","timestamp":"2023-07-16 19:02:35"}
+{"level":"info","message":"liara_shaodwstrike.Avatar.webp saved to assets/tokens","timestamp":"2023-07-16 19:03:03"}
+{"level":"info","message":"liara_shaodwstrike.Token.webp saved to assets/tokens","timestamp":"2023-07-16 19:03:03"}
+{"level":"info","message":"FoundryVTT | Created Token with id [UIFW1waOStJUyCbQ] in parent Scene [iDANmbQoeAIYSLvN]","timestamp":"2023-07-16 19:03:11"}
