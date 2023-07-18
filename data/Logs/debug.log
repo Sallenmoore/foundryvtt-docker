@@ -26652,3 +26652,15 @@
 {"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 1230ms","timestamp":"2023-07-18 01:52:46"}
 {"level":"info","message":"Created client session 32b6f17a442f7c5262cb0fe7","timestamp":"2023-07-18 13:58:16"}
 {"level":"info","message":"Created client session 3f33976995a0e5418155f4f9","timestamp":"2023-07-18 16:23:05"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"3f33976995a0e5418155f4f9","timestamp":"2023-07-18 17:11:51"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-18 17:11:55"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1024ms","timestamp":"2023-07-18 17:11:55"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-18 17:19:20"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1005ms","timestamp":"2023-07-18 17:19:20"}
+{"level":"info","message":"FoundryVTT | Deleted 21 ChatMessage documents","timestamp":"2023-07-18 17:19:31"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [U7C4y85ACQF1XIwp]","timestamp":"2023-07-18 17:20:13"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-18 17:20:54"}
+{"level":"info","message":"Stonewatch.jpg saved to assets/maps","timestamp":"2023-07-18 17:22:10"}
+{"level":"info","message":"Stonewatch.jpg saved to assets/maps","timestamp":"2023-07-18 17:22:33"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/yQp4YSfXRFwQ4PFZ-thumb.webp\"","timestamp":"2023-07-18 17:24:05"}
+{"level":"info","message":"Activating scene Stonewatch [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-18 18:01:34"}
