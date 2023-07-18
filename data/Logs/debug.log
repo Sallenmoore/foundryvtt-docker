@@ -26965,3 +26965,55 @@
 {"level":"info","message":"FoundryVTT | Created FogExploration with id [2zwNJNAQbfn8RvAI]","timestamp":"2023-07-18 19:00:11"}
 {"level":"info","message":"encampment.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:02:55"}
 {"level":"info","message":"FoundryVTT | Created Tile with id [QeDaff9H6uJR6okL] in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-18 19:02:55"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [2xXDOhlssvSmGPxG] in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-18 19:06:22"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [Ia8x2tN4jBwZIXxw] in parent Scene [xw1odA1s6Kt7Eq9v]","timestamp":"2023-07-18 19:07:58"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [Ia8x2tN4jBwZIXxw] in parent Scene [xw1odA1s6Kt7Eq9v]","timestamp":"2023-07-18 19:08:06"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [OrEB0YmoBM5WrPZF]","timestamp":"2023-07-18 19:08:29"}
+{"level":"info","message":"dark-temple-battle-map-30x38-v0-lvxl583xg3cb1.jpg saved to assets/maps","timestamp":"2023-07-18 19:09:00"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/OrEB0YmoBM5WrPZF-thumb.webp\"","timestamp":"2023-07-18 19:09:10"}
+{"level":"info","message":"church-of-forgiveness.jpg saved to assets/maps","timestamp":"2023-07-18 19:14:57"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/OrEB0YmoBM5WrPZF-thumb.webp\"","timestamp":"2023-07-18 19:15:03"}
+{"level":"info","message":"FoundryVTT | Deleted Scene with id [OrEB0YmoBM5WrPZF]","timestamp":"2023-07-18 19:15:29"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:15:37"}
+{"level":"info","message":"FoundryVTT | Created 4 Wall documents with ids: [PB52RgI9POUwbawX,DpxF3319me89djfR,rnCWNx2Hmjy5HD35,i1vpkJUdQmkWNe1Y] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:15:43"}
+{"level":"info","message":"FoundryVTT | Created 4 Wall documents with ids: [YGId3izuMjNmqv8k,1oCj1d03IA89XfQS,o0MoPXXtpZB8hz7N,WqMeiTFov9V8Zw9P] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:16:00"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/Onvaf2ND5Sa7aR03-thumb.webp\"","timestamp":"2023-07-18 19:16:01"}
+{"level":"info","message":"Door_Fallen_Metal_Gray_E1_2x2.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:18:12"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [BpjP9174akPvxZXv] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:18:12"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [QDJb9DAZ0dOZwGgL] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:18:24"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [QDJb9DAZ0dOZwGgL] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:19:06"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [BpjP9174akPvxZXv] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:19:06"}
+{"level":"info","message":"Door_Fallen_Metal_Rusty_E1_2x2.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:19:23"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [yXZ9MFCggHtHbP0p] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:19:23"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [yXZ9MFCggHtHbP0p] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:19:39"}
+{"level":"info","message":"Door_Fallen_Metal_Rusty_D1_2x2.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:20:31"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [xozyr5KyfWzL4tnS] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:20:31"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [7w77tfzLc4qNZqUH] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:21:37"}
+{"level":"info","message":"FoundryVTT | Created Drawing with id [3uKoxGmSccyulxpK] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:22:03"}
+{"level":"info","message":"FoundryVTT | Deleted Drawing with id [3uKoxGmSccyulxpK] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:24:21"}
+{"level":"info","message":"FoundryVTT | Created Drawing with id [3uKoxGmSccyulxpK] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:24:24"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [xozyr5KyfWzL4tnS] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:24:55"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [RS1YVKnVH9XvF5Rg] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:24:56"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [RS1YVKnVH9XvF5Rg] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:26:26"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [7w77tfzLc4qNZqUH] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:26:28"}
+{"level":"info","message":"Door_Fallen_Metal_Rusty_G1_2x3.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:26:40"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [Ek6DxqyikM6Y2mqG] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:26:40"}
+{"level":"info","message":"FoundryVTT | Deleted Drawing with id [3uKoxGmSccyulxpK] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:26:47"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [Ek6DxqyikM6Y2mqG] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:27:33"}
+{"level":"info","message":"Door_Fallen_Wood_Ashen_G1_2x2.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:27:52"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [zo0z9LteJW1TQV7J] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:27:53"}
+{"level":"info","message":"FoundryVTT | Deleted Tile with id [zo0z9LteJW1TQV7J] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:32:28"}
+{"level":"info","message":"FoundryVTT | Created Drawing with id [iREEAduWlJvbGoxY] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:32:42"}
+{"level":"info","message":"FoundryVTT | Deleted Drawing with id [iREEAduWlJvbGoxY] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:32:43"}
+{"level":"info","message":"FoundryVTT | Created Drawing with id [pbo1HfLlJpbZ6k1S] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:32:55"}
+{"level":"info","message":"Rubble_Pile_Stone_Earthy_A13_2x4.png saved to assets/tiles/Rubble_Piles/Stone","timestamp":"2023-07-18 19:34:48"}
+{"level":"info","message":"Rubble_Pile_Stone_Earthy_A15_9x5.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:35:17"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [FMikBCHcqH5R6vEg] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:35:18"}
+{"level":"info","message":"Rubble_Pile_Stone_Earthy_A22_4x3.png saved to assets/uploaded/tiles","timestamp":"2023-07-18 19:36:56"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [Xr0cJ0n65tw2MipO] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:36:56"}
+{"level":"info","message":"FoundryVTT | Created AmbientLight with id [FzPVX15Uy8uP6kVF] in parent Scene [Onvaf2ND5Sa7aR03]","timestamp":"2023-07-18 19:41:47"}
+{"level":"info","message":"FoundryVTT | Created Scene with id [ocXRKE377XQD56kV]","timestamp":"2023-07-18 19:51:59"}
+{"level":"info","message":"Shelobs-Lair-60x90-webs-low-res-grid-4ab49f85.jpg saved to assets/maps","timestamp":"2023-07-18 19:52:29"}
+{"level":"info","message":"FoundryVTT | Created 4 Wall documents with ids: [TM47Eh5mpRAPDhAg,qir1kkwz9CiBmptO,7iw9DX9Kv6hXFlu2,sAlDV4HXHEg5WrO5] in parent Scene [ocXRKE377XQD56kV]","timestamp":"2023-07-18 19:52:50"}
+{"level":"info","message":"FoundryVTT | Extracted base64 asset: \"/opt/data/foundryvtt/Data/worlds/slaverin/assets/scenes/ocXRKE377XQD56kV-thumb.webp\"","timestamp":"2023-07-18 19:52:57"}
+{"level":"info","message":"FoundryVTT | Created Tile with id [wfuzBlrDzgfsmo5v] in parent Scene [ocXRKE377XQD56kV]","timestamp":"2023-07-18 19:55:21"}
