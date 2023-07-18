@@ -26610,3 +26610,43 @@
 {"level":"info","message":"FoundryVTT | Created 2 Combatant documents with ids: [WykI1gH33hSRTBDg,UrZ4vjqRY3Ogavld] in parent Combat [J7SP30icD01NN7zF]","timestamp":"2023-07-18 01:01:09"}
 {"level":"info","message":"FoundryVTT | Created ChatMessage with id [1QWJi5wtyr5hZlEe]","timestamp":"2023-07-18 01:01:59"}
 {"level":"info","message":"FoundryVTT | Created ChatMessage with id [mXXQ9gRjyYR9C1TK]","timestamp":"2023-07-18 01:02:39"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-18 01:05:03"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 1701ms","timestamp":"2023-07-18 01:05:03"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [sUW6AMvySREmXbCA]","timestamp":"2023-07-18 01:05:10"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [rtSgI9hMfXR8XeE1] in parent ActorDelta [YMlOW8C1qRoyMEox]","timestamp":"2023-07-18 01:06:22"}
+{"level":"info","message":"FoundryVTT | Deleted ActiveEffect with id [rtSgI9hMfXR8XeE1] in parent ActorDelta [YMlOW8C1qRoyMEox]","timestamp":"2023-07-18 01:06:25"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [VkKTufDjWlxQaQuC]","timestamp":"2023-07-18 01:06:49"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [IKJL9q96ijLBycoZ]","timestamp":"2023-07-18 01:09:53"}
+{"level":"info","message":"FoundryVTT | Deleted 48 Item documents in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-18 01:15:06"}
+{"level":"info","message":"FoundryVTT | Created 3 Item documents with ids: [c0fCpchObukSGQ6Z,sVInVuG9mpEX08EX,rg1xTc5hnqYZJqMy] in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-18 01:15:07"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [zESgj2qHPJgzlanI,ClcwUDiXSpYxV0WU] in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-18 01:15:07"}
+{"level":"info","message":"FoundryVTT | Created 44 Item documents in parent Actor [sIDQJGdxa4pQUjzU]","timestamp":"2023-07-18 01:15:07"}
+{"level":"info","message":"FoundryVTT | Deleted 70 Item documents in parent Actor [bMDEuDW94AT890zu]","timestamp":"2023-07-18 01:15:23"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [PEADIu11x9BsHV96,UUTmsMqh5Z0CcQWP] in parent Actor [bMDEuDW94AT890zu]","timestamp":"2023-07-18 01:15:23"}
+{"level":"info","message":"FoundryVTT | Created 68 Item documents in parent Actor [bMDEuDW94AT890zu]","timestamp":"2023-07-18 01:15:24"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [ocCGypapci6AvD1b]","timestamp":"2023-07-18 01:17:59"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [8Q2CQmK84IF8jPKV]","timestamp":"2023-07-18 01:19:56"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [RbQZ7dZCMkBqaH7a]","timestamp":"2023-07-18 01:20:58"}
+{"level":"info","message":"FoundryVTT | Deleted 2 ActiveEffect documents with ids: [Ve5AOd5OpNiaeOQL,JYYKvpqB03zFJmS3] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 01:21:21"}
+{"level":"info","message":"FoundryVTT | Deleted 47 Item documents in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 01:21:21"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [URl5fiYcILEEQwrm,jvvH8yhVQaelSp4T] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 01:21:22"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [xC5mIQVaP0YwdQDS,LklGbUU9MioniJQX] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 01:21:22"}
+{"level":"info","message":"FoundryVTT | Created 43 Item documents in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 01:21:23"}
+{"level":"info","message":"FoundryVTT | Created 2 ActiveEffect documents with ids: [Jkvk0OYqxx4Uj5TI,B4jOYGGyOMbdykAT] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 01:21:23"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [xs6dMKe3AL2ygDK5] in parent ActorDelta [YMlOW8C1qRoyMEox]","timestamp":"2023-07-18 01:23:11"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [9v3hL9NoZp0umkmt] in parent ActorDelta [YMlOW8C1qRoyMEox]","timestamp":"2023-07-18 01:23:11"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [J7SP30icD01NN7zF]","timestamp":"2023-07-18 01:23:18"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [B6cw1LuJqn0vGkqq]","timestamp":"2023-07-18 01:23:18"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [YLJQgGcFulWwGvkC] in parent Scene [p9HYhc4LDtzl54pX]","timestamp":"2023-07-18 01:31:05"}
+{"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [YLJQgGcFulWwGvkC] in parent Scene [p9HYhc4LDtzl54pX]","timestamp":"2023-07-18 01:31:08"}
+{"level":"info","message":"Activating scene The Docks [fnFIEybch2CnJCOY]","timestamp":"2023-07-18 01:33:43"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-18 01:35:36"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 965ms","timestamp":"2023-07-18 01:35:36"}
+{"level":"info","message":"FoundryVTT | Created FogExploration with id [8DxoBGn8HFWKNkpY]","timestamp":"2023-07-18 01:37:51"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [OlQGGbXYikDPOjXB] in parent Scene [fnFIEybch2CnJCOY]","timestamp":"2023-07-18 01:41:12"}
+{"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [OlQGGbXYikDPOjXB] in parent Scene [fnFIEybch2CnJCOY]","timestamp":"2023-07-18 01:41:14"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [UFTutnIa2vRDFWLd] in parent Scene [fnFIEybch2CnJCOY]","timestamp":"2023-07-18 01:41:16"}
+{"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [UFTutnIa2vRDFWLd] in parent Scene [fnFIEybch2CnJCOY]","timestamp":"2023-07-18 01:41:16"}
+{"level":"info","message":"Activating scene Chichingia [XuDgIaWiroOTaT5L]","timestamp":"2023-07-18 01:52:10"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-18 01:52:46"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 1230ms","timestamp":"2023-07-18 01:52:46"}
