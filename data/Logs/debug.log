@@ -26508,3 +26508,64 @@
 {"level":"info","message":"FoundryVTT | Created ChatMessage with id [rh1nnF6590QqefbH]","timestamp":"2023-07-17 23:02:41"}
 {"level":"info","message":"FoundryVTT | Created ChatMessage with id [HL7q5BerDBo42U4U]","timestamp":"2023-07-17 23:03:09"}
 {"level":"info","message":"FoundryVTT | Created ChatMessage with id [4ozEO6tMPmR4TCse]","timestamp":"2023-07-17 23:04:08"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [H9wGl9LuUPb2Fps6]","timestamp":"2023-07-17 23:06:56"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [HL7q5BerDBo42U4U]","timestamp":"2023-07-17 23:07:08"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [rh1nnF6590QqefbH]","timestamp":"2023-07-17 23:07:09"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [WcVlwXqsjJLzNceK]","timestamp":"2023-07-17 23:07:10"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [3zA88nDO6y0cmNot]","timestamp":"2023-07-17 23:07:12"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [YEilF7ttWExNVvUK]","timestamp":"2023-07-17 23:07:14"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [e1lj4M5g7E4j8kfS]","timestamp":"2023-07-17 23:07:15"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [rKpFHhmTUCMl6rzD]","timestamp":"2023-07-17 23:07:16"}
+{"level":"info","message":"FoundryVTT | Created Token with id [Vsj0K5SEcsBLiJXc] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-17 23:09:30"}
+{"level":"error","message":"User Dank lacks permission to update Token [Vsj0K5SEcsBLiJXc] in parent Scene [Xvw04TxWMJZp22SK]","stack":"Error: User Dank lacks permission to update Token [Vsj0K5SEcsBLiJXc] in parent Scene [Xvw04TxWMJZp22SK]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-17 23:09:31"}
+{"level":"error","message":"User Dank lacks permission to update Token [Vsj0K5SEcsBLiJXc] in parent Scene [Xvw04TxWMJZp22SK]","stack":"Error: User Dank lacks permission to update Token [Vsj0K5SEcsBLiJXc] in parent Scene [Xvw04TxWMJZp22SK]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-17 23:09:31"}
+{"level":"error","message":"User Dank lacks permission to update Token [Vsj0K5SEcsBLiJXc] in parent Scene [Xvw04TxWMJZp22SK]","stack":"Error: User Dank lacks permission to update Token [Vsj0K5SEcsBLiJXc] in parent Scene [Xvw04TxWMJZp22SK]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-17 23:09:31"}
+{"level":"info","message":"FoundryVTT | Created Token with id [m8GczJpwHqVchOK7] in parent Scene [Xvw04TxWMJZp22SK]","timestamp":"2023-07-17 23:09:32"}
+{"level":"error","message":"User Dank lacks permission to update Token [m8GczJpwHqVchOK7] in parent Scene [Xvw04TxWMJZp22SK]","stack":"Error: User Dank lacks permission to update Token [m8GczJpwHqVchOK7] in parent Scene [Xvw04TxWMJZp22SK]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-17 23:09:32"}
+{"level":"error","message":"User Dank lacks permission to update Token [m8GczJpwHqVchOK7] in parent Scene [Xvw04TxWMJZp22SK]","stack":"Error: User Dank lacks permission to update Token [m8GczJpwHqVchOK7] in parent Scene [Xvw04TxWMJZp22SK]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-17 23:09:32"}
+{"level":"error","message":"User Dank lacks permission to update Token [m8GczJpwHqVchOK7] in parent Scene [Xvw04TxWMJZp22SK]","stack":"Error: User Dank lacks permission to update Token [m8GczJpwHqVchOK7] in parent Scene [Xvw04TxWMJZp22SK]\n    at ServerDatabaseBackend._updateDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:3779)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-17 23:09:32"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [EtVOfpUYXXNswvJ1] in parent Combat [1SBSmNiDgwRWvFv8]","timestamp":"2023-07-17 23:09:44"}
+{"level":"info","message":"FoundryVTT | Created Combatant with id [BzcxDoBs6sGBJT8O] in parent Combat [1SBSmNiDgwRWvFv8]","timestamp":"2023-07-17 23:09:47"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [qryMsOFWAsJ1Yrvh]","timestamp":"2023-07-17 23:09:50"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [vec2oJ1c6SjDPML7]","timestamp":"2023-07-17 23:09:52"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Y3FHHsA6NtbgFQCq]","timestamp":"2023-07-17 23:10:58"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [u7CEn6BdIXPUEbMH]","timestamp":"2023-07-17 23:11:03"}
+{"level":"info","message":"FoundryVTT | Deleted ChatMessage with id [u7CEn6BdIXPUEbMH]","timestamp":"2023-07-17 23:11:38"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [gb4wX4rKOnCw14ZG]","timestamp":"2023-07-17 23:12:30"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [8FqXmQKngfmlpuOF]","timestamp":"2023-07-17 23:12:33"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [jLNBnfnpcgCE86Mc]","timestamp":"2023-07-17 23:12:39"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [JENT6PpATCC8F2cX]","timestamp":"2023-07-17 23:12:44"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [PA3a72hie2yDdlIW]","timestamp":"2023-07-17 23:13:11"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [nNkrCJSMzSj1YwJS]","timestamp":"2023-07-17 23:13:23"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [E6ieXrYWFyoTeVmz]","timestamp":"2023-07-17 23:13:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [U3Btta1E4HnlZ6xO]","timestamp":"2023-07-17 23:13:34"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [JQTuMXrpNasHxW7s]","timestamp":"2023-07-17 23:14:51"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [vZoG8oYrg3ZD15q6]","timestamp":"2023-07-17 23:21:17"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [DZ2Kmeg1tDipmFVW]","timestamp":"2023-07-17 23:22:20"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [AaF9FyDAg4mYGevP]","timestamp":"2023-07-17 23:22:25"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [QTWTBgc1yYajnI6e]","timestamp":"2023-07-17 23:22:37"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [nfABeVgG650yZ4Uo]","timestamp":"2023-07-17 23:22:40"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [LzlESqc5krwFoM7O]","timestamp":"2023-07-17 23:22:52"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [BfMtE5VrP1D0jt9C]","timestamp":"2023-07-17 23:23:17"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [I6ud8yGU0t9uQnVi]","timestamp":"2023-07-17 23:23:35"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [H0RTnQdYRsMEMqTR]","timestamp":"2023-07-17 23:23:38"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [pqzBUmqa0p3K0Cdk]","timestamp":"2023-07-17 23:23:40"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [n3g0566uPu68ciky]","timestamp":"2023-07-17 23:24:32"}
+{"level":"info","message":"FoundryVTT | Deleted 32 ChatMessage documents","timestamp":"2023-07-17 23:25:00"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [1SBSmNiDgwRWvFv8]","timestamp":"2023-07-17 23:28:29"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [mdVg7zTDu2E6W5oT]","timestamp":"2023-07-17 23:28:29"}
+{"level":"info","message":"Activating scene Seastone Greenhouse [zqOcia5GvbXU7hR7]","timestamp":"2023-07-17 23:31:14"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-17 23:31:39"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 858ms","timestamp":"2023-07-17 23:31:39"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-17 23:31:45"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 777ms","timestamp":"2023-07-17 23:31:45"}
+{"level":"info","message":"FoundryVTT | Created Token with id [NtolmJCerqYjAMgs] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:54:23"}
+{"level":"info","message":"FoundryVTT | Created Token with id [at4PuGV5rg1kISqq] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:54:26"}
+{"level":"info","message":"FoundryVTT | Created Token with id [HdbM31J5sDrPALTg] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:54:29"}
+{"level":"info","message":"FoundryVTT | Created Token with id [omwpiehH4Ohts1Ih] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:54:31"}
+{"level":"info","message":"FoundryVTT | Created Token with id [E6y0yKBWbelM0CJe] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:54:33"}
+{"level":"info","message":"FoundryVTT | Created Token with id [G8p3HDrzXMl9Jdx4] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:54:45"}
+{"level":"info","message":"Activating scene Rueside [ldQIkVMIqktMVuY6]","timestamp":"2023-07-17 23:56:23"}
+{"level":"info","message":"Activating scene Jail [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:59:31"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-17 23:59:57"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 981ms","timestamp":"2023-07-17 23:59:57"}
