@@ -26569,3 +26569,44 @@
 {"level":"info","message":"Activating scene Jail [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-17 23:59:31"}
 {"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-17 23:59:57"}
 {"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 981ms","timestamp":"2023-07-17 23:59:57"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [kcuYaBxIeqb06yZs] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-18 00:07:18"}
+{"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [kcuYaBxIeqb06yZs] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-18 00:07:44"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [ZYXpaKYlg2vDnP03] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-18 00:24:40"}
+{"level":"info","message":"FoundryVTT | Deleted MeasuredTemplate with id [ZYXpaKYlg2vDnP03] in parent Scene [VFLoETHlKAmNJ8YQ]","timestamp":"2023-07-18 00:24:42"}
+{"level":"info","message":"FoundryVTT | Created FogExploration with id [aeHWcjReJarSFNf0]","timestamp":"2023-07-18 00:25:39"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-18 00:25:50"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 958ms","timestamp":"2023-07-18 00:25:50"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [OCgxIxCvNocHiIQ8]","timestamp":"2023-07-18 00:32:11"}
+{"level":"info","message":"FoundryVTT | Created 10 Combatant documents in parent Combat [OCgxIxCvNocHiIQ8]","timestamp":"2023-07-18 00:32:12"}
+{"level":"info","message":"FoundryVTT | Created 3 ChatMessage documents with ids: [8sFWTPe6FDGqwfwi,kqi5nY3WwScxlySn,YoZhVUGUtJvyA1Pj]","timestamp":"2023-07-18 00:32:51"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [gzZGyL0OgDVv8TqA]","timestamp":"2023-07-18 00:35:08"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [qQ8zOhDYwTymN2VK]","timestamp":"2023-07-18 00:35:28"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Qb51Ps2UOx5ArHwJ]","timestamp":"2023-07-18 00:40:28"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [qbq7gtKa7zxgfAwh]","timestamp":"2023-07-18 00:40:32"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [67lsVBd9Z1g6wT0s]","timestamp":"2023-07-18 00:40:57"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [Voi1ofCgLuJdLIWJ]","timestamp":"2023-07-18 00:40:57"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [ClC8NzRhCFtjQjuk] in parent ActorDelta [FmjZCWgzoUK127Cx]","timestamp":"2023-07-18 00:46:01"}
+{"level":"info","message":"FoundryVTT | Created ActiveEffect with id [9vEak74C7IGwSDTp] in parent ActorDelta [FmjZCWgzoUK127Cx]","timestamp":"2023-07-18 00:46:01"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [iDjmbJex8Y6HyUxf]","timestamp":"2023-07-18 00:47:55"}
+{"level":"info","message":"FoundryVTT | Deleted Combat with id [OCgxIxCvNocHiIQ8]","timestamp":"2023-07-18 00:49:38"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [UUSeScc7ODXJbgPX]","timestamp":"2023-07-18 00:49:39"}
+{"level":"info","message":"Activating scene Sewer [p9HYhc4LDtzl54pX]","timestamp":"2023-07-18 00:50:12"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-18 00:51:11"}
+{"level":"info","message":"Vended World data to User [0SpphQ6FTyQqV0R8] in 856ms","timestamp":"2023-07-18 00:51:11"}
+{"level":"info","message":"FoundryVTT | Deleted 2 ActiveEffect documents with ids: [Z8UoRYMzQyCgbDhM,4upZ2WIfN3psJuSP] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 00:53:21"}
+{"level":"info","message":"FoundryVTT | Deleted 47 Item documents in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 00:53:21"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [PJnTN8m69umAT2Qn,7gv7nOTPzIgAfTL7] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 00:53:24"}
+{"level":"info","message":"FoundryVTT | Created 2 Item documents with ids: [xC5mIQVaP0YwdQDS,LklGbUU9MioniJQX] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 00:53:24"}
+{"level":"info","message":"FoundryVTT | Created 43 Item documents in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 00:53:25"}
+{"level":"info","message":"FoundryVTT | Created 2 ActiveEffect documents with ids: [Ve5AOd5OpNiaeOQL,JYYKvpqB03zFJmS3] in parent Actor [hOFrSOYTjpWuwVyv]","timestamp":"2023-07-18 00:53:25"}
+{"level":"info","message":"FoundryVTT | Created FogExploration with id [YM5VijCufDw08G3D]","timestamp":"2023-07-18 00:53:55"}
+{"level":"info","message":"FoundryVTT | Deleted 29 Item documents in parent Actor [CM3hOKWraZHNcz1l]","timestamp":"2023-07-18 00:55:59"}
+{"level":"info","message":"FoundryVTT | Created Combat with id [J7SP30icD01NN7zF]","timestamp":"2023-07-18 01:00:13"}
+{"level":"info","message":"FoundryVTT | Created 6 Combatant documents in parent Combat [J7SP30icD01NN7zF]","timestamp":"2023-07-18 01:00:13"}
+{"level":"info","message":"FoundryVTT | Created Token with id [xfRR6D5efqBs4ovX] in parent Scene [p9HYhc4LDtzl54pX]","timestamp":"2023-07-18 01:00:40"}
+{"level":"info","message":"FoundryVTT | Created Token with id [SsfFfdhvKFrm8HJb] in parent Scene [p9HYhc4LDtzl54pX]","timestamp":"2023-07-18 01:00:42"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [xfRR6D5efqBs4ovX] in parent Scene [p9HYhc4LDtzl54pX]","timestamp":"2023-07-18 01:00:55"}
+{"level":"info","message":"FoundryVTT | Deleted Token with id [SsfFfdhvKFrm8HJb] in parent Scene [p9HYhc4LDtzl54pX]","timestamp":"2023-07-18 01:00:55"}
+{"level":"info","message":"FoundryVTT | Created 2 Combatant documents with ids: [WykI1gH33hSRTBDg,UrZ4vjqRY3Ogavld] in parent Combat [J7SP30icD01NN7zF]","timestamp":"2023-07-18 01:01:09"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [1QWJi5wtyr5hZlEe]","timestamp":"2023-07-18 01:01:59"}
+{"level":"info","message":"FoundryVTT | Created ChatMessage with id [mXXQ9gRjyYR9C1TK]","timestamp":"2023-07-18 01:02:39"}
