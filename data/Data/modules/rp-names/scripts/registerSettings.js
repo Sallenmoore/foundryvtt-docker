@@ -1,9 +1,5 @@
 import { rpLanguages } from "../json/languages.js";
 import { rpGenres } from "../json/genres.js";
-import {
-	rpGenerateCreatureDescription,
-	rpValidatePatreonKey,
-} from "./generateRandomName.js";
 import { rpCrossCheckNames } from "./actors.js";
 import { rp } from "./util.js";
 
@@ -76,7 +72,7 @@ const rpRegisterSettings = () => {
 		default:
 			rpDefaultGenre = "Fantasy";
 	}
-	
+
 	rpRegisterSettingsMenu("rpSettingsNameMenu", {
 		name: game.i18n.localize("CONFIG.SAVED_CONFIGURATIONS"),
 		label: game.i18n.localize("CONFIG.SAVED_CONFIGURATIONS"),
@@ -92,15 +88,6 @@ const rpRegisterSettings = () => {
 		hint: game.i18n.localize("CONFIG.SAVED_NAMES_HINT"),
 		icon: "fas fa-table",
 		type: RPSavedNamesForm,
-		restricted: true,
-	});
-
-	rpRegisterSettingsMenu("rpSettingsSavedDescriptionsMenu", {
-		name: game.i18n.localize("CONFIG.SAVED_DESCRIPTIONS"),
-		label: game.i18n.localize("CONFIG.SAVED_DESCRIPTIONS"),
-		hint: game.i18n.localize("CONFIG.SAVED_DESCRIPTIONS_HINT"),
-		icon: "fas fa-table",
-		type: RPSavedDescriptionsForm,
 		restricted: true,
 	});
 
@@ -412,77 +399,9 @@ const rpRegisterSettings = () => {
 		restricted: true,
 	});
 
-	rpRegister("rpSettingsProperNameWhitelist", {
-		name: game.i18n.localize("CONFIG.PROPER_NAME_WHITELIST"),
-		hint: game.i18n.localize("CONFIG.PROPER_NAME_WHITELIST_HINT"),
-		scope: "world",
-		config: true,
-		type: String,
-		default: "",
-		restricted: true,
-	});
-
-	rpRegister("rpSettingsProperNameBlacklist", {
-		name: game.i18n.localize("CONFIG.PROPER_NAME_BLACKLIST"),
-		hint: game.i18n.localize("CONFIG.PROPER_NAME_BLACKLIST_HINT"),
-		scope: "world",
-		config: true,
-		type: String,
-		default: "",
-		restricted: true,
-	});
-
 	rpRegister("rpSettingsUseSavedNamesFirst", {
 		name: game.i18n.localize("CONFIG.USE_SAVED_NAMES_FIRST"),
 		hint: game.i18n.localize("CONFIG.USE_SAVED_NAMES_FIRST_HINT"),
-		scope: "world",
-		config: true,
-		default: false,
-		type: Boolean,
-		restricted: true,
-	});
-
-	rpRegister("rpSettingsLanguageDescription", {
-		name: game.i18n.localize("CONFIG.LANGUAGE_DESCRIPTION"),
-		hint: game.i18n.localize("CONFIG.LANGUAGE_DESCRIPTION_HINT"),
-		scope: "world",
-		config: true,
-		default: "Default",
-		type: String,
-		restricted: true,
-		choices: rpLanguageChoices,
-	});
-
-	rpRegister("rpSettingsCreatureDescriptionLength", {
-		name: game.i18n.localize("CONFIG.CREATURE_DESCRIPTION_LENGTH"),
-		hint: game.i18n.localize("CONFIG.CREATURE_DESCRIPTION_LENGTH_HINT"),
-		scope: "world",
-		config: true,
-		default: "medium-length",
-		type: String,
-		choices: {
-			"very short": game.i18n.localize(
-				"CONFIG.CREATURE_DESCRIPTION_LENGTH_CHOICES.VERY_SHORT"
-			),
-			short: game.i18n.localize(
-				"CONFIG.CREATURE_DESCRIPTION_LENGTH_CHOICES.SHORT"
-			),
-			"medium-length": game.i18n.localize(
-				"CONFIG.CREATURE_DESCRIPTION_LENGTH_CHOICES.MEDIUM_LENGTH"
-			),
-			long: game.i18n.localize(
-				"CONFIG.CREATURE_DESCRIPTION_LENGTH_CHOICES.LONG"
-			),
-			"very detailed and long": game.i18n.localize(
-				"CONFIG.CREATURE_DESCRIPTION_LENGTH_CHOICES.VERY_DETAILED_AND_LONG"
-			),
-		},
-		restricted: true,
-	});
-
-	rpRegister("rpSettingsShowDescriptionInChat", {
-		name: game.i18n.localize("CONFIG.SHOW_DESCRIPTION_IN_CHAT"),
-		hint: game.i18n.localize("CONFIG.SHOW_DESCRIPTION_IN_CHAT_HINT"),
 		scope: "world",
 		config: true,
 		default: false,
@@ -543,15 +462,6 @@ const rpRegisterSettings = () => {
 		restricted: true,
 	});
 
-	rpRegister("rpSettingsSavedDescriptions", {
-		name: "Saved Descriptions",
-		scope: "world",
-		config: false,
-		type: Object,
-		default: {},
-		restricted: true,
-	});
-
 	rpRegister("rpSettingsShowPanel", {
 		name: "Show Splash Screen",
 		scope: "client",
@@ -561,48 +471,21 @@ const rpRegisterSettings = () => {
 		restricted: true,
 	});
 
-	rpRegister("rpSettingsPatreonOk", {
-		name: "Patreon OK",
-		scope: "client",
-		config: false,
-		type: String,
-		default: null,
-		restricted: true,
-	});
-
-	rpRegister("rpSettingsPatreonValidated", {
-		name: "Patreon Last Validated",
-		scope: "client",
-		config: false,
-		type: String,
-		default: null,
-		restricted: true,
-	});
-
-	rpRegister("rpSettingsFreeAiRequestDate", {
-		name: "Free AI Request Date",
-		scope: "client",
-		config: false,
-		type: String,
-		default: todayTruncated.toISOString().split("T")[0],
-		restricted: true,
-	});
-
-	rpRegister("rpSettingsFreeAiRequestsRemaining", {
-		name: "Free AI Requests Remaining",
-		scope: "client",
-		config: false,
-		type: Number,
-		default: 5,
-		restricted: true,
-	});
-
 	rpRegister("rpSettingsTogglePromptHistory", {
 		name: "Toggle Prompt History",
 		scope: "client",
 		config: false,
 		type: Boolean,
 		default: false,
+		restricted: true,
+	});
+
+	rpRegister("rpSettingsClientId", {
+		name: "Client ID",
+		scope: "client",
+		config: false,
+		type: String,
+		default: "",
 		restricted: true,
 	});
 
@@ -1017,320 +900,4 @@ class RPSavedNamesForm extends FormApplication {
 	}
 }
 
-/**
- * Class representing a form that handles Saved Descriptions.
- * @extends FormApplication
- */
-class RPSavedDescriptionsForm extends FormApplication {
-	/**
-	 * @param {object} [object={}] - The base object.
-	 * @param {object} [options={}] - The options for the form application.
-	 */
-	constructor(object = {}, options = {}) {
-		super(object, options);
-		this.searchValue = "";
-		this.searchField = null;
-		// Add the new methods to the constructor
-		this._onFieldEdit = this._onFieldEdit.bind(this);
-		this.debouncedRender = debounce(this.render.bind(this), 300);
-		this.tokenDocument = object.token ? object.token : null;
-		this.name = this.tokenDocument ? this.tokenDocument.name : "";
-	}
-
-	/**
-	 * Defines default options for the RPSavedDescriptionsForm class.
-	 * @static
-	 * @return {object} The default options.
-	 */
-	static get defaultOptions() {
-		return mergeObject(super.defaultOptions, {
-			id: "saved-descriptions",
-			title: game.i18n.localize("CONFIG.SAVED_DESCRIPTIONS"),
-			template: "modules/rp-names/templates/saved-descriptions-form.html",
-			classes: ["saved-descriptions-window"],
-			width: "75%",
-			height: "auto",
-			resizable: true,
-		});
-	}
-
-	/**
-	 * Retrieves the saved descriptions from the game settings and filters them based on search criteria.
-	 * @return {object} The saved descriptions after applying the search filter.
-	 */
-	getData() {
-		let searchTerm = "";
-		if (this.form) {
-			this.searchValue = searchTerm =
-				$(this.form)
-					.find("#search-descriptions")
-					.val()
-					?.toLowerCase() || "";
-		}
-		const allDescriptions = game.settings.get(
-			"rp-names",
-			"rpSettingsSavedDescriptions"
-		);
-		const filteredDescriptions = {};
-
-		for (const key in allDescriptions) {
-			const description = allDescriptions[key];
-			// ensure we are dealing with strings during search to avoid errors
-			if (
-				Object.entries(description)
-					.filter(([field]) => field !== "date") // Ignore the Date field
-					.some(([_, value]) =>
-						(value || "")
-							.toString()
-							.toLowerCase()
-							.includes(searchTerm)
-					)
-			) {
-				// Ensure the name of the description matches the filter
-				if (!this.name || description.name === this.name) {
-					filteredDescriptions[key] = description;
-				}
-			}
-		}
-
-		const isEmpty = Object.keys(filteredDescriptions).length === 0;
-
-		return { rpSavedDescriptions: filteredDescriptions, isEmpty: isEmpty };
-	}
-
-	/**
-	 * Activates event listeners for different elements within the form.
-	 * @param {JQuery} html - The html JQuery object of the form application.
-	 */
-	activateListeners(html) {
-		super.activateListeners(html);
-
-		html.find("form").on("submit", function (e) {
-			e.preventDefault();
-			return this.submit({ preventClose });
-		});
-
-		// This is for editable fields
-		html.find(".editable").each((_, field) => {
-			field.addEventListener("blur", this._onFieldEdit.bind(this));
-		});
-
-		html.find(".delete-description").click((ev) => {
-			const key = $(ev.currentTarget).data("key");
-			const rpSavedDescriptions = game.settings.get(
-				"rp-names",
-				"rpSettingsSavedDescriptions"
-			);
-			delete rpSavedDescriptions[key];
-			game.settings.set(
-				"rp-names",
-				"rpSettingsSavedDescriptions",
-				rpSavedDescriptions
-			);
-			setTimeout(() => this.render(true), 0);
-		});
-
-		html.find(".regenerate-description").click(async (ev) => {
-			const key = $(ev.currentTarget).data("key");
-			const rpSavedDescriptions = game.settings.get(
-				"rp-names",
-				"rpSettingsSavedDescriptions"
-			);
-
-			// Add code to generate new description here...
-			let rpDescription = await rpGenerateCreatureDescription(
-				rpSavedDescriptions[key].name,
-				rpSavedDescriptions[key].creature,
-				rpSavedDescriptions[key].language,
-				rpSavedDescriptions[key].temperature,
-				rpSavedDescriptions[key].descriptionLength,
-				await rpValidatePatreonKey()
-			);
-
-			if (rpDescription) {
-				// update the rpSavedDescriptions with the new description
-				rpSavedDescriptions[key].description = rpDescription;
-				game.settings.set(
-					"rp-names",
-					"rpSettingsSavedDescriptions",
-					rpSavedDescriptions
-				);
-				setTimeout(() => this.render(true), 0);
-			}
-		});
-
-		html.find(".edit-field").blur(this._onFieldEdit);
-
-		html.find("#delete-all-descriptions").click((ev) =>
-			this._confirmDeleteAll(ev)
-		);
-
-		this.searchField = html.find("#search-descriptions");
-		this.searchField.val(this.searchValue); // Restore search field contents
-		this.searchField.focus().val(this.searchField.val()); // Set focus at the end of contents
-
-		this.searchField.on("input", this.debouncedRender);
-
-		// Add the following code to handle the Escape key press
-		this.searchField.on("keydown", (event) => {
-			if (event.key === "Escape") {
-				this.searchField.val(""); // Clear the search field
-				this.searchValue = ""; // Update the search value property
-				this.debouncedRender(); // Trigger a render without delay
-				event.preventDefault(); // Prevent other keydown events from triggering
-			}
-		});
-	}
-
-	/**
-	 * Renders the form application.
-	 * @param {boolean} force - Whether to force the render.
-	 * @param {object} [options={}] - The options for the render.
-	 * @return {Promise<void>}
-	 */
-	async render(force, options = {}) {
-		const rpSavedDescriptions = game.settings.get(
-			"rp-names",
-			"rpSettingsSavedDescriptions"
-		);
-		const data = this.getData();
-		if (
-			(force && Object.keys(rpSavedDescriptions).length === 0) ||
-			data.isEmpty
-		) {
-			return this.close();
-		}
-		return super.render(force, options);
-	}
-
-	/**
-	 * Handles the editing of a field.
-	 * @param {Event} event - The event object.
-	 */
-	async _onFieldEdit(event) {
-		const target = event.target;
-		const key = target.dataset.key;
-		const field = target.dataset.field;
-		let newValue = target.textContent;
-
-		newValue = newValue.trim();
-
-		const rpSavedDescriptions = game.settings.get(
-			"rp-names",
-			"rpSettingsSavedDescriptions"
-		);
-		if (rpSavedDescriptions[key]) {
-			const oldValue = rpSavedDescriptions[key][field];
-			rpSavedDescriptions[key][field] = newValue;
-
-			if (
-				[
-					"first_name",
-					"nickname",
-					"surname",
-					"title",
-					"adjective",
-				].includes(field)
-			) {
-				rpSavedDescriptions[key].name = rpSavedDescriptions[
-					key
-				].name.replace(oldValue, newValue);
-			}
-
-			await game.settings.set(
-				"rp-names",
-				"rpSettingsSavedDescriptions",
-				rpSavedDescriptions
-			);
-			setTimeout(() => this.render(true), 0);
-		}
-	}
-
-	/**
-	 * Handles toggling the used state of a saved description.
-	 * @param {Event} event - The event object.
-	 */
-	async _onToggleUsed(event) {
-		const key = $(event.currentTarget).data("key");
-		const rpSavedDescriptions = game.settings.get(
-			"rp-names",
-			"rpSettingsSavedDescriptions"
-		);
-		rpSavedDescriptions[key].used = !rpSavedDescriptions[key].used;
-		await game.settings.set(
-			"rp-names",
-			"rpSettingsSavedDescriptions",
-			rpSavedDescriptions
-		);
-		setTimeout(() => this.render(true), 0);
-	}
-
-	/**
-	 * Confirms and handles the deletion of all saved descriptions.
-	 * @param {Event} event - The event object.
-	 */
-	async _confirmDeleteAll(event) {
-		const searchTerm = this.searchField.val()?.toLowerCase() || "";
-		const filteredDescriptions = this.getData().rpSavedDescriptions;
-		// check if there are no records in the current view
-		if (Object.keys(filteredDescriptions).length === 0) {
-			return; // If no records, exit the method without deleting anything
-		}
-		const confirmation = await Dialog.confirm({
-			title: game.i18n.localize("CONFIG.DELETE_ALL_DESCRIPTIONS_TITLE"),
-			content: `<p>${game.i18n.localize(
-				"CONFIG.DELETE_ALL_DESCRIPTIONS_TEXT"
-			)}</p>`,
-		});
-		if (confirmation) {
-			if (
-				searchTerm !== "" &&
-				Object.keys(filteredDescriptions).length > 0
-			) {
-				const rpSavedDescriptions = game.settings.get(
-					"rp-names",
-					"rpSettingsSavedDescriptions"
-				);
-				for (const key in filteredDescriptions) {
-					delete rpSavedDescriptions[key];
-				}
-				await game.settings.set(
-					"rp-names",
-					"rpSettingsSavedDescriptions",
-					rpSavedDescriptions
-				);
-			} else {
-				await game.settings.set(
-					"rp-names",
-					"rpSettingsSavedDescriptions",
-					{}
-				);
-			}
-			this.searchField.val(""); // Clear the search field
-			this.searchValue = ""; // Update the search value property
-			setTimeout(() => this.render(true), 0);
-		}
-	}
-
-	/**
-	 * Updates the base object.
-	 * This method is intentionally left blank for this class.
-	 * @param {Event} event - The event object.
-	 * @param {object} formData - The form data.
-	 */
-	async _updateObject(event, formData) {
-		// This method is intentionally left blank
-	}
-
-	/**
-	 * Handles the form submission.
-	 * @param {Event} event - The event object.
-	 * @param {object} [options={}] - The options for the form submission.
-	 */
-	async _onSubmit(event, options = {}) {
-		options.preventClose = true;
-		await super._onSubmit(event, options);
-	}
-}
-
-export { rpRegisterSettings, RPSavedNamesForm, RPSavedDescriptionsForm };
+export { rpRegisterSettings, RPSavedNamesForm };

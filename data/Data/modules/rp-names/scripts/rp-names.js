@@ -1,5 +1,4 @@
 import {
-	rpValidatePatreonKey,
 	rpGenerateRandomName,
 	rpGenerateCreatureDescription,
 } from "./generateRandomName.js";
@@ -38,15 +37,14 @@ let rpNameFormatValueProperAi = "";
 let rpNameFormatValueAdjectiveAi = "";
 let rpNameFormatValueProper = "";
 let rpNameFormatValueAdjective = "";
-let rpNameFormat = "";
-let rpPatreonOk = false;
 
 /**
  * Populate the language select fields in the document. It adds options to the select
  * field with the language's name as the value and text.
  */
 const rpPopulateLanguageSelect = () => {
-	const languageSelectProperAi = document.getElementById("languages-properai");
+	const languageSelectProperAi =
+		document.getElementById("languages-properai");
 	const languageSelectAdjectiveAi = document.getElementById(
 		"languages-adjectiveai"
 	);
@@ -79,7 +77,8 @@ const rpPopulateLanguageSelect = () => {
  */
 const rpPopulateGenreSelect = () => {
 	const genreSelectProperAi = document.getElementById("genres-properai");
-	const genreSelectAdjectiveAi = document.getElementById("genres-adjectiveai");
+	const genreSelectAdjectiveAi =
+		document.getElementById("genres-adjectiveai");
 	rpGenres.forEach((genre) => {
 		const option = document.createElement("option");
 		option.value = rpToTitleCase(genre.value.replace(/_/g, " "));
@@ -144,9 +143,11 @@ const rpGetRpGenerateRandomNameInput = () => {
 			document.getElementById("naming-method").value || "rpProperAi",
 		rpProperAi: {
 			rpGenre:
-				document.getElementById("genre-select-properai").value || "Fantasy",
+				document.getElementById("genre-select-properai").value ||
+				"Fantasy",
 			rpLanguage:
-				document.getElementById("language-select-properai").value || "Default",
+				document.getElementById("language-select-properai").value ||
+				"Default",
 			rpGender: document.getElementById("gender-properai").value || "Any",
 			rpNameBase: "rpCustom",
 			rpCustomNameBase:
@@ -157,7 +158,8 @@ const rpGetRpGenerateRandomNameInput = () => {
 		},
 		rpAdjectiveAi: {
 			rpGenre:
-				document.getElementById("genre-select-adjectiveai").value || "Any",
+				document.getElementById("genre-select-adjectiveai").value ||
+				"Any",
 			rpLanguage:
 				document.getElementById("language-select-adjectiveai").value ||
 				"Default",
@@ -165,8 +167,8 @@ const rpGetRpGenerateRandomNameInput = () => {
 			rpCustomNameBase:
 				document.getElementById("creature-select").value || "Goblin",
 			rpNameFormat:
-				document.getElementById("name-format-select-adjectiveai").value ||
-				"{adjective} {name}",
+				document.getElementById("name-format-select-adjectiveai")
+					.value || "{adjective} {name}",
 		},
 		rpProper: {
 			rpNameBase: "rpCustom",
@@ -181,8 +183,8 @@ const rpGetRpGenerateRandomNameInput = () => {
 			rpCustomNameBase:
 				document.getElementById("creature-select").value || "Goblin",
 			rpNameFormat:
-				document.getElementById("name-format-select-adjectiveai").value ||
-				"{adjective} {name}",
+				document.getElementById("name-format-select-adjectiveai")
+					.value || "{adjective} {name}",
 		},
 		rpNumbered: {
 			rpNameBase: "rpCustom",
@@ -195,14 +197,14 @@ const rpGetRpGenerateRandomNameInput = () => {
 
 	const input = {
 		rpActorType: "npc",
-		rpCreature: document.getElementById("creature-select").value || "Goblin",
+		rpCreature:
+			document.getElementById("creature-select").value || "Goblin",
 		rpCreatureType:
 			document.getElementById("creature-select").value || "Humanoid",
 		rpCreatureSubtype:
 			document.getElementById("creature-select").value || "Goblinoid",
 		rpOptions,
 		rpNumNames: parseInt(document.getElementById("quantity").value),
-		rpPatreonOk,
 		rpTemperature: +document.getElementById("temperature").value,
 	};
 
@@ -220,17 +222,19 @@ const rpGetRpGenerateRandomNameInput = () => {
 const rpGetRpGenerateDescriptionInput = (rpName) => {
 	const rpOptions = {
 		rpName: rpName || "Bob",
-		rpCreature: document.getElementById("creature-select").value || "Goblin",
+		rpCreature:
+			document.getElementById("creature-select").value || "Goblin",
 		rpLanguage:
-			document.getElementById("language-select-description").value || "Default",
+			document.getElementById("language-select-description").value ||
+			"Default",
 		rpTemperature: +document.getElementById("temperature").value || 1.2,
 		rpDescriptionLength:
-			document.getElementById("description-length").value || "medium-length",
+			document.getElementById("description-length").value ||
+			"medium-length",
 	};
 
 	const input = {
 		rpOptions,
-		rpPatreonOk,
 	};
 
 	rp.dev("Input:");
@@ -288,21 +292,17 @@ const rpDisplayGeneratedNames = (namesString) => {
 					rpTemperature,
 					rpDescriptionLength,
 				} = input.rpOptions;
-				rpPatreonOk = await rpValidatePatreonKey();
-				rpSetLocalStorageItem("patreon-ok", rpPatreonOk);
-				if (rpPatreonOk) {
-					const description = await rpGenerateCreatureDescription(
-						rpName,
-						rpCreature,
-						rpLanguage,
-						rpTemperature,
-						rpDescriptionLength,
-						rpPatreonOk
-					);
-					descriptionArea.style.display = "block";
-					descriptionArea.value = description;
-					descriptionArea.style.height = descriptionArea.scrollHeight + "px";
-				}
+				const description = await rpGenerateCreatureDescription(
+					rpName,
+					rpCreature,
+					rpLanguage,
+					rpTemperature,
+					rpDescriptionLength
+				);
+				descriptionArea.style.display = "block";
+				descriptionArea.value = description;
+				descriptionArea.style.height =
+					descriptionArea.scrollHeight + "px";
 			} catch (error) {
 				rp.error("Failed to generate description.");
 				rp.obj(error);
@@ -336,17 +336,14 @@ const rpShowImage = (show) => {
  * Save the values of the form fields to the local storage.
  */
 const rpSaveFormValuesToLocalStorage = () => {
-	const formElements = document.getElementById("name-generator-form").elements;
+	const formElements = document.getElementById(
+		"name-generator-form"
+	).elements;
 	for (const element of formElements) {
 		if (element.name && element.type !== "submit") {
 			const valueToSave =
 				element.type === "checkbox" ? element.checked : element.value;
-			// If valueToSave is boolean or number, we leave it unstringified.
-			if (typeof valueToSave === "boolean" || typeof valueToSave === "number") {
-				rpSetLocalStorageItem(element.name, valueToSave);
-			} else {
-				rpSetLocalStorageItem(element.name, JSON.stringify(valueToSave));
-			}
+			localStorage.setItem(element.name, valueToSave);
 		}
 	}
 	rp.log("Form values saved to local storage.");
@@ -357,19 +354,21 @@ const rpSaveFormValuesToLocalStorage = () => {
  * Load the values of the form fields from the local storage.
  */
 const rpLoadFormValuesFromLocalStorage = () => {
-	const formElements = document.getElementById("name-generator-form").elements;
-
+	const formElements = document.getElementById(
+		"name-generator-form"
+	).elements;
 	for (const element of formElements) {
-		if (element.name && rpGetLocalStorageItem(element.name)) {
-			const loadedValue = JSON.parse(rpGetLocalStorageItem(element.name));
+		if (element.name && localStorage.getItem(element.name)) {
+			const loadedValue = localStorage.getItem(element.name);
 			if (element.type === "checkbox") {
-				element.checked = loadedValue === true;
+				element.checked = loadedValue === "true";
+			} else if (element.type === "number") {
+				element.value = Number(loadedValue);
 			} else {
 				element.value = loadedValue;
 			}
 		}
 	}
-
 	document.getElementById("quantity-value").textContent =
 		document.getElementById("quantity").value;
 	document.getElementById("temperature-value").textContent =
@@ -447,8 +446,6 @@ const rpHandleMethodChange = () => {
 	adjectiveai.forEach((el) => (el.style.display = "none"));
 	proper.forEach((el) => (el.style.display = "none"));
 	adjective.forEach((el) => (el.style.display = "none"));
-	patreonkey.forEach((el) => (el.style.display = "none"));
-	apikey.forEach((el) => (el.style.display = "none"));
 
 	// Show settings based on selected method
 	switch (selectElement.value) {
@@ -471,17 +468,6 @@ const rpHandleMethodChange = () => {
 	rp.dev(
 		`Selected naming method: ${selectElement.value}. Visible form elements updated.`
 	);
-
-	if (!rpGetLocalStorageItem("patreon-ok")) {
-		patreonkey.forEach((el) => (el.style.display = "block"));
-	}
-
-	if (
-		!rpGetLocalStorageItem("api-key") &&
-		!rpGetLocalStorageItem("patreon-ok")
-	) {
-		apikey.forEach((el) => (el.style.display = "block"));
-	}
 };
 
 /**
@@ -495,9 +481,6 @@ const rpHandleClickEvent = async (e) => {
 
 	// Save form values to localStorage
 	rpSaveFormValuesToLocalStorage();
-
-	rpPatreonOk = await rpValidatePatreonKey();
-	rpSetLocalStorageItem("patreon-ok", rpPatreonOk);
 
 	if (!rpFormContent.classList.contains("hidden")) {
 		rpSettingsButton.click();
@@ -532,7 +515,6 @@ const rpHandleClickEvent = async (e) => {
 		rpCreatureSubtype,
 		rpOptions,
 		rpNumNames,
-		rpPatreonOk,
 		rpTemperature
 	);
 
@@ -923,34 +905,6 @@ document
  * - Loads form values from localStorage again
  */
 document.addEventListener("DOMContentLoaded", () => {
-	let rpPatreonOk;
-	// Get today's date as a string
-	let today = new Date().toISOString().split("T")[0];
-
-	// Check if 'patreon-validated' exists in localStorage, if not, set it
-	if (rpGetLocalStorageItem("patreon-validated") === null) {
-		rpSetLocalStorageItem("patreon-validated", "2000-01-01");
-	}
-
-	// Check if 'free-api-request-date' exists in localStorage, if not, set it
-	if (rpGetLocalStorageItem("free-api-request-date") === null) {
-		rpSetLocalStorageItem("free-api-request-date", JSON.stringify(today));
-	} else {
-		// If 'free-api-request-date' exists, compare it with today's date
-		let savedDate = JSON.parse(rpGetLocalStorageItem("free-api-request-date"));
-		if (savedDate !== today) {
-			// If the saved date is different from today's date, reset 'free-api-requests-remaining' to 5
-			rpSetLocalStorageItem("free-api-requests-remaining", 5);
-			// And update 'free-api-request-date' to today's date
-			rpSetLocalStorageItem("free-api-request-date", JSON.stringify(today));
-		}
-	}
-
-	// Check if 'free-api-requests-remaining' exists in localStorage, if not, set it
-	if (rpGetLocalStorageItem("free-api-requests-remaining") === null) {
-		rpSetLocalStorageItem("free-api-requests-remaining", 5);
-	}
-
 	rpLoadFormValuesFromLocalStorage();
 	rpShowImage(true);
 
@@ -959,7 +913,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		{
 			input: document.querySelector("#name-format-select-properai"),
 			requirements: ["{firstName}", "{nickname}", "{surname}", "{title}"],
-			message: "At least one of {firstName}, {nickname}, {surname}, {title}",
+			message:
+				"At least one of {firstName}, {nickname}, {surname}, {title}",
 		},
 		{
 			input: document.querySelector("#name-format-select-adjectiveai"),

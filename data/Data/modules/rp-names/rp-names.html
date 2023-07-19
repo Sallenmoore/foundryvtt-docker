@@ -13,22 +13,22 @@
 		<meta property="og:image" content="http://rpgm.tools/img/d20-og.png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
-		<meta property="og:title" content="RPGM Tools - Random Procedural Names" />
+		<meta property="og:image:align" content="center" />
+		<meta property="og:title" content="RPGM Tools" />
 		<meta
 			property="og:description"
-			content="AI-powered name generator for tabletop games, pets, children, etc." />
+			content="Unique and powerful tools for game masters and players of tabletop role-playing games." />
 
 		<link
 			rel="icon"
-			href="./icons/d20-192x192.png"
+			href="icons/d20-192x192.png"
 			sizes="192x192"
 			type="image/png" />
-		<link rel="apple-touch-icon" href="./icons/d20-192x192.png" />
-		<link rel="manifest" href="./manifest.json" />
-		<link rel="stylesheet" href="./styles/styles.css" />
-		<link rel="stylesheet" href="./styles/media-queries.css" />
-		<link rel="stylesheet" href="./styles/both.css" />
-		<script type="module" src="./scripts/rp-names.js"></script>
+		<link rel="apple-touch-icon" href="icons/d20-192x192.png" />
+		<link rel="manifest" href="manifest.json" />
+		<link rel="stylesheet" href="styles/styles.css" />
+		<link rel="stylesheet" href="styles/media-queries.css" />
+		<script type="module" src="scripts/rpgmtools.js"></script>
 		<script>
 			if ("serviceWorker" in navigator) {
 				window.addEventListener("load", () => {
@@ -55,31 +55,25 @@
 				});
 			}
 		</script>
-
-		<title>RPGM Tools - Random Procedural Names</title>
+		<title>RPGM Tools</title>
 	</head>
-
 	<body>
 		<header class="page">
-			<div class="header-text">
+			<div>
 				<h1 id="RP">
 					<span class="RP">Role Playing</span> Game Management Tools
 				</h1>
-				<p class="header-description">Random Procedural Names</p>
+				<p class="header-description">
+					Unique and powerful tools for game masters and players of tabletop
+					role-playing games.
+				</p>
 			</div>
-			<img
-				id="header-d20-image"
-				src="./img/d20.webp"
-				alt="Reroll"
-				style="display: none" />
 		</header>
-
 		<div class="hamburger">
 			<div class="hamburger-line"></div>
 			<div class="hamburger-line"></div>
 			<div class="hamburger-line"></div>
 		</div>
-
 		<nav class="page" id="navigation">
 			<ul class="nav-list desktop-navbar">
 				<li class="nav-item">
@@ -101,7 +95,6 @@
 				</li>
 			</ul>
 		</nav>
-
 		<div class="nav-dropdown">
 			<ul class="nav-list">
 				<li class="nav-item">
@@ -118,341 +111,12 @@
 				</li>
 			</ul>
 		</div>
-
-		<div class="settings-container">
-			<button class="collapsible" id="settings-button">Settings</button>
-			<div class="form-content">
-				<form id="name-generator-form" class="collapsible-form">
-					<div
-						class="form-group name-settings"
-						title="Specify the type of creature for which you're generating names.">
-						<label for="creature-select">Creature:</label>
-						<input
-							type="text"
-							id="creature-select"
-							name="creature-select"
-							list="creatures"
-							value="Goblin"
-							tabindex="1" />
-						<datalist id="creatures"></datalist>
-					</div>
-
-					<div
-						class="form-group name-settings"
-						title="Specify the number of names to be generated.">
-						<label for="quantity">Quantity to Generate:</label>
-						<input
-							type="range"
-							id="quantity"
-							name="quantity"
-							min="1"
-							max="10"
-							step="1"
-							value="5"
-							tabindex="2" />
-						<span id="quantity-value" class="slider-value">5</span>
-					</div>
-
-					<div
-						class="form-group name-settings"
-						title="Select the naming method for name generation.">
-						<label for="naming-method">Naming Method:</label>
-						<select
-							id="naming-method"
-							name="naming-method"
-							title="Become a Patreon supporter to unlock unlimited AI generator runs."
-							tabindex="3">
-							<option value="rpProperAi" selected>Proper Names (AI)</option>
-							<option value="rpAdjectiveAi">Adjective Names (AI)</option>
-							<option value="rpProper">Proper Names</option>
-							<option value="rpAdjective">Adjective Names</option>
-						</select>
-						<span class="remaining-runs" id="remaining-runs"></span>
-					</div>
-
-					<div
-						class="form-group name-settings properai-settings ai-settings"
-						title="Choose the genre for the names.">
-						<label for="genre-select-properai">Name Genre:</label>
-						<input
-							type="text"
-							id="genre-select-properai"
-							name="genre-select-properai"
-							list="genres-properai"
-							value="Fantasy"
-							tabindex="4" />
-						<datalist id="genres-properai"></datalist>
-					</div>
-
-					<div
-						class="form-group name-settings properai-settings ai-settings"
-						title="Select the language for the generated names.">
-						<label for="language-select-properai">Name Language:</label>
-						<input
-							type="text"
-							id="language-select-properai"
-							name="language-select-properai"
-							list="languages-properai"
-							value="Default"
-							tabindex="5" />
-						<datalist id="languages-properai"></datalist>
-					</div>
-
-					<div
-						class="form-group name-settings properai-settings ai-settings"
-						title="Choose the gender for the names.">
-						<label for="gender-properai">Name Gender:</label>
-						<select id="gender-properai" name="gender-properai" tabindex="6">
-							<option value="Any Gender" selected>Any</option>
-							<option value="Male">Male</option>
-							<option value="Female">Female</option>
-							<option value="Nonbinary">Nonbinary</option>
-						</select>
-					</div>
-
-					<div
-						class="form-group name-settings properai-settings ai-settings"
-						title="Designate the format for Proper (AI) names.">
-						<label for="name-format-select-properai">Name Format:</label>
-						<input
-							list="properai-options"
-							type="text"
-							id="name-format-select-properai"
-							name="name-format-select-properai"
-							value="{firstName} '{nickName}' {surname}"
-							tabindex="7" />
-						<datalist id="properai-options">
-							<option value="{firstName} '{nickname}' {surname}"></option>
-							<option value="{firstName} {surname}, {title}"></option>
-							<option value="'{nickname}' {firstName} {surname}"></option>
-							<option value="{firstName} {surname}"></option>
-							<option value="'{nickname}' {surname}"></option>
-							<option value="{nickname}"></option>
-							<option value="{firstName}"></option>
-							<option value="{surname}"></option>
-						</datalist>
-
-						<div class="name-format-messages">
-							<span
-								class="error-message"
-								id="name-format-properai-error"></span>
-							<span
-								class="success-message"
-								id="name-format-properai-success"></span>
-						</div>
-					</div>
-
-					<div
-						class="form-group name-settings adjectiveai-settings ai-settings"
-						title="Choose the genre for the names.">
-						<label for="genre-select-adjectiveai">Name Genre:</label>
-						<input
-							type="text"
-							id="genre-select-adjectiveai"
-							name="genre-select-adjectiveai"
-							list="genres-adjectiveai"
-							value="Any"
-							tabindex="8" />
-						<datalist id="genres-adjectiveai"></datalist>
-					</div>
-
-					<div
-						class="form-group name-settings adjectiveai-settings ai-settings"
-						title="Select the language for the generated names.">
-						<label for="language-select-adjectiveai">Name Language:</label>
-						<input
-							type="text"
-							id="language-select-adjectiveai"
-							name="language-select-adjectiveai"
-							list="languages-adjectiveai"
-							value="Default"
-							tabindex="9" />
-						<datalist id="languages-adjectiveai"></datalist>
-					</div>
-
-					<div
-						class="form-group name-settings adjectiveai-settings ai-settings"
-						title="Designate the format for Adjective (AI) names.">
-						<label for="name-format-select-adjectiveai">Name Format:</label>
-						<input
-							list="adjectiveai-options"
-							type="text"
-							id="name-format-select-adjectiveai"
-							name="name-format-select-adjectiveai"
-							value="{adjective} {name}"
-							tabindex="10" />
-						<datalist id="adjectiveai-options">
-							<option value="{adjective} {name}"></option>
-							<option value="{name} {adjective}"></option>
-							<option value="Very {adjective} {name}"></option>
-						</datalist>
-
-						<div class="name-format-messages">
-							<span
-								class="error-message"
-								id="name-format-adjectiveai-error"></span>
-							<span
-								class="success-message"
-								id="name-format-adjectiveai-success"></span>
-						</div>
-					</div>
-
-					<div
-						class="form-group name-settings proper-settings"
-						title="Designate the format for Proper (Simple) names.">
-						<label for="name-format-select-proper">Name Format:</label>
-						<input
-							list="proper-options"
-							type="text"
-							id="name-format-select-proper"
-							name="name-format-select-proper"
-							value="{firstName} {surname}"
-							tabindex="11" />
-						<datalist id="proper-options">
-							<option value="{firstName} {surname}"></option>
-							<option value="{firstName}"></option>
-							<option value="{surname}"></option>
-							<option value="Little {firstName}"></option>
-						</datalist>
-
-						<div class="name-format-messages">
-							<span class="error-message" id="name-format-proper-error"></span>
-							<span
-								class="success-message"
-								id="name-format-proper-success"></span>
-						</div>
-					</div>
-
-					<div
-						class="form-group name-settings adjective-settings"
-						title="Designate the format for Adjective (Simple) names.">
-						<label for="name-format-select-adjective">Name Format:</label>
-						<input
-							list="adjective-options"
-							type="text"
-							id="name-format-select-adjective"
-							name="name-format-select-adjective"
-							value="{adjective} {name}"
-							tabindex="12" />
-						<datalist id="adjective-options">
-							<option value="{adjective} {name}"></option>
-							<option value="{name} {adjective}"></option>
-							<option value="Very {adjective} {name}"></option>
-						</datalist>
-
-						<div class="name-format-messages">
-							<span
-								class="error-message"
-								id="name-format-adjective-error"></span>
-							<span
-								class="success-message"
-								id="name-format-adjective-success"></span>
-						</div>
-					</div>
-
-					<div
-						class="form-group description-settings ai-settings"
-						title="Select the language for the generated descriptionss.">
-						<label for="language-select-description"
-							>Description Language:</label
-						>
-						<input
-							type="text"
-							id="language-select-description"
-							name="language-select-description"
-							list="languages-description"
-							value="Default"
-							tabindex="13" />
-						<datalist id="languages-description"></datalist>
-					</div>
-
-					<div
-						class="form-group description-settings ai-settings"
-						title="Choose the description length.">
-						<label for="description-length">Description Length:</label>
-						<select
-							id="description-length"
-							name="description-length"
-							tabindex="14">
-							<option value="very short">Very Short</option>
-							<option value="short">Short</option>
-							<option value="medium-length" selected>Medium-Length</option>
-							<option value="long">Long</option>
-							<option value="very long and detailed">
-								Very Long and Detailed
-							</option>
-						</select>
-					</div>
-
-					<div
-						class="form-group ai-settings patreon-key"
-						title="Enter your Patreon key to unlock additional features">
-						<label for="patreon-key">Patreon Key:</label>
-						<input
-							type="text"
-							id="patreon-key"
-							name="patreon-key"
-							placeholder="Enter your Patreon key"
-							tabindex="15" />
-						<div class="patreon-key-messages">
-							<span class="error-message" id="patreon-key-error"></span>
-							<span class="success-message" id="patreon-key-success"></span>
-						</div>
-					</div>
-
-					<div
-						class="form-group ai-settings api-key"
-						title="Enter your own OpenAI key to use your own credits additional features">
-						<label for="api-key">Your OpenAI API Key:</label>
-						<input
-							type="text"
-							id="api-key"
-							name="api-key"
-							placeholder="(Optional)"
-							tabindex="16" />
-						<div class="api-key-messages">
-							<span class="error-message" id="api-key-error"></span>
-							<span class="success-message" id="api-key-success"></span>
-						</div>
-					</div>
-
-					<div
-						class="form-group ai-settings"
-						title="Adjust the randomness in the name generation process. Higher number is more random.">
-						<label for="temperature">AI Creativity:</label>
-						<input
-							type="range"
-							id="temperature"
-							name="temperature"
-							min="0"
-							max="1.8"
-							step="0.1"
-							value="1.2"
-							tabindex="17" />
-						<span id="temperature-value" class="slider-value">1.2</span>
-					</div>
-
-					<div class="form-group" title="Click to generate names.">
-						<button
-							type="submit"
-							id="generate-names"
-							name="generate-names"
-							tabindex="18">
-							Generate Names
-						</button>
-					</div>
-				</form>
-			</div>
-		</div>
-		<main>
-			<div class="output-area" id="output-area">
-				<ul class="name-list"></ul>
-				<div class="output-container"></div>
-			</div>
-			<div class="d20-image-container" id="d20-image-container">
-				<img id="d20-image" src="./img/d20.webp" alt="D20" />
+		<main id="demos">
+			<div class="image-container">
+				<h1>Comings Soon</h1>
 			</div>
 		</main>
+		<div id="cookie-display"></div>
 		<footer>
 			&copy; 2023 RPGM Tools, LLC. All rights reserved.
 			<div class="patreon-container">

@@ -1,10 +1,10 @@
 <img src="./img/foundry/rpgmtools.jpg" alt="RPGM.tools">
 
-# Random Procedural Names - Foundry Module Quick Start Guide - Version 1.13.0.1
+# Random Procedural Names - Foundry Module Quick Start Guide - Version 1.15.0
 
 ## 1. Introduction
 
-Welcome to the Quick Start Guide for Random Procedural Names. In the ever-evolving universe of Foundry VTT, creativity fuels every compelling narrative and immersive gaming experience. This module is designed to help streamline your creative process and enhance the quality of your TTRPG adventures by automatically generating names and descriptions for your characters and settings.
+Welcome to the Quick Start Guide for Random Procedural Names. In the ever-evolving universe of Foundry VTT, creativity fuels every compelling narrative and immersive gaming experience. This module is designed to help streamline your creative process and enhance the quality of your TTRPG adventures by automatically generating names for the characters in your world.
 
 ---
 
@@ -14,11 +14,7 @@ Our module nurtures your creativity by offering an intelligent solution to chara
 
 ### 1.2 Efficiency and Consistency
 
-Random Procedural Names brings together efficiency and consistency. It is an innovative module designed to reduce the time spent on creating names and descriptions.
-
-### 1.3 A Multifaceted Tool
-
-This tool goes beyond random name generation. It has the capacity to produce procedural homebrew content, including items, spells, feats, and more, and incorporates the powerful knowledge of ChatGPT AI for your TTRPG needs.
+Random Procedural Names brings together efficiency and consistency. It is an innovative module designed to reduce the time spent on creating setting-appropriate names.
 
 ---
 
@@ -43,38 +39,6 @@ Names breathe life into your characters and places, making them feel real and me
 <img src="./img/foundry/goblinoids-300.jpg" alt="A party of goblinoids">
 </a>
 
-### 2.2 Homebrew Generation
-
-Random Procedural Names also offers creative homebrew content generation:
-
--   **Generate Description Button**: Located on the Token HUD, this button creates detailed descriptions for your tokens.
--   **Chat Commands**: The **!d** or **!desc** command generates a description for the selected token based on its name and type. The **!h** or **!home** command creates any kind of homebrew content.
-
-**Examples**:
-<a href="./img/foundry/grocer.jpg" target=_blank>
-<img src="./img/foundry/grocer-300.jpg" alt="Grocer">
-</a>
-<a href="./img/foundry/thunderhawk.jpg" target=_blank>
-<img src="./img/foundry/thunderhawk-300.jpg" alt="Thunderhawk">
-</a>
-
-### 2.3 Chatbot/General Information
-
-The tool offers information and answers to your questions using ChatGPT:
-
--   **ChatGPT Command**: The **!g** or **!gpt** command in the chat window sends a prompt to ChatGPT. The AI provides a response via whisper in the chat.
-
-**Examples**:
-<a href="./img/foundry/thief-weapon.jpg" target=_blank>
-<img src="./img/foundry/thief-weapon-300.jpg" alt="Thief Weapon">
-</a>
-<a href="./img/foundry/nature-barbarian.jpg" target=_blank>
-<img src="./img/foundry/nature-barbarian-300.jpg" alt="Nature Barbarian">
-</a>
-<a href="./img/foundry/hex.jpg" target=_blank>
-<img src="./img/foundry/hex-300.jpg" alt="Hex">
-</a>
-
 ---
 
 ## 3.Settings
@@ -92,7 +56,6 @@ Saved items are stored in an archive for easy access to previously generated nam
 
 -   **Saved Configurations**: View and delete default and custom configurations that have been saved via the refresh button on the Token HUD.
 -   **Saved Names**: All AI-generated names are stored here. Names for new tokens can be sourced from this archive under specific conditions mentioned in the tool's settings.
--   **Saved Descriptions**: New token descriptions, in addition to being stored on the actor's sheet, are saved here. You can regenerate or delete these descriptions.
 
 **Preference Panels**:
 <a href="./img/foundry/saved-configs.jpg" target=_blank>
@@ -100,9 +63,6 @@ Saved items are stored in an archive for easy access to previously generated nam
 </a>
 <a href="./img/foundry/saved-names.jpg" target=_blank>
 <img src="./img/foundry/saved-names-300.jpg" alt="Saved Names">
-</a>
-<a href="./img/foundry/saved-descriptions.jpg" target=_blank>
-<img src="./img/foundry/saved-descriptions-300.jpg" alt="Saved Descriptions">
 </a>
 
 ### 3.2 Naming Settings
@@ -114,20 +74,11 @@ Here, you can set parameters that determine how the tool generates names. You ca
 <img src="./img/foundry/naming-settings-300.jpg" alt="Naming Settings">
 </a>
 
-### 3.3 Creature Description Settings
-
-Customize the generation of creature descriptions. You can choose the language, adjust the length of descriptions, and decide whether to show the description in chat.
-
-**Preference Panel**:
-<a href="./img/foundry/description-settings.jpg" target=_blank>
-<img src="./img/foundry/description-settings-300.jpg" alt="Description Settings">
-</a>
-
-### 3.4 AI Settings
+### 3.3 AI Settings
 
 In AI Settings, fine-tune the AI parameters, including the Patreon Key, Temperature, and API Key.
 
-### 3.5 Other Settings
+### 3.4 Other Settings
 
 Additional settings include the Developer Mode option, which can be enabled for extra console information useful for debugging.
 

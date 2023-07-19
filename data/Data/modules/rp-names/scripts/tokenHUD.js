@@ -1,12 +1,5 @@
 import { rpShowNameCustomizationDialog } from "./dialog.js";
-import {
-	rpGenerateRandomName,
-	rpGenerateCreatureDescription,
-	rpIsNameUnique,
-	rpSetTokenNameToGenerating,
-	rpRestoreTokenName,
-	rpValidatePatreonKey,
-} from "./generateRandomName.js";
+import { rpGenerateRandomName, rpIsNameUnique } from "./generateRandomName.js";
 import {
 	rpShowSavedNames,
 	rpGetActorData,
@@ -20,13 +13,11 @@ import {
 	rpGetNestedProperty,
 	rpGetLocalStorageItem,
 	rpSetLocalStorageItem,
-	rpCheckNameAndPromptDialog,
 	rpGetDefaultOptions,
 } from "./util.js";
 
 const UNDO_ICON_HTML = `<div class="control-icon rp-names-undo"><i class="fas fa-undo"></i></div>`;
 const REFRESH_ICON_HTML = `<div class="control-icon rp-names-refresh"><i class="fas fa-sync"></i></div>`;
-const DESCRIPTION_ICON_HTML = `<div class="control-icon rp-names-description"><i class="fas fa-file-alt"></i></div>`;
 const SAVED_NAMES_ICON_HTML = `<div class="control-icon rp-names-saved-names"><i class="fas fa-list"></i></div>`;
 
 let rpOldTokenName = "";
@@ -141,19 +132,13 @@ const rpChooseFromSavedNames = (tokenHUD, html) => {
  */
 const rpShowRefresh = async (tokenHUD, html) => {
 	const rpRefreshButton = $(REFRESH_ICON_HTML);
-	const rpPatreonOk = await rpValidatePatreonKey();
-	rpSetLocalStorageItem("patreon-ok", rpPatreonOk);
-	if (typeof game !== "undefined")
-		game.settings.set("rp-names", "rpSettingsPatreonOk", rpPatreonOk);
 	const rpTokenDocument = tokenHUD.object.document;
 	const rpActorData = rpGetActorData(rpTokenDocument.actor);
 
-	if (rpPatreonOk) {
-		rpRefreshButton.addClass("pulsate");
-		rpRefreshButton
-			.find("i.fas.fa-sync")
-			.append('<div class="ai-overlay">AI</div>');
-	}
+	rpRefreshButton.addClass("pulsate");
+	rpRefreshButton
+		.find("i.fas.fa-sync")
+		.append('<div class="ai-overlay">AI</div>');
 
 	rpRefreshButton.attr("title", game.i18n.localize("HUD.REFRESH_NAME"));
 	html.find(".col.right").append(rpRefreshButton);
@@ -168,7 +153,6 @@ const rpShowRefresh = async (tokenHUD, html) => {
 			rpTokenDocument.isLinked ||
 			rpActorData.rpKind === "undefined"
 		) {
-			rpRestoreTokenName(rpTokenDocument);
 			rp.warn("Not a valid token type for name generation.");
 			return;
 		}
@@ -184,7 +168,6 @@ const rpShowRefresh = async (tokenHUD, html) => {
 			tokenHUD.clear();
 			rpCustomOptions = await rpShowNameCustomizationDialog(rpActorData);
 			if (rpCustomOptions === null) {
-				rpRestoreTokenName(rpTokenDocument);
 				rp.warn("Name customization dialog canceled.");
 				return;
 			}
@@ -197,7 +180,6 @@ const rpShowRefresh = async (tokenHUD, html) => {
 		let rpIsUnique = false;
 
 		for (let rpAttempts = 0; rpAttempts < 5 && !rpIsUnique; rpAttempts++) {
-			rpSetTokenNameToGenerating(rpTokenDocument);
 			rpTokenName = await rpGenerateRandomName(
 				rpActorData.rpKind,
 				rpActorData.rpCreature,
@@ -205,7 +187,6 @@ const rpShowRefresh = async (tokenHUD, html) => {
 				rpActorData.rpCreatureSubtype,
 				rpCustomOptions,
 				1,
-				rpPatreonOk,
 				rpTemperature
 			);
 
@@ -213,7 +194,6 @@ const rpShowRefresh = async (tokenHUD, html) => {
 				rp.warn(
 					"Naming Style set to 'None' in custom settings. Skipping name generation. To reenable name generation, change the naming style to something other than 'None' or delete the custom name setting in the module's settings."
 				);
-				rpRestoreTokenName(rpTokenDocument);
 				return;
 			}
 
@@ -226,7 +206,6 @@ const rpShowRefresh = async (tokenHUD, html) => {
 			if (rpTokenName && rpIsUnique) {
 				rpTokenDocument.update({ name: rpTokenName });
 			} else if (rpAttempts === 4) {
-				rpRestoreTokenName(rpTokenDocument);
 				rp.error(
 					"Unable to generate a unique name after 5 attempts. Try again with different settings by right-clicking on the refresh button on the token HUD."
 				);
@@ -240,183 +219,4 @@ const rpShowRefresh = async (tokenHUD, html) => {
 	});
 };
 
-/**
- * Displays the "Description" button on the tokenHUD.
- * @param {TokenHUD} tokenHUD - The TokenHUD object.
- * @param {JQuery} html - The HTML content of the tokenHUD.
- */
-const rpShowDescription = async (tokenHUD, html) => {
-	const rpDescriptionButton = $(DESCRIPTION_ICON_HTML);
-	const rpTokenDocument = tokenHUD.object.document;
-	const rpActorData = rpGetActorData(rpTokenDocument.actor);
-	const rpPatreonOk = await rpValidatePatreonKey();
-	rpSetLocalStorageItem("patreon-ok", rpPatreonOk);
-
-	let rpTokenBiographyLocation = rpGetBiographyLocation(game.system.id);
-	let rpTokenBiography = rpGetNestedProperty(
-		rpTokenDocument,
-		rpTokenBiographyLocation
-	);
-
-	if (typeof game !== "undefined")
-		game.settings.set("rp-names", "rpSettingsPatreonOk", rpPatreonOk);
-	const rpSavedDescriptions = game.settings.get(
-		"rp-names",
-		"rpSettingsSavedDescriptions"
-	);
-
-	if (rpSavedDescriptions && rpSavedDescriptions[rpTokenDocument.name]) {
-		rpDescriptionButton.addClass("highlight-border");
-	}
-
-	if (rpPatreonOk) {
-		rpDescriptionButton.addClass("pulsate");
-		rpDescriptionButton
-			.find("i.fas.fa-file-alt")
-			.append('<div class="ai-overlay">AI</div>');
-	}
-
-	rpDescriptionButton.attr(
-		"title",
-		game.i18n.localize("HUD.GENERATE_DESCRIPTION")
-	);
-	html.find(".col.left").append(rpDescriptionButton);
-
-	rpDescriptionButton.on("mousedown", async (event) => {
-		event.preventDefault();
-		event.stopPropagation();
-
-		const rpName = rpTokenDocument.name;
-		const rpLanguage = game.settings.get(
-			"rp-names",
-			"rpSettingsLanguageDescription"
-		);
-		const rpTemperature = game.settings.get(
-			"rp-names",
-			"rpSettingsTemperature"
-		);
-		const rpDescriptionLength = game.settings.get(
-			"rp-names",
-			"rpSettingsCreatureDescriptionLength"
-		);
-
-		tokenHUD.clear();
-
-		let rpShowInChat = game.settings.get(
-			"rp-names",
-			"rpSettingsShowDescriptionInChat"
-		);
-		let rpDescription;
-
-		if (event.which === 3) {
-			rpDescription = await rpGenerateCreatureDescription(
-				rpName,
-				rpActorData.rpCreature,
-				rpLanguage,
-				rpTemperature,
-				rpDescriptionLength,
-				rpPatreonOk
-			);
-		} else {
-			// Poll the rpSavedDescriptions setting
-			const rpSavedDescriptions = game.settings.get(
-				"rp-names",
-				"rpSettingsSavedDescriptions"
-			);
-
-			if (rpSavedDescriptions && rpSavedDescriptions[rpName]) {
-				rpDescription = rpSavedDescriptions[rpName].description;
-				rp.log("Loaded saved description from settings.");
-			} else {
-				rpDescription = await rpGenerateCreatureDescription(
-					rpName,
-					rpActorData.rpCreature,
-					rpLanguage,
-					rpTemperature,
-					rpDescriptionLength,
-					rpPatreonOk
-				);
-			}
-		}
-
-		if (rpDescription) {
-			// Create a DOMParser and parse the rpTokenBiography string
-			let parser = new DOMParser();
-			let doc = parser.parseFromString(rpTokenBiography, "text/html");
-
-			// Get all elements
-			let allElements = doc.querySelectorAll("*");
-
-			allElements.forEach((element) => {
-				let classes = element.getAttribute("class");
-
-				// If the element has classes and one of them starts with 'rp-description-', remove the element
-				if (classes) {
-					let classArray = classes.split(" ");
-					if (
-						classArray.some((c) => c.startsWith("rp-description-"))
-					) {
-						element.remove();
-						rp.dev(
-							"Removed description element from biography/notes."
-						);
-					}
-				}
-			});
-
-			// Serialize the Document back to a string
-			rpTokenBiography = new XMLSerializer().serializeToString(doc);
-
-			// Your existing code continues here...
-			let rpDescriptionBio = `<h2 class="rp-description-header">Description:</h2><p class="rp-description-body">${rpDescription}</p>${
-				rpTokenBiography.length > 0 ? rpTokenBiography : ""
-			}`;
-
-			let rpPath = rpTokenBiographyLocation.startsWith("actorData.")
-				? rpTokenBiographyLocation.slice("actorData.".length)
-				: rpTokenBiographyLocation;
-
-			// Make a deep copy of actorData from rpTokenDocument
-			let rpActorDataCopy = JSON.parse(
-				JSON.stringify(rpTokenDocument.actorData)
-			);
-
-			// Use the function to add the nested value
-			rpAddNestedValue(rpActorDataCopy, rpPath, rpDescriptionBio);
-
-			// Apply the changes to the actor data in the token document
-			rpTokenDocument.update({ actorData: rpActorDataCopy });
-
-			rp.log("Description successfully added to biography/notes.");
-
-			if (rpShowInChat) {
-				let chatData = {
-					content: `<div style="border:2px solid #44BBDD; background-color: #88DDEE; padding: 10px; border-radius: 5px;">${rpDescription}</div>`,
-					speaker: {
-						actor: rpTokenDocument.actor,
-						alias: rpName,
-					},
-				};
-
-				chatData.type = CONST.CHAT_MESSAGE_TYPES.WHISPER;
-				chatData.whisper = [game.user.id]; // Self whisper, visible only to the GM
-
-				ChatMessage.create(chatData);
-				rp.log(
-					`Description for ${rpName} successfully created and sent to chat, stored in Saved Descriptions setting, and saved to the token's biography or notes.`
-				);
-			} else {
-				rp.log(
-					`Description for ${rpName} successfully created and stored in Saved Descriptions setting and in the token's biography or notes.`
-				);
-			}
-		}
-	});
-
-	// Prevent the context menu from appearing on right-click
-	rpDescriptionButton.on("contextmenu", (event) => {
-		event.preventDefault();
-	});
-};
-
-export { rpShowUndo, rpShowRefresh, rpChooseFromSavedNames, rpShowDescription };
+export { rpShowUndo, rpShowRefresh, rpChooseFromSavedNames };

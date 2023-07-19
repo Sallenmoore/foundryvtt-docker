@@ -11,7 +11,7 @@
 	},
 	"CONFIG": {
 		"PATREON_KEY": "Patreon Key",
-		"PATREON_KEY_HINT": "If you support us on Patreon, enter your key here to unlock unlimited use of AI names.",
+		"PATREON_KEY_HINT": "Enter your Patreon key here to unlock unlimited AI use.",
 		"USE_AI": "Use AI",
 		"USE_AI_HINT": "Patreon supporters are not limited to 5 AI name or description generations per day.",
 		"NAMING_METHOD": "Naming Method",

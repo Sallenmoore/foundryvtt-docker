@@ -10,21 +10,16 @@ import {
 	rpGenerateGptPrompt,
 	rpCallLambdaFunction,
 	rpAddCreatureNamesToSetting,
-	rpAddDescriptionsToSetting,
 	rpParseResponse,
 	rpBadWords,
 	rpConvertNumber,
 	rpRandBetween,
-	rpGetLocalStorageItem,
-	rpSetLocalStorageItem,
-	rpStartJitter,
-	rpStopJitter
 } from "./util.js";
 
 /* GLOBAL CONSTANTS */
 
 // Define the number of backup names to cache
-const CACHE_AMT = 3;
+const CACHE_AMT = 5;
 
 /* GLOBAL VARIABLES */
 
@@ -67,30 +62,6 @@ let rpIsProcessingQueue = false;
 let rpLastApiCallTime = 0;
 
 /**
- * Temporarily sets the token name to "Generating...".
- *
- * @param {Token} rpTokenDocument - The token to update.
- * @returns {void}
- */
-const rpSetTokenNameToGenerating = (rpTokenDocument) => {
-	rpOldTokenName = rpTokenDocument.name;
-	rp.dev(`Old token name saved: ${rpOldTokenName}`);
-	rpTokenDocument.update({ name: "Generating..." });
-};
-
-/**
- * Restores the token name to its original value.
- *
- * @param {Token} rpTokenDocument - The token to update.
- * @returns {void}
- */
-const rpRestoreTokenName = (rpTokenDocument) => {
-	rpTokenDocument.update({
-		name: rpTokenDocument.actor.name,
-	});
-};
-
-/**
  * Checks if a name is unique among existing token names.
  *
  * @param {string} rpTokenName - The name to check for uniqueness.
@@ -125,89 +96,6 @@ const rpIsNameUnique = (rpTokenName) => {
 
 	// If the name is unique, return true
 	return true;
-};
-
-/**
- * Validates a Patreon key by sending a POST request to a Lambda function.
- *
- * @returns {Promise<number>} - A promise that resolves to truthy if the key is valid, falsy otherwise.
- */
-const rpValidatePatreonKey = async () => {
-	const isFoundry = typeof game !== "undefined";
-
-	let rpApiKey = isFoundry
-		? game.settings.get("rp-names", "rpSettingsApiKey")
-		: JSON.parse(rpGetLocalStorageItem("api-key"));
-
-	if (rpApiKey.length === 51 && rpApiKey.startsWith("sk-")) {
-		return 4;
-	} else if (rpApiKey !== "") {
-		rp.warn("Your OpenAI API key is invalid.  Please check your settings.");
-	}
-
-	const rpFreeAiRequestsRemaining = isFoundry
-		? game.settings.get("rp-names", "rpSettingsFreeAiRequestsRemaining")
-		: parseInt(rpGetLocalStorageItem("free-api-requests-remaining") || "0");
-	let rpLastValidated = isFoundry
-		? game.settings.get("rp-names", "rpSettingsPatreonValidated")
-		: rpGetLocalStorageItem("patreon-validated");
-	let rpPatreonKey = isFoundry
-		? game.settings.get("rp-names", "rpSettingsPatreonKey")
-		: JSON.parse(rpGetLocalStorageItem("patreon-key"));
-
-	const today = new Date();
-	const timeDifference =
-		today.getTime() - new Date(rpLastValidated).getTime();
-
-	if (rpFreeAiRequestsRemaining > 0) {
-		return 3;
-	} else if (rpLastValidated && timeDifference < 604800000) {
-		return 2;
-	} else if (!rpPatreonKey) {
-		return 0;
-	} else {
-		try {
-			const rpLambdaFunctionUrl =
-				"https://rliyu6idy6.execute-api.us-west-1.amazonaws.com/prod/checkpatreonkey";
-			const rpRequestOptions = {
-				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({ rpPatreonKey }),
-			};
-
-			rpStartJitter();
-
-			const rpResponse = await fetch(
-				rpLambdaFunctionUrl,
-				rpRequestOptions
-			);
-			const rpData = await rpResponse.json();
-
-			if (rpData.result === "success") {
-				const todayTruncated = today.toISOString().split("T")[0];
-				if (isFoundry) {
-					game.settings.set(
-						"rp-names",
-						"rpSettingsPatreonValidated",
-						todayTruncated
-					);
-				} else {
-					rpSetLocalStorageItem(
-						"patreon-validated",
-						JSON.stringify(todayTruncated)
-					);
-				}
-				return 1;
-			} else {
-				return 0;
-			}
-		} catch (error) {
-			rp.error(`Error in rpValidatePatreonKey:\n${error}`);
-			return null;
-		} finally {
-			rpStopJitter();
-		}
-	}
 };
 
 /**
@@ -295,9 +183,11 @@ const rpGenerateAdjectiveNames = async (
 	// Build custom values object for the prompt generation
 	const adjCustomValues = {
 		model: adjModel,
-		systemContent: adjSystemContent,
-		userContent: adjUserContent,
-		assistantContent: adjAssistantContent,
+		messages: [
+			{ role: "system", content: adjSystemContent },
+			{ role: "user", content: adjUserContent },
+			{ role: "assistant", content: adjAssistantContent },
+		],
 		temperature: adjTemperature,
 		n: adjN,
 		max_tokens: adjMaxTokens,
@@ -486,7 +376,7 @@ const rpGenerateAdjectiveNames = async (
 
 				// Log the count of remaining backup names
 				rp.log(
-					"Excess names saved for later use:\n",
+					"Excess names saved for later use: ",
 					rpBackupNamesAdj.length > 0
 						? rpBackupNamesAdj.length
 						: "None. Next run will fetch more names."
@@ -665,9 +555,11 @@ const rpGenerateStandardNames = async (
 	// Build custom values object for the prompt generation
 	const stdCustomValues = {
 		model: stdModel,
-		systemContent: stdSystemContent,
-		userContent: stdUserContent,
-		assistantContent: stdAssistantContent,
+		messages: [
+			{ role: "system", content: stdSystemContent },
+			{ role: "user", content: stdUserContent },
+			{ role: "assistant", content: stdAssistantContent },
+		],
 		temperature: stdTemperature,
 		n: stdN,
 		max_tokens: stdMaxTokens,
@@ -867,7 +759,7 @@ const rpGenerateStandardNames = async (
 				}
 				// Log the count of remaining backup names
 				rp.log(
-					"Excess names saved for later use:\n",
+					"Excess names saved for later use: ",
 					rpBackupNamesStd.length > 0
 						? rpBackupNamesStd.length
 						: "None. Next run will fetch more names."
@@ -957,6 +849,7 @@ const rpGenerateProperAiCreatureNameObject = (input) => {
 		let fullName = input.rpNameFormat
 			.replace("{firstName}", nameParts.first_name)
 			.replace("'{nickname}'", nameParts.nickname)
+			.replace("{nickname}", nameParts.nickname)
 			.replace("{surname}", nameParts.surname)
 			.replace("{title}", nameParts.title);
 
@@ -985,168 +878,6 @@ const rpGenerateProperAiCreatureNameObject = (input) => {
 	rp.obj(rpCreatureNameObjects);
 
 	return rpCreatureNameObjects;
-};
-
-/**
- * Generates a description based on a creature's name using an AI model.
- *
- * @async
- * @function
- * @param {string} rpName - Name of the creature.
- * @param {string} rpCreature - Creature type to describe.
- * @param {string} rpLanguage - Language of the description.
- * @param {number} [rpTemperature=1.0] - Determines randomness of generation.
- * @param {number} rpDescriptionLength - Length of the description to generate.
- * @param {boolean} rpPatreonOk - Patreon validation status.
- * @returns {Promise<string>} The generated description if Patreon validation is passed and the AI model successfully generates a response.
- * Otherwise, it returns a warning message. If the AI model fails to produce a valid response after three attempts, it returns a failure message.
- * @throws Will log and rethrow any errors encountered during processing.
- */
-const rpGenerateCreatureDescription = async (
-	rpName, // Name of the creature
-	rpCreature, // Creature type to describe
-	rpLanguage, // Language of the description
-	rpTemperature, // Determines randomness of generation
-	rpDescriptionLength, // Length of the description to generate
-	rpPatreonOk // Patreon validation status
-) => {
-	if (!rpPatreonOk) {
-		rp.error("Premium access not validated. Aborting AI request.");
-
-		return;
-	} else {
-		// Define model for description generation
-		const desModel = "gpt-3.5-turbo";
-		// Define system content that sets the prompt for the AI model
-		const desSystemContent = `You are a publisher of TTRPGs and you create interesting content for fictional characters, creatures, objects, and locations in whatever language is requested. Everything you create is in the context of a TTRPG and the style of official handbooks and manuals, and it reflects imagery that the characters in the world would experience. If a TTRPG-appropriate bonus, ability, innate spell, trait, effect, or feat can be inferred from the name, you will incorporate the specific mechanics of that when coming up with a description, without directly referencing TTRPGs. Your responses come as a single, perfect JSON object and nothing else, using the following pattern:\n\n{"description":"<generated description of the creature, character, object, or location based on the user's prompt>"}`;
-
-		rp.dev("Description System Content:\n", desSystemContent);
-
-		// Generate user content based on provided parameters
-		let desUserContent = `Generate a ${rpDescriptionLength} description in ${rpLanguage} of the following unique, individual creature, based on its name, assuming your audience is already familiar with the appearance and behavior of a ${rpCreature}.:\n\n{"creature_name":"${rpName}","creature_type":"${rpCreature}"}.`;
-
-		// Perform replacements on desUserContent to set the appropriate request
-		desUserContent = desUserContent.replace(
-			/description in Random/g,
-			"descriptions in a completely random language, either real or made up"
-		);
-		desUserContent = desUserContent.replace(
-			/description in Emoji/g,
-			"description using only emoji"
-		);
-		desUserContent = desUserContent.replace(/ in Default/g, "");
-		desUserContent = desUserContent.replace(/ in English/g, "");
-
-		rp.dev("Description User Content:\n", desUserContent);
-
-		// Initialize assistant content
-		let desAssistantContent = "Description JSON Object:\n\n";
-
-		// Set parameters for AI model
-		const desTemperature = rpTemperature || 1.0;
-		const desN = 1;
-		const desMaxTokens = 1200;
-		const desStop = "\n\n\n";
-		const desPresencePenalty = 0.2;
-		const desFrequencyPenalty = 0.2;
-
-		// Build custom values object for the prompt generation
-		const desCustomValues = {
-			model: desModel,
-			systemContent: desSystemContent,
-			userContent: desUserContent,
-			assistantContent: desAssistantContent,
-			temperature: desTemperature,
-			n: desN,
-			max_tokens: desMaxTokens,
-			stop: desStop,
-			presence_penalty: desPresencePenalty,
-			frequency_penalty: desFrequencyPenalty,
-		};
-
-		// Generate payload for the API request
-		const desPayload = rpGenerateGptPrompt(desCustomValues);
-		// Initialize flag to indicate success of the operation
-		let success = false;
-		// Initialize a counter for retry attempts
-		let attempts = 0;
-		// Retry up to 3 times if operation fails
-		while (!success && attempts < 3) {
-			try {
-				// Call the AI model to get a response
-				const desResponse = await rpCallLambdaFunction(desPayload);
-				// Clean up the response string
-				const trimmedResponse = desResponse.trim();
-				// Extract content inside square brackets and parse it as JSON
-				const regex = /(\{.*?\})/s;
-				const matchedContent = trimmedResponse.match(regex);
-				const descriptionObject = JSON.parse(matchedContent[0]);
-				const description = descriptionObject.description;
-				// If successful, return the list of generated names
-				success = true;
-
-				if (typeof game !== "undefined") {
-					let nameDescription = rpGenerateDescriptionObject({
-						name: rpName,
-						creature: rpCreature,
-						language: rpLanguage,
-						description: description,
-					});
-					rpAddDescriptionsToSetting(nameDescription);
-				}
-
-				return description;
-			} catch (error) {
-				// Log a warning if the API returns invalid JSON
-				rp.warn(
-					"Description Error: An error occurred while processing the response. Retrying."
-				);
-				rp.obj(error);
-			}
-			attempts++;
-		}
-
-		// If the operation was unsuccessful after all attempts, generate names offline
-		if (!success) {
-			rp.error(
-				"AI failed to produce a description with current settings after three tries. Alter some parameters and try again."
-			);
-
-			return "AI failed to produce a description with current settings after three tries. Alter some parameters and try again.";
-		}
-	}
-};
-
-/**
- * Generates a description object based on the input parameters.
- *
- * @param {object} input - An object containing properties for name, creature, language, and description.
- * @return {object} - A description object.
- */
-const rpGenerateDescriptionObject = (input) => {
-	// Get today's date and truncate the time.
-	let today = new Date();
-	let todayTruncated = new Date(
-		today.getFullYear(),
-		today.getMonth(),
-		today.getDate()
-	);
-
-	// Create a description object.
-	let descriptionObject = {
-		date: todayTruncated,
-		name: input.name || "",
-		creature: input.creature || "",
-		language: input.language || "",
-		genre: "",
-		gender: "",
-		description: input.description || "",
-	};
-
-	rp.dev("Description Object:");
-	rp.obj(descriptionObject);
-
-	return descriptionObject;
 };
 
 /**
@@ -1222,8 +953,8 @@ const rpProcessQueue = async () => {
 
 /**
  * Asynchronously generates a random name based on the provided parameters.
- * If online model is selected and has valid Patreon status, adds the request to a queue for processing.
- * If offline model is selected or the Patreon status is invalid, it generates the name offline.
+ * If online model is selected, adds the request to a queue for processing.
+ * If offline model is selected, it generates the name offline.
  *
  * @async
  * @function rpGenerateRandomName
@@ -1233,11 +964,9 @@ const rpProcessQueue = async () => {
  * @param {string} rpCreatureSubtype - The subtype of creature for which the name is being generated.
  * @param {Object} rpOptions - An object containing the options for name generation. This includes the model to be used (online/offline).
  * @param {number} [rpNumNames=1] - The number of names to be generated. Defaults to 1.
- * @param {boolean} [rpPatreonOk=false] - The status of the Patreon subscription. If true, it means the user has a valid subscription.
  * @param {number} [rpTemperature=1.2] - A float that determines the randomness of the generation. Higher values result in more randomness. Defaults to 1.2.
  *
  * @returns {Promise<string|undefined>} A promise that resolves to a string containing the randomly generated names. If the model is set to 'None', it returns undefined.
- * @throws {Error} Throws a warning if Patreon key is invalid.
  *
  * This function uses either an online or an offline AI model for name generation, based on the provided options.
  */
@@ -1248,13 +977,11 @@ const rpGenerateRandomName = async (
 	rpCreatureSubtype = rpCreature,
 	rpOptions = {},
 	rpNumNames = 1,
-	rpPatreonOk = false,
 	rpTemperature = 1.2
 ) => {
 	if (rpCreature === undefined) return;
 	if (!rpCreatureType) rpCreatureType = rpCreature;
 	if (!rpCreatureSubtype) rpCreatureSubtype = rpCreature;
-	if (!rpPatreonOk) rpPatreonOk = await rpValidatePatreonKey();
 	if (typeof game !== "undefined" && rpTemperature === undefined) {
 		// If it's not defined, use the value from the Foundry setting call
 		rpTemperature = game.settings.get("rp-names", "rpSettingsTemperature");
@@ -1268,8 +995,7 @@ const rpGenerateRandomName = async (
 	}
 
 	const rpOnline =
-		rpPatreonOk &&
-		(rpNamingMethod === "rpProperAi" || rpNamingMethod === "rpAdjectiveAi");
+		rpNamingMethod === "rpProperAi" || rpNamingMethod === "rpAdjectiveAi";
 
 	if (rpOnline) {
 		return new Promise((resolve, reject) => {
@@ -1289,9 +1015,6 @@ const rpGenerateRandomName = async (
 				rpProcessQueue();
 			}
 		});
-	}
-	if (!rpPatreonOk) {
-		rp.warn("Invalid Patreon key.");
 	}
 
 	switch (rpNamingMethod) {
@@ -1802,11 +1525,4 @@ const rpGenerateRandomNameNumbered = async (
 	return rpGeneratedNames;
 };
 
-export {
-	rpValidatePatreonKey,
-	rpGenerateRandomName,
-	rpIsNameUnique,
-	rpGenerateCreatureDescription,
-	rpSetTokenNameToGenerating,
-	rpRestoreTokenName,
-};
+export { rpGenerateRandomName, rpIsNameUnique };

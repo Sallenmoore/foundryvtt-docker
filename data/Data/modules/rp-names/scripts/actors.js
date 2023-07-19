@@ -1,21 +1,12 @@
 import { rpShowNameCustomizationDialog } from "./dialog.js";
-import {
-	rpGenerateRandomName,
-	rpValidatePatreonKey,
-	rpIsNameUnique,
-} from "./generateRandomName.js";
-import {
-	RPSavedNamesForm,
-	RPSavedDescriptionsForm,
-} from "./registerSettings.js";
+import { rpGenerateRandomName, rpIsNameUnique } from "./generateRandomName.js";
+import { RPSavedNamesForm } from "./registerSettings.js";
 import {
 	rp,
 	rpSetUsedByName,
 	rpGetOrNull,
 	rpGetItemName,
 	rpFormat,
-	rpGetLocalStorageItem,
-	rpSetLocalStorageItem,
 	rpGetDefaultOptions,
 } from "./util.js";
 
@@ -38,6 +29,8 @@ const rpFindNameByType = (rpArray, rpType) => {
  * @returns {Object} An object containing detailed actor data.
  */
 const rpGetActorData = (rpActor) => {
+	if (!rpActor) return {};
+
 	const rpGameSystem = game.system.id;
 
 	let rpActorData = {
@@ -75,7 +68,10 @@ const rpGetActorData = (rpActor) => {
 				rpCreatureSubtype: isNPC
 					? rpGetOrNull(rpActor, "system.details.type.subtype")
 					: rpGetOrNull(rpActor, "system.details.race"),
-				rpSize: rpFormat(rpGetOrNull(rpActor, "system.traits.size"), "size"),
+				rpSize: rpFormat(
+					rpGetOrNull(rpActor, "system.traits.size"),
+					"size"
+				),
 				rpBackground: isNPC
 					? rpGetOrNull(rpActor, "system.details.background")
 					: rpGetItemName(rpActor.items, "background"),
@@ -91,7 +87,10 @@ const rpGetActorData = (rpActor) => {
 					rpGetOrNull(rpActor, "system.details.alignment"),
 					"alignment"
 				),
-				rpLanguages: rpGetOrNull(rpActor, "system.traits.languages.value"),
+				rpLanguages: rpGetOrNull(
+					rpActor,
+					"system.traits.languages.value"
+				),
 				rpPrototypeName: rpGetOrNull(rpActor, "prototypeToken.name"),
 			};
 		},
@@ -122,7 +121,10 @@ const rpGetActorData = (rpActor) => {
 					"size"
 				),
 				rpBackground: rpGetItemName(rpActor.items, "background"),
-				rpBiographyPrivate: rpGetOrNull(rpActor, "system.details.privateNotes"),
+				rpBiographyPrivate: rpGetOrNull(
+					rpActor,
+					"system.details.privateNotes"
+				),
 				rpBiographyPublic:
 					rpGetOrNull(rpActor, "system.details.blurb") ||
 					rpGetOrNull(rpActor, "system.details.publicNotes"),
@@ -131,7 +133,10 @@ const rpGetActorData = (rpActor) => {
 					"alignment"
 				),
 				rpDeity: rpGetOrNull(rpActor, "system.details.deity.value"),
-				rpLanguages: rpGetOrNull(rpActor, "system.traits.languages.value"),
+				rpLanguages: rpGetOrNull(
+					rpActor,
+					"system.traits.languages.value"
+				),
 				rpPrototypeName: isNPC
 					? rpActor.name
 					: rpGetOrNull(rpActor, "prototypeToken.name"),
@@ -152,7 +157,10 @@ const rpGetActorData = (rpActor) => {
 					? rpGetOrNull(rpActor, "prototypeToken.name")
 					: rpActor.name,
 				rpBackground: rpGetOrNull(rpActor, "system.details.background"),
-				rpBiographyPrivate: rpGetOrNull(rpActor, "system.details.biography"),
+				rpBiographyPrivate: rpGetOrNull(
+					rpActor,
+					"system.details.biography"
+				),
 				rpAlignment: rpFormat(
 					rpGetOrNull(rpActor, "system.details.alignment"),
 					"alignment"
@@ -168,7 +176,10 @@ const rpGetActorData = (rpActor) => {
 				rpCreature: rpActor.name,
 				rpType: rpActor.type,
 				rpClass: rpGetOrNull(rpActor, "system.details.archetype"),
-				rpCreatureType: rpGetOrNull(rpActor, "system.details.species.name"),
+				rpCreatureType: rpGetOrNull(
+					rpActor,
+					"system.details.species.name"
+				),
 				rpBiographyPrivate: rpGetOrNull(
 					rpActor,
 					"system.details.biography.value"
@@ -185,7 +196,8 @@ const rpGetActorData = (rpActor) => {
 				rpClass: rpGetOrNull(rpActor, "system.details.class.value"),
 				rpGender: rpGetOrNull(rpActor, "system.details.gender.value"),
 				rpCreatureType:
-					rpGetOrNull(rpActor, "system.details.species.value") || rpActor.name,
+					rpGetOrNull(rpActor, "system.details.species.value") ||
+					rpActor.name,
 				rpCreatureSubtype: rpGetOrNull(
 					rpActor,
 					"system.details.species.subspecies"
@@ -194,7 +206,10 @@ const rpGetActorData = (rpActor) => {
 					rpGetOrNull(rpActor, "system.details.size.value"),
 					"size"
 				),
-				rpBackground: rpGetOrNull(rpActor, "system.details.career.value"),
+				rpBackground: rpGetOrNull(
+					rpActor,
+					"system.details.career.value"
+				),
 				rpBiographyPrivate: rpGetOrNull(
 					rpActor,
 					"system.details.gmnotes.value"
@@ -249,7 +264,8 @@ const rpGetActorData = (rpActor) => {
 	// Ensure rpCreatureType is not null, undefined, or an empty string
 	if (!rpSystemSpecificData.rpCreatureType) {
 		rpSystemSpecificData.rpCreatureType =
-			rpSystemSpecificData.rpCreatureSubtype || rpSystemSpecificData.rpCreature;
+			rpSystemSpecificData.rpCreatureSubtype ||
+			rpSystemSpecificData.rpCreature;
 	}
 
 	rp.log(`Gathered actor data for ${rpGameSystem} actor: ${rpActor.name}.`);
@@ -281,23 +297,6 @@ const rpShowSavedNames = (creatures, token) => {
 };
 
 /**
- * Displays the saved descriptions form for a specific token.
- *
- * @param {Token} token - The Foundry VTT token object.
- */
-const rpShowSavedDescriptions = (token) => {
-	const rpSavedDescriptionsForm = new RPSavedDescriptionsForm(
-		{
-			token: token,
-		},
-		{}
-	);
-
-	// Delay rendering of the form to allow the UI to update
-	setTimeout(() => rpSavedDescriptionsForm.render(true), 0);
-};
-
-/**
  * Generates names for a specific actor, displaying the saved names form for its creature type.
  *
  * @param {Actor} actor - The Foundry VTT actor object.
@@ -311,13 +310,6 @@ const rpGenerateNamesForActor = async (rpActor) => {
 		return;
 	}
 
-	// Validate Patreon key
-	const rpPatreonOk = await rpValidatePatreonKey();
-	rpSetLocalStorageItem("patreon-ok", rpPatreonOk);
-	if (typeof game !== "undefined") {
-		game.settings.set("rp-names", "rpSettingsPatreonOk", rpPatreonOk);
-	}
-
 	// Generate a random name
 	await rpGenerateRandomName(
 		rpActorData.rpKind,
@@ -326,7 +318,6 @@ const rpGenerateNamesForActor = async (rpActor) => {
 		rpActorData.rpCreatureSubtype,
 		rpCustomOptions,
 		10,
-		rpPatreonOk,
 		game.settings.get("rp-names", "rpSettingsTemperature")
 	);
 
@@ -354,7 +345,10 @@ const rpIsSavedName = (rpName) => {
  */
 const rpSelectRandomUnusedSavedName = async (rpActorData) => {
 	return new Promise((resolve, reject) => {
-		const rpSavedNames = game.settings.get("rp-names", "rpSettingsSavedNames");
+		const rpSavedNames = game.settings.get(
+			"rp-names",
+			"rpSettingsSavedNames"
+		);
 		const rpSavedConfigs = game.settings.get("rp-names", "rpSettingsName");
 		const rpCustomCreature =
 			rpSavedConfigs[rpActorData.rpCreature]?.rpCustomType || "";
@@ -370,7 +364,8 @@ const rpSelectRandomUnusedSavedName = async (rpActorData) => {
 				key !== rpActorData.rpCreature &&
 				rpIsNameUnique(key) &&
 				rpSavedNames[key].nameFormat ===
-					rpDefaultOptions[rpDefaultOptions.rpNamingMethod].rpNameFormat
+					rpDefaultOptions[rpDefaultOptions.rpNamingMethod]
+						.rpNameFormat
 			) {
 				rpAvailableNames.push(key);
 			}
@@ -378,7 +373,9 @@ const rpSelectRandomUnusedSavedName = async (rpActorData) => {
 
 		if (rpAvailableNames.length > 0) {
 			const name =
-				rpAvailableNames[Math.floor(Math.random() * rpAvailableNames.length)];
+				rpAvailableNames[
+					Math.floor(Math.random() * rpAvailableNames.length)
+				];
 			rpSetUsedByName(name);
 			resolve(name);
 		} else {
@@ -418,7 +415,6 @@ const rpCrossCheckNames = () => {
 export {
 	rpShowSavedNames,
 	rpGenerateNamesForActor,
-	rpShowSavedDescriptions,
 	rpFindNameByType,
 	rpGetActorData,
 	rpIsSavedName,

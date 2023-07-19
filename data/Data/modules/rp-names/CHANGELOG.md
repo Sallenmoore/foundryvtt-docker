@@ -4,11 +4,45 @@ All notable changes to the "Random Procedural Names" module will be documented i
 
 ## Important Notes
 
--   [Web App Version](https://rpgm.tools/rp-names.html)
--   The first name created for any creature type will take longer than subsequent names, as the AI model retrieves extra names to cache. This process repeats every 4 names, as the cache is expended, or when generating a name for a different type of creature or using different settings.
--   Due to the unpredictability of artificial intelligence, responses may not come back in a usable format, so the module will automatically retry the request up to 5 times before giving up and returning a generic name.
+-   **PLEASE DOWNLOAD THE SISTER MODULE, [RANDOM PROCEDURAL CREATIONS](https://gitlab.com/rpgm-tools/rp-creations), TO CONTINUE USING THE CHAT COMMANDS AND OTHER HOMEBREW OPTIONS!**
 
-[Coming Soon](https://gitlab.com/rpgm-tools/rp-names/-/blob/main/FUTUREPLANS.md)
+See what's [coming soon](https://gitlab.com/rpgm-tools/rp-names/-/blob/main/FUTUREPLANS.md)
+
+## [1.15.0] - 2023-07-17
+
+### Added
+
+-
+
+### Removed
+
+-   Moved chat commands and other homebrew features to a new module, [Random Procedural Creations](https://gitlab.com/rpgm-tools/rp-creations)
+-   Web App rebuild underway to support more cohesive integration with the Foundry module
+
+### Fixed
+
+-   Issue with using nicknames in the Proper AI nameing method that caused them to be saved with the name {nickname} instead of the actual nickname
+
+## [1.14.0.1] - 2023-07-11
+
+### Added
+
+-
+
+### Fixed
+
+-   (Web App) Hotfix for a bug that caused form values to be saved with extra characters
+
+## [1.14.0] - 2023-07-11
+
+### Added
+
+-   (Foundry | Web App) Enhanced security for API calls
+
+### Fixed
+
+-   (Foundry) Removed proper name check, as the benefit was too little for the cost
+-   (Foundry) Removed some extraneous settings
 
 ## [1.13.0.1] - 2023-07-09
 

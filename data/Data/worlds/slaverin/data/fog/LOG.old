@@ -1,8 +1,17 @@
-2023/07/10-17:36:01.525624 7ffbd77fe6c0 Recovering log #216
-2023/07/10-17:36:01.551733 7ffbd77fe6c0 Delete type=0 #216
-2023/07/10-17:36:01.551917 7ffbd77fe6c0 Delete type=3 #214
-2023/07/10-18:27:44.815078 7ff9374836c0 Level-0 table #221: started
-2023/07/10-18:27:44.815152 7ff9374836c0 Level-0 table #221: 0 bytes OK
-2023/07/10-18:27:44.824140 7ff9374836c0 Delete type=0 #219
-2023/07/10-18:27:44.824410 7ff9374836c0 Manual compaction at level-0 from '!fog!38XTdbE9MlTmvCRR' @ 72057594037927935 : 1 .. '!fog!ydw0AglhOLuVDp0B' @ 0 : 0; will stop at (end)
-2023/07/10-18:27:44.836889 7ff9374836c0 Manual compaction at level-1 from '!fog!38XTdbE9MlTmvCRR' @ 72057594037927935 : 1 .. '!fog!ydw0AglhOLuVDp0B' @ 0 : 0; will stop at (end)
+2023/07/10-18:28:12.663852 7ffbd67fc6c0 Recovering log #220
+2023/07/10-18:28:12.737357 7ffbd67fc6c0 Delete type=0 #220
+2023/07/10-18:28:12.737476 7ffbd67fc6c0 Delete type=3 #218
+2023/07/19-00:39:08.521507 7ff9374836c0 Level-0 table #225: started
+2023/07/19-00:39:08.566661 7ff9374836c0 Level-0 table #225: 1626419 bytes OK
+2023/07/19-00:39:08.575043 7ff9374836c0 Delete type=0 #223
+2023/07/19-00:39:08.605863 7ff9374836c0 Manual compaction at level-0 from '!fog!007QfPaJJd45HkHs' @ 72057594037927935 : 1 .. '!fog!ydw0AglhOLuVDp0B' @ 0 : 0; will stop at (end)
+2023/07/19-00:39:08.605976 7ff9374836c0 Manual compaction at level-1 from '!fog!007QfPaJJd45HkHs' @ 72057594037927935 : 1 .. '!fog!ydw0AglhOLuVDp0B' @ 0 : 0; will stop at '!fog!ydw0AglhOLuVDp0B' @ 107 : 1
+2023/07/19-00:39:08.606009 7ff9374836c0 Compacting 1@1 + 3@2 files
+2023/07/19-00:39:08.624429 7ff9374836c0 Generated table #226@1: 9 keys, 302970 bytes
+2023/07/19-00:39:08.624519 7ff9374836c0 Compacted 1@1 + 3@2 files => 302970 bytes
+2023/07/19-00:39:08.630751 7ff9374836c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/19-00:39:08.630995 7ff9374836c0 Delete type=2 #209
+2023/07/19-00:39:08.631827 7ff9374836c0 Delete type=2 #225
+2023/07/19-00:39:08.632538 7ff9374836c0 Delete type=2 #135
+2023/07/19-00:39:08.632822 7ff9374836c0 Delete type=2 #200
+2023/07/19-00:39:08.670676 7ff9374836c0 Manual compaction at level-1 from '!fog!ydw0AglhOLuVDp0B' @ 107 : 1 .. '!fog!ydw0AglhOLuVDp0B' @ 0 : 0; will stop at (end)

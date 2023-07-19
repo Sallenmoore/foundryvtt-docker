@@ -1,6 +1,6 @@
 # Random Procedural Names (rp-names) for Foundry VTT
 
-**Current version: 1.13.0.1**
+**Current version: 1.15.0**
 
 Automatically assign lore-friendly, procedurally-generated names to your tokens with the Random Procedural Names (rp-names) module for Foundry VTT!
 
@@ -12,16 +12,10 @@ Automatically assign lore-friendly, procedurally-generated names to your tokens 
 
 **Foundry VTT**:
 
--   Token HUD buttons for resetting and refreshing names and generating descriptions
+-   Token HUD buttons for resetting and refreshing names
 -   Localization support for multiple languages
 -   Save custom options for actor name, creature type, or creature subtype
--   Save generated names and descriptions for later retrieval and editing
-
-**Web/Mobile Application**:
-
--   Web-only version of the name generator: [RPGM Tools](https://rpgm.tools/rp-names.html)
--   Generates names by creature name, creature type, and creature subtype
--   Customizable settings for name generation
+-   Save generated names for later retrieval and editing
 
 **Premium Features (Available to Patreon Supporters)**:
 
@@ -31,7 +25,6 @@ Automatically assign lore-friendly, procedurally-generated names to your tokens 
 -   Offline and online model options for name generation, as well as adjective-only mode, which describes the creature with a random adjective
 -   Failover to offline model in case the online AI model is unable to produce a name
 -   Caching of names to reduce API calls
--   AI-generated descriptions of creatures based on their names and types
 
 > _If you enjoy this tool and would like to support its development, please consider becoming a patron at [https://www.patreon.com/RPGMTools](https://www.patreon.com/RPGMTools)_
 
@@ -44,7 +37,6 @@ Visit the following links for images of:
 -   [Token HUD Icons](./img/foundry/token-hud.jpg)
 -   [Saved Configurations](./img/foundry/saved-configs.jpg)
 -   [Saved Names](./img/foundry/saved-names.jpg)
--   [Saved Descriptions](./img/foundry/saved-descriptions.jpg)
 
 ---
 
@@ -111,28 +103,6 @@ Depending on settings configuration, with this module, you can:
 -   Automatically generate names for NPCs when tokens are created.
 -   Right-click an NPC token on the canvas to revert the name, generate a new one, assign a name from your saved names, or generate a description for the creature.
 -   Configure custom settings on the fly by _right-clicking_ the token to get the tokenHUD, then _right-clicking_ the refresh button.
--   Do the same with the description button to send force a refresh if you want a new one.
--   Chat commands (These are available for supporters, as they require the use of AI):
-    -   Generate a random name - experiment with anything you can think of
-        -   **!n** or **!name** + **subject to be named**
-            -   Example: **!n deserted pirate ship**
-            -   Example: **!n chubby kobold**
-            -   Example: **!n female ice giant**
-    -   Generates a description for a creature|place|object - please be sure to specify the length and type of object in a single word (no spaces)
-        -   **!d** or **!desc** + **length of description** (one word, or hyphenated) + **type of object** (one word, or hyphenated) + **name of the object**
-            -   Example: **!d brief sword Excalibur**
-            -   Example: **!d long village Phandalin**
-            -   Example: **!d longish goblin Grizznash the Unworthy**
-    -   Generates a random homebrewed creature|item|place|race|shop - this is so versatile, but remember, AI is not yet perfect
-        -   **!h** or **!home** + **description of the desired homebrew**
-            -   Example: **!h variant wolf cr5**
-            -   Example: **!h logging village near Neverwinter**
-            -   Example: **!h two-handed mace for lvl 10 barbarian, path of the totem**
-    -   Queries ChatGPT for a response - ChatGPT built into Foundry. I know, others have done it, but hopefully not as well as I plan to. It is targeted to TTRPG topics, and focused on whatever system you are using
-        -   **!g** or **!gpt** + **a ChatGPT request**
-            -   Example: **!g A goblin walks into a bar and**
-            -   Example: **!g What should a player roll to convince a peasant that he or she is actually the monarch?**
-            -   Example: **!g CR for goblin chief**
 
 ---
 
@@ -144,12 +114,6 @@ Depending on settings configuration, with this module, you can:
     -   [Image 2](./img/foundry/standard-succubi.jpg)
     -   [Image 3](./img/foundry/adjectives-driders.jpg)
     -   [Image 4](./img/foundry/adjectives-driders-copy.gif)
-    -   [Image 5](./img/foundry/description-elk.jpg)
-
--   **Web/Mobile App**:
-    -   [Image 6](./img/web/standard-goblins.jpg)
-    -   [Image 7](./img/web/adjectives-dragons.jpg)
-    -   [Image 8](./img/web/adjectives-princesses-descriptions.jpg)
 
 ---
 

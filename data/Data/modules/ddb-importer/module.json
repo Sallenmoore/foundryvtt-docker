@@ -3,14 +3,14 @@
   "title": "DDB-Importer: A D&D Beyond Integrator",
   "license": "MIT License",
   "description": "Import your dndbeyond.com characters, spells, items, monsters, encounters, and adventures!",
-  "version": "3.4.47",
-  "download": "https://github.com/mrprimate/ddb-importer/releases/download/3.4.47/ddb-importer.zip",
+  "version": "3.4.49",
+  "download": "https://github.com/mrprimate/ddb-importer/releases/download/3.4.49/ddb-importer.zip",
   "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json",
   "readme": "https://github.com/MrPrimate/ddb-importer/blob/main/README.md",
   "changelog": "https://github.com/MrPrimate/ddb-importer/blob/main/CHANGELOG.md",
   "url": "https://github.com/mrprimate/ddb-importer",
   "compatibility": {
-    "minimum": "10.282",
+    "minimum": "10",
     "verified": "11"
   },
   "authors": [

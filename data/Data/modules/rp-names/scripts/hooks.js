@@ -1,16 +1,9 @@
 import { rpChat, rpDescMap } from "./foundry.js";
-import {
-	rpIsNameUnique,
-	rpValidatePatreonKey,
-	rpGenerateRandomName,
-	rpSetTokenNameToGenerating,
-	rpRestoreTokenName,
-} from "./generateRandomName.js";
+import { rpIsNameUnique, rpGenerateRandomName } from "./generateRandomName.js";
 import {
 	rpShowUndo,
 	rpChooseFromSavedNames,
 	rpShowRefresh,
-	rpShowDescription,
 } from "./tokenHUD.js";
 import {
 	rpShowSavedNames,
@@ -21,10 +14,6 @@ import {
 } from "./actors.js";
 import {
 	rp,
-	rpRemoveDescriptions,
-	rpGetLocalStorageItem,
-	rpSetLocalStorageItem,
-	rpCheckNameAndPromptDialog,
 	rpGetDefaultOptions,
 	rpToTitleCase,
 } from "./util.js";
@@ -33,33 +22,16 @@ let rpTokenProcessingQueue = [];
 let rpIsProcessing = false;
 
 /**
- * Validates Patreon key, saves the result to localStorage and game settings.
- *
- * @returns {Promise<boolean>} A promise that resolves to the Patreon validation result.
- */
-const rpHandlePatreonValidation = async () => {
-	const rpPatreonOk = await rpValidatePatreonKey();
-	rpSetLocalStorageItem("patreon-ok", rpPatreonOk);
-	if (typeof game !== "undefined")
-		game.settings.set("rp-names", "rpSettingsPatreonOk", rpPatreonOk);
-	return rpPatreonOk;
-};
-
-/**
  * This function is responsible for handling a given token.
  * It checks various settings and conditions to determine how the token should be handled.
  * If the conditions are met, it initiates the process to generate a new name for the token.
- * It then updates the token's name or restores it to its original name as necessary.
+ * It then updates the token's name.
  */
 const rpHandleToken = async (rpTokenDocument) => {
 	const rpActorData = rpGetActorData(rpTokenDocument.actor);
 	const rpAutoName = game.settings.get(
 		"rp-names",
 		"rpSettingsAutoNameNewTokens"
-	);
-	const rpContinue = await rpCheckNameAndPromptDialog(
-		rpActorData.rpCreature,
-		"n"
 	);
 
 	// Consolidate all early return conditions at the start
@@ -70,11 +42,6 @@ const rpHandleToken = async (rpTokenDocument) => {
 		/item pile/i.test(rpActorData.rpCreature)
 	) {
 		rp.warn("Not a valid token type for name generation.");
-		return;
-	} else if (!rpContinue) {
-		rp.warn(
-			`User declined to overwrite the proper name: ${rpActorData.rpCreature}`
-		);
 		return;
 	}
 
@@ -105,11 +72,6 @@ const rpHandleToken = async (rpTokenDocument) => {
 		"rpSettingsUseSavedNamesFirst"
 	);
 
-	// Moved name generation indicator to a place where it will always run if conditions are met
-	if (rpActorData.rpKind === "npc") {
-		rpSetTokenNameToGenerating(rpTokenDocument);
-	}
-
 	// Check if we should use a saved name first
 	if (rpUseSavedNamesFirst && rpSavedNamesCount > 0) {
 		try {
@@ -134,21 +96,15 @@ const rpHandleToken = async (rpTokenDocument) => {
 			rp.error(
 				"Naming Style set to 'None' in custom settings. Skipping name generation. To reenable name generation, change the model to something other than 'None' or delete the custom name setting in the module's settings."
 			);
-			rpRestoreTokenName(rpTokenDocument);
 			return;
 		}
 
-		const rpPatreonOk = await rpHandlePatreonValidation();
 		let rpTokenName;
 		let rpIsUnique = false;
 		let rpTemperature = game.settings.get(
 			"rp-names",
 			"rpSettingsTemperature"
 		);
-
-		rpSetLocalStorageItem("patreon-ok", rpPatreonOk);
-		if (typeof game !== "undefined")
-			game.settings.set("rp-names", "rpSettingsPatreonOk", rpPatreonOk);
 
 		for (let rpAttempts = 0; rpAttempts < 5 && !rpIsUnique; rpAttempts++) {
 			rpTokenName = await rpGenerateRandomName(
@@ -158,7 +114,6 @@ const rpHandleToken = async (rpTokenDocument) => {
 				rpActorData.rpCreatureSubtype,
 				rpDefaultOptions,
 				1,
-				rpPatreonOk,
 				rpTemperature
 			);
 			if (rpAttempts > 0) {
@@ -183,20 +138,17 @@ const rpHandleToken = async (rpTokenDocument) => {
 					rpActorData.rpCreatureSubtype,
 					rpOfflineDefaultOptions,
 					1,
-					rpPatreonOk,
 					rpTemperature
 				);
 				rp.warn(
 					"Unable to generate a unique name after 5 attempts. You may manually refresh the name with different settings by right-clicking on the refresh button on the token HUD."
 				);
 				rpTokenDocument.update({ name: rpTokenName });
-				rpRestoreTokenName(rpTokenDocument);
 			}
 		}
 	} catch (error) {
 		rp.error("Error while processing token creation.");
 		rp.obj(error);
-		rpRestoreTokenName(rpTokenDocument);
 	}
 };
 
@@ -320,7 +272,7 @@ const rpRegisterPreUpdateTokenHook = async () => {
 		}
 	});
 	rp.log(
-		"Registered preUpdateToken hook for checking names for uniqueness and removing descriptions when a token's name is changed."
+		"Registered preUpdateToken hook for checking names for uniqueness when a token's name is changed."
 	);
 };
 
@@ -334,12 +286,9 @@ const rpRegisterPreUpdateTokenHook = async () => {
 const rpRegisterUpdateTokenHook = async () => {
 	Hooks.on("updateToken", async (rpTokenDocument, rpUpdateData) => {
 		rpCrossCheckNames();
-		if (rpUpdateData.hasOwnProperty("name")) {
-			rpRemoveDescriptions(rpTokenDocument);
-		}
 	});
 	rp.log(
-		"Registered updateToken hook for checking names for uniqueness and removing descriptions when a token's name is changed."
+		"Registered updateToken hook for checking names for uniqueness when a token's name is changed."
 	);
 };
 
@@ -371,7 +320,6 @@ const rpRegisterDeleteTokenHook = async () => {
  * - 'Undo': which will undo the last name change.
  * - 'Choose from saved names': which will allow the GM to choose a name from a list of saved names.
  * - 'Refresh': which will generate a new name for the token.
- * - 'Show description': which will show a description for the token.
  */
 const rpRegisterRenderTokenHUDHook = () => {
 	Hooks.on("renderTokenHUD", (tokenHUD, html, app) => {
@@ -379,7 +327,6 @@ const rpRegisterRenderTokenHUDHook = () => {
 			rpShowUndo(tokenHUD, html);
 			rpChooseFromSavedNames(tokenHUD, html);
 			rpShowRefresh(tokenHUD, html);
-			rpShowDescription(tokenHUD, html);
 		}
 	});
 	rp.log(
@@ -392,7 +339,7 @@ const rpRegisterChatMessageHook = async () => {
 	 * This hook runs when a chat message is being processed. It checks if the message content starts with
 	 * one of the recognized commands. If a command is recognized, the arguments for that command are validated.
 	 * If the arguments are valid, the corresponding function for the command is called. If the arguments are
-	 * not valid or if a command is recognized but Patreon key validation fails, an error message is sent to the user.
+	 * not valid, an error message is sent to the user.
 	 *
 	 * @async
 	 * @hook chatMessage
@@ -402,41 +349,19 @@ const rpRegisterChatMessageHook = async () => {
 	 *
 	 * @returns {boolean} - It returns false to prevent the command from being sent as a chat message.
 	 *
-	 * @throws {Error} - Throws an error message to the user if the command arguments are invalid or Patreon key validation fails.
+	 * @throws {Error} - Throws an error message to the user if the command arguments are invalid.
 	 *
 	 * Recognized commands:
 	 *   !n or !name: Generates a random name for a creature.
-	 *   !p or !place: Generates a random name for a place.
-	 *   !d or !desc: Generates a description for a creature, place or object.
-	 *   !g or !gpt: Queries ChatGPT for a response.
 	 */
 	Hooks.on("chatMessage", (log, rpMessageContent, rpData) => {
 		// Split the messageContent into rpCommand and the rest
 		let [rpCommand, ...args] = rpMessageContent.split(" ");
 
-		const rpPatreonOk = game.settings.get(
-			"rp-names",
-			"rpSettingsPatreonOk"
-		);
-
-		const rpPatreonError = () => {
-			const rpPatronMessage =
-				"A valid Patreon key is required to use this feature. Please see <a href='https://www.patreon.com/RPGMTools' target=_blank>our Patreon page</a> for more information.";
-			rpChat.sendError(rpPatronMessage);
-			return false;
-		};
-
 		// Validate the arguments based on the command
 		switch (rpCommand) {
-			case "!help":
-				rpChat.help();
-				return false;
 			case "!n":
 			case "!name":
-				if (!rpPatreonOk) {
-					rpPatreonError();
-					break;
-				}
 				if (args.length < 1) {
 					rpChat.sendError(
 						`<p><em>Generate a random name</em><br><br><b>Usage</b>:<br><br><b>!n</b> or <b>!name</b> + <b>subject to be named</b><br>Example: <b>!n deserted pirate ship</b><br>Example: <b>!n chubby kobold</b><br>Example: <b>!n female ice giant</b>`
@@ -445,67 +370,6 @@ const rpRegisterChatMessageHook = async () => {
 					rp.warn(`rpSubject: ${args.join(" ")}`);
 					rpChat.name(args.join(" "), rpData);
 				}
-				return false;
-			case "!d":
-			case "!desc":
-				if (!rpPatreonOk) {
-					rpPatreonError();
-					break;
-				}
-				if (args.length < 3) {
-					rpChat.sendError(
-						`<p><em>Generates a description for a creature|place|object</em><br><br><b>Usage</b>:<br><br><b>!d</b> or <b>!desc</b> + <b>length of description</b> + <b>type of object</b> (one word) + <b>name of the object</b><br>Example: <b>!d brief sword Excalibur</b><br>Example: <b>!d long village Phandalin</b><br>Example: <b>!d longish goblin Grizznash the Unworthy</b>`
-					);
-				} else {
-					let rpLength = args.shift();
-					let rpType = args.shift();
-					rp.warn(
-						`\nrpLength: ${rpLength}\nrpType: ${rpType}\nrpSubject: ${args.join(
-							" "
-						)}`
-					);
-					rpChat.desc(rpLength, rpType, args.join(" "), rpData);
-				}
-				return false;
-			case "!h":
-			case "!home":
-				if (!rpPatreonOk) {
-					rpPatreonError();
-					break;
-				}
-				if (args.length < 1) {
-					rpChat.sendError(
-						"<p><em>Generates a random homebrewed creature or item</em><br><br><b>Usage</b>:<br><br><b>!h</b> or <b>!home</b> + <b>description of the desired homebrew</b><br>Example: <b>!h variant wolf cr5</b><br>Example: <b>!h logging village near Neverwinter</b><br>Example: <b>!h two-handed mace for lvl 10 barbarian, path of the totem</b>"
-					);
-				} else {
-					rp.warn(`rpPrompt: ${args.join(" ")}`);
-					rpChat.home(args.join(" "), rpData);
-				}
-				return false;
-			case "!g":
-			case "!gpt":
-				if (!rpPatreonOk) {
-					rpPatreonError();
-					break;
-				}
-				if (args.length < 1) {
-					rpChat.sendError(
-						`<em>Queries ChatGPT for a response</em><br><br><p><b>Usage</b>:<br><br><b>!g</b> or <b>!gpt</b> + <b>a ChatGPT request</b><br>Example: <b>!g A goblin walks into a bar and</b><br>Example: <b>!g CR for goblin chief</b>`
-					);
-				} else {
-					rp.warn(`rpPrompt: ${args.join(" ")}`);
-					rpChat.gpt(args.join(" "), rpData);
-				}
-				return false;
-			case "!r":
-			case "!reset":
-				rpChat.resetHistory();
-				return false;
-			case "!chathistory":
-				rpChat.showHistory();
-				return false;
-			case "!togglehistory":
-				rpChat.toggleHistory();
 				return false;
 		}
 	});
@@ -564,31 +428,6 @@ const rpRegisterRenderChatMessageHook = () => {
 			} else {
 				ui.notifications.warn(
 					"You can only assign names to your own tokens or if you are GM!"
-				);
-			}
-		});
-
-		// Event listener for the create journal button
-		html.find(".create-journal").click(async (ev) => {
-			let messageId = $(ev.currentTarget).data("message-id");
-			let rpSubject = rpToTitleCase($(ev.currentTarget).data("subject"));
-			let rpDescId = $(ev.currentTarget).data("desc-id");
-			let rpDesc = rpDescMap.get(rpDescId);
-			let message = game.messages.get(messageId);
-			if (message.user.id === game.user.id || game.user.isGM) {
-				// Create a new journal entry
-				JournalEntry.create({
-					name: rpSubject,
-					content: rpDesc,
-				}).then((entry) => {
-					// Open the journal entry
-					entry.sheet.render(true);
-					// Delete the message
-					message.delete();
-				});
-			} else {
-				ui.notifications.warn(
-					"You can only create journal entries for your own messages or if you are GM!"
 				);
 			}
 		});

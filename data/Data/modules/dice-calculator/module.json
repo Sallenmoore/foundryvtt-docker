@@ -11,7 +11,7 @@
   ],
   "compatibility": {
     "minimum": "0.7.5",
-    "verified": "10"
+    "verified": "11.299"
   },
   "scripts": [
     "scripts/js.cookie.js",

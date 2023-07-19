@@ -16,11 +16,63 @@ import { rpLanguages } from "../json/languages.js";
 import { rpGenres } from "../json/genres.js";
 import { rpCustomTypes } from "../json/customTypes.js";
 
-const rpVersion = "1.13.0.1";
+const rpVersion = "1.15.0";
 const rpDescMap = new Map();
 
 let rpChat;
 let rpChatMessage;
+
+/*let rpAiSettings = {
+	model: "gpt-3.5-turbo",
+	messages: [
+		{ role: "system", conetxt: "" },
+		{ role: "user", context: "" },
+		{ role: "assistant", context: "" },
+	],
+	temperature: 0.7,
+	max_tokens: 2000,
+	stop: ["\n\n\n"],
+	presence_penalty: 0,
+	frequency_penalty: 0,
+};
+let rpActorData = {
+	type: "npc",
+	creature: "elf",
+	creatureType: "humanoid",
+	creatureSubtype: "elf",
+	characterClass: "fighter",
+	gender: "any",
+	size: "medium",
+	alignment: "neutral",
+	deity: "",
+	languages: ["common"],
+	biographyPrivate: "",
+	biographyPublic: "",
+	prototypeName: "",
+};
+let rpSettingOptions = {
+	system: "",
+	genre: "fantasy",
+	language: "Default",
+};
+let rpNameOptions = {
+	namingMethod: "rpProperAi",
+	gender: "any",
+	nameBase: "rpActorData.creature",
+	nameFormatProper: "{firstName} {surname}",
+	nameFormatAdjective: "{adjective} {nameBase}",
+	nameFormatNumbered: "{nameBase} {number}",
+};
+let rpHomebrewOptions = {
+	responseFormat: "html",
+	responseLength: 2000,
+};
+let rpMiscSettings = {
+	clientId: "",
+	patreonKey: "",
+	apiKey: "",
+};
+let rpCombinedSettings = {};*/
 
 /**
  * Initialize Handlebars by registering several helper functions.
@@ -187,30 +239,6 @@ Hooks.once("init", () => {
 	// Register the module settings
 	rpRegisterSettings();
 
-	// Get today's date and truncate time
-	const today = new Date();
-	const todayTruncated = today.toISOString().split("T")[0];
-	// Get the date of the last free AI request and truncate time
-	const freeAiRequestDate = game.settings.get(
-		"rp-names",
-		"rpSettingsFreeAiRequestDate"
-	);
-	const [year, month, day] = freeAiRequestDate.split("-");
-	const freeAiRequestDateTruncated = new Date(year, month - 1, day);
-
-	// If today's date is later than the date of the last free AI request, reset free daily AI requests
-	if (
-		todayTruncated > freeAiRequestDateTruncated.toISOString().split("T")[0]
-	) {
-		game.settings.set(
-			"rp-names",
-			"rpSettingsFreeAiRequestDate",
-			todayTruncated
-		);
-		game.settings.set("rp-names", "rpSettingsFreeAiRequestsRemaining", 5);
-		rp.log("Reset free daily AI requests.");
-	}
-
 	// Check if the panel has been shown before
 	const rpShowPanel = game.settings.get("rp-names", "rpSettingsShowPanel");
 
@@ -236,16 +264,19 @@ Hooks.once("init", () => {
 	console.log(
 		`%cRandom Procedural Names v${rpVersion}
 ________________________________________________
- ____  ____   ____ __  __  _              _     
-|  _ \\|  _ \\ / ___|  \\/  || |_ ___   ___ | |___ 
-| |_) | |_) | |  _| |\\/| || __/ _ \\ / _ \\| / __|
-|  _ <|  __/| |_| | |  | || || (_) | (_) | \\__ \\
-|_| \\_\\_|    \\____|_|  |_(_)__\\___/ \\___/|_|___/
+ ____  ____    _   _                           
+|  _ \\|  _ \\  | \\ | | __ _ _ __ ___   ___  ___ 
+| |_) | |_) | |  \\| |/ _\` | '_ \` _ \\ / _ \\/ __|
+|  _ <|  __/  | |\\  | (_| | | | | | |  __/\\__ \\
+|_| \\_\\_|     |_| \\_|\\__,_|_| |_| |_|\\___||___/
 ________________________________________________`,
 		"color: #7b4ed4; font-weight: bold;"
 	);
 
 	rpChat = rpCreateRpChat();
+	if (!game.settings.get("rp-names", "rpSettingsClientId")) {
+		game.settings.set("rp-names", "rpSettingsClientId", game.socket.id);
+	}
 });
 
 Hooks.on("ready", () => {

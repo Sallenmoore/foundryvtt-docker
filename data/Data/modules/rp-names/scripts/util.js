@@ -154,6 +154,18 @@ const rpGetLocalStorageItem = (name) => {
 	return localStorage.getItem(name);
 };
 
+const rpGetClientId = () => {
+	const rpClientIdKey = "client-id";
+	let rpClientId = rpGetLocalStorageItem(rpClientIdKey);
+
+	if (!rpClientId) {
+		rpClientId = rpGenerateUUID();
+		rpSetLocalStorageItem(rpClientIdKey, rpClientId);
+	}
+
+	return rpClientId;
+};
+
 /**
  * Sets the value of a specified key in localStorage.
  *
@@ -184,48 +196,6 @@ const rpGenerateUUID = () => {
 };
 
 /**
- * Checks the status of the Patreon key and logs appropriate messages.
- */
-const rpPatreonAlert = () => {
-	let rpPatreonOk =
-		typeof game !== "undefined"
-			? game.settings.get("rp-names", "rpSettingsPatreonOk")
-			: rpGetLocalStorageItem("patreon-ok");
-	rpPatreonOk = parseInt(rpPatreonOk);
-	switch (rpPatreonOk) {
-		case 0:
-			rp.warn(
-				"No valid Patreon key found. Please consider supporting this and our other projects at https://www.patreon.com/RPGMTools for full AI access."
-			);
-			break;
-		case 1:
-			rp.log(
-				"Patreon key validated. Thank you so much for your support!"
-			);
-			break;
-		case 2:
-			rp.log(
-				"Patreon key validated in the last 7 days. Thank you so much for your support!"
-			);
-			break;
-		case 3:
-			rp.log(
-				"Using free daily AI access. See https://www.patreon.com/RPGMTools to gain full AI access, if you have not already done so."
-			);
-			break;
-		case 4:
-			rp.log(
-				"Using your own OpenAI API key.  Bypassing Patreon key validation."
-			);
-			break;
-		default:
-			rp.error(
-				"There was an error checking your Patreon key. Please try again later."
-			);
-	}
-};
-
-/**
  * Combines parts of a name represented as a JSON array into a string.
  *
  * @param {Array} jsonArray - The array containing parts of a name.
@@ -253,163 +223,6 @@ const rpCombineNameParts = (jsonArray) => {
 };
 
 /**
- * Checks if the given name is a proper name using an AI function. If it is, it prompts the user with a dialog.
- * Depending on the action type, the dialog either asks to generate a description for the token or to generate a new name.
- * If the user selects "Always", the name is added to a whitelist in the game settings.
- * If the name is already in the whitelist, the function returns true without showing any dialogs.
- *
- * @async
- * @function rpCheckNameAndPromptDialog
- * @param {string} rpNameToCheck - The name to check and possibly add to the whitelist.
- * @param {string} rpActionType - The type of action to take if the name is a proper name. Expected 'd' or 'n'.
- * @returns {Promise<boolean>} - Resolves with true if the user wants to generate a description or a new name (or if the name is not a proper name or is already in the whitelist). Resolves with false if the user does not want to generate a description or a new name.
- * @throws {Error} When the action type is not 'd' or 'n'.
- */
-const rpCheckNameAndPromptDialog = async (rpNameToCheck, rpActionType) => {
-	let rpDialogTitle, rpDialogContent;
-
-	if (rpActionType === "d") {
-		rpDialogTitle = "Description Prompt";
-		rpDialogContent = `${rpNameToCheck} could be a proper name. Do you want to generate a description for this token?`;
-	} else if (rpActionType === "n") {
-		rpDialogTitle = "New Name Prompt";
-		rpDialogContent = `${rpNameToCheck} could be a proper name. Do you want to generate a new name?`;
-	} else {
-		throw new Error("Invalid action type. Expected 'd' or 'n'.");
-	}
-
-	if (typeof game !== "undefined") {
-		// Get the list of whitelisted names
-		let rpBlacklistNames = game.settings.get(
-			"rp-names",
-			"rpSettingsProperNameBlacklist"
-		);
-		rpBlacklistNames = rpBlacklistNames
-			? rpBlacklistNames.replace(/, /g, ",").split(",")
-			: [];
-
-		let rpWhitelistNames = game.settings.get(
-			"rp-names",
-			"rpSettingsProperNameWhitelist"
-		);
-		rpWhitelistNames = rpWhitelistNames
-			? rpWhitelistNames.replace(/, /g, ",").split(",")
-			: [];
-
-		// If the name is already in the blacklist, return false immediately
-		if (rpBlacklistNames.includes(rpNameToCheck)) {
-			return false;
-		}
-
-		// If the name is already in the whitelist, return true immediately
-		if (rpWhitelistNames.includes(rpNameToCheck)) {
-			return true;
-		}
-
-		const rpIsProperName = await rpCheckNameWithAi(rpNameToCheck);
-		rp.dev(`${rpNameToCheck} could be a proper name?: ${rpIsProperName}`);
-
-		// If the name is a proper name, ask the GM if they want to generate a new name.
-		if (rpIsProperName === "Yes") {
-			const rpWantAction = await new Promise((rpResolve, rpReject) => {
-				new Dialog({
-					title: rpDialogTitle,
-					content: `<p>${rpDialogContent}</p>`,
-					buttons: {
-						yes: {
-							icon: "<i class='fas fa-check'></i>",
-							label: "Yes",
-							callback: () => rpResolve(true),
-						},
-						no: {
-							icon: "<i class='fas fa-times'></i>",
-							label: "No",
-							callback: () => rpResolve(false),
-						},
-						always: {
-							icon: "<i class='fas fa-check'></i>",
-							label: "Always",
-							callback: () => {
-								// If "Always" is clicked, add the name to the whitelist
-								if (!rpWhitelistNames.includes(rpNameToCheck)) {
-									rpWhitelistNames.push(rpNameToCheck);
-									game.settings.set(
-										"rp-names",
-										"rpSettingsProperNameWhitelist",
-										rpWhitelistNames.join(", ")
-									);
-								}
-								rpResolve(true);
-							},
-						},
-						never: {
-							icon: "<i class='fas fa-times'></i>",
-							label: "Never",
-							callback: () => {
-								// If "Never" is clicked, add the name to the blacklist
-								let rpBlacklistNames = game.settings
-									.get(
-										"rp-names",
-										"rpSettingsProperNameBlacklist"
-									)
-									.split(", ");
-								if (!rpBlacklistNames.includes(rpNameToCheck)) {
-									rpBlacklistNames.push(rpNameToCheck);
-									game.settings.set(
-										"rp-names",
-										"rpSettingsProperNameBlacklist",
-										rpBlacklistNames.join(", ")
-									);
-								}
-								rpResolve(false);
-							},
-						},
-					},
-					default: "yes",
-				}).render(true);
-			});
-
-			rp.dev(`Continue naming?: ${rpWantAction}`);
-
-			// If the GM doesn't want a new name, abort the function.
-			if (!rpWantAction) {
-				return false;
-			}
-		}
-	}
-	return true;
-};
-
-/**
- * Checks whether a name is a proper name using AI.
- *
- * @param {string} rpFullName - A string containing a name to check.
- * @return {Promise<string>} - A promise that resolves with a string indicating whether the name is a proper name.
- */
-const rpCheckNameWithAi = async (rpFullName) => {
-	// Generate the GPT prompt.
-	let rpPrompt = rpGenerateGptPrompt({
-		model: "gpt-3.5-turbo", // Model name
-		systemContent:
-			"You are an AI trained on thousands of names, from real-world documents and countless works of literature of all genres. You can tell when a word or sequence of words represents a given name or nickname of a person, entity, or creature.", // System content
-		userContent: `Given a string, use your extensive familiarity with how names work, determine if it could be considered a proper name. The word or words can be in any case, can contain one or more words, and can be real or fictional, including names you have not seen before. A proper name can be any actual name or nickname of a person or character. Is '${rpFullName.toLowerCase()}' a proper name? Either "Yes" or "No":`, // User content
-		assistantContent: "", // Assistant content
-		temperature: 0.6, // Temperature, lowered to make the model a bit more deterministic
-		n: 1, // Number of responses to generate
-		max_tokens: 5, // Maximum number of tokens
-		stop: "", // Stop sequences, this will make the model to generate either 'Yes' or 'No'
-		presence_penalty: 0, // Presence penalty
-		frequency_penalty: 0, // Frequency penalty
-	});
-
-	// Call the Lambda function and get the response.
-	let rpResponse = await rpCallLambdaFunction(rpPrompt);
-
-	// Return only the 'Yes' or 'No' part of the response.
-	return rpResponse.trim();
-};
-
-/**
  * Generates a payload for a GPT prompt.
  *
  * @param {Object} options - The configuration options for the GPT prompt.
@@ -417,9 +230,11 @@ const rpCheckNameWithAi = async (rpFullName) => {
  */
 const rpGenerateGptPrompt = ({
 	model = "gpt-3.5-turbo",
-	systemContent = "You are The Brain.",
-	userContent = "What we going to do tonight, Brain?",
-	assistantContent = "Concise response:\n\n",
+	messages = [
+		{ role: "system", content: "You are The Brain." },
+		{ role: "user", content: "What we going to do tonight, Brain?" },
+		{ role: "assistant", content: "Concise response:\n\n" },
+	],
 	temperature = 1,
 	n = 1,
 	max_tokens = 30,
@@ -427,24 +242,33 @@ const rpGenerateGptPrompt = ({
 	presence_penalty = 0.2,
 	frequency_penalty = 0.2,
 } = {}) => {
-	const apiKey =
+	const rpApiKey =
 		typeof game !== "undefined"
 			? game.settings.get("rp-names", "rpSettingsApiKey")
-			: "";
+			: rpGetLocalStorageItem("api-key") || "";
+
+	const rpPatreonKey =
+		typeof game !== "undefined"
+			? game.settings.get("rp-names", "rpSettingsPatreonKey")
+			: rpGetLocalStorageItem("patreon-key") || "";
+
+	const rpClientId =
+		typeof game !== "undefined"
+			? game.settings.get("rp-names", "rpSettingsClientId")
+			: rpGetClientId() || "";
+
 	return {
 		model,
-		messages: [
-			{ role: "system", content: systemContent },
-			{ role: "user", content: userContent },
-			{ role: "assistant", content: assistantContent },
-		],
+		messages,
 		temperature,
 		n,
 		max_tokens,
 		stop,
 		presence_penalty,
 		frequency_penalty,
-		apiKey,
+		apiKey: rpApiKey,
+		patreonKey: rpPatreonKey,
+		clientId: rpClientId,
 	};
 };
 
@@ -458,26 +282,17 @@ const rpCallLambdaFunction = async (rpPayload) => {
 	const rpUrl =
 		"https://7r5j1szsn5.execute-api.us-west-1.amazonaws.com/gpt-35-turbo";
 
-	const rpApiKey =
-		typeof game !== "undefined"
-			? game.settings.get("rp-names", "rpSettingsApiKey")
-			: rpGetLocalStorageItem("api-key") || "";
-
-	const rpFreeAiRequestsRemaining =
-		typeof game !== "undefined"
-			? game.settings.get("rp-names", "rpSettingsFreeAiRequestsRemaining")
-			: rpGetLocalStorageItem("free-api-requests-remaining") || 0;
-
 	try {
-		rp.log(
-			"Requesting AI-generated data. This can take up to a minute. It is normal to see errors and warnings during this time."
-		);
-		rpPatreonAlert();
 		rp.dev("Payload:");
 		rp.obj(rpPayload);
+		rp.dev(JSON.stringify(rpPayload));
 
 		// Start jitter animation
 		rpStartJitter();
+
+		rp.log(
+			"Requesting AI-generated data. This can take up to a minute. It is normal to see errors and warnings during this time, as the AI's response has to be formatted perfectly or else it tries again."
+		);
 
 		const rpResponse = await fetch(rpUrl, {
 			method: "POST",
@@ -486,47 +301,31 @@ const rpCallLambdaFunction = async (rpPayload) => {
 			},
 			body: JSON.stringify(rpPayload),
 		});
-		if (typeof game !== "undefined") {
-			game.settings.set(
-				"rp-names",
-				"rpSettingsFreeAiRequestsRemaining",
-				Math.max(0, rpFreeAiRequestsRemaining - 1)
-			);
-		} else {
-			rpSetLocalStorageItem(
-				"free-api-requests-remaining",
-				Math.max(0, rpFreeAiRequestsRemaining - 1)
-			);
+		const rpData = await rpResponse.json();
+		rp.dev("Response:");
+		rp.obj(rpData);
+		const rpValidationMethod = rpData.validationMethod;
+		switch (rpValidationMethod) {
+			case "apiKey":
+				rp.log("Personal API key validated.");
+				break;
+			case "free":
+				rp.log("Daily free API requests validated.");
+				break;
+			case "check":
+				rp.log("Patreon key validated. Thank you for your support!");
+				break;
+			default:
+				rp.log("Unknown validation method.");
 		}
-		if (rpResponse.ok) {
-			rp.log(
-				`${rpFreeAiRequestsRemaining} free daily AI requests remaining.`
-			);
-			const rpData = await rpResponse.json();
-			rp.dev("Response:");
-			rp.obj(rpData);
-			return rpData.message;
-		} else {
-			if (typeof game !== "undefined") {
-				game.settings.set(
-					"rp-names",
-					"rpSettingsFreeAiRequestsRemaining",
-					Math.min(5, rpFreeAiRequestsRemaining + 1)
-				);
-			} else {
-				rpSetLocalStorageItem(
-					"free-api-requests-remaining",
-					Math.min(5, rpFreeAiRequestsRemaining + 1)
-				);
-			}
-			throw new Error("Server responded with non-OK status");
-		}
+		return rpData.message;
 	} catch (error) {
 		if (error.name === "TypeError") {
-			throw new Error("Network Error");
+			rp.error("Network Error");
 		}
-		throw error;
+		rp.warn("Name generation failed.");
 		rp.obj(error);
+		return error.message;
 	} finally {
 		// Stop jitter animation
 		rpStopJitter();
@@ -567,10 +366,17 @@ const rpParseResponse = (rpResponse) => {
 
 	rp.dev("Parsed response:");
 	rp.obj(rpResponseArray);
-	return rpResponseArray;
+	if (rpResponseArray.length === 0) {
+		rp.warn(
+			"Please use a diifferent naming method, try again tomorrow, or join us on Patreon for unlimited AI use."
+		);
+		return [{ name: "Error" }];
+	} else {
+		return rpResponseArray;
+	}
 };
 
-function rpBadWords() {
+const rpBadWords = () => {
 	if (Math.random() <= 0.95) {
 		rp.dev("Blocked bad words.");
 		return "Do not include any of the following adjectives: Effervescent, Ethereal, Ephemeral, Quixotic, Iridescent";
@@ -578,7 +384,7 @@ function rpBadWords() {
 		rp.dev("Did not block bad words.");
 		return "";
 	}
-}
+};
 
 /**
  * Adds creature names to the 'rpSettingsSavedNames' setting.
@@ -593,28 +399,6 @@ const rpAddCreatureNamesToSetting = (creatureNames) => {
 
 	game.settings.set("rp-names", "rpSettingsSavedNames", rpSavedNames);
 	rp.dev(`Added ${creatureNames.length} creature names to saved names.`);
-};
-
-/**
- * Adds descriptions to the 'rpSavedDescriptions' setting.
- * @param {Object} descriptionObject - The description object to be added.
- */
-const rpAddDescriptionsToSetting = (descriptionObject) => {
-	let rpDescriptions = game.settings.get(
-		"rp-names",
-		"rpSettingsSavedDescriptions"
-	);
-
-	rpDescriptions[descriptionObject.name] = descriptionObject;
-
-	game.settings.set(
-		"rp-names",
-		"rpSettingsSavedDescriptions",
-		rpDescriptions
-	);
-	rp.dev(
-		`Added ${descriptionObject.name} description to saved descriptions.`
-	);
 };
 
 /**
@@ -945,82 +729,13 @@ const rpGetNestedProperty = (rpObj, rpPath) => {
 };
 
 /**
- * Removes HTML elements with classes starting with 'rp-description-' from the biography of a token.
- *
- * @param {Object} rpTokenDocument - The token document object from which to remove HTML elements.
- *
- * @returns {void}
- *
- * @example
- * removeRpDescriptions(rpTokenDocument);
- *
- * Note: This function relies on the following external functions:
- * 1. rpGetBiographyLocation(game.system.id)
- * 2. rpGetNestedProperty(rpTokenDocument, rpTokenBiographyLocation)
- * 3. rpAddNestedValue(rpActorDataCopy, rpPath, rpTokenBiography)
- * Make sure these functions are defined and accessible within the scope of this function.
- */
-const rpRemoveDescriptions = (rpTokenDocument) => {
-	// Fetch biography location based on the game system
-	let rpTokenBiographyLocation = rpGetBiographyLocation(game.system.id);
-	let rpTokenBiography = rpGetNestedProperty(
-		rpTokenDocument,
-		rpTokenBiographyLocation
-	);
-
-	// Create a DOMParser and parse the rpTokenBiography string
-	let parser = new DOMParser();
-	let doc = parser.parseFromString(rpTokenBiography, "text/html");
-
-	// Get all elements
-	let allElements = doc.querySelectorAll("*");
-
-	let descriptionRemoved = false;
-
-	allElements.forEach((element) => {
-		let classes = element.getAttribute("class");
-
-		// If the element has classes and one of them starts with 'rp-description-', remove the element
-		if (classes) {
-			let classArray = classes.split(" ");
-			if (classArray.some((c) => c.startsWith("rp-description-"))) {
-				element.remove();
-				descriptionRemoved = true;
-			}
-		}
-	});
-
-	// Serialize the Document back to a string
-	rpTokenBiography = new XMLSerializer().serializeToString(doc);
-
-	let rpPath = rpTokenBiographyLocation.startsWith("actorData.")
-		? rpTokenBiographyLocation.slice("actorData.".length)
-		: rpTokenBiographyLocation;
-
-	// Make a deep copy of actorData from rpTokenDocument
-	let rpActorDataCopy = JSON.parse(JSON.stringify(rpTokenDocument.actorData));
-
-	// Use the function to add the nested value
-	rpAddNestedValue(rpActorDataCopy, rpPath, rpTokenBiography);
-
-	// Apply the changes to the actor data in the token document
-	rpTokenDocument.update({ actorData: rpActorDataCopy });
-
-	if (descriptionRemoved) {
-		rp.log(
-			"Removed custom description from token biography/notes because the token name was changed."
-		);
-	}
-};
-
-/**
  * Start the jitter animation on the d20 image.
  */
 const rpStartJitter = () => {
 	let rpHeaderD20Image = document.getElementById("header-d20-image");
 	rpHeaderD20Image.style.display = "block"; // make it visible
 	rpHeaderD20Image.classList.add("jitter");
-	console.log("Commenced jitter.");
+	rp.log("Commenced jitter.");
 };
 
 /**
@@ -1030,7 +745,7 @@ const rpStopJitter = () => {
 	let rpHeaderD20Image = document.getElementById("header-d20-image");
 	rpHeaderD20Image.style.display = "none"; // hide it
 	rpHeaderD20Image.classList.remove("jitter");
-	console.log("Ended jitter.");
+	rp.log("Ended jitter.");
 };
 
 /**
@@ -1359,6 +1074,109 @@ const rpGetDefaultOptions = (rpActorData) => {
 	};
 };
 
+const rpSetAiSettings = (
+	model,
+	systemMessage,
+	userMessage,
+	assistantMessage,
+	temperature,
+	maxTokens,
+	stop,
+	presencePenalty,
+	frequencyPenalty
+) => {
+	rpAiSettings = {
+		model: model,
+		messages: [
+			{ role: "system", text: systemMessage },
+			{ role: "user", text: userMessage },
+			{ role: "assistant", text: assistantMessage },
+		],
+		temperature: temperature,
+		max_tokens: maxTokens,
+		stop: stop,
+		presence_penalty: presencePenalty,
+		frequency_penalty: frequencyPenalty,
+	};
+};
+
+const rpSetActorData = (
+	type,
+	creature,
+	creatureType,
+	creatureSubtype,
+	characterClass,
+	gender,
+	size,
+	alignment,
+	deity,
+	languages,
+	biographyPrivate,
+	biographyPublic,
+	prototypeName
+) => {
+	rpActorData = {
+		type: type,
+		creature: creature,
+		creatureType: creatureType,
+		creatureSubtype: creatureSubtype,
+		characterClass: characterClass,
+		gender: gender,
+		size: size,
+		alignment: alignment,
+		deity: deity,
+		languages: languages,
+		biographyPrivate: biographyPrivate,
+		biographyPublic: biographyPublic,
+		prototypeName: prototypeName,
+	};
+};
+
+const rpSetSettingOptions = (system, genre, language) => {
+	rpSettingOptions = {
+		system: system,
+		genre: genre,
+		language: language,
+	};
+};
+
+const rpSetNameOptions = (
+	namingMethod,
+	gender,
+	nameBase,
+	nameFormatProper,
+	nameFormatAdjective,
+	nameFormatNumbered
+) => {
+	rpNameOptions = {
+		namingMethod: namingMethod,
+		gender: gender,
+		nameBase: nameBase,
+		nameFormatProper: nameFormatProper,
+		nameFormatAdjective: nameFormatAdjective,
+		nameFormatNumbered: nameFormatNumbered,
+	};
+};
+
+const rpSetHomebrewOptions = (responseLength) => {
+	rpHomebrewOptions = {
+		responseLength: responseLength,
+	};
+};
+
+const rpSetMiscSettings = () => {};
+
+const rpCombineSettings = () => {
+	rpSettings = {
+		rpAiSettings: rpAiSettings,
+		rpActorData: rpActorData,
+		rpSettingOptions: rpSettingOptions,
+		rpNameOptions: rpNameOptions,
+		rpHomebrewOptions: rpHomebrewOptions,
+		rpMiscSettings: rpMiscSettings,
+	};
+};
+
 export {
 	rp,
 	rpGetLocalStorageItem,
@@ -1375,10 +1193,8 @@ export {
 	rpGetJson,
 	rpRandBetween,
 	rpAddCreatureNamesToSetting,
-	rpAddDescriptionsToSetting,
 	rpSetUsedByName,
 	rpSetNotUsedByName,
-	rpPatreonAlert,
 	rpJsonToHtml,
 	rpShuffle,
 	rpGetOrNull,
@@ -1391,11 +1207,16 @@ export {
 	rpGetBiographyLocation,
 	rpGetNestedProperty,
 	rpConvertNumber,
-	rpRemoveDescriptions,
-	rpCheckNameWithAi,
-	rpCheckNameAndPromptDialog,
 	rpGetDefaultOptions,
 	rpStartJitter,
 	rpStopJitter,
 	rpRemoveImgTags,
+	rpGetClientId,
+	rpSetAiSettings,
+	rpSetActorData,
+	rpSetSettingOptions,
+	rpSetNameOptions,
+	rpSetHomebrewOptions,
+	rpSetMiscSettings,
+	rpCombineSettings,
 };

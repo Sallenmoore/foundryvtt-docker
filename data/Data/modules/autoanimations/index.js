@@ -12452,8 +12452,8 @@ function set_data(text2, data2) {
     return;
   text2.data = data2;
 }
-function set_input_value(input2, value) {
-  input2.value = value == null ? "" : value;
+function set_input_value(input, value) {
+  input.value = value == null ? "" : value;
 }
 function set_style(node, key, value, important) {
   if (value == null) {
@@ -16565,6 +16565,11 @@ async function handleItem(data2) {
           }
         }
       }
+      if (!autorecObject && data2.isVariant && !data2.isTemplate) {
+        let originalItemName = data2.originalItem?.name;
+        let originalRinsedName = originalItemName ? AAAutorecFunctions.rinseName(originalItemName) : "noitem";
+        autorecObject = AAAutorecFunctions.allMenuSearch(menus, originalRinsedName, originalItemName);
+      }
     }
   }
   if (autorecObject && data2.isTemplate && !autorecDisabled) {
@@ -16573,7 +16578,7 @@ async function handleItem(data2) {
       autorecObject = AAAutorecFunctions.singleMenuSearch(autorecSettings.templatefx, rinsedItemName, itemName);
     }
   } else if (data2.isVariant && !autorecObject && data2.isTemplate && !autorecDisabled) {
-    let newItemName = input.originalItem?.name;
+    let newItemName = data2.originalItem?.name;
     let newRinsedName = newItemName ? AAAutorecFunctions.rinseName(newItemName) : "noitem";
     autorecObject = AAAutorecFunctions.allMenuSearch(menus, newRinsedName, newItemName);
   }
@@ -17062,7 +17067,7 @@ class DataSanitizer {
     }
   }
   static setSound(data2, addDelay = 0, overrideRepeat = false) {
-    const input2 = {
+    const input = {
       enable: data2.enable ?? false,
       file: data2.file,
       delay: data2.delay ?? 0,
@@ -17071,16 +17076,16 @@ class DataSanitizer {
       repeat: overrideRepeat || data2.repeat || 1,
       repeatDelay: data2.repeatDelay ?? 250
     };
-    if (!input2.enable || !input2.file) {
+    if (!input.enable || !input.file) {
       return false;
     }
     let soundSeq = new Sequence({ moduleName: "Automated Animations", softFail: !game.settings.get("autoanimations", "debug") });
     let section2 = soundSeq.sound();
-    section2.file(input2.file);
-    section2.delay(input2.delay + addDelay);
-    section2.startTime(input2.startTime);
-    section2.volume(input2.volume);
-    section2.repeats(input2.repeat, input2.repeatDelay);
+    section2.file(input.file);
+    section2.delay(input.delay + addDelay);
+    section2.startTime(input.startTime);
+    section2.volume(input.volume);
+    section2.repeats(input.repeat, input.repeatDelay);
     return soundSeq;
   }
   static async compilePrimary(flagData, menu, handler) {
@@ -17268,12 +17273,12 @@ class DataSanitizer {
         };
     }
   }
-  static convertToXY(input2, isAnchor) {
+  static convertToXY(input, isAnchor) {
     let dNum = isAnchor ? 0.5 : 1;
-    if (!input2) {
+    if (!input) {
       return { x: dNum, y: dNum };
     }
-    let parsedInput = input2.split(",").map((s) => s.trim());
+    let parsedInput = input.split(",").map((s) => s.trim());
     let posX = Number(parsedInput[0]);
     let posY = Number(parsedInput[1]);
     if (parsedInput.length === 2) {
@@ -17778,7 +17783,7 @@ class DataSanitizer {
       return data2;
     }
     function setSound(data2, addDelay = 0) {
-      const input2 = {
+      const input = {
         enable: data2.enable ?? false,
         file: data2.file,
         delay: data2.delay ?? 0,
@@ -17787,16 +17792,16 @@ class DataSanitizer {
         repeat: data2.repeat || 1,
         repeatDelay: data2.repeatDelay ?? 250
       };
-      if (!input2.enable || !input2.file) {
+      if (!input.enable || !input.file) {
         return false;
       }
       let soundSeq = new Sequence();
       let section2 = soundSeq.sound();
-      section2.file(input2.file);
-      section2.delay(input2.delay + addDelay);
-      section2.startTime(input2.startTime);
-      section2.volume(input2.volume);
-      section2.repeats(input2.repeat, input2.repeatDelay);
+      section2.file(input.file);
+      section2.delay(input.delay + addDelay);
+      section2.startTime(input.startTime);
+      section2.volume(input.volume);
+      section2.repeats(input.repeat, input.repeatDelay);
       return soundSeq;
     }
   }
@@ -18659,14 +18664,14 @@ async function templatefx$3(handler, animationData, templateDocument) {
       seq.tint(data2.options.tintColor);
       seq.filter("ColorMatrix", { contrast: data2.options.contrast, saturate: data2.options.saturation });
     }
-    function convertToXY(input2) {
+    function convertToXY(input) {
       let menuType = data2.video.menuType;
       let templateType2 = template.t;
       let defaultAnchor = templateType2 === "circle" || templateType2 === "rect" ? { x: 0.5, y: 0.5 } : { x: 0, y: 0.5 };
-      if (!input2) {
+      if (!input) {
         return defaultAnchor;
       }
-      let dNum = menuType === "cone" || menuType === "ray" ? input2 || "0, 0.5" : input2 || "0.5, 0.5";
+      let dNum = menuType === "cone" || menuType === "ray" ? input || "0, 0.5" : input || "0.5, 0.5";
       let parsedInput = dNum.split(",").map((s) => s.trim());
       let posX = Number(parsedInput[0]);
       let posY = Number(parsedInput[1]);
@@ -26008,11 +26013,11 @@ function generator(storage2) {
           return;
         }
         cleanup();
-        const input2 = single ? values[0] : values;
+        const input = single ? values[0] : values;
         if (isSimpleDeriver(fn)) {
-          set2(fn(input2));
+          set2(fn(input));
         } else {
-          const result = fn(input2, set2);
+          const result = fn(input, set2);
           cleanup = is_function(result) ? result : noop;
         }
       };
@@ -41045,7 +41050,7 @@ function toggleDetails(details, { store, clickActive = true } = {}) {
   }, async (value) => {
     open = value;
     await tick();
-    handleAnimation();
+    handleAnimation2();
   });
   function animate2(a, b, value) {
     details.style.overflow = "hidden";
@@ -41065,7 +41070,7 @@ function toggleDetails(details, { store, clickActive = true } = {}) {
       details.style.overflow = "";
     };
   }
-  function handleAnimation() {
+  function handleAnimation2() {
     if (open) {
       const a = details.offsetHeight;
       if (animation) {
@@ -46826,7 +46831,7 @@ function instance$1m($$self, $$props, $$invalidate) {
   let $store, $$unsubscribe_store = noop, $$subscribe_store = () => ($$unsubscribe_store(), $$unsubscribe_store = subscribe(store, ($$value) => $$invalidate(11, $store = $$value)), store);
   $$self.$$.on_destroy.push(() => $$unsubscribe_storeIsValid());
   $$self.$$.on_destroy.push(() => $$unsubscribe_store());
-  let { input: input2 = void 0 } = $$props;
+  let { input = void 0 } = $$props;
   let { disabled = void 0 } = $$props;
   let { options: options2 = void 0 } = $$props;
   let { max = void 0 } = $$props;
@@ -46879,7 +46884,7 @@ function instance$1m($$self, $$props, $$invalidate) {
   }
   $$self.$$set = ($$props2) => {
     if ("input" in $$props2)
-      $$invalidate(15, input2 = $$props2.input);
+      $$invalidate(15, input = $$props2.input);
     if ("disabled" in $$props2)
       $$invalidate(0, disabled = $$props2.disabled);
     if ("options" in $$props2)
@@ -46904,12 +46909,12 @@ function instance$1m($$self, $$props, $$invalidate) {
   $$self.$$.update = () => {
     if ($$self.$$.dirty & /*input, disabled*/
     32769) {
-      $$invalidate(0, disabled = isObject(input2) && typeof input2.disabled === "boolean" ? input2.disabled : typeof disabled === "boolean" ? disabled : false);
+      $$invalidate(0, disabled = isObject(input) && typeof input.disabled === "boolean" ? input.disabled : typeof disabled === "boolean" ? disabled : false);
     }
     if ($$self.$$.dirty & /*input, options*/
     49152) {
       {
-        $$invalidate(14, options2 = isObject(input2) && isObject(input2.options) ? input2.options : isObject(options2) ? options2 : {});
+        $$invalidate(14, options2 = isObject(input) && isObject(input.options) ? input.options : isObject(options2) ? options2 : {});
         if (typeof options2?.blurOnEnterKey === "boolean") {
           localOptions.blurOnEnterKey = options2.blurOnEnterKey;
         }
@@ -46920,39 +46925,39 @@ function instance$1m($$self, $$props, $$invalidate) {
     }
     if ($$self.$$.dirty & /*input, max*/
     32770) {
-      $$invalidate(1, max = isObject(input2) && typeof input2.max === "number" ? input2.max : typeof max === "number" ? max : void 0);
+      $$invalidate(1, max = isObject(input) && typeof input.max === "number" ? input.max : typeof max === "number" ? max : void 0);
     }
     if ($$self.$$.dirty & /*input, min*/
     32772) {
-      $$invalidate(2, min = isObject(input2) && typeof input2.min === "number" ? input2.min : typeof min === "number" ? min : void 0);
+      $$invalidate(2, min = isObject(input) && typeof input.min === "number" ? input.min : typeof min === "number" ? min : void 0);
     }
     if ($$self.$$.dirty & /*input, placeholder*/
     32776) {
-      $$invalidate(3, placeholder = isObject(input2) && typeof input2.placeholder === "string" ? localize(input2.placeholder) : typeof placeholder === "string" ? localize(placeholder) : void 0);
+      $$invalidate(3, placeholder = isObject(input) && typeof input.placeholder === "string" ? localize(input.placeholder) : typeof placeholder === "string" ? localize(placeholder) : void 0);
     }
     if ($$self.$$.dirty & /*input, step*/
     32784) {
-      $$invalidate(4, step = isObject(input2) && typeof input2.step === "number" ? input2.step : typeof step === "number" ? step : void 0);
+      $$invalidate(4, step = isObject(input) && typeof input.step === "number" ? input.step : typeof step === "number" ? step : void 0);
     }
     if ($$self.$$.dirty & /*input, store*/
     32800) {
-      $$subscribe_store($$invalidate(5, store = isObject(input2) && isWritableStore(input2.store) ? input2.store : isWritableStore(store) ? store : writable$1(void 0)));
+      $$subscribe_store($$invalidate(5, store = isObject(input) && isWritableStore(input.store) ? input.store : isWritableStore(store) ? store : writable$1(void 0)));
     }
     if ($$self.$$.dirty & /*input, storeIsValid*/
     32832) {
-      $$subscribe_storeIsValid($$invalidate(6, storeIsValid = isObject(input2) && isReadableStore(input2.storeIsValid) ? input2.storeIsValid : isReadableStore(storeIsValid) ? storeIsValid : writable$1(true)));
+      $$subscribe_storeIsValid($$invalidate(6, storeIsValid = isObject(input) && isReadableStore(input.storeIsValid) ? input.storeIsValid : isReadableStore(storeIsValid) ? storeIsValid : writable$1(true)));
     }
     if ($$self.$$.dirty & /*input, storeIsValid*/
     32832) {
-      $$subscribe_storeIsValid($$invalidate(6, storeIsValid = isObject(input2) && isReadableStore(input2.storeIsValid) ? input2.storeIsValid : isReadableStore(storeIsValid) ? storeIsValid : writable$1(true)));
+      $$subscribe_storeIsValid($$invalidate(6, storeIsValid = isObject(input) && isReadableStore(input.storeIsValid) ? input.storeIsValid : isReadableStore(storeIsValid) ? storeIsValid : writable$1(true)));
     }
     if ($$self.$$.dirty & /*input, styles*/
     32896) {
-      $$invalidate(7, styles = isObject(input2) && isObject(input2.styles) ? input2.styles : typeof styles === "object" ? styles : void 0);
+      $$invalidate(7, styles = isObject(input) && isObject(input.styles) ? input.styles : typeof styles === "object" ? styles : void 0);
     }
     if ($$self.$$.dirty & /*input, efx*/
     33024) {
-      $$invalidate(8, efx = isObject(input2) && typeof input2.efx === "function" ? input2.efx : typeof efx === "function" ? efx : () => {
+      $$invalidate(8, efx = isObject(input) && typeof input.efx === "function" ? input.efx : typeof efx === "function" ? efx : () => {
       });
     }
   };
@@ -46972,7 +46977,7 @@ function instance$1m($$self, $$props, $$invalidate) {
     onFocusIn,
     onKeyDown,
     options2,
-    input2,
+    input,
     input_1_binding,
     input_1_input_handler
   ];
@@ -47131,7 +47136,7 @@ function instance$1l($$self, $$props, $$invalidate) {
   let $store, $$unsubscribe_store = noop, $$subscribe_store = () => ($$unsubscribe_store(), $$unsubscribe_store = subscribe(store, ($$value) => $$invalidate(9, $store = $$value)), store);
   $$self.$$.on_destroy.push(() => $$unsubscribe_storeIsValid());
   $$self.$$.on_destroy.push(() => $$unsubscribe_store());
-  let { input: input2 = void 0 } = $$props;
+  let { input = void 0 } = $$props;
   let { type = void 0 } = $$props;
   let { disabled = void 0 } = $$props;
   let { options: options2 = void 0 } = $$props;
@@ -47186,7 +47191,7 @@ function instance$1l($$self, $$props, $$invalidate) {
   }
   $$self.$$set = ($$props2) => {
     if ("input" in $$props2)
-      $$invalidate(13, input2 = $$props2.input);
+      $$invalidate(13, input = $$props2.input);
     if ("type" in $$props2)
       $$invalidate(0, type = $$props2.type);
     if ("disabled" in $$props2)
@@ -47208,7 +47213,7 @@ function instance$1l($$self, $$props, $$invalidate) {
     if ($$self.$$.dirty & /*input, type*/
     8193) {
       {
-        $$invalidate(0, type = isObject(input2) && typeof input2.type === "string" ? input2.type : typeof type === "string" ? type : "text");
+        $$invalidate(0, type = isObject(input) && typeof input.type === "string" ? input.type : typeof type === "string" ? type : "text");
         switch (type) {
           case "email":
           case "password":
@@ -47223,12 +47228,12 @@ function instance$1l($$self, $$props, $$invalidate) {
     }
     if ($$self.$$.dirty & /*input, disabled*/
     8194) {
-      $$invalidate(1, disabled = isObject(input2) && typeof input2.disabled === "boolean" ? input2.disabled : typeof disabled === "boolean" ? disabled : false);
+      $$invalidate(1, disabled = isObject(input) && typeof input.disabled === "boolean" ? input.disabled : typeof disabled === "boolean" ? disabled : false);
     }
     if ($$self.$$.dirty & /*input, options*/
     12288) {
       {
-        $$invalidate(12, options2 = isObject(input2) && isObject(input2.options) ? input2.options : isObject(options2) ? options2 : {});
+        $$invalidate(12, options2 = isObject(input) && isObject(input.options) ? input.options : isObject(options2) ? options2 : {});
         if (typeof options2?.blurOnEnterKey === "boolean") {
           localOptions.blurOnEnterKey = options2.blurOnEnterKey;
         }
@@ -47242,23 +47247,23 @@ function instance$1l($$self, $$props, $$invalidate) {
     }
     if ($$self.$$.dirty & /*input, placeholder*/
     8196) {
-      $$invalidate(2, placeholder = isObject(input2) && typeof input2.placeholder === "string" ? localize(input2.placeholder) : typeof placeholder === "string" ? localize(placeholder) : void 0);
+      $$invalidate(2, placeholder = isObject(input) && typeof input.placeholder === "string" ? localize(input.placeholder) : typeof placeholder === "string" ? localize(placeholder) : void 0);
     }
     if ($$self.$$.dirty & /*input, store*/
     8200) {
-      $$subscribe_store($$invalidate(3, store = isObject(input2) && isWritableStore(input2.store) ? input2.store : isWritableStore(store) ? store : writable$1(void 0)));
+      $$subscribe_store($$invalidate(3, store = isObject(input) && isWritableStore(input.store) ? input.store : isWritableStore(store) ? store : writable$1(void 0)));
     }
     if ($$self.$$.dirty & /*input, storeIsValid*/
     8208) {
-      $$subscribe_storeIsValid($$invalidate(4, storeIsValid = isObject(input2) && isReadableStore(input2.storeIsValid) ? input2.storeIsValid : isReadableStore(storeIsValid) ? storeIsValid : writable$1(true)));
+      $$subscribe_storeIsValid($$invalidate(4, storeIsValid = isObject(input) && isReadableStore(input.storeIsValid) ? input.storeIsValid : isReadableStore(storeIsValid) ? storeIsValid : writable$1(true)));
     }
     if ($$self.$$.dirty & /*input, styles*/
     8224) {
-      $$invalidate(5, styles = isObject(input2) && isObject(input2.styles) ? input2.styles : typeof styles === "object" ? styles : void 0);
+      $$invalidate(5, styles = isObject(input) && isObject(input.styles) ? input.styles : typeof styles === "object" ? styles : void 0);
     }
     if ($$self.$$.dirty & /*input, efx*/
     8256) {
-      $$invalidate(6, efx = isObject(input2) && typeof input2.efx === "function" ? input2.efx : typeof efx === "function" ? efx : () => {
+      $$invalidate(6, efx = isObject(input) && typeof input.efx === "function" ? input.efx : typeof efx === "function" ? efx : () => {
       });
     }
   };
@@ -47276,7 +47281,7 @@ function instance$1l($$self, $$props, $$invalidate) {
     onFocusIn,
     onKeyDown,
     options2,
-    input2,
+    input,
     input_1_binding,
     input_1_input_handler
   ];
@@ -47376,17 +47381,17 @@ function create_fragment$1s(ctx) {
   };
 }
 function instance$1k($$self, $$props, $$invalidate) {
-  let { input: input2 = void 0 } = $$props;
+  let { input = void 0 } = $$props;
   let component;
   $$self.$$set = ($$props2) => {
     if ("input" in $$props2)
-      $$invalidate(0, input2 = $$props2.input);
+      $$invalidate(0, input = $$props2.input);
   };
   $$self.$$.update = () => {
     if ($$self.$$.dirty & /*input*/
     1) {
       {
-        const type = isObject(input2) && typeof input2.type === "string" ? input2.type : "text";
+        const type = isObject(input) && typeof input.type === "string" ? input.type : "text";
         switch (type) {
           case "email":
           case "password":
@@ -47404,7 +47409,7 @@ function instance$1k($$self, $$props, $$invalidate) {
       }
     }
   };
-  return [input2, component];
+  return [input, component];
 }
 class TJSInput extends SvelteComponent {
   constructor(options2) {
@@ -49225,7 +49230,7 @@ function create_if_block_5$2(ctx) {
   };
 }
 function create_if_block_4$2(ctx) {
-  let input2;
+  let input;
   let input_id_value;
   let input_min_value;
   let input_max_value;
@@ -49237,29 +49242,29 @@ function create_if_block_4$2(ctx) {
   let dispose;
   return {
     c() {
-      input2 = element("input");
+      input = element("input");
       t0 = space();
       span = element("span");
       t1 = text(
         /*$store*/
         ctx[1]
       );
-      attr(input2, "type", "range");
-      attr(input2, "id", input_id_value = /*setting*/
+      attr(input, "type", "range");
+      attr(input, "id", input_id_value = /*setting*/
       ctx[0].id);
-      attr(input2, "min", input_min_value = /*setting*/
+      attr(input, "min", input_min_value = /*setting*/
       ctx[0].range.min);
-      attr(input2, "max", input_max_value = /*setting*/
+      attr(input, "max", input_max_value = /*setting*/
       ctx[0].range.max);
-      attr(input2, "step", input_step_value = /*setting*/
+      attr(input, "step", input_step_value = /*setting*/
       ctx[0].range.step);
-      attr(input2, "class", "svelte-auto-ip8xeq");
+      attr(input, "class", "svelte-auto-ip8xeq");
       attr(span, "class", "range-value svelte-auto-ip8xeq");
     },
     m(target2, anchor) {
-      insert(target2, input2, anchor);
+      insert(target2, input, anchor);
       set_input_value(
-        input2,
+        input,
         /*$store*/
         ctx[1]
       );
@@ -49269,13 +49274,13 @@ function create_if_block_4$2(ctx) {
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "change",
             /*input_change_input_handler*/
             ctx[5]
           ),
           listen(
-            input2,
+            input,
             "input",
             /*input_change_input_handler*/
             ctx[5]
@@ -49288,27 +49293,27 @@ function create_if_block_4$2(ctx) {
       if (dirty & /*setting*/
       1 && input_id_value !== (input_id_value = /*setting*/
       ctx2[0].id)) {
-        attr(input2, "id", input_id_value);
+        attr(input, "id", input_id_value);
       }
       if (dirty & /*setting*/
       1 && input_min_value !== (input_min_value = /*setting*/
       ctx2[0].range.min)) {
-        attr(input2, "min", input_min_value);
+        attr(input, "min", input_min_value);
       }
       if (dirty & /*setting*/
       1 && input_max_value !== (input_max_value = /*setting*/
       ctx2[0].range.max)) {
-        attr(input2, "max", input_max_value);
+        attr(input, "max", input_max_value);
       }
       if (dirty & /*setting*/
       1 && input_step_value !== (input_step_value = /*setting*/
       ctx2[0].range.step)) {
-        attr(input2, "step", input_step_value);
+        attr(input, "step", input_step_value);
       }
       if (dirty & /*$store*/
       2) {
         set_input_value(
-          input2,
+          input,
           /*$store*/
           ctx2[1]
         );
@@ -49325,7 +49330,7 @@ function create_if_block_4$2(ctx) {
     o: noop,
     d(detaching) {
       if (detaching)
-        detach(input2);
+        detach(input);
       if (detaching)
         detach(t0);
       if (detaching)
@@ -49376,24 +49381,24 @@ function create_if_block_3$5(ctx) {
   };
 }
 function create_if_block_2$8(ctx) {
-  let input2;
+  let input;
   let input_id_value;
   let mounted;
   let dispose;
   return {
     c() {
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      attr(input2, "id", input_id_value = /*setting*/
+      input = element("input");
+      attr(input, "type", "checkbox");
+      attr(input, "id", input_id_value = /*setting*/
       ctx[0].id);
     },
     m(target2, anchor) {
-      insert(target2, input2, anchor);
-      input2.checked = /*$store*/
+      insert(target2, input, anchor);
+      input.checked = /*$store*/
       ctx[1];
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler*/
           ctx[4]
@@ -49405,11 +49410,11 @@ function create_if_block_2$8(ctx) {
       if (dirty & /*setting*/
       1 && input_id_value !== (input_id_value = /*setting*/
       ctx2[0].id)) {
-        attr(input2, "id", input_id_value);
+        attr(input, "id", input_id_value);
       }
       if (dirty & /*$store*/
       2) {
-        input2.checked = /*$store*/
+        input.checked = /*$store*/
         ctx2[1];
       }
     },
@@ -49417,7 +49422,7 @@ function create_if_block_2$8(ctx) {
     o: noop,
     d(detaching) {
       if (detaching)
-        detach(input2);
+        detach(input);
       mounted = false;
       dispose();
     }
@@ -52542,7 +52547,7 @@ function create_fragment$1j(ctx) {
   let t0;
   let t1;
   let div1;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
@@ -52556,17 +52561,17 @@ function create_fragment$1j(ctx) {
       );
       t1 = space();
       div1 = element("div");
-      input2 = element("input");
+      input = element("input");
       attr(label_1, "for", "");
-      attr(input2, "type", "number");
+      attr(input, "type", "number");
       attr(
-        input2,
+        input,
         "placeholder",
         /*placeholder*/
         ctx[4]
       );
       attr(
-        input2,
+        input,
         "step",
         /*step*/
         ctx[5]
@@ -52585,9 +52590,9 @@ function create_fragment$1j(ctx) {
       append(label_1, t0);
       append(div2, t1);
       append(div2, div1);
-      append(div1, input2);
+      append(div1, input);
       set_input_value(
-        input2,
+        input,
         /*$animation*/
         ctx[6][
           /*section*/
@@ -52599,7 +52604,7 @@ function create_fragment$1j(ctx) {
       );
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "input",
           /*input_input_handler*/
           ctx[8]
@@ -52618,7 +52623,7 @@ function create_fragment$1j(ctx) {
       if (dirty & /*placeholder*/
       16) {
         attr(
-          input2,
+          input,
           "placeholder",
           /*placeholder*/
           ctx2[4]
@@ -52627,14 +52632,14 @@ function create_fragment$1j(ctx) {
       if (dirty & /*step*/
       32) {
         attr(
-          input2,
+          input,
           "step",
           /*step*/
           ctx2[5]
         );
       }
       if (dirty & /*$animation, section, field*/
-      67 && to_number(input2.value) !== /*$animation*/
+      67 && to_number(input.value) !== /*$animation*/
       ctx2[6][
         /*section*/
         ctx2[0]
@@ -52643,7 +52648,7 @@ function create_fragment$1j(ctx) {
         ctx2[1]
       ]) {
         set_input_value(
-          input2,
+          input,
           /*$animation*/
           ctx2[6][
             /*section*/
@@ -57068,7 +57073,7 @@ function create_fragment$18(ctx) {
   let label2_class_value;
   let t5;
   let div1;
-  let input2;
+  let input;
   let div2_class_value;
   let mounted;
   let dispose;
@@ -57092,7 +57097,7 @@ function create_fragment$18(ctx) {
       );
       t5 = space();
       div1 = element("div");
-      input2 = element("input");
+      input = element("input");
       attr(label0, "for", "");
       attr(label0, "class", label0_class_value = "aaLabelBorder " + (!/*isWait*/
       ctx[6] ? "aaIsSelected" : "") + " svelte-auto-bsgjrv");
@@ -57102,15 +57107,15 @@ function create_fragment$18(ctx) {
       attr(label2, "class", label2_class_value = "aaLabelBorder " + /*isWait*/
       (ctx[6] ? "aaIsSelected" : "") + " svelte-auto-bsgjrv");
       attr(label2, "role", "presentation");
-      attr(input2, "type", "number");
+      attr(input, "type", "number");
       attr(
-        input2,
+        input,
         "placeholder",
         /*placeholder*/
         ctx[3]
       );
       attr(
-        input2,
+        input,
         "step",
         /*step*/
         ctx[4]
@@ -57132,9 +57137,9 @@ function create_fragment$18(ctx) {
       append(label2, t4);
       append(div2, t5);
       append(div2, div1);
-      append(div1, input2);
+      append(div1, input);
       set_input_value(
-        input2,
+        input,
         /*$animation*/
         ctx[5][
           /*section*/
@@ -57159,7 +57164,7 @@ function create_fragment$18(ctx) {
             ctx[13]
           ),
           listen(
-            input2,
+            input,
             "input",
             /*input_input_handler*/
             ctx[14]
@@ -57182,7 +57187,7 @@ function create_fragment$18(ctx) {
       if (dirty & /*placeholder*/
       8) {
         attr(
-          input2,
+          input,
           "placeholder",
           /*placeholder*/
           ctx2[3]
@@ -57191,14 +57196,14 @@ function create_fragment$18(ctx) {
       if (dirty & /*step*/
       16) {
         attr(
-          input2,
+          input,
           "step",
           /*step*/
           ctx2[4]
         );
       }
       if (dirty & /*$animation, section, field*/
-      35 && to_number(input2.value) !== /*$animation*/
+      35 && to_number(input.value) !== /*$animation*/
       ctx2[5][
         /*section*/
         ctx2[0]
@@ -57207,7 +57212,7 @@ function create_fragment$18(ctx) {
         ctx2[1]
       ]) {
         set_input_value(
-          input2,
+          input,
           /*$animation*/
           ctx2[5][
             /*section*/
@@ -58235,22 +58240,22 @@ function create_default_slot$v(ctx) {
 }
 function create_summary_end_slot$n(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Sound On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Sound On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[1][
         /*section*/
         ctx[0]
@@ -58258,13 +58263,13 @@ function create_summary_end_slot$n(ctx) {
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "change",
             /*input_change_handler*/
             ctx[8]
           ),
           listen(
-            input2,
+            input,
             "change",
             /*change_handler*/
             ctx[9]
@@ -58276,7 +58281,7 @@ function create_summary_end_slot$n(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation, section*/
       3) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[1][
           /*section*/
           ctx2[0]
@@ -58459,7 +58464,7 @@ function create_fragment$15(ctx) {
   let label2_class_value;
   let t5;
   let div1;
-  let input2;
+  let input;
   let div2_class_value;
   let mounted;
   let dispose;
@@ -58483,7 +58488,7 @@ function create_fragment$15(ctx) {
       );
       t5 = space();
       div1 = element("div");
-      input2 = element("input");
+      input = element("input");
       attr(label0, "for", "");
       attr(label0, "class", label0_class_value = "aaLabelBorder " + (!/*isRadius*/
       ctx[6] ? "aaIsSelected" : "") + " svelte-auto-bsgjrv");
@@ -58493,15 +58498,15 @@ function create_fragment$15(ctx) {
       attr(label2, "class", label2_class_value = "aaLabelBorder " + /*isRadius*/
       (ctx[6] ? "aaIsSelected" : "") + " svelte-auto-bsgjrv");
       attr(label2, "role", "presentation");
-      attr(input2, "type", "number");
+      attr(input, "type", "number");
       attr(
-        input2,
+        input,
         "placeholder",
         /*placeholder*/
         ctx[3]
       );
       attr(
-        input2,
+        input,
         "step",
         /*step*/
         ctx[4]
@@ -58523,9 +58528,9 @@ function create_fragment$15(ctx) {
       append(label2, t4);
       append(div2, t5);
       append(div2, div1);
-      append(div1, input2);
+      append(div1, input);
       set_input_value(
-        input2,
+        input,
         /*$animation*/
         ctx[5][
           /*section*/
@@ -58550,7 +58555,7 @@ function create_fragment$15(ctx) {
             ctx[13]
           ),
           listen(
-            input2,
+            input,
             "input",
             /*input_input_handler*/
             ctx[14]
@@ -58573,7 +58578,7 @@ function create_fragment$15(ctx) {
       if (dirty & /*placeholder*/
       8) {
         attr(
-          input2,
+          input,
           "placeholder",
           /*placeholder*/
           ctx2[3]
@@ -58582,14 +58587,14 @@ function create_fragment$15(ctx) {
       if (dirty & /*step*/
       16) {
         attr(
-          input2,
+          input,
           "step",
           /*step*/
           ctx2[4]
         );
       }
       if (dirty & /*$animation, section, field*/
-      35 && to_number(input2.value) !== /*$animation*/
+      35 && to_number(input.value) !== /*$animation*/
       ctx2[5][
         /*section*/
         ctx2[0]
@@ -58598,7 +58603,7 @@ function create_fragment$15(ctx) {
         ctx2[1]
       ]) {
         set_input_value(
-          input2,
+          input,
           /*$animation*/
           ctx2[5][
             /*section*/
@@ -59535,29 +59540,29 @@ function create_default_slot$t(ctx) {
 }
 function create_summary_end_slot$l(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Enable Color Tint");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Enable Color Tint");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[1][
         /*section*/
         ctx[0]
       ].options.tint;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler*/
           ctx[5]
@@ -59568,7 +59573,7 @@ function create_summary_end_slot$l(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation, section*/
       3) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[1][
           /*section*/
           ctx2[0]
@@ -59834,33 +59839,33 @@ function create_default_slot$s(ctx) {
 }
 function create_summary_end_slot$k(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Source FX On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Source FX On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].source.enable;
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "change",
             /*input_change_handler*/
             ctx[7]
           ),
           listen(
-            input2,
+            input,
             "change",
             /*change_handler*/
             ctx[8]
@@ -59872,7 +59877,7 @@ function create_summary_end_slot$k(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].source.enable;
       }
     },
@@ -60754,33 +60759,33 @@ function create_default_slot$q(ctx) {
 }
 function create_summary_end_slot$i(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Secondary On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Secondary On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].secondary.enable;
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "change",
             /*input_change_handler*/
             ctx[7]
           ),
           listen(
-            input2,
+            input,
             "change",
             /*change_handler*/
             ctx[8]
@@ -60792,7 +60797,7 @@ function create_summary_end_slot$i(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].secondary.enable;
       }
     },
@@ -62836,7 +62841,7 @@ function create_each_block$9(key_1, ctx) {
 }
 function create_fragment$W(ctx) {
   let div;
-  let input2;
+  let input;
   let t0;
   let datalist;
   let each_blocks = [];
@@ -62861,7 +62866,7 @@ function create_fragment$W(ctx) {
   return {
     c() {
       div = element("div");
-      input2 = element("input");
+      input = element("input");
       t0 = space();
       datalist = element("datalist");
       for (let i2 = 0; i2 < each_blocks.length; i2 += 1) {
@@ -62869,17 +62874,17 @@ function create_fragment$W(ctx) {
       }
       t1 = space();
       i = element("i");
-      attr(input2, "type", "text");
-      attr(input2, "class", "aa-MacroInput svelte-auto-j7d5qn");
+      attr(input, "type", "text");
+      attr(input, "class", "aa-MacroInput svelte-auto-j7d5qn");
       attr(
-        input2,
+        input,
         "list",
         /*id*/
         ctx[5]
       );
-      set_style(input2, "flex", "1");
-      set_style(input2, "margin-right", "5px");
-      attr(input2, "placeholder", localize("autoanimations.menus.insertMacro"));
+      set_style(input, "flex", "1");
+      set_style(input, "margin-right", "5px");
+      attr(input, "placeholder", localize("autoanimations.menus.insertMacro"));
       attr(
         datalist,
         "id",
@@ -62895,9 +62900,9 @@ function create_fragment$W(ctx) {
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
+      append(div, input);
       set_input_value(
-        input2,
+        input,
         /*$animation*/
         ctx[0].macro.name
       );
@@ -62913,25 +62918,25 @@ function create_fragment$W(ctx) {
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "input",
             /*input_input_handler*/
             ctx[8]
           ),
           listen(
-            input2,
+            input,
             "keyup",
             /*keyup_handler*/
             ctx[9]
           ),
           listen(
-            input2,
+            input,
             "change",
             /*change_handler*/
             ctx[10]
           ),
           listen(
-            input2,
+            input,
             "focus",
             /*focus_handler*/
             ctx[11]
@@ -62948,10 +62953,10 @@ function create_fragment$W(ctx) {
     },
     p(ctx2, [dirty]) {
       if (dirty & /*$animation*/
-      1 && input2.value !== /*$animation*/
+      1 && input.value !== /*$animation*/
       ctx2[0].macro.name) {
         set_input_value(
-          input2,
+          input,
           /*$animation*/
           ctx2[0].macro.name
         );
@@ -64118,7 +64123,7 @@ function create_fragment$R(ctx) {
   let label1;
   let t9;
   let div2;
-  let input2;
+  let input;
   let t10;
   let t11;
   let button;
@@ -64156,7 +64161,7 @@ function create_fragment$R(ctx) {
       ctx[2]}`)} Section`;
       t9 = space();
       div2 = element("div");
-      input2 = element("input");
+      input = element("input");
       t10 = space();
       if_block.c();
       t11 = space();
@@ -64166,10 +64171,10 @@ function create_fragment$R(ctx) {
       set_style(div0, "font-size", "1.3em");
       attr(label1, "for", "");
       set_style(div1, "margin-top", "1em");
-      attr(input2, "type", "text");
-      set_style(input2, "width", "25em");
-      set_style(input2, "margin", "auto");
-      set_style(input2, "border-radius", "1em");
+      attr(input, "type", "text");
+      set_style(input, "width", "25em");
+      set_style(input, "margin", "auto");
+      set_style(input, "border-radius", "1em");
       attr(button, "class", button_class_value = "aa-copySubmitButton " + /*checkAutorec*/
       (ctx[1] ? "aa-disableOpacity" : "") + " svelte-auto-ef9uc6");
       attr(div3, "class", "aa-CopyToAutorec svelte-auto-ef9uc6");
@@ -64188,9 +64193,9 @@ function create_fragment$R(ctx) {
       append(div1, label1);
       append(div3, t9);
       append(div3, div2);
-      append(div2, input2);
+      append(div2, input);
       set_input_value(
-        input2,
+        input,
         /*nameToAdd*/
         ctx[0]
       );
@@ -64202,7 +64207,7 @@ function create_fragment$R(ctx) {
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "input",
             /*input_input_handler*/
             ctx[6]
@@ -64219,10 +64224,10 @@ function create_fragment$R(ctx) {
     },
     p(ctx2, [dirty]) {
       if (dirty & /*nameToAdd*/
-      1 && input2.value !== /*nameToAdd*/
+      1 && input.value !== /*nameToAdd*/
       ctx2[0]) {
         set_input_value(
-          input2,
+          input,
           /*nameToAdd*/
           ctx2[0]
         );
@@ -65894,7 +65899,7 @@ function instance$K($$self, $$props, $$invalidate) {
     efx: ripple(),
     title: "autoanimations.menus.add"
   };
-  const input2 = {
+  const input = {
     store: category.filterSearch,
     efx: rippleFocus(),
     placeholder: "autoanimations.menus.search",
@@ -65935,7 +65940,7 @@ function instance$K($$self, $$props, $$invalidate) {
     category,
     menu,
     buttonAdd,
-    input2,
+    input,
     buttonSort,
     buttonOverflow,
     addEntry,
@@ -66126,7 +66131,7 @@ function get_each_context$8(ctx, list, i) {
 }
 function create_each_block$8(ctx) {
   let div;
-  let input2;
+  let input;
   let t;
   let tjsiconbutton;
   let current;
@@ -66134,7 +66139,7 @@ function create_each_block$8(ctx) {
   let dispose;
   function input_input_handler() {
     ctx[7].call(
-      input2,
+      input,
       /*each_value*/
       ctx[16],
       /*i*/
@@ -66160,17 +66165,17 @@ function create_each_block$8(ctx) {
   return {
     c() {
       div = element("div");
-      input2 = element("input");
+      input = element("input");
       t = space();
       create_component(tjsiconbutton.$$.fragment);
-      attr(input2, "type", "text");
+      attr(input, "type", "text");
       attr(div, "class", "flexrow");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
+      append(div, input);
       set_input_value(
-        input2,
+        input,
         /*term*/
         ctx[15]
       );
@@ -66178,17 +66183,17 @@ function create_each_block$8(ctx) {
       mount_component(tjsiconbutton, div, null);
       current = true;
       if (!mounted) {
-        dispose = listen(input2, "input", input_input_handler);
+        dispose = listen(input, "input", input_input_handler);
         mounted = true;
       }
     },
     p(new_ctx, dirty) {
       ctx = new_ctx;
       if (dirty & /*$animation*/
-      2 && input2.value !== /*term*/
+      2 && input.value !== /*term*/
       ctx[15]) {
         set_input_value(
-          input2,
+          input,
           /*term*/
           ctx[15]
         );
@@ -67684,33 +67689,33 @@ function create_default_slot$i(ctx) {
 }
 function create_summary_end_slot$f(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Target FX On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Target FX On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].target.enable;
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "change",
             /*input_change_handler*/
             ctx[7]
           ),
           listen(
-            input2,
+            input,
             "change",
             /*change_handler*/
             ctx[8]
@@ -67722,7 +67727,7 @@ function create_summary_end_slot$f(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].target.enable;
       }
     },
@@ -69135,22 +69140,22 @@ function create_default_slot$g(ctx) {
 }
 function create_summary_end_slot$d(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Sound On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Sound On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[2][
         /*section*/
         ctx[0]
@@ -69161,13 +69166,13 @@ function create_summary_end_slot$d(ctx) {
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "change",
             /*input_change_handler*/
             ctx[9]
           ),
           listen(
-            input2,
+            input,
             "change",
             /*change_handler*/
             ctx[10]
@@ -69179,7 +69184,7 @@ function create_summary_end_slot$d(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation, section, section02*/
       7) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[2][
           /*section*/
           ctx2[0]
@@ -72218,26 +72223,26 @@ function create_default_slot$e(ctx) {
 }
 function create_summary_end_slot$b(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Secondary On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Secondary On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].levels3d.secondary.enable;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler*/
           ctx[8]
@@ -72248,7 +72253,7 @@ function create_summary_end_slot$b(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation, Object, pEffects*/
       9) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].levels3d.secondary.enable;
       }
     },
@@ -73049,26 +73054,26 @@ function create_default_slot$d(ctx) {
 }
 function create_summary_end_slot$a(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Secondary On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Secondary On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].levels3d.tokens.enable;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler*/
           ctx[5]
@@ -73079,7 +73084,7 @@ function create_summary_end_slot$a(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation, Object, tokenAnimations*/
       17) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].levels3d.tokens.enable;
       }
     },
@@ -73335,7 +73340,7 @@ function create_if_block_1$4(ctx) {
   let label;
   let t1;
   let td1;
-  let input2;
+  let input;
   let t2;
   let td2;
   let i;
@@ -73351,7 +73356,7 @@ function create_if_block_1$4(ctx) {
       label.textContent = `${localize("autoanimations.menus.sprite")}`;
       t1 = space();
       td1 = element("td");
-      input2 = element("input");
+      input = element("input");
       t2 = space();
       td2 = element("td");
       i = element("i");
@@ -73360,12 +73365,12 @@ function create_if_block_1$4(ctx) {
       attr(div, "class", "flexrow");
       set_style(td0, "width", "6em");
       set_style(td0, "border", "none");
-      attr(input2, "type", "text");
-      set_style(input2, "font-weight", "normal");
-      set_style(input2, "font-size", "small");
-      set_style(input2, "border-radius", "5px");
-      set_style(input2, "text-align", "left");
-      set_style(input2, "width", "100%");
+      attr(input, "type", "text");
+      set_style(input, "font-weight", "normal");
+      set_style(input, "font-size", "small");
+      set_style(input, "border-radius", "5px");
+      set_style(input, "text-align", "left");
+      set_style(input, "width", "100%");
       set_style(td1, "border", "none");
       attr(i, "class", "fas fa-file-import");
       attr(i, "title", "File Picker");
@@ -73383,9 +73388,9 @@ function create_if_block_1$4(ctx) {
       append(div, label);
       append(tr, t1);
       append(tr, td1);
-      append(td1, input2);
+      append(td1, input);
       set_input_value(
-        input2,
+        input,
         /*$animation*/
         ctx[0].levels3d.data.spritePath
       );
@@ -73395,7 +73400,7 @@ function create_if_block_1$4(ctx) {
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "input",
             /*input_input_handler*/
             ctx[12]
@@ -73410,10 +73415,10 @@ function create_if_block_1$4(ctx) {
     },
     p(ctx2, dirty) {
       if (dirty & /*$animation, Object, pEffects*/
-      65 && input2.value !== /*$animation*/
+      65 && input.value !== /*$animation*/
       ctx2[0].levels3d.data.spritePath) {
         set_input_value(
-          input2,
+          input,
           /*$animation*/
           ctx2[0].levels3d.data.spritePath
         );
@@ -73515,7 +73520,7 @@ function create_fragment$B(ctx) {
   let label0;
   let t4;
   let t5;
-  let input2;
+  let input;
   let t6;
   let td1;
   let div1;
@@ -73591,7 +73596,7 @@ function create_fragment$B(ctx) {
       label0 = element("label");
       t4 = text("Enable");
       t5 = space();
-      input2 = element("input");
+      input = element("input");
       t6 = space();
       td1 = element("td");
       div1 = element("div");
@@ -73623,10 +73628,10 @@ function create_fragment$B(ctx) {
       attr(label0, "for", "Canvas3D " + /*animation*/
       ctx[3]._data.id);
       attr(label0, "class", "svelte-auto-bvaskx");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "position", "relative");
-      set_style(input2, "left", "-10px");
-      attr(input2, "id", "Canvas3D " + /*animation*/
+      attr(input, "type", "checkbox");
+      set_style(input, "position", "relative");
+      set_style(input, "left", "-10px");
+      attr(input, "id", "Canvas3D " + /*animation*/
       ctx[3]._data.id);
       attr(div0, "class", "flexrow");
       set_style(td0, "width", "20%");
@@ -73667,8 +73672,8 @@ function create_fragment$B(ctx) {
       append(div0, label0);
       append(label0, t4);
       append(div0, t5);
-      append(div0, input2);
-      input2.checked = /*$animation*/
+      append(div0, input);
+      input.checked = /*$animation*/
       ctx[0].levels3d.enable;
       append(table, t6);
       append(table, td1);
@@ -73706,7 +73711,7 @@ function create_fragment$B(ctx) {
       if (!mounted) {
         dispose = [
           listen(
-            input2,
+            input,
             "change",
             /*input_change_handler*/
             ctx[9]
@@ -73730,7 +73735,7 @@ function create_fragment$B(ctx) {
     p(ctx2, [dirty]) {
       if (dirty & /*$animation, Object, pEffects*/
       65) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].levels3d.enable;
       }
       if (dirty & /*localize, Object, pEffects*/
@@ -74312,7 +74317,7 @@ function create_if_block$9(ctx) {
   let t2_value = localize("autoanimations.menus.source") + "";
   let t2;
   let t3;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
@@ -74324,11 +74329,11 @@ function create_if_block$9(ctx) {
       t1 = space();
       t2 = text(t2_value);
       t3 = space();
-      input2 = element("input");
+      input = element("input");
       attr(label, "for", "TempSource " + /*animation*/
       ctx[3]._data.id);
-      attr(input2, "type", "checkbox");
-      attr(input2, "id", "TempSource " + /*animation*/
+      attr(input, "type", "checkbox");
+      attr(input, "id", "TempSource " + /*animation*/
       ctx[3]._data.id);
     },
     m(target2, anchor) {
@@ -74339,12 +74344,12 @@ function create_if_block$9(ctx) {
       append(label, t1);
       append(label, t2);
       append(div, t3);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].primary.options.animationSource;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler*/
           ctx[14]
@@ -74355,7 +74360,7 @@ function create_if_block$9(ctx) {
     p(ctx2, dirty) {
       if (dirty & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].primary.options.animationSource;
       }
     },
@@ -82395,26 +82400,26 @@ function create_default_slot_2$1(ctx) {
 }
 function create_summary_end_slot_1$1(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Source FX On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Source FX On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].data.preExplosion.enable;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler*/
           ctx[15]
@@ -82425,7 +82430,7 @@ function create_summary_end_slot_1$1(ctx) {
     p(ctx2, dirty) {
       if (dirty[0] & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].data.preExplosion.enable;
       }
     },
@@ -83039,26 +83044,26 @@ function create_default_slot$6(ctx) {
 }
 function create_summary_end_slot$3(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Source FX On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Source FX On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].data.afterImage.enable;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler_1*/
           ctx[28]
@@ -83069,7 +83074,7 @@ function create_summary_end_slot$3(ctx) {
     p(ctx2, dirty) {
       if (dirty[0] & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].data.afterImage.enable;
       }
     },
@@ -83576,7 +83581,7 @@ function create_fragment$l(ctx) {
   let label2_class_value;
   let t5;
   let div1;
-  let input2;
+  let input;
   let div2_class_value;
   let mounted;
   let dispose;
@@ -83600,7 +83605,7 @@ function create_fragment$l(ctx) {
       );
       t5 = space();
       div1 = element("div");
-      input2 = element("input");
+      input = element("input");
       attr(label0, "for", "");
       attr(label0, "class", label0_class_value = "aaLabelBorder " + (!/*isRadius*/
       ctx[6] ? "aaIsSelected" : "aaNotSelected") + " svelte-auto-136pjjz");
@@ -83610,15 +83615,15 @@ function create_fragment$l(ctx) {
       attr(label2, "class", label2_class_value = "aaLabelBorder " + /*isRadius*/
       (ctx[6] ? "aaIsSelected" : "aaNotSelected") + " svelte-auto-136pjjz");
       attr(label2, "role", "presentation");
-      attr(input2, "type", "number");
+      attr(input, "type", "number");
       attr(
-        input2,
+        input,
         "placeholder",
         /*placeholder*/
         ctx[3]
       );
       attr(
-        input2,
+        input,
         "step",
         /*step*/
         ctx[4]
@@ -83640,9 +83645,9 @@ function create_fragment$l(ctx) {
       append(label2, t4);
       append(div2, t5);
       append(div2, div1);
-      append(div1, input2);
+      append(div1, input);
       set_input_value(
-        input2,
+        input,
         /*$animation*/
         ctx[5].data[
           /*section*/
@@ -83667,7 +83672,7 @@ function create_fragment$l(ctx) {
             ctx[13]
           ),
           listen(
-            input2,
+            input,
             "input",
             /*input_input_handler*/
             ctx[14]
@@ -83690,7 +83695,7 @@ function create_fragment$l(ctx) {
       if (dirty & /*placeholder*/
       8) {
         attr(
-          input2,
+          input,
           "placeholder",
           /*placeholder*/
           ctx2[3]
@@ -83699,14 +83704,14 @@ function create_fragment$l(ctx) {
       if (dirty & /*step*/
       16) {
         attr(
-          input2,
+          input,
           "step",
           /*step*/
           ctx2[4]
         );
       }
       if (dirty & /*$animation, section, field*/
-      35 && to_number(input2.value) !== /*$animation*/
+      35 && to_number(input.value) !== /*$animation*/
       ctx2[5].data[
         /*section*/
         ctx2[0]
@@ -83715,7 +83720,7 @@ function create_fragment$l(ctx) {
         ctx2[1]
       ]) {
         set_input_value(
-          input2,
+          input,
           /*$animation*/
           ctx2[5].data[
             /*section*/
@@ -84221,26 +84226,26 @@ function create_default_slot_4(ctx) {
 }
 function create_summary_end_slot_2(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Source FX On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Source FX On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].data.start.enable;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler*/
           ctx[19]
@@ -84251,7 +84256,7 @@ function create_summary_end_slot_2(ctx) {
     p(ctx2, dirty) {
       if (dirty[0] & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].data.start.enable;
       }
     },
@@ -84513,26 +84518,26 @@ function create_default_slot_2(ctx) {
 }
 function create_summary_end_slot_1(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Source FX On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Source FX On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].data.between.enable;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler_1*/
           ctx[25]
@@ -84543,7 +84548,7 @@ function create_summary_end_slot_1(ctx) {
     p(ctx2, dirty) {
       if (dirty[0] & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].data.between.enable;
       }
     },
@@ -84953,26 +84958,26 @@ function create_default_slot$5(ctx) {
 }
 function create_summary_end_slot$2(ctx) {
   let div;
-  let input2;
+  let input;
   let mounted;
   let dispose;
   return {
     c() {
       div = element("div");
-      input2 = element("input");
-      attr(input2, "type", "checkbox");
-      set_style(input2, "align-self", "center");
-      attr(input2, "title", "Toggle Source FX On/Off");
+      input = element("input");
+      attr(input, "type", "checkbox");
+      set_style(input, "align-self", "center");
+      attr(input, "title", "Toggle Source FX On/Off");
       attr(div, "slot", "summary-end");
     },
     m(target2, anchor) {
       insert(target2, div, anchor);
-      append(div, input2);
-      input2.checked = /*$animation*/
+      append(div, input);
+      input.checked = /*$animation*/
       ctx[0].data.end.enable;
       if (!mounted) {
         dispose = listen(
-          input2,
+          input,
           "change",
           /*input_change_handler_2*/
           ctx[28]
@@ -84983,7 +84988,7 @@ function create_summary_end_slot$2(ctx) {
     p(ctx2, dirty) {
       if (dirty[0] & /*$animation*/
       1) {
-        input2.checked = /*$animation*/
+        input.checked = /*$animation*/
         ctx2[0].data.end.enable;
       }
     },
@@ -87380,7 +87385,7 @@ function instance$e($$self, $$props, $$invalidate) {
     options: { chevronOnly: true },
     store: animation.stores.folderOpen
   };
-  const input2 = {
+  const input = {
     store: animation.stores.label,
     efx: rippleFocus(),
     placeholder: "autoanimations.menus.itemName",
@@ -87420,7 +87425,7 @@ function instance$e($$self, $$props, $$invalidate) {
     idx,
     exactMatchButton,
     folder,
-    input2,
+    input,
     menu,
     excludedTerms,
     isExactMatch,
@@ -94129,44 +94134,44 @@ function systemHooks$o() {
     templateAnimation$6(await getRequiredData({ itemUuid: template.flags?.dnd5e?.origin, templateData: template, workflow: template, isTemplate: true }));
   });
 }
-async function useItem$1(input2) {
+async function useItem$1(input) {
   debug$1("Item used, checking for animations");
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   if (!handler?.item || !handler?.sourceToken) {
     console.log("Automated Animations: No Item or Source Token", handler);
     return;
   }
   trafficCop$1(handler);
 }
-async function attack$1(input2) {
-  checkAmmo$2(input2);
-  checkReach$1(input2);
+async function attack$1(input) {
+  checkAmmo$2(input);
+  checkReach$1(input);
   debug$1("Attack rolled, checking for animations");
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   if (!handler?.item || !handler?.sourceToken) {
     console.log("Automated Animations: No Item or Source Token", handler);
     return;
   }
   trafficCop$1(handler);
 }
-async function damage$1(input2) {
-  checkAmmo$2(input2);
-  checkReach$1(input2);
+async function damage$1(input) {
+  checkAmmo$2(input);
+  checkReach$1(input);
   debug$1("Damage rolled, checking for animations");
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   if (!handler?.item || !handler?.sourceToken) {
     console.log("Automated Animations: No Item or Source Token", handler);
     return;
   }
   trafficCop$1(handler);
 }
-async function templateAnimation$6(input2) {
+async function templateAnimation$6(input) {
   debug$1("Template placed, checking for animations");
-  if (!input2.item) {
+  if (!input.item) {
     debug$1("No Item could be found");
     return;
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 function checkAmmo$2(data2) {
@@ -94274,44 +94279,44 @@ function systemHooks$n() {
     templateAnimation$5(await getRequiredData({ itemUuid: template.flags?.sw5e?.origin, templateData: template, workflow: template, isTemplate: true }));
   });
 }
-async function useItem(input2) {
+async function useItem(input) {
   debug$1("Item used, checking for animations");
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   if (!handler?.item || !handler?.sourceToken) {
     console.log("Automated Animations: No Item or Source Token", handler);
     return;
   }
   trafficCop$1(handler);
 }
-async function attack(input2) {
-  checkAmmo$1(input2);
-  checkReach(input2);
+async function attack(input) {
+  checkAmmo$1(input);
+  checkReach(input);
   debug$1("Attack rolled, checking for animations");
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   if (!handler?.item || !handler?.sourceToken) {
     console.log("Automated Animations: No Item or Source Token", handler);
     return;
   }
   trafficCop$1(handler);
 }
-async function damage(input2) {
-  checkAmmo$1(input2);
-  checkReach(input2);
+async function damage(input) {
+  checkAmmo$1(input);
+  checkReach(input);
   debug$1("Damage rolled, checking for animations");
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   if (!handler?.item || !handler?.sourceToken) {
     console.log("Automated Animations: No Item or Source Token", handler);
     return;
   }
   trafficCop$1(handler);
 }
-async function templateAnimation$5(input2) {
+async function templateAnimation$5(input) {
   debug$1("Template placed, checking for animations");
-  if (!input2.item) {
+  if (!input.item) {
     debug$1("No Item could be found");
     return;
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 function checkAmmo$1(data2) {
@@ -94441,30 +94446,40 @@ function systemHooks$l() {
     if (userId !== game.user.id) {
       return;
     }
-    templateAnimation$4(await getRequiredData({
+    let compiledData = await getRequiredData({
       itemUuid: template.flags?.pf2e?.origin?.uuid,
       templateData: template,
       workflow: template,
       isTemplate: true
-    }));
+    });
+    if (template.item)
+      compiledData.item = template.item;
+    templateAnimation$4(compiledData);
   });
 }
-async function templateAnimation$4(input2) {
+async function templateAnimation$4(input) {
   debug$1("Template placed, checking for animations");
-  if (!input2.item) {
+  if (!input.item) {
     debug$1("No Item could be found");
     return;
   }
-  const templateName = input2.templateData.flags?.pf2e?.origin?.name;
-  if (templateName && input2.item.name !== templateName) {
-    const overlayId = input2.item.overlays.find((o) => o.name == templateName)?._id;
-    if (overlayId) {
-      input2.item = input2.item.loadVariant({ overlayIds: [overlayId] });
-      input2.isVariant = true;
-      input2.originalItem = input2.item?.original;
+  if (isNewerVersion(game.system.version, "5")) {
+    if (input.item.isVariant) {
+      input.isVariant = true;
+      input.originalItem = input.item.original;
+    }
+  } else {
+    const templateName = input.templateData.flags?.pf2e?.origin?.name;
+    if (templateName && input.item.name !== templateName) {
+      const overlayId = input.item.overlays.find((o) => o.name == templateName)?._id;
+      if (overlayId) {
+        input.item = input.item.loadVariant({ overlayIds: [overlayId] });
+        input.isVariant = true;
+        input.originalItem = input.item?.original;
+      }
     }
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 async function runPF2e(data2) {
@@ -94530,6 +94545,10 @@ async function runPF2eSpells(data2) {
   msg.isDamageRoll;
   spellHasAttack(item2);
   const spellType = getSpellType(item2);
+  if (item2.isVariant) {
+    data2.isVariant = true;
+    data2.originalItem = item2.original;
+  }
   switch (spellType) {
     case "utility":
     case "save":
@@ -94561,20 +94580,20 @@ async function runPF2eSpells(data2) {
       break;
   }
 }
-async function playPF2e(input2) {
-  if (!input2.item) {
+async function playPF2e(input) {
+  if (!input.item) {
     debug$1("No Item could be found");
     return;
   }
-  if (input2.item.traits) {
-    const reachTrait = input2.item.traits.find((t) => /^reach-\d+$/.test(t));
-    let reachValue = reachTrait ? Number(reachTrait.replace("reach-", "")) : PF2E_SIZE_TO_REACH[input2.item.actor?.size ?? "med"];
-    if (!reachTrait && input2.item.traits.has("reach")) {
+  if (input.item.traits) {
+    const reachTrait = input.item.traits.find((t) => /^reach-\d+$/.test(t));
+    let reachValue = reachTrait ? Number(reachTrait.replace("reach-", "")) : PF2E_SIZE_TO_REACH[input.item.actor?.size ?? "med"];
+    if (!reachTrait && input.item.traits.has("reach")) {
       reachValue += 5;
     }
-    input2.reach = Math.round(reachValue / 5) - 1;
+    input.reach = Math.round(reachValue / 5) - 1;
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 function getSpellType(item2) {
@@ -94590,18 +94609,18 @@ function itemHasDamage(item2) {
   let damage2 = item2.system?.damage?.value || item2.system?.damageRolls || {};
   return Object.keys(damage2).length;
 }
-function checkOutcome(input2) {
-  let outcome = input2.workflow.flags?.pf2e?.context?.outcome;
+function checkOutcome(input) {
+  let outcome = input.workflow.flags?.pf2e?.context?.outcome;
   outcome = outcome ? outcome.toLowerCase() : "";
   let hitTargets2;
-  if (input2.targets.length < 2 && !game.settings.get("autoanimations", "playonDamageCore") && outcome) {
+  if (input.targets.length < 2 && !game.settings.get("autoanimations", "playonDamageCore") && outcome) {
     if (outcome === "success" || outcome === "criticalsuccess") {
-      hitTargets2 = input2.targets;
+      hitTargets2 = input.targets;
     } else {
       hitTargets2 = false;
     }
   } else {
-    hitTargets2 = input2.targets;
+    hitTargets2 = input.targets;
   }
   return hitTargets2;
 }
@@ -94751,13 +94770,13 @@ function systemHooks$j() {
     }
   });
 }
-async function templateAnimation$3(input2) {
+async function templateAnimation$3(input) {
   debug$1("Template placed, checking for animations");
-  if (!input2.item) {
+  if (!input.item) {
     debug$1("No Item could be found");
     return;
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 async function runSwade(token, actor, item2) {
@@ -94872,13 +94891,13 @@ function compileTargets(targets2) {
   }
   return Array.from(targets2).map((token) => canvas.tokens.get(token.token));
 }
-async function templateAnimation$2(input2) {
+async function templateAnimation$2(input) {
   debug$1("Template placed, checking for animations");
-  if (!input2.item) {
+  if (!input.item) {
     debug$1("No Item could be found");
     return;
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaWfrpg = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -94899,12 +94918,12 @@ function systemHooks$h() {
     runDcc(compiledData);
   });
 }
-async function runDcc(input2) {
+async function runDcc(input) {
   if (!game.settings.get("dcc", "useStandardDiceRoller")) {
-    const handler = await AAHandler.make(input2);
+    const handler = await AAHandler.make(input);
     trafficCop$1(handler);
-  } else if (input2.flags?.dcc?.RollType === "Damage" || input2.flags?.dcc?.RollType === "SpellCheck") {
-    const handler = await AAHandler.make(input2);
+  } else if (input.flags?.dcc?.RollType === "Damage" || input.flags?.dcc?.RollType === "SpellCheck") {
+    const handler = await AAHandler.make(input);
     trafficCop$1(handler);
   }
 }
@@ -94935,8 +94954,8 @@ function systemHooks$g() {
     runPF1({ item: item2, tokenId, actorId, workflow: msg });
   });
 }
-async function runPF1(input2) {
-  const requiredData = await getRequiredData(input2);
+async function runPF1(input) {
+  const requiredData = await getRequiredData(input);
   if (!requiredData.item) {
     return;
   }
@@ -94974,8 +94993,8 @@ function systemHooks$f() {
     runA5e$1(compiledData);
   });
 }
-async function runA5e$1(input2) {
-  const handler = await AAHandler.make(input2);
+async function runA5e$1(input) {
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaA5e = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -94999,8 +95018,8 @@ function systemHooks$e() {
     runA5e(compiledData);
   });
 }
-async function runA5e(input2) {
-  const handler = await AAHandler.make(input2);
+async function runA5e(input) {
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaForbiddenLands = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -95019,8 +95038,8 @@ function systemHooks$d() {
     runStarwarsffg(compiledData);
   });
 }
-async function runStarwarsffg(input2) {
-  const handler = await AAHandler.make(input2);
+async function runStarwarsffg(input) {
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaStarwarsffg = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -95041,8 +95060,8 @@ function systemHooks$c() {
     runOse(compiledData);
   });
 }
-async function runOse(input2) {
-  const handler = await AAHandler.make(input2);
+async function runOse(input) {
+  const handler = await AAHandler.make(input);
   if (!handler?.item) {
     return;
   }
@@ -95077,8 +95096,8 @@ function systemHooks$b() {
     runD35E(compiledData);
   });
 }
-async function runD35E(input2) {
-  const handler = await AAHandler.make(input2);
+async function runD35E(input) {
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaD35E = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -95099,27 +95118,29 @@ function systemHooks$a() {
     runCypherSystem(compiledData);
   });
 }
-async function runCypherSystem(input2) {
-  if (input2.itemId == "recovery-roll") {
+async function runCypherSystem(input) {
+  if (input.itemId == "recovery-roll") {
     if (game.settings.get("autoanimations", "EnableOnRecoveryRoll")) {
-      new Sequence().effect().file(game.settings.get("autoanimations", "RecoveryRollAnimation")).atLocation(input2.token).play();
+      new Sequence().effect().file(game.settings.get("autoanimations", "RecoveryRollAnimation")).atLocation(input.token).play();
     }
   } else {
-    const flagdata = input2.workflow?.flags?.data;
-    var diceRoll = flagdata?.roll?.total || 10;
-    if (game.settings.get("autoanimations", "EnableCritical") && diceRoll >= 19) {
-      new Sequence().effect().file(game.settings.get("autoanimations", "CriticalAnimation")).atLocation(input2.token).play();
-    } else if (game.settings.get("autoanimations", "EnableFumble") && diceRoll <= flagdata.gmiRange) {
-      new Sequence().effect().file(game.settings.get("autoanimations", "FumbleAnimation")).atLocation(input2.token).play();
-    } else if (flagdata.pool == "Might" && game.settings.get("autoanimations", "EnableOnMightRoll")) {
-      new Sequence().effect().file(game.settings.get("autoanimations", "MightRollAnimation")).atLocation(input2.token).play();
-    } else if (flagdata.pool == "Speed" && game.settings.get("autoanimations", "EnableOnSpeedRoll")) {
-      new Sequence().effect().file(game.settings.get("autoanimations", "SpeedRollAnimation")).atLocation(input2.token).play();
-    } else if (flagdata.pool == "Intellect" && game.settings.get("autoanimations", "EnableOnIntellecRoll")) {
-      new Sequence().effect().file(game.settings.get("autoanimations", "IntellectRollAnimation")).atLocation(input2.token).play();
+    const flagdata = input.workflow?.flags?.data;
+    const diceRoll = flagdata?.roll?.total;
+    if (diceRoll) {
+      if (game.settings.get("autoanimations", "EnableCritical") && diceRoll >= 19) {
+        new Sequence().effect().file(game.settings.get("autoanimations", "CriticalAnimation")).atLocation(input.token).play();
+      } else if (game.settings.get("autoanimations", "EnableFumble") && diceRoll <= flagdata.gmiRange) {
+        new Sequence().effect().file(game.settings.get("autoanimations", "FumbleAnimation")).atLocation(input.token).play();
+      } else if (flagdata.pool == "Might" && game.settings.get("autoanimations", "EnableOnMightRoll")) {
+        new Sequence().effect().file(game.settings.get("autoanimations", "MightRollAnimation")).atLocation(input.token).play();
+      } else if (flagdata.pool == "Speed" && game.settings.get("autoanimations", "EnableOnSpeedRoll")) {
+        new Sequence().effect().file(game.settings.get("autoanimations", "SpeedRollAnimation")).atLocation(input.token).play();
+      } else if (flagdata.pool == "Intellect" && game.settings.get("autoanimations", "EnableOnIntellecRoll")) {
+        new Sequence().effect().file(game.settings.get("autoanimations", "IntellectRollAnimation")).atLocation(input.token).play();
+      }
     }
-    if (input2.item) {
-      trafficCop$1(await AAHandler.make(input2));
+    if (input.item) {
+      trafficCop$1(await AAHandler.make(input));
     }
   }
 }
@@ -95152,8 +95173,8 @@ function systemHooks$9() {
     runAlienRPG(compiledData);
   });
 }
-async function runAlienRPG(input2) {
-  const handler = await AAHandler.make(input2);
+async function runAlienRPG(input) {
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaAlienrpg = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -95357,18 +95378,18 @@ function systemHooks$6() {
     routeMessage$1({ itemUuid, tokenUuid, actorUuid, workflow: msg, rollClass });
   });
 }
-async function routeMessage$1(input2) {
-  const requiredData = await getRequiredData(input2);
+async function routeMessage$1(input) {
+  const requiredData = await getRequiredData(input);
   if (!requiredData.item) {
     return;
   }
   const hasDamage = requiredData.item.system?.damage ? true : false;
   const playtrigger = game.settings.get("autoanimations", "playtrigger");
-  if (!hasDamage || playtrigger === "onAttack" && input2.rollClass !== "Damage") {
+  if (!hasDamage || playtrigger === "onAttack" && input.rollClass !== "Damage") {
     runTwoDSix(requiredData);
     return;
   }
-  if (hasDamage && input2.rollClass === "Damage" && playtrigger === "onDamage") {
+  if (hasDamage && input.rollClass === "Damage" && playtrigger === "onDamage") {
     runTwoDSix(requiredData);
     return;
   }
@@ -95414,8 +95435,8 @@ function systemHooks$5() {
     runOd6s(compiledData);
   });
 }
-async function runOd6s(input2) {
-  const handler = await AAHandler.make(input2);
+async function runOd6s(input) {
+  const handler = await AAHandler.make(input);
   if (!handler) {
     return;
   }
@@ -95492,8 +95513,8 @@ function systemHooks$3() {
     templateAnimation$1(await getRequiredData({ itemUuid: template.flags?.["dark-heresy"]?.origin, templateData: template, workflow: template, isTemplate: true }));
   });
 }
-async function routeMessage(input2) {
-  const requiredData = await getRequiredData(input2);
+async function routeMessage(input) {
+  const requiredData = await getRequiredData(input);
   if (!requiredData.item) {
     return;
   }
@@ -95508,11 +95529,11 @@ function onWorkflowStart(clonedData, animationData) {
     animationData.primary.options.repeat = 1 + clonedData.workflow.flags["dark-heresy"].rollData.maxAdditionalHit;
   }
 }
-async function templateAnimation$1(input2) {
-  if (!input2.item) {
+async function templateAnimation$1(input) {
+  if (!input.item) {
     return;
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaDarkheresy = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
@@ -95628,8 +95649,8 @@ function systemHooks$1() {
     runDs4(compiledData);
   });
 }
-async function runDs4(input2) {
-  const handler = await AAHandler.make(input2);
+async function runDs4(input) {
+  const handler = await AAHandler.make(input);
   if (!handler) {
     return;
   }
@@ -95644,8 +95665,14 @@ function systemHooks() {
     if (userId !== game.user.id) {
       return;
     }
+    const item2 = template.flags?.dnd4e?.item;
+    item2.hasAreaTarget = true;
+    const shouldPlay = shouldPlayAnimation(item2, "template");
+    if (!shouldPlay) {
+      return;
+    }
     const reqData = await getRequiredData({
-      item: template.flags?.dnd4e?.item,
+      item: item2,
       templateData: template,
       workflow: template,
       isTemplate: true
@@ -95653,30 +95680,103 @@ function systemHooks() {
     templateAnimation(reqData);
   });
   Hooks.on("dnd4e.rollAttack", async (item2, targetData, speakerData) => {
-    const token = game.scenes.get(speakerData.scene).tokens.get(speakerData.token);
-    const workflowData = {
-      item: item2,
-      token,
-      actor: null,
-      targets: targetData.targets,
-      hitTargets: targetData.targetHit,
-      workflow: item2
-    };
-    const handler = await AAHandler.make(workflowData);
-    if (!handler?.item || !handler?.sourceToken) {
-      debug$1("Automated Animations: No Item or Source Token", handler);
+    const shouldPlay = shouldPlayAnimation(item2, "attack");
+    if (!shouldPlay) {
       return;
     }
-    trafficCop$1(handler);
+    handleAnimation(
+      item2,
+      speakerData,
+      targetData.targets,
+      targetData.targetHit
+    );
+  });
+  Hooks.on("dnd4e.rollDamage", async (item2, speakerData) => {
+    const shouldPlay = shouldPlayAnimation(item2, "damage");
+    if (!shouldPlay) {
+      return;
+    }
+    const targets2 = Array.from(game.user.targets);
+    handleAnimation(item2, speakerData, targets2);
+  });
+  Hooks.on("dnd4e.rollHealing", async (item2, speakerData) => {
+    const shouldPlay = shouldPlayAnimation(item2, "healing");
+    if (!shouldPlay) {
+      return;
+    }
+    const targets2 = Array.from(game.user.targets);
+    handleAnimation(item2, speakerData, targets2);
+  });
+  Hooks.on("dnd4e.usePower", async (item2, speakerData) => {
+    const shouldPlay = shouldPlayAnimation(item2, "usePower");
+    if (!shouldPlay) {
+      return;
+    }
+    const targets2 = Array.from(game.user.targets);
+    handleAnimation(item2, speakerData, targets2);
   });
 }
-async function templateAnimation(input2) {
+function shouldPlayAnimation(item2, hookName) {
+  const itemData = item2.system ? item2.system : item2;
+  const aaHookToUse = itemData.macro?.autoanimationHook ? itemData.macro.autoanimationHook : false;
+  console.log(`should play animation for hook ${hookName}?`);
+  if (!aaHookToUse) {
+    const defaultHook = getItemDefault(itemData);
+    console.log(`using default hook: ${defaultHook}`);
+    return defaultHook === hookName;
+  } else {
+    console.log("has aa hook explicitly set");
+    return aaHookToUse === hookName;
+  }
+}
+function hasAreaTarget(itemData) {
+  return [
+    "closeBurst",
+    "closeBlast",
+    "rangeBurst",
+    "rangeBlast",
+    "wall"
+  ].includes(itemData.rangeType);
+}
+function getItemDefault(itemData) {
+  if (hasAreaTarget(itemData)) {
+    return "template";
+  } else if (itemData.attack?.isAttack) {
+    return "attack";
+  } else if (itemData.hit?.isDamage) {
+    return "damage";
+  } else if (itemData.hit?.isHealing) {
+    return "healing";
+  } else {
+    return "usePower";
+  }
+}
+async function handleAnimation(item2, speakerData, targets2, hitTargets2 = []) {
+  const token = game.scenes.get(speakerData.scene).tokens.get(speakerData.token);
+  const workflowData = {
+    item: item2,
+    token,
+    actor: null,
+    targets: targets2,
+    workflow: item2
+  };
+  if (hitTargets2.length) {
+    workflowData.hitTargets = hitTargets2;
+  }
+  const handler = await AAHandler.make(workflowData);
+  if (!handler?.item || !handler?.sourceToken) {
+    debug$1("Automated Animations: No Item or Source Token", handler);
+    return;
+  }
+  trafficCop$1(handler);
+}
+async function templateAnimation(input) {
   debug$1("Template placed, checking for animations");
-  if (!input2.item) {
+  if (!input.item) {
     debug$1("No Item could be found");
     return;
   }
-  const handler = await AAHandler.make(input2);
+  const handler = await AAHandler.make(input);
   trafficCop$1(handler);
 }
 const aaDnd4e = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({

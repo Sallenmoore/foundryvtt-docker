@@ -19351,7 +19351,7 @@ class SequencerEffectManager {
    *
    * @returns {promise}
    */
-  static async setUpPersists() {
+  static async initializePersistentEffects() {
     await this.tearDownPersists();
     const allObjects = get_all_documents_from_scene();
     allObjects.push(canvas.scene);
@@ -19394,6 +19394,16 @@ class SequencerEffectManager {
       })
     );
   }
+  static setup() {
+    Hooks.on("preCreateToken", this._patchCreationData.bind(this));
+    Hooks.on("preCreateDrawing", this._patchCreationData.bind(this));
+    Hooks.on("preCreateTile", this._patchCreationData.bind(this));
+    Hooks.on("preCreateMeasuredTemplate", this._patchCreationData.bind(this));
+    Hooks.on("createToken", this._documentCreated.bind(this));
+    Hooks.on("createDrawing", this._documentCreated.bind(this));
+    Hooks.on("createTile", this._documentCreated.bind(this));
+    Hooks.on("createMeasuredTemplate", this._documentCreated.bind(this));
+  }
   /**
    * Patches an object's creation data before it's created so that the effect plays on it correctly
    *
@@ -19402,7 +19412,7 @@ class SequencerEffectManager {
    * @param options
    * @returns {*}
    */
-  static async patchCreationData(inDocument, data, options) {
+  static async _patchCreationData(inDocument, data, options) {
     const effects = flagManager.getFlags(inDocument);
     if (!effects?.length)
       return;
@@ -19416,13 +19426,14 @@ class SequencerEffectManager {
     } else {
       documentUuid = inDocument.uuid;
     }
-    updates[CONSTANTS.EFFECTS_FLAG] = this.patchEffectDataForDocument(
+    updates[CONSTANTS.EFFECTS_FLAG] = this._patchEffectDataForDocument(
       documentUuid,
       effects
     );
+    debugger;
     return inDocument.updateSource(updates);
   }
-  static patchEffectDataForDocument(inDocumentUuid, effects) {
+  static _patchEffectDataForDocument(inDocumentUuid, effects) {
     return effects.map((effect) => {
       effect[0] = randomID();
       const effectData = effect[1];
@@ -19444,12 +19455,12 @@ class SequencerEffectManager {
    * @param inDocument
    * @returns {*}
    */
-  static async documentCreated(inDocument) {
+  static async _documentCreated(inDocument) {
     let effects = flagManager.getFlags(inDocument);
     if (inDocument instanceof TokenDocument && inDocument?.actorLink) {
       let actorEffects = flagManager.getFlags(inDocument.actor);
       if (actorEffects.length) {
-        actorEffects = this.patchEffectDataForDocument(
+        actorEffects = this._patchEffectDataForDocument(
           inDocument.uuid,
           actorEffects
         );
@@ -34335,11 +34346,9 @@ Hooks.once("init", async function() {
     return;
   moduleValid = true;
   CONSTANTS.INTEGRATIONS.ISOMETRIC.ACTIVE = false;
-  initialize_module();
+  initializeModule();
 });
-Hooks.once("socketlib.ready", () => {
-  registerSocket();
-});
+Hooks.once("socketlib.ready", registerSocket);
 Hooks.once("ready", async function() {
   if (!game.modules.get("socketlib")?.active) {
     ui.notifications.error(
@@ -34363,8 +34372,9 @@ Hooks.once("ready", async function() {
 });
 Hooks.on("canvasTearDown", () => {
   canvasReady = false;
+  SequencerEffectManager.tearDownPersists();
 });
-Hooks.on("refreshToken", async () => {
+const setupModule = debounce(() => {
   if (!moduleValid)
     return;
   if (!moduleReady) {
@@ -34375,12 +34385,19 @@ Hooks.on("refreshToken", async () => {
   }
   if (!canvasReady) {
     canvasReady = true;
-    setTimeout(() => {
-      SequencerEffectManager.setUpPersists();
-    }, 25);
+    SequencerEffectManager.initializePersistentEffects();
   }
+}, 25);
+Hooks.on("canvasReady", () => {
+  setTimeout(() => {
+    setupModule();
+  }, 450);
 });
-function initialize_module() {
+Hooks.on("refreshToken", setupModule);
+Hooks.on("refreshDrawing", setupModule);
+Hooks.on("refreshTile", setupModule);
+Hooks.on("refreshMeasuredTemplate", setupModule);
+function initializeModule() {
   window.Sequence = Sequence$1;
   window.Sequencer = {
     Player: EffectPlayer,
@@ -34412,38 +34429,7 @@ function initialize_module() {
   registerHotkeys();
   registerLibwrappers();
   SequencerAboveUILayer.setup();
-  Hooks.on(
-    "preCreateToken",
-    (...args) => Sequencer.EffectManager.patchCreationData(...args)
-  );
-  Hooks.on(
-    "preCreateDrawing",
-    (...args) => Sequencer.EffectManager.patchCreationData(...args)
-  );
-  Hooks.on(
-    "preCreateTile",
-    (...args) => Sequencer.EffectManager.patchCreationData(...args)
-  );
-  Hooks.on(
-    "preCreateMeasuredTemplate",
-    (...args) => Sequencer.EffectManager.patchCreationData(...args)
-  );
-  Hooks.on(
-    "createToken",
-    (...args) => Sequencer.EffectManager.documentCreated(...args)
-  );
-  Hooks.on(
-    "createDrawing",
-    (...args) => Sequencer.EffectManager.documentCreated(...args)
-  );
-  Hooks.on(
-    "createTile",
-    (...args) => Sequencer.EffectManager.documentCreated(...args)
-  );
-  Hooks.on(
-    "createMeasuredTemplate",
-    (...args) => Sequencer.EffectManager.documentCreated(...args)
-  );
+  SequencerEffectManager.setup();
 }
 Hooks.once("monaco-editor.ready", registerTypes);
 //# sourceMappingURL=module.js.map

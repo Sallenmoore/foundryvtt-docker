@@ -39,6 +39,6 @@
   "download": "https://github.com/gsimon2/hide-player-ui/releases/download/1.5.5/module.zip",
   "compatibility": {
     "minimum": "10.0",
-    "verified": "11"
+    "verified": "11.305"
   }
 }
