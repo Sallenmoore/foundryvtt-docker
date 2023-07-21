@@ -69,7 +69,7 @@
   "url": "https://github.com/League-of-Foundry-Developers/torch",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.299",
+    "verified": "11.301",
     "maximum": "11"
   }
 }

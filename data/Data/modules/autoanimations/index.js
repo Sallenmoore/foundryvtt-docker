@@ -94944,7 +94944,7 @@ function systemHooks$g() {
     }
     const item2 = itemFromChat.toObject();
     if (item2 && actionId) {
-      item2.actions?.get(actionId)?.name ?? "";
+      const actionName = item2.actions?.get(actionId)?.name ?? "";
       item2.name = `${item2.name} ${actionName}`;
     } else if (item2 && chatName && chatName.includes(item2.name)) {
       item2.name = chatName;

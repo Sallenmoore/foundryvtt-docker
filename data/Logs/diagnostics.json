@@ -1,5 +1,5 @@
 {
-  "timestamp": 1689727127599,
+  "timestamp": 1689897513616,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -22,10 +22,10 @@
       "version": "1.8.3"
     },
     "action-pack": {
-      "version": "0"
+      "version": "11.0"
     },
     "autoanimations": {
-      "version": "4.2.60"
+      "version": "4.2.61"
     },
     "babonus": {
       "version": "11.0.5"
@@ -43,7 +43,7 @@
       "version": "2.6.1"
     },
     "ddb-importer": {
-      "version": "3.4.47"
+      "version": "3.4.49"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -64,7 +64,7 @@
       "version": "0.7.12"
     },
     "foundryvtt-simple-calendar": {
-      "version": "2.3.0"
+      "version": "2.3.13"
     },
     "hidden-initiative": {
       "version": "1.0.3"
@@ -76,10 +76,10 @@
       "version": "1.5.5"
     },
     "hourglass": {
-      "version": "1.5.1"
+      "version": "1.6.0"
     },
     "lib-wrapper": {
-      "version": "1.12.12.1"
+      "version": "1.12.13.0"
     },
     "monks-active-tiles": {
       "version": "11.02"
@@ -112,7 +112,7 @@
       "version": "1.8.37"
     },
     "rp-names": {
-      "version": "1.13.0.1"
+      "version": "1.15.0"
     },
     "scene-helpers": {
       "version": "11.0"
@@ -121,7 +121,7 @@
       "version": "2.7.4"
     },
     "sequencer": {
-      "version": "3.1.1"
+      "version": "3.1.2"
     },
     "socketlib": {
       "version": "1.0.13"
@@ -133,18 +133,18 @@
       "version": "2.7.0"
     },
     "vtta-tokenizer": {
-      "version": "4.2.3"
+      "version": "4.2.4"
     }
   },
   "systems": {
     "dnd5e": {
       "version": "2.2.2",
-      "playtime": 889313
+      "playtime": 1683132
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 889313,
-    "max": 702203
+    "total": 1683132,
+    "max": 1496022
   }
 }
