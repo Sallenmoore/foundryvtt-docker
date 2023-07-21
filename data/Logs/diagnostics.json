@@ -1,5 +1,5 @@
 {
-  "timestamp": 1689897513616,
+  "timestamp": 1689898003226,
   "os": {
     "platform": "linux",
     "version": "Debian GNU/Linux 12 (bookworm)",
@@ -7,7 +7,7 @@
   },
   "foundry": {
     "generation": 11,
-    "build": 304,
+    "build": 306,
     "channel": "stable",
     "hosting": null
   },
@@ -22,10 +22,10 @@
       "version": "1.8.3"
     },
     "action-pack": {
-      "version": "11.0"
+      "version": "11.1"
     },
     "autoanimations": {
-      "version": "4.2.61"
+      "version": "4.2.62"
     },
     "babonus": {
       "version": "11.0.5"
@@ -37,13 +37,13 @@
       "version": "1.2.2"
     },
     "combat-tracker-dock": {
-      "version": "2.3.7"
+      "version": "2.3.8"
     },
     "dd-import": {
       "version": "2.6.1"
     },
     "ddb-importer": {
-      "version": "3.4.49"
+      "version": "3.4.50"
     },
     "dice-calculator": {
       "version": "1.5.3"
@@ -59,6 +59,9 @@
     },
     "dragupload": {
       "version": "2.2.2"
+    },
+    "dungeon-draw": {
+      "version": "2.0.2"
     },
     "forien-quest-log": {
       "version": "0.7.12"
@@ -76,7 +79,7 @@
       "version": "1.5.5"
     },
     "hourglass": {
-      "version": "1.6.0"
+      "version": "1.7.0"
     },
     "lib-wrapper": {
       "version": "1.12.13.0"
@@ -139,12 +142,12 @@
   "systems": {
     "dnd5e": {
       "version": "2.2.2",
-      "playtime": 1683132
+      "playtime": 1769263
     }
   },
   "worlds": {},
   "playtime": {
-    "total": 1683132,
-    "max": 1496022
+    "total": 1769263,
+    "max": 1582153
   }
 }

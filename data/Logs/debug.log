@@ -28878,3 +28878,491 @@
 {"level":"info","message":"FoundryVTT | Installed module dungeon-draw","timestamp":"2023-07-21 00:03:37"}
 {"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to module dungeon-draw","timestamp":"2023-07-21 00:03:37"}
 {"level":"info","message":"Vending Package - 100%","timestamp":"2023-07-21 00:03:37"}
+{"level":"info","message":"Core software stable update 11.306 is available!","timestamp":"2023-07-21 00:05:20"}
+{"level":"info","message":"Downloading software update - 1%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 2%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 3%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 4%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 5%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 6%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 7%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 8%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 9%","timestamp":"2023-07-21 00:05:24"}
+{"level":"info","message":"Downloading software update - 10%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 11%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 12%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 13%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 14%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 15%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 16%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 17%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 18%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 19%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 20%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 21%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 22%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 23%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 24%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 25%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 26%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 27%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 28%","timestamp":"2023-07-21 00:05:25"}
+{"level":"info","message":"Downloading software update - 29%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 30%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 31%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 32%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 33%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 34%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 35%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 36%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 37%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 38%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 39%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 40%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 41%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 42%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 43%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 44%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 45%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 46%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 47%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 48%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 49%","timestamp":"2023-07-21 00:05:26"}
+{"level":"info","message":"Downloading software update - 50%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 51%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 52%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 53%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 54%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 55%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 56%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 57%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 58%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 59%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 60%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 61%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 62%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 63%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 64%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 65%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 66%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 67%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 68%","timestamp":"2023-07-21 00:05:27"}
+{"level":"info","message":"Downloading software update - 69%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 70%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 71%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 72%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 73%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 74%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 75%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 76%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 77%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 78%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 79%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 80%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 81%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 82%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 83%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 84%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 85%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 86%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 87%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 88%","timestamp":"2023-07-21 00:05:28"}
+{"level":"info","message":"Downloading software update - 89%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 90%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 91%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 92%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 93%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 94%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 95%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 96%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 97%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 98%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Downloading software update - 99%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Update download complete - 100%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Extracting downloaded update files","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Extracting downloaded update files - 1%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Extracting downloaded update files - 2%","timestamp":"2023-07-21 00:05:29"}
+{"level":"info","message":"Extracting downloaded update files - 3%","timestamp":"2023-07-21 00:05:30"}
+{"level":"info","message":"Extracting downloaded update files - 4%","timestamp":"2023-07-21 00:05:30"}
+{"level":"info","message":"Extracting downloaded update files - 5%","timestamp":"2023-07-21 00:05:30"}
+{"level":"info","message":"Extracting downloaded update files - 6%","timestamp":"2023-07-21 00:05:31"}
+{"level":"info","message":"Extracting downloaded update files - 7%","timestamp":"2023-07-21 00:05:31"}
+{"level":"info","message":"Extracting downloaded update files - 8%","timestamp":"2023-07-21 00:05:31"}
+{"level":"info","message":"Extracting downloaded update files - 9%","timestamp":"2023-07-21 00:05:31"}
+{"level":"info","message":"Extracting downloaded update files - 10%","timestamp":"2023-07-21 00:05:31"}
+{"level":"info","message":"Extracting downloaded update files - 11%","timestamp":"2023-07-21 00:05:32"}
+{"level":"info","message":"Extracting downloaded update files - 12%","timestamp":"2023-07-21 00:05:32"}
+{"level":"info","message":"Extracting downloaded update files - 13%","timestamp":"2023-07-21 00:05:32"}
+{"level":"info","message":"Extracting downloaded update files - 14%","timestamp":"2023-07-21 00:05:32"}
+{"level":"info","message":"Extracting downloaded update files - 15%","timestamp":"2023-07-21 00:05:33"}
+{"level":"info","message":"Extracting downloaded update files - 16%","timestamp":"2023-07-21 00:05:33"}
+{"level":"info","message":"Extracting downloaded update files - 17%","timestamp":"2023-07-21 00:05:33"}
+{"level":"info","message":"Extracting downloaded update files - 18%","timestamp":"2023-07-21 00:05:33"}
+{"level":"info","message":"Extracting downloaded update files - 19%","timestamp":"2023-07-21 00:05:33"}
+{"level":"info","message":"Extracting downloaded update files - 20%","timestamp":"2023-07-21 00:05:34"}
+{"level":"info","message":"Extracting downloaded update files - 21%","timestamp":"2023-07-21 00:05:34"}
+{"level":"info","message":"Extracting downloaded update files - 22%","timestamp":"2023-07-21 00:05:34"}
+{"level":"info","message":"Extracting downloaded update files - 23%","timestamp":"2023-07-21 00:05:34"}
+{"level":"info","message":"Extracting downloaded update files - 24%","timestamp":"2023-07-21 00:05:34"}
+{"level":"info","message":"Extracting downloaded update files - 25%","timestamp":"2023-07-21 00:05:35"}
+{"level":"info","message":"Extracting downloaded update files - 26%","timestamp":"2023-07-21 00:05:35"}
+{"level":"info","message":"Extracting downloaded update files - 27%","timestamp":"2023-07-21 00:05:35"}
+{"level":"info","message":"Extracting downloaded update files - 28%","timestamp":"2023-07-21 00:05:35"}
+{"level":"info","message":"Extracting downloaded update files - 29%","timestamp":"2023-07-21 00:05:35"}
+{"level":"info","message":"Extracting downloaded update files - 30%","timestamp":"2023-07-21 00:05:36"}
+{"level":"info","message":"Extracting downloaded update files - 31%","timestamp":"2023-07-21 00:05:36"}
+{"level":"info","message":"Extracting downloaded update files - 32%","timestamp":"2023-07-21 00:05:36"}
+{"level":"info","message":"Extracting downloaded update files - 33%","timestamp":"2023-07-21 00:05:36"}
+{"level":"info","message":"Extracting downloaded update files - 34%","timestamp":"2023-07-21 00:05:36"}
+{"level":"info","message":"Extracting downloaded update files - 35%","timestamp":"2023-07-21 00:05:37"}
+{"level":"info","message":"Extracting downloaded update files - 36%","timestamp":"2023-07-21 00:05:37"}
+{"level":"info","message":"Extracting downloaded update files - 37%","timestamp":"2023-07-21 00:05:37"}
+{"level":"info","message":"Extracting downloaded update files - 38%","timestamp":"2023-07-21 00:05:37"}
+{"level":"info","message":"Extracting downloaded update files - 39%","timestamp":"2023-07-21 00:05:37"}
+{"level":"info","message":"Extracting downloaded update files - 40%","timestamp":"2023-07-21 00:05:38"}
+{"level":"info","message":"Extracting downloaded update files - 41%","timestamp":"2023-07-21 00:05:38"}
+{"level":"info","message":"Extracting downloaded update files - 42%","timestamp":"2023-07-21 00:05:38"}
+{"level":"info","message":"Extracting downloaded update files - 43%","timestamp":"2023-07-21 00:05:38"}
+{"level":"info","message":"Extracting downloaded update files - 44%","timestamp":"2023-07-21 00:05:38"}
+{"level":"info","message":"Extracting downloaded update files - 45%","timestamp":"2023-07-21 00:05:38"}
+{"level":"info","message":"Extracting downloaded update files - 46%","timestamp":"2023-07-21 00:05:39"}
+{"level":"info","message":"Extracting downloaded update files - 47%","timestamp":"2023-07-21 00:05:39"}
+{"level":"info","message":"Extracting downloaded update files - 48%","timestamp":"2023-07-21 00:05:39"}
+{"level":"info","message":"Extracting downloaded update files - 49%","timestamp":"2023-07-21 00:05:39"}
+{"level":"info","message":"Extracting downloaded update files - 50%","timestamp":"2023-07-21 00:05:39"}
+{"level":"info","message":"Extracting downloaded update files - 51%","timestamp":"2023-07-21 00:05:40"}
+{"level":"info","message":"Extracting downloaded update files - 52%","timestamp":"2023-07-21 00:05:40"}
+{"level":"info","message":"Extracting downloaded update files - 53%","timestamp":"2023-07-21 00:05:40"}
+{"level":"info","message":"Extracting downloaded update files - 54%","timestamp":"2023-07-21 00:05:40"}
+{"level":"info","message":"Extracting downloaded update files - 55%","timestamp":"2023-07-21 00:05:41"}
+{"level":"info","message":"Extracting downloaded update files - 56%","timestamp":"2023-07-21 00:05:41"}
+{"level":"info","message":"Extracting downloaded update files - 57%","timestamp":"2023-07-21 00:05:41"}
+{"level":"info","message":"Extracting downloaded update files - 58%","timestamp":"2023-07-21 00:05:41"}
+{"level":"info","message":"Extracting downloaded update files - 59%","timestamp":"2023-07-21 00:05:42"}
+{"level":"info","message":"Extracting downloaded update files - 60%","timestamp":"2023-07-21 00:05:43"}
+{"level":"info","message":"Extracting downloaded update files - 61%","timestamp":"2023-07-21 00:05:43"}
+{"level":"info","message":"Extracting downloaded update files - 62%","timestamp":"2023-07-21 00:05:43"}
+{"level":"info","message":"Extracting downloaded update files - 63%","timestamp":"2023-07-21 00:05:44"}
+{"level":"info","message":"Extracting downloaded update files - 64%","timestamp":"2023-07-21 00:05:44"}
+{"level":"info","message":"Extracting downloaded update files - 65%","timestamp":"2023-07-21 00:05:44"}
+{"level":"info","message":"Extracting downloaded update files - 66%","timestamp":"2023-07-21 00:05:44"}
+{"level":"info","message":"Extracting downloaded update files - 67%","timestamp":"2023-07-21 00:05:44"}
+{"level":"info","message":"Extracting downloaded update files - 68%","timestamp":"2023-07-21 00:05:45"}
+{"level":"info","message":"Extracting downloaded update files - 69%","timestamp":"2023-07-21 00:05:45"}
+{"level":"info","message":"Extracting downloaded update files - 70%","timestamp":"2023-07-21 00:05:45"}
+{"level":"info","message":"Extracting downloaded update files - 71%","timestamp":"2023-07-21 00:05:45"}
+{"level":"info","message":"Extracting downloaded update files - 72%","timestamp":"2023-07-21 00:05:46"}
+{"level":"info","message":"Extracting downloaded update files - 73%","timestamp":"2023-07-21 00:05:46"}
+{"level":"info","message":"Extracting downloaded update files - 74%","timestamp":"2023-07-21 00:05:46"}
+{"level":"info","message":"Extracting downloaded update files - 75%","timestamp":"2023-07-21 00:05:46"}
+{"level":"info","message":"Extracting downloaded update files - 76%","timestamp":"2023-07-21 00:05:46"}
+{"level":"info","message":"Extracting downloaded update files - 77%","timestamp":"2023-07-21 00:05:46"}
+{"level":"info","message":"Extracting downloaded update files - 78%","timestamp":"2023-07-21 00:05:47"}
+{"level":"info","message":"Extracting downloaded update files - 79%","timestamp":"2023-07-21 00:05:47"}
+{"level":"info","message":"Extracting downloaded update files - 80%","timestamp":"2023-07-21 00:05:47"}
+{"level":"info","message":"Extracting downloaded update files - 81%","timestamp":"2023-07-21 00:05:47"}
+{"level":"info","message":"Extracting downloaded update files - 82%","timestamp":"2023-07-21 00:05:47"}
+{"level":"info","message":"Extracting downloaded update files - 83%","timestamp":"2023-07-21 00:05:48"}
+{"level":"info","message":"Extracting downloaded update files - 84%","timestamp":"2023-07-21 00:05:48"}
+{"level":"info","message":"Extracting downloaded update files - 85%","timestamp":"2023-07-21 00:05:48"}
+{"level":"info","message":"Extracting downloaded update files - 86%","timestamp":"2023-07-21 00:05:48"}
+{"level":"info","message":"Extracting downloaded update files - 87%","timestamp":"2023-07-21 00:05:48"}
+{"level":"info","message":"Extracting downloaded update files - 88%","timestamp":"2023-07-21 00:05:49"}
+{"level":"info","message":"Extracting downloaded update files - 89%","timestamp":"2023-07-21 00:05:49"}
+{"level":"info","message":"Extracting downloaded update files - 90%","timestamp":"2023-07-21 00:05:49"}
+{"level":"info","message":"Extracting downloaded update files - 91%","timestamp":"2023-07-21 00:05:49"}
+{"level":"info","message":"Extracting downloaded update files - 92%","timestamp":"2023-07-21 00:05:49"}
+{"level":"info","message":"Extracting downloaded update files - 93%","timestamp":"2023-07-21 00:05:50"}
+{"level":"info","message":"Extracting downloaded update files - 94%","timestamp":"2023-07-21 00:05:50"}
+{"level":"info","message":"Extracting downloaded update files - 95%","timestamp":"2023-07-21 00:05:50"}
+{"level":"info","message":"Extracting downloaded update files - 96%","timestamp":"2023-07-21 00:05:50"}
+{"level":"info","message":"Extracting downloaded update files - 97%","timestamp":"2023-07-21 00:05:50"}
+{"level":"info","message":"Extracting downloaded update files - 98%","timestamp":"2023-07-21 00:05:50"}
+{"level":"info","message":"Extracting downloaded update files - 99%","timestamp":"2023-07-21 00:05:51"}
+{"level":"info","message":"Update extraction complete - 100%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Cleaning existing folder content - 25%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Cleaning existing folder content - 2%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Cleaning existing folder content - 3%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Folder cleaning complete - 100%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Installing update files","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Installing update files - 1%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Installing update files - 2%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Installing update files - 3%","timestamp":"2023-07-21 00:05:52"}
+{"level":"info","message":"Installing update files - 4%","timestamp":"2023-07-21 00:05:53"}
+{"level":"info","message":"Installing update files - 5%","timestamp":"2023-07-21 00:05:53"}
+{"level":"info","message":"Installing update files - 6%","timestamp":"2023-07-21 00:05:53"}
+{"level":"info","message":"Installing update files - 7%","timestamp":"2023-07-21 00:05:53"}
+{"level":"info","message":"Installing update files - 8%","timestamp":"2023-07-21 00:05:53"}
+{"level":"info","message":"Installing update files - 9%","timestamp":"2023-07-21 00:05:53"}
+{"level":"info","message":"Installing update files - 10%","timestamp":"2023-07-21 00:05:54"}
+{"level":"info","message":"Installing update files - 11%","timestamp":"2023-07-21 00:05:54"}
+{"level":"info","message":"Installing update files - 12%","timestamp":"2023-07-21 00:05:54"}
+{"level":"info","message":"Installing update files - 13%","timestamp":"2023-07-21 00:05:54"}
+{"level":"info","message":"Installing update files - 14%","timestamp":"2023-07-21 00:05:54"}
+{"level":"info","message":"Installing update files - 15%","timestamp":"2023-07-21 00:05:54"}
+{"level":"info","message":"Installing update files - 16%","timestamp":"2023-07-21 00:05:54"}
+{"level":"info","message":"Installing update files - 17%","timestamp":"2023-07-21 00:05:55"}
+{"level":"info","message":"Installing update files - 18%","timestamp":"2023-07-21 00:05:55"}
+{"level":"info","message":"Installing update files - 19%","timestamp":"2023-07-21 00:05:55"}
+{"level":"info","message":"Installing update files - 20%","timestamp":"2023-07-21 00:05:55"}
+{"level":"info","message":"Installing update files - 21%","timestamp":"2023-07-21 00:05:55"}
+{"level":"info","message":"Installing update files - 22%","timestamp":"2023-07-21 00:05:55"}
+{"level":"info","message":"Installing update files - 23%","timestamp":"2023-07-21 00:05:55"}
+{"level":"info","message":"Installing update files - 24%","timestamp":"2023-07-21 00:05:56"}
+{"level":"info","message":"Installing update files - 25%","timestamp":"2023-07-21 00:05:56"}
+{"level":"info","message":"Installing update files - 26%","timestamp":"2023-07-21 00:05:56"}
+{"level":"info","message":"Installing update files - 27%","timestamp":"2023-07-21 00:05:56"}
+{"level":"info","message":"Installing update files - 28%","timestamp":"2023-07-21 00:05:56"}
+{"level":"info","message":"Installing update files - 29%","timestamp":"2023-07-21 00:05:56"}
+{"level":"info","message":"Installing update files - 30%","timestamp":"2023-07-21 00:05:56"}
+{"level":"info","message":"Installing update files - 31%","timestamp":"2023-07-21 00:05:57"}
+{"level":"info","message":"Installing update files - 32%","timestamp":"2023-07-21 00:05:57"}
+{"level":"info","message":"Installing update files - 33%","timestamp":"2023-07-21 00:05:57"}
+{"level":"info","message":"Installing update files - 34%","timestamp":"2023-07-21 00:05:57"}
+{"level":"info","message":"Installing update files - 35%","timestamp":"2023-07-21 00:05:57"}
+{"level":"info","message":"Installing update files - 36%","timestamp":"2023-07-21 00:05:57"}
+{"level":"info","message":"Installing update files - 37%","timestamp":"2023-07-21 00:05:57"}
+{"level":"info","message":"Installing update files - 38%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 39%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 40%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 41%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 42%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 43%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 44%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 45%","timestamp":"2023-07-21 00:05:58"}
+{"level":"info","message":"Installing update files - 46%","timestamp":"2023-07-21 00:05:59"}
+{"level":"info","message":"Installing update files - 47%","timestamp":"2023-07-21 00:05:59"}
+{"level":"info","message":"Installing update files - 48%","timestamp":"2023-07-21 00:05:59"}
+{"level":"info","message":"Installing update files - 49%","timestamp":"2023-07-21 00:05:59"}
+{"level":"info","message":"Installing update files - 50%","timestamp":"2023-07-21 00:05:59"}
+{"level":"info","message":"Installing update files - 51%","timestamp":"2023-07-21 00:05:59"}
+{"level":"info","message":"Installing update files - 52%","timestamp":"2023-07-21 00:05:59"}
+{"level":"info","message":"Installing update files - 53%","timestamp":"2023-07-21 00:06:00"}
+{"level":"info","message":"Installing update files - 54%","timestamp":"2023-07-21 00:06:00"}
+{"level":"info","message":"Installing update files - 55%","timestamp":"2023-07-21 00:06:00"}
+{"level":"info","message":"Installing update files - 56%","timestamp":"2023-07-21 00:06:00"}
+{"level":"info","message":"Installing update files - 57%","timestamp":"2023-07-21 00:06:00"}
+{"level":"info","message":"Installing update files - 58%","timestamp":"2023-07-21 00:06:00"}
+{"level":"info","message":"Installing update files - 59%","timestamp":"2023-07-21 00:06:01"}
+{"level":"info","message":"Installing update files - 60%","timestamp":"2023-07-21 00:06:01"}
+{"level":"info","message":"Installing update files - 61%","timestamp":"2023-07-21 00:06:01"}
+{"level":"info","message":"Installing update files - 62%","timestamp":"2023-07-21 00:06:01"}
+{"level":"info","message":"Installing update files - 63%","timestamp":"2023-07-21 00:06:02"}
+{"level":"info","message":"Installing update files - 64%","timestamp":"2023-07-21 00:06:02"}
+{"level":"info","message":"Installing update files - 65%","timestamp":"2023-07-21 00:06:02"}
+{"level":"info","message":"Installing update files - 66%","timestamp":"2023-07-21 00:06:02"}
+{"level":"info","message":"Installing update files - 67%","timestamp":"2023-07-21 00:06:02"}
+{"level":"info","message":"Installing update files - 68%","timestamp":"2023-07-21 00:06:02"}
+{"level":"info","message":"Installing update files - 69%","timestamp":"2023-07-21 00:06:02"}
+{"level":"info","message":"Installing update files - 70%","timestamp":"2023-07-21 00:06:03"}
+{"level":"info","message":"Installing update files - 71%","timestamp":"2023-07-21 00:06:03"}
+{"level":"info","message":"Installing update files - 72%","timestamp":"2023-07-21 00:06:03"}
+{"level":"info","message":"Installing update files - 73%","timestamp":"2023-07-21 00:06:03"}
+{"level":"info","message":"Installing update files - 74%","timestamp":"2023-07-21 00:06:03"}
+{"level":"info","message":"Installing update files - 75%","timestamp":"2023-07-21 00:06:03"}
+{"level":"info","message":"Installing update files - 76%","timestamp":"2023-07-21 00:06:03"}
+{"level":"info","message":"Installing update files - 77%","timestamp":"2023-07-21 00:06:04"}
+{"level":"info","message":"Installing update files - 78%","timestamp":"2023-07-21 00:06:04"}
+{"level":"info","message":"Installing update files - 79%","timestamp":"2023-07-21 00:06:04"}
+{"level":"info","message":"Installing update files - 80%","timestamp":"2023-07-21 00:06:04"}
+{"level":"info","message":"Installing update files - 81%","timestamp":"2023-07-21 00:06:04"}
+{"level":"info","message":"Installing update files - 82%","timestamp":"2023-07-21 00:06:05"}
+{"level":"info","message":"Installing update files - 83%","timestamp":"2023-07-21 00:06:05"}
+{"level":"info","message":"Installing update files - 84%","timestamp":"2023-07-21 00:06:05"}
+{"level":"info","message":"Installing update files - 85%","timestamp":"2023-07-21 00:06:05"}
+{"level":"info","message":"Installing update files - 86%","timestamp":"2023-07-21 00:06:05"}
+{"level":"info","message":"Installing update files - 87%","timestamp":"2023-07-21 00:06:06"}
+{"level":"info","message":"Installing update files - 88%","timestamp":"2023-07-21 00:06:06"}
+{"level":"info","message":"Installing update files - 89%","timestamp":"2023-07-21 00:06:06"}
+{"level":"info","message":"Installing update files - 90%","timestamp":"2023-07-21 00:06:06"}
+{"level":"info","message":"Installing update files - 91%","timestamp":"2023-07-21 00:06:06"}
+{"level":"info","message":"Installing update files - 92%","timestamp":"2023-07-21 00:06:06"}
+{"level":"info","message":"Installing update files - 93%","timestamp":"2023-07-21 00:06:06"}
+{"level":"info","message":"Installing update files - 94%","timestamp":"2023-07-21 00:06:07"}
+{"level":"info","message":"Installing update files - 95%","timestamp":"2023-07-21 00:06:07"}
+{"level":"info","message":"Installing update files - 96%","timestamp":"2023-07-21 00:06:07"}
+{"level":"info","message":"Installing update files - 97%","timestamp":"2023-07-21 00:06:07"}
+{"level":"info","message":"Installing update files - 98%","timestamp":"2023-07-21 00:06:07"}
+{"level":"info","message":"Installing update files - 99%","timestamp":"2023-07-21 00:06:08"}
+{"level":"info","message":"Update installation complete - 100%","timestamp":"2023-07-21 00:06:08"}
+{"level":"info","message":"Update Complete - 100%","timestamp":"2023-07-21 00:06:10"}
+{"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-07-21 00:06:10"}
+{"level":"info","message":"Running on Node.js - Version 18.16.1","timestamp":"2023-07-21 00:06:20"}
+{"level":"info","message":"Foundry Virtual Tabletop - Version 11 Build 306","timestamp":"2023-07-21 00:06:20"}
+{"level":"info","message":"User Data Directory - \"/opt/data/foundryvtt\"","timestamp":"2023-07-21 00:06:20"}
+{"level":"info","message":"Application Options:\n{\n  \"compressStatic\": true,\n  \"fullscreen\": false,\n  \"hostname\": null,\n  \"language\": \"en.core\",\n  \"localHostname\": null,\n  \"port\": 30000,\n  \"protocol\": null,\n  \"proxyPort\": null,\n  \"proxySSL\": false,\n  \"routePrefix\": null,\n  \"updateChannel\": \"stable\",\n  \"upnp\": true,\n  \"upnpLeaseDuration\": null,\n  \"awsConfig\": null,\n  \"compressSocket\": true,\n  \"cssTheme\": \"foundry\",\n  \"deleteNEDB\": false,\n  \"hotReload\": true,\n  \"passwordSalt\": null,\n  \"sslCert\": null,\n  \"sslKey\": null,\n  \"world\": null,\n  \"serviceConfig\": null,\n  \"telemetry\": true,\n  \"adminPassword\": \"••••••••••••••••\"\n}","timestamp":"2023-07-21 00:06:20"}
+{"level":"info","message":"Software license verification succeeded","timestamp":"2023-07-21 00:06:20"}
+{"level":"info","message":"Requesting UPnP port forwarding to destination port 30000","timestamp":"2023-07-21 00:06:20"}
+{"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-07-21 00:06:20"}
+{"level":"info","message":"Created client session a8ad38f4955ac512da8b8aa7","timestamp":"2023-07-21 00:06:23"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-21 00:06:26"}
+{"level":"warn","message":"The module \"hourglass\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-21 00:06:26"}
+{"level":"info","message":"Administrator authentication successful for session a8ad38f4955ac512da8b8aa7","timestamp":"2023-07-21 00:06:42"}
+{"level":"warn","message":"The module \"dragupload\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-21 00:06:59"}
+{"level":"warn","message":"The module \"hourglass\" is using the old flat core compatibility fields which are deprecated in favor of the new \"compatibility\" object\nDeprecated since Version 10\nBackwards-compatible support will be removed in Version 13","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"actors\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"cards\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"messages\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"combats\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"drawings\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"fog\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"folders\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"items\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"journal\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"macros\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"playlists\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tables\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scenes\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"settings\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"users\"","timestamp":"2023-07-21 00:06:59"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-tables\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.wild-magic\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.coia\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-backgrounds\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-classes\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-class-features\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-feats\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-items\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-monsters\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-vehicles\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-races\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-racial-traits\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-spells\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-override\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"world.ddb-slaverin-ddb-adventures\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.heroes\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsters\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.items\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tradegoods\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.spells\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.backgrounds\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classes\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.subclasses\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.classfeatures\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.races\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.monsterfeatures\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.rules\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e.tables\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-sequencer\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"JB2A_DnD5e.jb2a-actors\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e-animations.Macros\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"dnd5e-animations.Items\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-gm\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"forien-quest-log.macros-player\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-active-tiles.active-tile-macros\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.shop-names\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"monks-enhanced-journal.person-names\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scene-packer.journals\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"scene-packer.macros\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"Migrating World slaverin to updated core platform 11.306","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"Core platform migrations for World slaverin to version 11.306 completed successfully","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Connected to database \"tabletop-rpg-music.tabletop-rpg-music\"","timestamp":"2023-07-21 00:07:00"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-21 00:07:00"}
+{"ip":"::ffff:209.159.147.236","level":"info","message":"User authentication successful for user Gamemaster","session":"a8ad38f4955ac512da8b8aa7","timestamp":"2023-07-21 00:07:19"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-21 00:07:28"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 1022ms","timestamp":"2023-07-21 00:07:28"}
+{"level":"info","message":"FoundryVTT | Created 0 Folder documents with ids: []","timestamp":"2023-07-21 00:09:36"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-21 00:09:46"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 975ms","timestamp":"2023-07-21 00:09:46"}
+{"level":"info","message":"FoundryVTT | Created Folder with id [W2lMzB7LC7mO0ure]","timestamp":"2023-07-21 00:11:43"}
+{"level":"info","message":"FoundryVTT | Created JournalEntry with id [Gj7YscADek5uc0TA]","timestamp":"2023-07-21 00:11:43"}
+{"level":"info","message":"FoundryVTT | Created Note with id [WJMJo3PYDd1h3LGx] in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:11:43"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:11:44"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:16"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:16"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:43"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:43"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:45"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:45"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:47"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:47"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:52"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:52"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:53"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:53"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:55"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:55"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:58"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:12:58"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:06"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:06"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:12"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:13"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:14"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:15"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:17"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:17"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:20"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:20"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:22"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:13:22"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:03"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:03"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:03"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:03"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:05"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:05"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:09"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:09"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:31"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:31"}
+{"level":"info","message":"FoundryVTT | Created 7 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:37"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:37"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:39"}
+{"level":"info","message":"FoundryVTT | Deleted 7 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:39"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:40"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:40"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:41"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:41"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:59"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:14:59"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:15:14"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:15:14"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:15:28"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:15:28"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:16:08"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:16:08"}
+{"level":"info","message":"FoundryVTT | Created 10 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:16:19"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:16:19"}
+{"level":"info","message":"FoundryVTT | Deleted 10 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:16:22"}
+{"level":"info","message":"Toggling game pause status to false","timestamp":"2023-07-21 00:17:57"}
+{"level":"info","message":"Toggling game pause status to true","timestamp":"2023-07-21 00:17:57"}
+{"level":"info","message":"No system update for DnD5e - Fifth Edition System is currently available.","timestamp":"2023-07-21 00:18:14"}
+{"level":"info","message":"Vended World data to User [gAzsPFxmxxXHBdOg] in 915ms","timestamp":"2023-07-21 00:18:14"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:21:56"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:22:22"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:22:22"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:22:31"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:22:31"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:23:01"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:23:01"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:23:01"}
+{"level":"info","message":"FoundryVTT | Deleted 12 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:23:01"}
+{"level":"error","message":"undefined id [e2Bgr13ouw1nRWci] does not exist in the EmbeddedCollection collection.","stack":"Error: undefined id [e2Bgr13ouw1nRWci] does not exist in the EmbeddedCollection collection.\n    at EmbeddedCollection.get (file:///opt/foundryvtt/resources/app/common/abstract/embedded-collection.mjs:164:36)\n    at file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:5090\n    at Array.map (<anonymous>)\n    at ServerDatabaseBackend._deleteDocuments (file:///opt/foundryvtt/resources/app/dist/database/backend/server-backend.mjs:1:5080)\n    at ServerDatabaseBackend.delete (file:///opt/foundryvtt/resources/app/common/abstract/backend.mjs:182:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.handleEvent (file:///opt/foundryvtt/resources/app/dist/server/sockets.mjs:1:517)","timestamp":"2023-07-21 00:23:01"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:24:19"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:24:39"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:24:39"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:24:48"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:24:48"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:06"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:06"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:17"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:17"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:26"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:26"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:54"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:25:54"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:26:45"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:26:46"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:26:55"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:26:55"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:26:56"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:26:56"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:26:56"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:28:53"}
+{"level":"info","message":"FoundryVTT | Deleted 12 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:28:53"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:29:10"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:29:10"}
+{"level":"info","message":"FoundryVTT | Created 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:29:21"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:29:21"}
+{"level":"info","message":"FoundryVTT | Deleted 6 Wall documents in parent Scene [yQp4YSfXRFwQ4PFZ]","timestamp":"2023-07-21 00:29:33"}
