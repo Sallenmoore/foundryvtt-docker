@@ -1,5 +1,0 @@
-2023/06/26-21:13:43.924257 7f4595ffb6c0 Delete type=3 #1
-2023/06/29-01:12:26.848491 7f42f73466c0 Level-0 table #5: started
-2023/06/29-01:12:26.855320 7f42f73466c0 Level-0 table #5: 2103 bytes OK
-2023/06/29-01:12:26.863631 7f42f73466c0 Delete type=0 #3
-2023/06/29-01:12:26.880203 7f42f73466c0 Manual compaction at level-0 from '!messages!TqCMVV3cwKMZtg9k' @ 72057594037927935 : 1 .. '!messages!XLtGsrjcUkebzH2a' @ 0 : 0; will stop at (end)
